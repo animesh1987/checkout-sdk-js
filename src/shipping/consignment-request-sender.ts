@@ -8,6 +8,8 @@ import { ConsignmentsRequestBody, ConsignmentUpdateRequestBody } from './consign
 const DEFAULT_PARAMS = {
     include: [
         'consignments.availableShippingOptions',
+        'consignments.availablePreQuoteShippingOptions',
+        'consignments.preQuoteShippingOptionValues',
         'cart.lineItems.physicalItems.options',
         'cart.lineItems.digitalItems.options',
         'customer',
@@ -24,6 +26,7 @@ export default class ConsignmentRequestSender {
         const url = `/api/storefront/checkouts/${checkoutId}/consignments`;
         const headers = { Accept: ContentType.JsonV1 };
 
+        console.log('test');
         return this._requestSender.post(url, { body: consignments, params: DEFAULT_PARAMS, headers, timeout });
     }
 

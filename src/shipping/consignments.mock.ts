@@ -20,6 +20,7 @@ export function getConsignment(): Consignment {
         availableShippingOptions: [
             getShippingOption(),
         ],
+        availablePreQuoteShippingOptions: [],
     };
 }
 

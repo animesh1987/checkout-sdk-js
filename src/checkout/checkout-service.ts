@@ -23,7 +23,7 @@ import CheckoutStore from './checkout-store';
 import createCheckoutSelectors from './create-checkout-selectors';
 import createCheckoutServiceErrorTransformer from './create-checkout-service-error-transformer';
 import InternalCheckoutSelectors from './internal-checkout-selectors';
-
+console.log('sdk-changed2');
 /**
  * Responsible for completing the checkout process for the current customer.
  *

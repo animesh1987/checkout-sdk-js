@@ -5,6 +5,7 @@ import ShippingOption from './shipping-option';
 export default interface Consignment {
     id: string;
     shippingAddress: Address;
+    availablePreQuoteShippingOptions?: any;
     handlingCost: number;
     shippingCost: number;
     availableShippingOptions?: ShippingOption[];

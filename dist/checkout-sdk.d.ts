@@ -516,6 +516,7 @@ declare class CheckoutButtonStatusSelector {
 
 declare enum CheckoutIncludes {
     AvailableShippingOptions = "consignments.availableShippingOptions",
+    AvailablePreQuoteShippingOptions = "consignments.availablePreQuoteShippingOptions",
     PhysicalItemsCategoryNames = "cart.lineItems.physicalItems.categoryNames",
     DigitalItemsCategoryNames = "cart.lineItems.digitalItems.categoryNames"
 }
@@ -2072,6 +2073,7 @@ declare class CheckoutStoreStatusSelector {
 declare interface Consignment {
     id: string;
     shippingAddress: Address;
+    availablePreQuoteShippingOptions?: any;
     handlingCost: number;
     shippingCost: number;
     availableShippingOptions?: ShippingOption[];
@@ -3043,6 +3045,7 @@ declare interface ShopperConfig {
 
 declare interface ShopperCurrency extends StoreCurrency {
     exchangeRate: number;
+    isTransactional: boolean;
 }
 
 /**

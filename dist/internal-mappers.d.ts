@@ -92,6 +92,7 @@ declare interface CheckoutPayment {
 declare interface Consignment {
     id: string;
     shippingAddress: Address;
+    availablePreQuoteShippingOptions?: any;
     handlingCost: number;
     shippingCost: number;
     availableShippingOptions?: ShippingOption[];

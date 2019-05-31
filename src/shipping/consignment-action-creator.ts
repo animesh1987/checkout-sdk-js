@@ -151,7 +151,10 @@ export default class ConsignmentActionCreator {
             this._checkoutRequestSender.loadCheckout(checkout.id, {
                 ...options,
                 params: {
-                    include: [CheckoutIncludes.AvailableShippingOptions],
+                    include: [
+                        CheckoutIncludes.AvailableShippingOptions,
+                        CheckoutIncludes.AvailablePreQuoteShippingOptions,
+                    ],
                 },
             })
             .then(({ body }) => {
@@ -195,6 +198,7 @@ export default class ConsignmentActionCreator {
 
             this._consignmentRequestSender.createConsignments(checkout.id, consignments, options)
                 .then(({ body }) => {
+                    console.log('adcahaha', body);
                     observer.next(createAction(ConsignmentActionType.CreateConsignmentsSucceeded, body));
                     observer.complete();
                 })
