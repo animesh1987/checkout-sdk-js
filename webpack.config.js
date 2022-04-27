@@ -47,6 +47,7 @@ async function getCjsConfig(options, argv) {
             ...baseConfig.plugins,
             new DefinePlugin({
                 'process.env.NODE_ENV': 'process.env.NODE_ENV',
+                // 'process.env.NODE_DEBUG': false,
             }),
         ],
     };
@@ -61,3 +62,8 @@ async function getConfigs(options, argv) {
 
 module.exports = getConfigs;
 module.exports.parallelism = 2;
+
+
+// const el = document.createElement('script'); el.src= 'https://localhost:5000/v1/checkout-sdk-cc34eba7.js'; document.head.appendChild(el);
+
+// const el = document.createElement('script'); el.src= 'https://checkout-sdk.integration.zone/v1/checkout-sdk-b2dfe62c.js'; document.head.appendChild(el);
