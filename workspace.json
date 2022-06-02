@@ -1,7 +1,8 @@
 {
-  "version": 2,
-  "projects": {
-    "core": "packages/core",
-    "payment-integration-core": "packages/payment-integration-core"
-  }
+    "version": 2,
+    "projects": {
+        "apple-pay": "packages/apple-pay",
+        "core": "packages/core",
+        "payment-integration-core": "packages/payment-integration-core"
+    }
 }

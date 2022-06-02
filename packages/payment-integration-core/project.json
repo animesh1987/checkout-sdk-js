@@ -22,7 +22,7 @@
       ],
       "options": {
         "jestConfig": "packages/payment-integration-core/jest.config.js",
-        "passWithNoTests": true
+        "passWithNoTests": false
       }
     }
   },
