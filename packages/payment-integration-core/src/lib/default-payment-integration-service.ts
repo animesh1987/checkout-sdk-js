@@ -97,4 +97,8 @@ export default class DefaultPaymentIntegrationService implements PaymentIntegrat
 
         return this._storeProjection.getState();
     }
+
+    test() {
+        console.log('aa');
+    }
 }

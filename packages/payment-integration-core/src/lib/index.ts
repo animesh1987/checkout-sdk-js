@@ -1,1 +1,1 @@
-export * from './default-payment-integration-service'
+export { default as DefaultPaymentIntegrationService } from './default-payment-integration-service'

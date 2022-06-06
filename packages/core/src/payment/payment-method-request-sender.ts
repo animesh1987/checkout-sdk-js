@@ -31,7 +31,7 @@ export default class PaymentMethodRequestSender {
                 Accept: ContentType.JsonV1,
                 'X-API-INTERNAL': INTERNAL_USE_ONLY,
                 ...SDK_VERSION_HEADERS,
-            },
+            }
         });
     }
 }

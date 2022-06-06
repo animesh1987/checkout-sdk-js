@@ -1,3 +1,4 @@
+import { DefaultPaymentIntegrationService } from '@bigcommerce/checkout-sdk/payment-integration-core';
 import { createFormPoster } from '@bigcommerce/form-poster';
 import { RequestSender } from '@bigcommerce/request-sender';
 import { createScriptLoader, getScriptLoader, getStylesheetLoader } from '@bigcommerce/script-loader';
@@ -82,6 +83,7 @@ export default function createPaymentStrategyRegistry(
     spamProtection: GoogleRecaptcha,
     locale: string
 ) {
+    console.log(DefaultPaymentIntegrationService);
     const registry = new PaymentStrategyRegistry(store, { defaultToken: PaymentStrategyType.CREDIT_CARD });
     const scriptLoader = getScriptLoader();
     const paymentRequestTransformer = new PaymentRequestTransformer();
