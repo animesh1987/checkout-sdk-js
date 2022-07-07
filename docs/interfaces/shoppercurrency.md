@@ -1,82 +1,94 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ShopperCurrency](shoppercurrency.md)
+[@bigcommerce/checkout-sdk](../README.md) / ShopperCurrency
 
 # Interface: ShopperCurrency
 
 ## Hierarchy
 
-* [StoreCurrency](storecurrency.md)
+- [`StoreCurrency`](StoreCurrency.md)
 
-  ↳ **ShopperCurrency**
+  ↳ **`ShopperCurrency`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [code](shoppercurrency.md#code)
-* [decimalPlaces](shoppercurrency.md#decimalplaces)
-* [decimalSeparator](shoppercurrency.md#decimalseparator)
-* [exchangeRate](shoppercurrency.md#exchangerate)
-* [isTransactional](shoppercurrency.md#istransactional)
-* [symbol](shoppercurrency.md#symbol)
-* [symbolLocation](shoppercurrency.md#symbollocation)
-* [thousandsSeparator](shoppercurrency.md#thousandsseparator)
+- [code](ShopperCurrency.md#code)
+- [decimalPlaces](ShopperCurrency.md#decimalplaces)
+- [decimalSeparator](ShopperCurrency.md#decimalseparator)
+- [exchangeRate](ShopperCurrency.md#exchangerate)
+- [isTransactional](ShopperCurrency.md#istransactional)
+- [symbol](ShopperCurrency.md#symbol)
+- [symbolLocation](ShopperCurrency.md#symbollocation)
+- [thousandsSeparator](ShopperCurrency.md#thousandsseparator)
 
 ## Properties
 
-###  code
+### code
 
-• **code**: *string*
+• **code**: `string`
 
-*Inherited from [ShopperCurrency](shoppercurrency.md).[code](shoppercurrency.md#code)*
+#### Inherited from
 
-___
-
-###  decimalPlaces
-
-• **decimalPlaces**: *string*
-
-*Inherited from [ShopperCurrency](shoppercurrency.md).[decimalPlaces](shoppercurrency.md#decimalplaces)*
+[StoreCurrency](StoreCurrency.md).[code](StoreCurrency.md#code)
 
 ___
 
-###  decimalSeparator
+### decimalPlaces
 
-• **decimalSeparator**: *string*
+• **decimalPlaces**: `string`
 
-*Inherited from [ShopperCurrency](shoppercurrency.md).[decimalSeparator](shoppercurrency.md#decimalseparator)*
+#### Inherited from
 
-___
-
-###  exchangeRate
-
-• **exchangeRate**: *number*
+[StoreCurrency](StoreCurrency.md).[decimalPlaces](StoreCurrency.md#decimalplaces)
 
 ___
 
-###  isTransactional
+### decimalSeparator
 
-• **isTransactional**: *boolean*
+• **decimalSeparator**: `string`
 
-___
+#### Inherited from
 
-###  symbol
-
-• **symbol**: *string*
-
-*Inherited from [ShopperCurrency](shoppercurrency.md).[symbol](shoppercurrency.md#symbol)*
+[StoreCurrency](StoreCurrency.md).[decimalSeparator](StoreCurrency.md#decimalseparator)
 
 ___
 
-###  symbolLocation
+### exchangeRate
 
-• **symbolLocation**: *string*
-
-*Inherited from [ShopperCurrency](shoppercurrency.md).[symbolLocation](shoppercurrency.md#symbollocation)*
+• **exchangeRate**: `number`
 
 ___
 
-###  thousandsSeparator
+### isTransactional
 
-• **thousandsSeparator**: *string*
+• **isTransactional**: `boolean`
 
-*Inherited from [ShopperCurrency](shoppercurrency.md).[thousandsSeparator](shoppercurrency.md#thousandsseparator)*
+___
+
+### symbol
+
+• **symbol**: `string`
+
+#### Inherited from
+
+[StoreCurrency](StoreCurrency.md).[symbol](StoreCurrency.md#symbol)
+
+___
+
+### symbolLocation
+
+• **symbolLocation**: `string`
+
+#### Inherited from
+
+[StoreCurrency](StoreCurrency.md).[symbolLocation](StoreCurrency.md#symbollocation)
+
+___
+
+### thousandsSeparator
+
+• **thousandsSeparator**: `string`
+
+#### Inherited from
+
+[StoreCurrency](StoreCurrency.md).[thousandsSeparator](StoreCurrency.md#thousandsseparator)

@@ -1,6 +1,6 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CustomerInitializeOptions](customerinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / CustomerInitializeOptions
 
-# Interface: CustomerInitializeOptions ‹**TParams**›
+# Interface: CustomerInitializeOptions
 
 A set of options that are required to initialize the customer step of the
 current checkout flow.
@@ -10,210 +10,212 @@ details for checkout. For example, Amazon Pay requires the customer to sign in
 using their sign-in button. As a result, you may need to provide additional
 information in order to initialize the customer step of checkout.
 
-## Type parameters
-
-▪ **TParams**
-
 ## Hierarchy
 
-  ↳ [CustomerRequestOptions](customerrequestoptions.md)
+- [`CustomerRequestOptions`](CustomerRequestOptions.md)
 
-  ↳ **CustomerInitializeOptions**
+  ↳ **`CustomerInitializeOptions`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [amazon](customerinitializeoptions.md#optional-amazon)
-* [amazonpay](customerinitializeoptions.md#optional-amazonpay)
-* [applepay](customerinitializeoptions.md#optional-applepay)
-* [bolt](customerinitializeoptions.md#optional-bolt)
-* [braintreevisacheckout](customerinitializeoptions.md#optional-braintreevisacheckout)
-* [chasepay](customerinitializeoptions.md#optional-chasepay)
-* [googlepayadyenv2](customerinitializeoptions.md#optional-googlepayadyenv2)
-* [googlepayadyenv3](customerinitializeoptions.md#optional-googlepayadyenv3)
-* [googlepayauthorizenet](customerinitializeoptions.md#optional-googlepayauthorizenet)
-* [googlepaybraintree](customerinitializeoptions.md#optional-googlepaybraintree)
-* [googlepaycheckoutcom](customerinitializeoptions.md#optional-googlepaycheckoutcom)
-* [googlepaycybersourcev2](customerinitializeoptions.md#optional-googlepaycybersourcev2)
-* [googlepayorbital](customerinitializeoptions.md#optional-googlepayorbital)
-* [googlepaystripe](customerinitializeoptions.md#optional-googlepaystripe)
-* [googlepaystripeupe](customerinitializeoptions.md#optional-googlepaystripeupe)
-* [masterpass](customerinitializeoptions.md#optional-masterpass)
-* [methodId](customerinitializeoptions.md#optional-methodid)
-* [params](customerinitializeoptions.md#optional-params)
-* [timeout](customerinitializeoptions.md#optional-timeout)
+- [amazon](CustomerInitializeOptions.md#amazon)
+- [amazonpay](CustomerInitializeOptions.md#amazonpay)
+- [applepay](CustomerInitializeOptions.md#applepay)
+- [bolt](CustomerInitializeOptions.md#bolt)
+- [braintreevisacheckout](CustomerInitializeOptions.md#braintreevisacheckout)
+- [chasepay](CustomerInitializeOptions.md#chasepay)
+- [googlepayadyenv2](CustomerInitializeOptions.md#googlepayadyenv2)
+- [googlepayadyenv3](CustomerInitializeOptions.md#googlepayadyenv3)
+- [googlepayauthorizenet](CustomerInitializeOptions.md#googlepayauthorizenet)
+- [googlepaybraintree](CustomerInitializeOptions.md#googlepaybraintree)
+- [googlepaycheckoutcom](CustomerInitializeOptions.md#googlepaycheckoutcom)
+- [googlepaycybersourcev2](CustomerInitializeOptions.md#googlepaycybersourcev2)
+- [googlepayorbital](CustomerInitializeOptions.md#googlepayorbital)
+- [googlepaystripe](CustomerInitializeOptions.md#googlepaystripe)
+- [googlepaystripeupe](CustomerInitializeOptions.md#googlepaystripeupe)
+- [masterpass](CustomerInitializeOptions.md#masterpass)
+- [methodId](CustomerInitializeOptions.md#methodid)
+- [params](CustomerInitializeOptions.md#params)
+- [timeout](CustomerInitializeOptions.md#timeout)
 
 ## Properties
 
-### `Optional` amazon
+### amazon
 
-• **amazon**? : *[AmazonPayCustomerInitializeOptions](amazonpaycustomerinitializeoptions.md)*
+• `Optional` **amazon**: [`AmazonPayCustomerInitializeOptions`](AmazonPayCustomerInitializeOptions.md)
 
 The options that are required to initialize the customer step of checkout
 when using Amazon Pay.
 
 ___
 
-### `Optional` amazonpay
+### amazonpay
 
-• **amazonpay**? : *[AmazonPayV2CustomerInitializeOptions](amazonpayv2customerinitializeoptions.md)*
+• `Optional` **amazonpay**: [`AmazonPayV2CustomerInitializeOptions`](AmazonPayV2CustomerInitializeOptions.md)
 
 The options that are required to initialize the customer step of checkout
 when using AmazonPayV2.
 
 ___
 
-### `Optional` applepay
+### applepay
 
-• **applepay**? : *[ApplePayCustomerInitializeOptions](applepaycustomerinitializeoptions.md)*
+• `Optional` **applepay**: [`ApplePayCustomerInitializeOptions`](ApplePayCustomerInitializeOptions.md)
 
 The options that are required to initialize the customer step of checkout
 when using ApplePay.
 
 ___
 
-### `Optional` bolt
+### bolt
 
-• **bolt**? : *[BoltCustomerInitializeOptions](boltcustomerinitializeoptions.md)*
+• `Optional` **bolt**: [`BoltCustomerInitializeOptions`](BoltCustomerInitializeOptions.md)
 
 The options that are required to initialize the customer step of checkout
 when using Bolt.
 
 ___
 
-### `Optional` braintreevisacheckout
+### braintreevisacheckout
 
-• **braintreevisacheckout**? : *[BraintreeVisaCheckoutCustomerInitializeOptions](braintreevisacheckoutcustomerinitializeoptions.md)*
+• `Optional` **braintreevisacheckout**: [`BraintreeVisaCheckoutCustomerInitializeOptions`](BraintreeVisaCheckoutCustomerInitializeOptions.md)
 
 The options that are required to initialize the customer step of checkout
 when using Visa Checkout provided by Braintree.
 
 ___
 
-### `Optional` chasepay
+### chasepay
 
-• **chasepay**? : *[ChasePayCustomerInitializeOptions](chasepaycustomerinitializeoptions.md)*
+• `Optional` **chasepay**: [`ChasePayCustomerInitializeOptions`](ChasePayCustomerInitializeOptions.md)
 
 The options that are required to initialize the Chasepay payment method.
 They can be omitted unless you need to support Chasepay.
 
 ___
 
-### `Optional` googlepayadyenv2
+### googlepayadyenv2
 
-• **googlepayadyenv2**? : *[GooglePayCustomerInitializeOptions](googlepaycustomerinitializeoptions.md)*
-
-The options that are required to initialize the GooglePay payment method.
-They can be omitted unless you need to support GooglePay.
-
-___
-
-### `Optional` googlepayadyenv3
-
-• **googlepayadyenv3**? : *[GooglePayCustomerInitializeOptions](googlepaycustomerinitializeoptions.md)*
+• `Optional` **googlepayadyenv2**: [`GooglePayCustomerInitializeOptions`](GooglePayCustomerInitializeOptions.md)
 
 The options that are required to initialize the GooglePay payment method.
 They can be omitted unless you need to support GooglePay.
 
 ___
 
-### `Optional` googlepayauthorizenet
+### googlepayadyenv3
 
-• **googlepayauthorizenet**? : *[GooglePayCustomerInitializeOptions](googlepaycustomerinitializeoptions.md)*
-
-The options that are required to initialize the GooglePay payment method.
-They can be omitted unless you need to support GooglePay.
-
-___
-
-### `Optional` googlepaybraintree
-
-• **googlepaybraintree**? : *[GooglePayCustomerInitializeOptions](googlepaycustomerinitializeoptions.md)*
+• `Optional` **googlepayadyenv3**: [`GooglePayCustomerInitializeOptions`](GooglePayCustomerInitializeOptions.md)
 
 The options that are required to initialize the GooglePay payment method.
 They can be omitted unless you need to support GooglePay.
 
 ___
 
-### `Optional` googlepaycheckoutcom
+### googlepayauthorizenet
 
-• **googlepaycheckoutcom**? : *[GooglePayCustomerInitializeOptions](googlepaycustomerinitializeoptions.md)*
-
-The options that are required to initialize the GooglePay payment method.
-They can be omitted unless you need to support GooglePay.
-
-___
-
-### `Optional` googlepaycybersourcev2
-
-• **googlepaycybersourcev2**? : *[GooglePayCustomerInitializeOptions](googlepaycustomerinitializeoptions.md)*
+• `Optional` **googlepayauthorizenet**: [`GooglePayCustomerInitializeOptions`](GooglePayCustomerInitializeOptions.md)
 
 The options that are required to initialize the GooglePay payment method.
 They can be omitted unless you need to support GooglePay.
 
 ___
 
-### `Optional` googlepayorbital
+### googlepaybraintree
 
-• **googlepayorbital**? : *[GooglePayCustomerInitializeOptions](googlepaycustomerinitializeoptions.md)*
-
-The options that are required to initialize the GooglePay payment method.
-They can be omitted unless you need to support GooglePay.
-
-___
-
-### `Optional` googlepaystripe
-
-• **googlepaystripe**? : *[GooglePayCustomerInitializeOptions](googlepaycustomerinitializeoptions.md)*
+• `Optional` **googlepaybraintree**: [`GooglePayCustomerInitializeOptions`](GooglePayCustomerInitializeOptions.md)
 
 The options that are required to initialize the GooglePay payment method.
 They can be omitted unless you need to support GooglePay.
 
 ___
 
-### `Optional` googlepaystripeupe
+### googlepaycheckoutcom
 
-• **googlepaystripeupe**? : *[GooglePayCustomerInitializeOptions](googlepaycustomerinitializeoptions.md)*
+• `Optional` **googlepaycheckoutcom**: [`GooglePayCustomerInitializeOptions`](GooglePayCustomerInitializeOptions.md)
 
 The options that are required to initialize the GooglePay payment method.
 They can be omitted unless you need to support GooglePay.
 
 ___
 
-### `Optional` masterpass
+### googlepaycybersourcev2
 
-• **masterpass**? : *[MasterpassCustomerInitializeOptions](masterpasscustomerinitializeoptions.md)*
+• `Optional` **googlepaycybersourcev2**: [`GooglePayCustomerInitializeOptions`](GooglePayCustomerInitializeOptions.md)
+
+The options that are required to initialize the GooglePay payment method.
+They can be omitted unless you need to support GooglePay.
+
+___
+
+### googlepayorbital
+
+• `Optional` **googlepayorbital**: [`GooglePayCustomerInitializeOptions`](GooglePayCustomerInitializeOptions.md)
+
+The options that are required to initialize the GooglePay payment method.
+They can be omitted unless you need to support GooglePay.
+
+___
+
+### googlepaystripe
+
+• `Optional` **googlepaystripe**: [`GooglePayCustomerInitializeOptions`](GooglePayCustomerInitializeOptions.md)
+
+The options that are required to initialize the GooglePay payment method.
+They can be omitted unless you need to support GooglePay.
+
+___
+
+### googlepaystripeupe
+
+• `Optional` **googlepaystripeupe**: [`GooglePayCustomerInitializeOptions`](GooglePayCustomerInitializeOptions.md)
+
+The options that are required to initialize the GooglePay payment method.
+They can be omitted unless you need to support GooglePay.
+
+___
+
+### masterpass
+
+• `Optional` **masterpass**: [`MasterpassCustomerInitializeOptions`](MasterpassCustomerInitializeOptions.md)
 
 The options that are required to initialize the Masterpass payment method.
 They can be omitted unless you need to support Masterpass.
 
 ___
 
-### `Optional` methodId
+### methodId
 
-• **methodId**? : *undefined | string*
+• `Optional` **methodId**: `string`
 
-*Inherited from [CustomerInitializeOptions](customerinitializeoptions.md).[methodId](customerinitializeoptions.md#optional-methodid)*
+#### Inherited from
+
+[CustomerRequestOptions](CustomerRequestOptions.md).[methodId](CustomerRequestOptions.md#methodid)
 
 ___
 
-### `Optional` params
+### params
 
-• **params**? : *TParams*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[params](checkoutbuttoninitializeoptions.md#optional-params)*
+• `Optional` **params**: `Object`
 
 The parameters of the request, if required.
 
+#### Inherited from
+
+[CustomerRequestOptions](CustomerRequestOptions.md).[params](CustomerRequestOptions.md#params)
+
 ___
 
-### `Optional` timeout
+### timeout
 
-• **timeout**? : *Timeout*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[timeout](checkoutbuttoninitializeoptions.md#optional-timeout)*
+• `Optional` **timeout**: `default`
 
 Provide this option if you want to cancel or time out the request. If the
 timeout object completes before the request, the request will be
 cancelled.
+
+#### Inherited from
+
+[CustomerRequestOptions](CustomerRequestOptions.md).[timeout](CustomerRequestOptions.md#timeout)

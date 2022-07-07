@@ -1,62 +1,68 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AdyenAdditionalActionCallbacks](adyenadditionalactioncallbacks.md)
+[@bigcommerce/checkout-sdk](../README.md) / AdyenAdditionalActionCallbacks
 
 # Interface: AdyenAdditionalActionCallbacks
 
 ## Hierarchy
 
-* **AdyenAdditionalActionCallbacks**
+- **`AdyenAdditionalActionCallbacks`**
 
-  ↳ [AdyenAdditionalActionOptions](adyenadditionalactionoptions.md)
+  ↳ [`AdyenAdditionalActionOptions`](AdyenAdditionalActionOptions.md)
 
-  ↳ [AdyenThreeDS2Options](adyenthreeds2options.md)
+  ↳ [`AdyenThreeDS2Options`](AdyenThreeDS2Options.md)
 
-## Index
+## Table of contents
 
 ### Methods
 
-* [onBeforeLoad](adyenadditionalactioncallbacks.md#optional-onbeforeload)
-* [onComplete](adyenadditionalactioncallbacks.md#optional-oncomplete)
-* [onLoad](adyenadditionalactioncallbacks.md#optional-onload)
+- [onBeforeLoad](AdyenAdditionalActionCallbacks.md#onbeforeload)
+- [onComplete](AdyenAdditionalActionCallbacks.md#oncomplete)
+- [onLoad](AdyenAdditionalActionCallbacks.md#onload)
 
 ## Methods
 
-### `Optional` onBeforeLoad
+### onBeforeLoad
 
-▸ **onBeforeLoad**(`shopperInteraction?`: undefined | false | true): *void*
+▸ `Optional` **onBeforeLoad**(`shopperInteraction?`): `void`
 
 A callback that gets called before adyen component is loaded
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`shopperInteraction?` | undefined &#124; false &#124; true |
+| Name | Type |
+| :------ | :------ |
+| `shopperInteraction?` | `boolean` |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onComplete
+### onComplete
 
-▸ **onComplete**(): *void*
+▸ `Optional` **onComplete**(): `void`
 
 A callback that gets called when adyen component verification
 is completed
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onLoad
+### onLoad
 
-▸ **onLoad**(`cancel?`: undefined | function): *void*
+▸ `Optional` **onLoad**(`cancel?`): `void`
 
 A callback that gets called when adyen component is loaded
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`cancel?` | undefined &#124; function |
+| Name | Type |
+| :------ | :------ |
+| `cancel?` | () => `void` |
 
-**Returns:** *void*
+#### Returns
+
+`void`

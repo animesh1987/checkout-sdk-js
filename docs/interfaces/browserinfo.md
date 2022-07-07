@@ -1,54 +1,50 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BrowserInfo](browserinfo.md)
+[@bigcommerce/checkout-sdk](../README.md) / BrowserInfo
 
 # Interface: BrowserInfo
 
-## Hierarchy
-
-* **BrowserInfo**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [color_depth](browserinfo.md#color_depth)
-* [java_enabled](browserinfo.md#java_enabled)
-* [language](browserinfo.md#language)
-* [screen_height](browserinfo.md#screen_height)
-* [screen_width](browserinfo.md#screen_width)
-* [time_zone_offset](browserinfo.md#time_zone_offset)
+- [color_depth](BrowserInfo.md#color_depth)
+- [java_enabled](BrowserInfo.md#java_enabled)
+- [language](BrowserInfo.md#language)
+- [screen_height](BrowserInfo.md#screen_height)
+- [screen_width](BrowserInfo.md#screen_width)
+- [time_zone_offset](BrowserInfo.md#time_zone_offset)
 
 ## Properties
 
-###  color_depth
+### color\_depth
 
-• **color_depth**: *number*
-
-___
-
-###  java_enabled
-
-• **java_enabled**: *boolean*
+• **color\_depth**: `number`
 
 ___
 
-###  language
+### java\_enabled
 
-• **language**: *string*
-
-___
-
-###  screen_height
-
-• **screen_height**: *number*
+• **java\_enabled**: `boolean`
 
 ___
 
-###  screen_width
+### language
 
-• **screen_width**: *number*
+• **language**: `string`
 
 ___
 
-###  time_zone_offset
+### screen\_height
 
-• **time_zone_offset**: *string*
+• **screen\_height**: `number`
+
+___
+
+### screen\_width
+
+• **screen\_width**: `number`
+
+___
+
+### time\_zone\_offset
+
+• **time\_zone\_offset**: `string`

@@ -1,215 +1,211 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CssProperties](cssproperties.md)
+[@bigcommerce/checkout-sdk](../README.md) / CssProperties
 
 # Interface: CssProperties
 
-## Hierarchy
-
-* **CssProperties**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [background](cssproperties.md#optional-background)
-* [color](cssproperties.md#optional-color)
-* [display](cssproperties.md#optional-display)
-* [font](cssproperties.md#optional-font)
-* [fontFamily](cssproperties.md#optional-fontfamily)
-* [fontSize](cssproperties.md#optional-fontsize)
-* [fontSizeAdjust](cssproperties.md#optional-fontsizeadjust)
-* [fontSmoothing](cssproperties.md#optional-fontsmoothing)
-* [fontStretch](cssproperties.md#optional-fontstretch)
-* [fontStyle](cssproperties.md#optional-fontstyle)
-* [fontVariant](cssproperties.md#optional-fontvariant)
-* [fontVariantAlternates](cssproperties.md#optional-fontvariantalternates)
-* [fontVariantCaps](cssproperties.md#optional-fontvariantcaps)
-* [fontVariantEastAsian](cssproperties.md#optional-fontvarianteastasian)
-* [fontVariantLigatures](cssproperties.md#optional-fontvariantligatures)
-* [fontVariantNumeric](cssproperties.md#optional-fontvariantnumeric)
-* [fontWeight](cssproperties.md#optional-fontweight)
-* [letterSpacing](cssproperties.md#optional-letterspacing)
-* [lineHeight](cssproperties.md#optional-lineheight)
-* [mozOsxFontSmoothing](cssproperties.md#optional-mozosxfontsmoothing)
-* [mozTransition](cssproperties.md#optional-moztransition)
-* [opacity](cssproperties.md#optional-opacity)
-* [outline](cssproperties.md#optional-outline)
-* [padding](cssproperties.md#optional-padding)
-* [textAlign](cssproperties.md#optional-textalign)
-* [textShadow](cssproperties.md#optional-textshadow)
-* [transition](cssproperties.md#optional-transition)
-* [webkitFontSmoothing](cssproperties.md#optional-webkitfontsmoothing)
-* [webkitTransition](cssproperties.md#optional-webkittransition)
+- [background](CssProperties.md#background)
+- [color](CssProperties.md#color)
+- [display](CssProperties.md#display)
+- [font](CssProperties.md#font)
+- [fontFamily](CssProperties.md#fontfamily)
+- [fontSize](CssProperties.md#fontsize)
+- [fontSizeAdjust](CssProperties.md#fontsizeadjust)
+- [fontSmoothing](CssProperties.md#fontsmoothing)
+- [fontStretch](CssProperties.md#fontstretch)
+- [fontStyle](CssProperties.md#fontstyle)
+- [fontVariant](CssProperties.md#fontvariant)
+- [fontVariantAlternates](CssProperties.md#fontvariantalternates)
+- [fontVariantCaps](CssProperties.md#fontvariantcaps)
+- [fontVariantEastAsian](CssProperties.md#fontvarianteastasian)
+- [fontVariantLigatures](CssProperties.md#fontvariantligatures)
+- [fontVariantNumeric](CssProperties.md#fontvariantnumeric)
+- [fontWeight](CssProperties.md#fontweight)
+- [letterSpacing](CssProperties.md#letterspacing)
+- [lineHeight](CssProperties.md#lineheight)
+- [mozOsxFontSmoothing](CssProperties.md#mozosxfontsmoothing)
+- [mozTransition](CssProperties.md#moztransition)
+- [opacity](CssProperties.md#opacity)
+- [outline](CssProperties.md#outline)
+- [padding](CssProperties.md#padding)
+- [textAlign](CssProperties.md#textalign)
+- [textShadow](CssProperties.md#textshadow)
+- [transition](CssProperties.md#transition)
+- [webkitFontSmoothing](CssProperties.md#webkitfontsmoothing)
+- [webkitTransition](CssProperties.md#webkittransition)
 
 ## Properties
 
-### `Optional` background
+### background
 
-• **background**? : *undefined | string*
-
-___
-
-### `Optional` color
-
-• **color**? : *undefined | string*
+• `Optional` **background**: `string`
 
 ___
 
-### `Optional` display
+### color
 
-• **display**? : *undefined | string*
-
-___
-
-### `Optional` font
-
-• **font**? : *undefined | string*
+• `Optional` **color**: `string`
 
 ___
 
-### `Optional` fontFamily
+### display
 
-• **fontFamily**? : *undefined | string*
-
-___
-
-### `Optional` fontSize
-
-• **fontSize**? : *undefined | string*
+• `Optional` **display**: `string`
 
 ___
 
-### `Optional` fontSizeAdjust
+### font
 
-• **fontSizeAdjust**? : *undefined | string*
-
-___
-
-### `Optional` fontSmoothing
-
-• **fontSmoothing**? : *undefined | string*
+• `Optional` **font**: `string`
 
 ___
 
-### `Optional` fontStretch
+### fontFamily
 
-• **fontStretch**? : *undefined | string*
-
-___
-
-### `Optional` fontStyle
-
-• **fontStyle**? : *undefined | string*
+• `Optional` **fontFamily**: `string`
 
 ___
 
-### `Optional` fontVariant
+### fontSize
 
-• **fontVariant**? : *undefined | string*
-
-___
-
-### `Optional` fontVariantAlternates
-
-• **fontVariantAlternates**? : *undefined | string*
+• `Optional` **fontSize**: `string`
 
 ___
 
-### `Optional` fontVariantCaps
+### fontSizeAdjust
 
-• **fontVariantCaps**? : *undefined | string*
-
-___
-
-### `Optional` fontVariantEastAsian
-
-• **fontVariantEastAsian**? : *undefined | string*
+• `Optional` **fontSizeAdjust**: `string`
 
 ___
 
-### `Optional` fontVariantLigatures
+### fontSmoothing
 
-• **fontVariantLigatures**? : *undefined | string*
-
-___
-
-### `Optional` fontVariantNumeric
-
-• **fontVariantNumeric**? : *undefined | string*
+• `Optional` **fontSmoothing**: `string`
 
 ___
 
-### `Optional` fontWeight
+### fontStretch
 
-• **fontWeight**? : *undefined | string*
-
-___
-
-### `Optional` letterSpacing
-
-• **letterSpacing**? : *undefined | string*
+• `Optional` **fontStretch**: `string`
 
 ___
 
-### `Optional` lineHeight
+### fontStyle
 
-• **lineHeight**? : *undefined | string*
-
-___
-
-### `Optional` mozOsxFontSmoothing
-
-• **mozOsxFontSmoothing**? : *undefined | string*
+• `Optional` **fontStyle**: `string`
 
 ___
 
-### `Optional` mozTransition
+### fontVariant
 
-• **mozTransition**? : *undefined | string*
-
-___
-
-### `Optional` opacity
-
-• **opacity**? : *string | number*
+• `Optional` **fontVariant**: `string`
 
 ___
 
-### `Optional` outline
+### fontVariantAlternates
 
-• **outline**? : *undefined | string*
-
-___
-
-### `Optional` padding
-
-• **padding**? : *undefined | string*
+• `Optional` **fontVariantAlternates**: `string`
 
 ___
 
-### `Optional` textAlign
+### fontVariantCaps
 
-• **textAlign**? : *undefined | string*
-
-___
-
-### `Optional` textShadow
-
-• **textShadow**? : *undefined | string*
+• `Optional` **fontVariantCaps**: `string`
 
 ___
 
-### `Optional` transition
+### fontVariantEastAsian
 
-• **transition**? : *undefined | string*
-
-___
-
-### `Optional` webkitFontSmoothing
-
-• **webkitFontSmoothing**? : *undefined | string*
+• `Optional` **fontVariantEastAsian**: `string`
 
 ___
 
-### `Optional` webkitTransition
+### fontVariantLigatures
 
-• **webkitTransition**? : *undefined | string*
+• `Optional` **fontVariantLigatures**: `string`
+
+___
+
+### fontVariantNumeric
+
+• `Optional` **fontVariantNumeric**: `string`
+
+___
+
+### fontWeight
+
+• `Optional` **fontWeight**: `string`
+
+___
+
+### letterSpacing
+
+• `Optional` **letterSpacing**: `string`
+
+___
+
+### lineHeight
+
+• `Optional` **lineHeight**: `string`
+
+___
+
+### mozOsxFontSmoothing
+
+• `Optional` **mozOsxFontSmoothing**: `string`
+
+___
+
+### mozTransition
+
+• `Optional` **mozTransition**: `string`
+
+___
+
+### opacity
+
+• `Optional` **opacity**: `string` \| `number`
+
+___
+
+### outline
+
+• `Optional` **outline**: `string`
+
+___
+
+### padding
+
+• `Optional` **padding**: `string`
+
+___
+
+### textAlign
+
+• `Optional` **textAlign**: `string`
+
+___
+
+### textShadow
+
+• `Optional` **textShadow**: `string`
+
+___
+
+### transition
+
+• `Optional` **transition**: `string`
+
+___
+
+### webkitFontSmoothing
+
+• `Optional` **webkitFontSmoothing**: `string`
+
+___
+
+### webkitTransition
+
+• `Optional` **webkitTransition**: `string`

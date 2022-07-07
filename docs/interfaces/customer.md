@@ -1,81 +1,77 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Customer](customer.md)
+[@bigcommerce/checkout-sdk](../README.md) / Customer
 
 # Interface: Customer
 
-## Hierarchy
-
-* **Customer**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [addresses](customer.md#addresses)
-* [customerGroup](customer.md#optional-customergroup)
-* [email](customer.md#email)
-* [firstName](customer.md#firstname)
-* [fullName](customer.md#fullname)
-* [id](customer.md#id)
-* [isGuest](customer.md#isguest)
-* [lastName](customer.md#lastname)
-* [shouldEncourageSignIn](customer.md#shouldencouragesignin)
-* [storeCredit](customer.md#storecredit)
+- [addresses](Customer.md#addresses)
+- [customerGroup](Customer.md#customergroup)
+- [email](Customer.md#email)
+- [firstName](Customer.md#firstname)
+- [fullName](Customer.md#fullname)
+- [id](Customer.md#id)
+- [isGuest](Customer.md#isguest)
+- [lastName](Customer.md#lastname)
+- [shouldEncourageSignIn](Customer.md#shouldencouragesignin)
+- [storeCredit](Customer.md#storecredit)
 
 ## Properties
 
-###  addresses
+### addresses
 
-• **addresses**: *[CustomerAddress](customeraddress.md)[]*
-
-___
-
-### `Optional` customerGroup
-
-• **customerGroup**? : *[CustomerGroup](customergroup.md)*
+• **addresses**: [`CustomerAddress`](CustomerAddress.md)[]
 
 ___
 
-###  email
+### customerGroup
 
-• **email**: *string*
+• `Optional` **customerGroup**: [`CustomerGroup`](CustomerGroup.md)
+
+___
+
+### email
+
+• **email**: `string`
 
 The email address of the signed in customer.
 
 ___
 
-###  firstName
+### firstName
 
-• **firstName**: *string*
-
-___
-
-###  fullName
-
-• **fullName**: *string*
+• **firstName**: `string`
 
 ___
 
-###  id
+### fullName
 
-• **id**: *number*
-
-___
-
-###  isGuest
-
-• **isGuest**: *boolean*
+• **fullName**: `string`
 
 ___
 
-###  lastName
+### id
 
-• **lastName**: *string*
+• **id**: `number`
 
 ___
 
-###  shouldEncourageSignIn
+### isGuest
 
-• **shouldEncourageSignIn**: *boolean*
+• **isGuest**: `boolean`
+
+___
+
+### lastName
+
+• **lastName**: `string`
+
+___
+
+### shouldEncourageSignIn
+
+• **shouldEncourageSignIn**: `boolean`
 
 Indicates whether the customer should be prompted to sign-in.
 
@@ -83,6 +79,6 @@ Note: You need to enable "Prompt existing accounts to sign in" in your Checkout 
 
 ___
 
-###  storeCredit
+### storeCredit
 
-• **storeCredit**: *number*
+• **storeCredit**: `number`

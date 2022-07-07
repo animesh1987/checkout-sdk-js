@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeStoredCardFieldsMap](braintreestoredcardfieldsmap.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeStoredCardFieldsMap
 
 # Interface: BraintreeStoredCardFieldsMap
 
-## Hierarchy
-
-* **BraintreeStoredCardFieldsMap**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [[BraintreeFormFieldType.CardCodeVerification]](braintreestoredcardfieldsmap.md#optional-[braintreeformfieldtype.cardcodeverification])
-* [[BraintreeFormFieldType.CardNumberVerification]](braintreestoredcardfieldsmap.md#optional-[braintreeformfieldtype.cardnumberverification])
+- [cardCodeVerification](BraintreeStoredCardFieldsMap.md#cardcodeverification)
+- [cardNumberVerification](BraintreeStoredCardFieldsMap.md#cardnumberverification)
 
 ## Properties
 
-### `Optional` [BraintreeFormFieldType.CardCodeVerification]
+### cardCodeVerification
 
-• **[BraintreeFormFieldType.CardCodeVerification]**? : *[BraintreeStoredCardFieldOptions](braintreestoredcardfieldoptions.md)*
+• `Optional` **cardCodeVerification**: [`BraintreeStoredCardFieldOptions`](BraintreeStoredCardFieldOptions.md)
 
 ___
 
-### `Optional` [BraintreeFormFieldType.CardNumberVerification]
+### cardNumberVerification
 
-• **[BraintreeFormFieldType.CardNumberVerification]**? : *[BraintreeStoredCardFieldOptions](braintreestoredcardfieldoptions.md)*
+• `Optional` **cardNumberVerification**: [`BraintreeStoredCardFieldOptions`](BraintreeStoredCardFieldOptions.md)

@@ -1,205 +1,201 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CheckoutSettings](checkoutsettings.md)
+[@bigcommerce/checkout-sdk](../README.md) / CheckoutSettings
 
 # Interface: CheckoutSettings
 
-## Hierarchy
-
-* **CheckoutSettings**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [checkoutBillingSameAsShippingEnabled](checkoutsettings.md#checkoutbillingsameasshippingenabled)
-* [enableOrderComments](checkoutsettings.md#enableordercomments)
-* [enableTermsAndConditions](checkoutsettings.md#enabletermsandconditions)
-* [features](checkoutsettings.md#features)
-* [googleMapsApiKey](checkoutsettings.md#googlemapsapikey)
-* [googleRecaptchaSitekey](checkoutsettings.md#googlerecaptchasitekey)
-* [guestCheckoutEnabled](checkoutsettings.md#guestcheckoutenabled)
-* [hasMultiShippingEnabled](checkoutsettings.md#hasmultishippingenabled)
-* [isAccountCreationEnabled](checkoutsettings.md#isaccountcreationenabled)
-* [isAnalyticsEnabled](checkoutsettings.md#isanalyticsenabled)
-* [isCardVaultingEnabled](checkoutsettings.md#iscardvaultingenabled)
-* [isCouponCodeCollapsed](checkoutsettings.md#iscouponcodecollapsed)
-* [isPaymentRequestCanMakePaymentEnabled](checkoutsettings.md#ispaymentrequestcanmakepaymentenabled)
-* [isPaymentRequestEnabled](checkoutsettings.md#ispaymentrequestenabled)
-* [isSignInEmailEnabled](checkoutsettings.md#issigninemailenabled)
-* [isSpamProtectionEnabled](checkoutsettings.md#isspamprotectionenabled)
-* [isStorefrontSpamProtectionEnabled](checkoutsettings.md#isstorefrontspamprotectionenabled)
-* [isTrustedShippingAddressEnabled](checkoutsettings.md#istrustedshippingaddressenabled)
-* [orderTermsAndConditions](checkoutsettings.md#ordertermsandconditions)
-* [orderTermsAndConditionsLink](checkoutsettings.md#ordertermsandconditionslink)
-* [orderTermsAndConditionsType](checkoutsettings.md#ordertermsandconditionstype)
-* [privacyPolicyUrl](checkoutsettings.md#privacypolicyurl)
-* [providerWithCustomCheckout](checkoutsettings.md#providerwithcustomcheckout)
-* [realtimeShippingProviders](checkoutsettings.md#realtimeshippingproviders)
-* [remoteCheckoutProviders](checkoutsettings.md#remotecheckoutproviders)
-* [requiresMarketingConsent](checkoutsettings.md#requiresmarketingconsent)
-* [shippingQuoteFailedMessage](checkoutsettings.md#shippingquotefailedmessage)
+- [checkoutBillingSameAsShippingEnabled](CheckoutSettings.md#checkoutbillingsameasshippingenabled)
+- [enableOrderComments](CheckoutSettings.md#enableordercomments)
+- [enableTermsAndConditions](CheckoutSettings.md#enabletermsandconditions)
+- [features](CheckoutSettings.md#features)
+- [googleMapsApiKey](CheckoutSettings.md#googlemapsapikey)
+- [googleRecaptchaSitekey](CheckoutSettings.md#googlerecaptchasitekey)
+- [guestCheckoutEnabled](CheckoutSettings.md#guestcheckoutenabled)
+- [hasMultiShippingEnabled](CheckoutSettings.md#hasmultishippingenabled)
+- [isAccountCreationEnabled](CheckoutSettings.md#isaccountcreationenabled)
+- [isAnalyticsEnabled](CheckoutSettings.md#isanalyticsenabled)
+- [isCardVaultingEnabled](CheckoutSettings.md#iscardvaultingenabled)
+- [isCouponCodeCollapsed](CheckoutSettings.md#iscouponcodecollapsed)
+- [isPaymentRequestCanMakePaymentEnabled](CheckoutSettings.md#ispaymentrequestcanmakepaymentenabled)
+- [isPaymentRequestEnabled](CheckoutSettings.md#ispaymentrequestenabled)
+- [isSignInEmailEnabled](CheckoutSettings.md#issigninemailenabled)
+- [isSpamProtectionEnabled](CheckoutSettings.md#isspamprotectionenabled)
+- [isStorefrontSpamProtectionEnabled](CheckoutSettings.md#isstorefrontspamprotectionenabled)
+- [isTrustedShippingAddressEnabled](CheckoutSettings.md#istrustedshippingaddressenabled)
+- [orderTermsAndConditions](CheckoutSettings.md#ordertermsandconditions)
+- [orderTermsAndConditionsLink](CheckoutSettings.md#ordertermsandconditionslink)
+- [orderTermsAndConditionsType](CheckoutSettings.md#ordertermsandconditionstype)
+- [privacyPolicyUrl](CheckoutSettings.md#privacypolicyurl)
+- [providerWithCustomCheckout](CheckoutSettings.md#providerwithcustomcheckout)
+- [realtimeShippingProviders](CheckoutSettings.md#realtimeshippingproviders)
+- [remoteCheckoutProviders](CheckoutSettings.md#remotecheckoutproviders)
+- [requiresMarketingConsent](CheckoutSettings.md#requiresmarketingconsent)
+- [shippingQuoteFailedMessage](CheckoutSettings.md#shippingquotefailedmessage)
 
 ## Properties
 
-###  checkoutBillingSameAsShippingEnabled
+### checkoutBillingSameAsShippingEnabled
 
-• **checkoutBillingSameAsShippingEnabled**: *boolean*
-
-___
-
-###  enableOrderComments
-
-• **enableOrderComments**: *boolean*
+• **checkoutBillingSameAsShippingEnabled**: `boolean`
 
 ___
 
-###  enableTermsAndConditions
+### enableOrderComments
 
-• **enableTermsAndConditions**: *boolean*
-
-___
-
-###  features
-
-• **features**: *object*
-
-#### Type declaration:
-
-* \[ **featureName**: *string*\]: boolean
+• **enableOrderComments**: `boolean`
 
 ___
 
-###  googleMapsApiKey
+### enableTermsAndConditions
 
-• **googleMapsApiKey**: *string*
-
-___
-
-###  googleRecaptchaSitekey
-
-• **googleRecaptchaSitekey**: *string*
+• **enableTermsAndConditions**: `boolean`
 
 ___
 
-###  guestCheckoutEnabled
+### features
 
-• **guestCheckoutEnabled**: *boolean*
+• **features**: `Object`
 
-___
+#### Index signature
 
-###  hasMultiShippingEnabled
-
-• **hasMultiShippingEnabled**: *boolean*
+▪ [featureName: `string`]: `boolean`
 
 ___
 
-###  isAccountCreationEnabled
+### googleMapsApiKey
 
-• **isAccountCreationEnabled**: *boolean*
-
-___
-
-###  isAnalyticsEnabled
-
-• **isAnalyticsEnabled**: *boolean*
+• **googleMapsApiKey**: `string`
 
 ___
 
-###  isCardVaultingEnabled
+### googleRecaptchaSitekey
 
-• **isCardVaultingEnabled**: *boolean*
-
-___
-
-###  isCouponCodeCollapsed
-
-• **isCouponCodeCollapsed**: *boolean*
+• **googleRecaptchaSitekey**: `string`
 
 ___
 
-###  isPaymentRequestCanMakePaymentEnabled
+### guestCheckoutEnabled
 
-• **isPaymentRequestCanMakePaymentEnabled**: *boolean*
-
-___
-
-###  isPaymentRequestEnabled
-
-• **isPaymentRequestEnabled**: *boolean*
+• **guestCheckoutEnabled**: `boolean`
 
 ___
 
-###  isSignInEmailEnabled
+### hasMultiShippingEnabled
 
-• **isSignInEmailEnabled**: *boolean*
-
-___
-
-###  isSpamProtectionEnabled
-
-• **isSpamProtectionEnabled**: *boolean*
+• **hasMultiShippingEnabled**: `boolean`
 
 ___
 
-###  isStorefrontSpamProtectionEnabled
+### isAccountCreationEnabled
 
-• **isStorefrontSpamProtectionEnabled**: *boolean*
-
-___
-
-###  isTrustedShippingAddressEnabled
-
-• **isTrustedShippingAddressEnabled**: *boolean*
+• **isAccountCreationEnabled**: `boolean`
 
 ___
 
-###  orderTermsAndConditions
+### isAnalyticsEnabled
 
-• **orderTermsAndConditions**: *string*
-
-___
-
-###  orderTermsAndConditionsLink
-
-• **orderTermsAndConditionsLink**: *string*
+• **isAnalyticsEnabled**: `boolean`
 
 ___
 
-###  orderTermsAndConditionsType
+### isCardVaultingEnabled
 
-• **orderTermsAndConditionsType**: *string*
-
-___
-
-###  privacyPolicyUrl
-
-• **privacyPolicyUrl**: *string*
+• **isCardVaultingEnabled**: `boolean`
 
 ___
 
-###  providerWithCustomCheckout
+### isCouponCodeCollapsed
 
-• **providerWithCustomCheckout**: *string | null*
-
-___
-
-###  realtimeShippingProviders
-
-• **realtimeShippingProviders**: *string[]*
+• **isCouponCodeCollapsed**: `boolean`
 
 ___
 
-###  remoteCheckoutProviders
+### isPaymentRequestCanMakePaymentEnabled
 
-• **remoteCheckoutProviders**: *any[]*
-
-___
-
-###  requiresMarketingConsent
-
-• **requiresMarketingConsent**: *boolean*
+• **isPaymentRequestCanMakePaymentEnabled**: `boolean`
 
 ___
 
-###  shippingQuoteFailedMessage
+### isPaymentRequestEnabled
 
-• **shippingQuoteFailedMessage**: *string*
+• **isPaymentRequestEnabled**: `boolean`
+
+___
+
+### isSignInEmailEnabled
+
+• **isSignInEmailEnabled**: `boolean`
+
+___
+
+### isSpamProtectionEnabled
+
+• **isSpamProtectionEnabled**: `boolean`
+
+___
+
+### isStorefrontSpamProtectionEnabled
+
+• **isStorefrontSpamProtectionEnabled**: `boolean`
+
+___
+
+### isTrustedShippingAddressEnabled
+
+• **isTrustedShippingAddressEnabled**: `boolean`
+
+___
+
+### orderTermsAndConditions
+
+• **orderTermsAndConditions**: `string`
+
+___
+
+### orderTermsAndConditionsLink
+
+• **orderTermsAndConditionsLink**: `string`
+
+___
+
+### orderTermsAndConditionsType
+
+• **orderTermsAndConditionsType**: `string`
+
+___
+
+### privacyPolicyUrl
+
+• **privacyPolicyUrl**: `string`
+
+___
+
+### providerWithCustomCheckout
+
+• **providerWithCustomCheckout**: ``null`` \| `string`
+
+___
+
+### realtimeShippingProviders
+
+• **realtimeShippingProviders**: `string`[]
+
+___
+
+### remoteCheckoutProviders
+
+• **remoteCheckoutProviders**: `any`[]
+
+___
+
+### requiresMarketingConsent
+
+• **requiresMarketingConsent**: `boolean`
+
+___
+
+### shippingQuoteFailedMessage
+
+• **shippingQuoteFailedMessage**: `string`

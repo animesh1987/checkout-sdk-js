@@ -1,48 +1,48 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BaseElementOptions_2](baseelementoptions_2.md)
+[@bigcommerce/checkout-sdk](../README.md) / BaseElementOptions_2
 
-# Interface: BaseElementOptions_2
+# Interface: BaseElementOptions\_2
 
 ## Hierarchy
 
-* **BaseElementOptions_2**
+- **`BaseElementOptions_2`**
 
-  ↳ [BaseIndividualElementOptions](baseindividualelementoptions.md)
+  ↳ [`BaseIndividualElementOptions`](BaseIndividualElementOptions.md)
 
-  ↳ [CardElementOptions](cardelementoptions.md)
+  ↳ [`CardElementOptions`](CardElementOptions.md)
 
-  ↳ [IbanElementOptions](ibanelementoptions.md)
+  ↳ [`IbanElementOptions`](IbanElementOptions.md)
 
-  ↳ [IdealElementOptions](idealelementoptions.md)
+  ↳ [`IdealElementOptions`](IdealElementOptions.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [classes](baseelementoptions_2.md#optional-classes)
-* [disabled](baseelementoptions_2.md#optional-disabled)
-* [style](baseelementoptions_2.md#optional-style)
+- [classes](BaseElementOptions_2.md#classes)
+- [disabled](BaseElementOptions_2.md#disabled)
+- [style](BaseElementOptions_2.md#style)
 
 ## Properties
 
-### `Optional` classes
+### classes
 
-• **classes**? : *[StripeElementClasses](stripeelementclasses.md)*
+• `Optional` **classes**: [`StripeElementClasses`](StripeElementClasses.md)
 
 Set custom class names on the container DOM element when the Stripe element is in a particular state.
 
 ___
 
-### `Optional` disabled
+### disabled
 
-• **disabled**? : *undefined | false | true*
+• `Optional` **disabled**: `boolean`
 
 Applies a disabled state to the Element such that user input is not accepted. Default is false.
 
 ___
 
-### `Optional` style
+### style
 
-• **style**? : *[StripeElementStyle](stripeelementstyle.md)*
+• `Optional` **style**: [`StripeElementStyle`](StripeElementStyle.md)
 
 Customize the appearance of an element using CSS properties passed in a [Style](https://stripe.com/docs/js/appendix/style) object,
 which consists of CSS properties nested under objects for each variant.

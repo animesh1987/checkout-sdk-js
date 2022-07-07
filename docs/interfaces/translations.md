@@ -1,11 +1,7 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Translations](translations.md)
+[@bigcommerce/checkout-sdk](../README.md) / Translations
 
 # Interface: Translations
 
-## Hierarchy
-
-* **Translations**
-
 ## Indexable
 
-* \[ **key**: *string*\]: string | [Translations](translations.md)
+▪ [key: `string`]: `string` \| [`Translations`](Translations.md)

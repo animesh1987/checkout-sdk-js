@@ -1,30 +1,26 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Item_3](item_3.md)
+[@bigcommerce/checkout-sdk](../README.md) / Item_3
 
-# Interface: Item_3
+# Interface: Item\_3
 
-## Hierarchy
-
-* **Item_3**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [id](item_3.md#optional-id)
-* [name](item_3.md#optional-name)
+- [id](Item_3.md#id)
+- [name](Item_3.md#name)
 
 ## Properties
 
-### `Optional` id
+### id
 
-• **id**? : *undefined | string*
+• `Optional` **id**: `string`
 
 The value to provide in the result.
 
 ___
 
-### `Optional` name
+### name
 
-• **name**? : *undefined | string*
+• `Optional` **name**: `string`
 
 The display name.

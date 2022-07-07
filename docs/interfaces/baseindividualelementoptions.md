@@ -1,61 +1,67 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BaseIndividualElementOptions](baseindividualelementoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BaseIndividualElementOptions
 
 # Interface: BaseIndividualElementOptions
 
 ## Hierarchy
 
-* [BaseElementOptions_2](baseelementoptions_2.md)
+- [`BaseElementOptions_2`](BaseElementOptions_2.md)
 
-  ↳ **BaseIndividualElementOptions**
+  ↳ **`BaseIndividualElementOptions`**
 
-  ↳ [CardCvcElementOptions](cardcvcelementoptions.md)
+  ↳↳ [`CardCvcElementOptions`](CardCvcElementOptions.md)
 
-  ↳ [CardExpiryElementOptions](cardexpiryelementoptions.md)
+  ↳↳ [`CardExpiryElementOptions`](CardExpiryElementOptions.md)
 
-  ↳ [CardNumberElementOptions](cardnumberelementoptions.md)
+  ↳↳ [`CardNumberElementOptions`](CardNumberElementOptions.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [classes](baseindividualelementoptions.md#optional-classes)
-* [containerId](baseindividualelementoptions.md#containerid)
-* [disabled](baseindividualelementoptions.md#optional-disabled)
-* [style](baseindividualelementoptions.md#optional-style)
+- [classes](BaseIndividualElementOptions.md#classes)
+- [containerId](BaseIndividualElementOptions.md#containerid)
+- [disabled](BaseIndividualElementOptions.md#disabled)
+- [style](BaseIndividualElementOptions.md#style)
 
 ## Properties
 
-### `Optional` classes
+### classes
 
-• **classes**? : *[StripeElementClasses](stripeelementclasses.md)*
-
-*Inherited from [BaseElementOptions_2](baseelementoptions_2.md).[classes](baseelementoptions_2.md#optional-classes)*
+• `Optional` **classes**: [`StripeElementClasses`](StripeElementClasses.md)
 
 Set custom class names on the container DOM element when the Stripe element is in a particular state.
 
-___
+#### Inherited from
 
-###  containerId
-
-• **containerId**: *string*
+[BaseElementOptions_2](BaseElementOptions_2.md).[classes](BaseElementOptions_2.md#classes)
 
 ___
 
-### `Optional` disabled
+### containerId
 
-• **disabled**? : *undefined | false | true*
+• **containerId**: `string`
 
-*Inherited from [BaseElementOptions_2](baseelementoptions_2.md).[disabled](baseelementoptions_2.md#optional-disabled)*
+___
+
+### disabled
+
+• `Optional` **disabled**: `boolean`
 
 Applies a disabled state to the Element such that user input is not accepted. Default is false.
 
+#### Inherited from
+
+[BaseElementOptions_2](BaseElementOptions_2.md).[disabled](BaseElementOptions_2.md#disabled)
+
 ___
 
-### `Optional` style
+### style
 
-• **style**? : *[StripeElementStyle](stripeelementstyle.md)*
-
-*Inherited from [BaseElementOptions_2](baseelementoptions_2.md).[style](baseelementoptions_2.md#optional-style)*
+• `Optional` **style**: [`StripeElementStyle`](StripeElementStyle.md)
 
 Customize the appearance of an element using CSS properties passed in a [Style](https://stripe.com/docs/js/appendix/style) object,
 which consists of CSS properties nested under objects for each variant.
+
+#### Inherited from
+
+[BaseElementOptions_2](BaseElementOptions_2.md).[style](BaseElementOptions_2.md#style)

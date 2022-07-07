@@ -1,33 +1,33 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AdyenBaseCardComponentOptions_2](adyenbasecardcomponentoptions_2.md)
+[@bigcommerce/checkout-sdk](../README.md) / AdyenBaseCardComponentOptions_2
 
-# Interface: AdyenBaseCardComponentOptions_2
+# Interface: AdyenBaseCardComponentOptions\_2
 
 ## Hierarchy
 
-* **AdyenBaseCardComponentOptions_2**
+- **`AdyenBaseCardComponentOptions_2`**
 
-  ↳ [AdyenV3CreditCardComponentOptions](adyenv3creditcardcomponentoptions.md)
+  ↳ [`AdyenV3CreditCardComponentOptions`](AdyenV3CreditCardComponentOptions.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [brands](adyenbasecardcomponentoptions_2.md#optional-brands)
-* [styles](adyenbasecardcomponentoptions_2.md#optional-styles)
+- [brands](AdyenBaseCardComponentOptions_2.md#brands)
+- [styles](AdyenBaseCardComponentOptions_2.md#styles)
 
 ## Properties
 
-### `Optional` brands
+### brands
 
-• **brands**? : *string[]*
+• `Optional` **brands**: `string`[]
 
 Array of card brands that will be recognized by the component.
 
 ___
 
-### `Optional` styles
+### styles
 
-• **styles**? : *[StyleOptions_2](styleoptions_2.md)*
+• `Optional` **styles**: [`StyleOptions_2`](StyleOptions_2.md)
 
 Set a style object to customize the input fields. See Styling Secured Fields
 for a list of supported properties.

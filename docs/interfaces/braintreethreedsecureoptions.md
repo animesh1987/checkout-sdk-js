@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeThreeDSecureOptions](braintreethreedsecureoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeThreeDSecureOptions
 
 # Interface: BraintreeThreeDSecureOptions
 
@@ -8,55 +8,44 @@ If the customer uses a credit card that has 3D Secure enabled, they will be
 asked to verify their identity when they pay. The verification is done
 through a web page via an iframe provided by the card issuer.
 
-## Hierarchy
-
-* **BraintreeThreeDSecureOptions**
-
-## Index
+## Table of contents
 
 ### Methods
 
-* [addFrame](braintreethreedsecureoptions.md#addframe)
-* [removeFrame](braintreethreedsecureoptions.md#removeframe)
+- [addFrame](BraintreeThreeDSecureOptions.md#addframe)
+- [removeFrame](BraintreeThreeDSecureOptions.md#removeframe)
 
 ## Methods
 
-###  addFrame
+### addFrame
 
-▸ **addFrame**(`error`: [Error](amazonpaywidgeterror.md#error) | undefined, `iframe`: HTMLIFrameElement, `cancel`: function): *void*
+▸ **addFrame**(`error`, `iframe`, `cancel`): `void`
 
 A callback that gets called when the iframe is ready to be added to the
 current page. It is responsible for determining where the iframe should
 be inserted in the DOM.
 
-**Parameters:**
+#### Parameters
 
-▪ **error**: *[Error](amazonpaywidgeterror.md#error) | undefined*
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | `undefined` \| `Error` | Any error raised during the verification process; undefined if there is none. |
+| `iframe` | `HTMLIFrameElement` | The iframe element containing the verification web page provided by the card issuer. |
+| `cancel` | () => `undefined` \| `Promise`<[`BraintreeVerifyPayload`](BraintreeVerifyPayload.md)\> | A function, when called, will cancel the verification process and remove the iframe. |
 
-Any error raised during the verification process;
-undefined if there is none.
+#### Returns
 
-▪ **iframe**: *HTMLIFrameElement*
-
-The iframe element containing the verification web page
-provided by the card issuer.
-
-▪ **cancel**: *function*
-
-A function, when called, will cancel the verification
-process and remove the iframe.
-
-▸ (): *Promise‹[BraintreeVerifyPayload](braintreeverifypayload.md)› | undefined*
-
-**Returns:** *void*
+`void`
 
 ___
 
-###  removeFrame
+### removeFrame
 
-▸ **removeFrame**(): *void*
+▸ **removeFrame**(): `void`
 
 A callback that gets called when the iframe is about to be removed from
 the current page.
 
-**Returns:** *void*
+#### Returns
+
+`void`

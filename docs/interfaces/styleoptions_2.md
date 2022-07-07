@@ -1,48 +1,44 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StyleOptions_2](styleoptions_2.md)
+[@bigcommerce/checkout-sdk](../README.md) / StyleOptions_2
 
-# Interface: StyleOptions_2
+# Interface: StyleOptions\_2
 
-## Hierarchy
-
-* **StyleOptions_2**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [base](styleoptions_2.md#optional-base)
-* [error](styleoptions_2.md#optional-error)
-* [placeholder](styleoptions_2.md#optional-placeholder)
-* [validated](styleoptions_2.md#optional-validated)
+- [base](StyleOptions_2.md#base)
+- [error](StyleOptions_2.md#error)
+- [placeholder](StyleOptions_2.md#placeholder)
+- [validated](StyleOptions_2.md#validated)
 
 ## Properties
 
-### `Optional` base
+### base
 
-• **base**? : *[CssProperties_2](cssproperties_2.md)*
+• `Optional` **base**: [`CssProperties_2`](CssProperties_2.md)
 
 Base styling applied to the iframe. All styling extends from this style.
 
 ___
 
-### `Optional` error
+### error
 
-• **error**? : *[CssProperties_2](cssproperties_2.md)*
+• `Optional` **error**: [`CssProperties_2`](CssProperties_2.md)
 
 Styling applied when a field fails validation.
 
 ___
 
-### `Optional` placeholder
+### placeholder
 
-• **placeholder**? : *[CssProperties_2](cssproperties_2.md)*
+• `Optional` **placeholder**: [`CssProperties_2`](CssProperties_2.md)
 
 Styling applied to the field's placeholder values.
 
 ___
 
-### `Optional` validated
+### validated
 
-• **validated**? : *[CssProperties_2](cssproperties_2.md)*
+• `Optional` **validated**: [`CssProperties_2`](CssProperties_2.md)
 
 Styling applied once a field passes validation.

@@ -1,117 +1,113 @@
-[@bigcommerce/checkout-sdk](../README.md) › [FormField](formfield.md)
+[@bigcommerce/checkout-sdk](../README.md) / FormField
 
 # Interface: FormField
 
-## Hierarchy
-
-* **FormField**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [custom](formfield.md#custom)
-* [default](formfield.md#optional-default)
-* [fieldType](formfield.md#optional-fieldtype)
-* [id](formfield.md#id)
-* [itemtype](formfield.md#optional-itemtype)
-* [label](formfield.md#label)
-* [max](formfield.md#optional-max)
-* [maxLength](formfield.md#optional-maxlength)
-* [min](formfield.md#optional-min)
-* [name](formfield.md#name)
-* [options](formfield.md#optional-options)
-* [required](formfield.md#required)
-* [requirements](formfield.md#optional-requirements)
-* [secret](formfield.md#optional-secret)
-* [type](formfield.md#optional-type)
+- [custom](FormField.md#custom)
+- [default](FormField.md#default)
+- [fieldType](FormField.md#fieldtype)
+- [id](FormField.md#id)
+- [itemtype](FormField.md#itemtype)
+- [label](FormField.md#label)
+- [max](FormField.md#max)
+- [maxLength](FormField.md#maxlength)
+- [min](FormField.md#min)
+- [name](FormField.md#name)
+- [options](FormField.md#options)
+- [required](FormField.md#required)
+- [requirements](FormField.md#requirements)
+- [secret](FormField.md#secret)
+- [type](FormField.md#type)
 
 ## Properties
 
-###  custom
+### custom
 
-• **custom**: *boolean*
-
-___
-
-### `Optional` default
-
-• **default**? : *undefined | string*
+• **custom**: `boolean`
 
 ___
 
-### `Optional` fieldType
+### default
 
-• **fieldType**? : *[FormFieldFieldType](../README.md#formfieldfieldtype)*
-
-___
-
-###  id
-
-• **id**: *string*
+• `Optional` **default**: `string`
 
 ___
 
-### `Optional` itemtype
+### fieldType
 
-• **itemtype**? : *undefined | string*
-
-___
-
-###  label
-
-• **label**: *string*
+• `Optional` **fieldType**: ``"checkbox"`` \| ``"date"`` \| ``"text"`` \| ``"dropdown"`` \| ``"password"`` \| ``"radio"`` \| ``"multiline"``
 
 ___
 
-### `Optional` max
+### id
 
-• **max**? : *string | number*
-
-___
-
-### `Optional` maxLength
-
-• **maxLength**? : *undefined | number*
+• **id**: `string`
 
 ___
 
-### `Optional` min
+### itemtype
 
-• **min**? : *string | number*
-
-___
-
-###  name
-
-• **name**: *string | [AddressKey](../README.md#addresskey)*
+• `Optional` **itemtype**: `string`
 
 ___
 
-### `Optional` options
+### label
 
-• **options**? : *[FormFieldOptions](formfieldoptions.md)*
-
-___
-
-###  required
-
-• **required**: *boolean*
+• **label**: `string`
 
 ___
 
-### `Optional` requirements
+### max
 
-• **requirements**? : *[CustomerPasswordRequirements](customerpasswordrequirements.md)*
-
-___
-
-### `Optional` secret
-
-• **secret**? : *undefined | false | true*
+• `Optional` **max**: `string` \| `number`
 
 ___
 
-### `Optional` type
+### maxLength
 
-• **type**? : *[FormFieldType](../README.md#formfieldtype)*
+• `Optional` **maxLength**: `number`
+
+___
+
+### min
+
+• `Optional` **min**: `string` \| `number`
+
+___
+
+### name
+
+• **name**: `string`
+
+___
+
+### options
+
+• `Optional` **options**: [`FormFieldOptions`](FormFieldOptions.md)
+
+___
+
+### required
+
+• **required**: `boolean`
+
+___
+
+### requirements
+
+• `Optional` **requirements**: [`CustomerPasswordRequirements`](CustomerPasswordRequirements.md)
+
+___
+
+### secret
+
+• `Optional` **secret**: `boolean`
+
+___
+
+### type
+
+• `Optional` **type**: ``"string"`` \| ``"date"`` \| ``"array"`` \| ``"integer"``

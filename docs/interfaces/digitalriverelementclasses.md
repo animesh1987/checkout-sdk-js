@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [DigitalRiverElementClasses](digitalriverelementclasses.md)
+[@bigcommerce/checkout-sdk](../README.md) / DigitalRiverElementClasses
 
 # Interface: DigitalRiverElementClasses
 
@@ -7,65 +7,61 @@ You can specify custom classes as part of a Class object included within the Opt
 update an element. If you do not provide custom classes, the system uses the default options.
 https://docs.digitalriver.com/digital-river-api/payment-integrations-1/digitalriver.js/reference/elements#custom-classes
 
-## Hierarchy
-
-* **DigitalRiverElementClasses**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [base](digitalriverelementclasses.md#optional-base)
-* [complete](digitalriverelementclasses.md#optional-complete)
-* [empty](digitalriverelementclasses.md#optional-empty)
-* [focus](digitalriverelementclasses.md#optional-focus)
-* [invalid](digitalriverelementclasses.md#optional-invalid)
-* [webkitAutofill](digitalriverelementclasses.md#optional-webkitautofill)
+- [base](DigitalRiverElementClasses.md#base)
+- [complete](DigitalRiverElementClasses.md#complete)
+- [empty](DigitalRiverElementClasses.md#empty)
+- [focus](DigitalRiverElementClasses.md#focus)
+- [invalid](DigitalRiverElementClasses.md#invalid)
+- [webkitAutofill](DigitalRiverElementClasses.md#webkitautofill)
 
 ## Properties
 
-### `Optional` base
+### base
 
-• **base**? : *undefined | string*
+• `Optional` **base**: `string`
 
 The Element is in its base state. The user either has not entered anything into the input field or is currently typing.
 
 ___
 
-### `Optional` complete
+### complete
 
-• **complete**? : *undefined | string*
+• `Optional` **complete**: `string`
 
 The Element is in its complete state. The user has input value, and it meets the basic validation requirements of that field.
 
 ___
 
-### `Optional` empty
+### empty
 
-• **empty**? : *undefined | string*
+• `Optional` **empty**: `string`
 
 The Element is empty. The Element once had value but is now empty.
 
 ___
 
-### `Optional` focus
+### focus
 
-• **focus**? : *undefined | string*
+• `Optional` **focus**: `string`
 
 The Element has focus.
 
 ___
 
-### `Optional` invalid
+### invalid
 
-• **invalid**? : *undefined | string*
+• `Optional` **invalid**: `string`
 
 The Element has value, but it does not meet the basic validation requirements of the field.
 
 ___
 
-### `Optional` webkitAutofill
+### webkitAutofill
 
-• **webkitAutofill**? : *undefined | string*
+• `Optional` **webkitAutofill**: `string`
 
 The element has a value that has been automatically filled by the browser.

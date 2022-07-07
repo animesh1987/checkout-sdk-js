@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AmazonPayV2ShippingInitializeOptions](amazonpayv2shippinginitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / AmazonPayV2ShippingInitializeOptions
 
 # Interface: AmazonPayV2ShippingInitializeOptions
 
@@ -9,21 +9,17 @@ When AmazonPayV2 is initialized, a change shipping button will be bound.
 When the customer clicks on it, they will be redirected to Amazon to
 select a different shipping address.
 
-## Hierarchy
-
-* **AmazonPayV2ShippingInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [editAddressButtonId](amazonpayv2shippinginitializeoptions.md#optional-editaddressbuttonid)
+- [editAddressButtonId](AmazonPayV2ShippingInitializeOptions.md#editaddressbuttonid)
 
 ## Properties
 
-### `Optional` editAddressButtonId
+### editAddressButtonId
 
-• **editAddressButtonId**? : *undefined | string*
+• `Optional` **editAddressButtonId**: `string`
 
 This editAddressButtonId is used to set an event listener, provide an
 element ID if you want users to be able to select a different shipping

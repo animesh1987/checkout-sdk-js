@@ -1,80 +1,78 @@
-[@bigcommerce/checkout-sdk](../README.md) › [GiftCertificateItem](giftcertificateitem.md)
+[@bigcommerce/checkout-sdk](../README.md) / GiftCertificateItem
 
 # Interface: GiftCertificateItem
 
-## Hierarchy
-
-* **GiftCertificateItem**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [amount](giftcertificateitem.md#amount)
-* [id](giftcertificateitem.md#id)
-* [message](giftcertificateitem.md#message)
-* [name](giftcertificateitem.md#name)
-* [recipient](giftcertificateitem.md#recipient)
-* [sender](giftcertificateitem.md#sender)
-* [taxable](giftcertificateitem.md#taxable)
-* [theme](giftcertificateitem.md#theme)
+- [amount](GiftCertificateItem.md#amount)
+- [id](GiftCertificateItem.md#id)
+- [message](GiftCertificateItem.md#message)
+- [name](GiftCertificateItem.md#name)
+- [recipient](GiftCertificateItem.md#recipient)
+- [sender](GiftCertificateItem.md#sender)
+- [taxable](GiftCertificateItem.md#taxable)
+- [theme](GiftCertificateItem.md#theme)
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *number*
-
-___
-
-###  id
-
-• **id**: *string | number*
+• **amount**: `number`
 
 ___
 
-###  message
+### id
 
-• **message**: *string*
-
-___
-
-###  name
-
-• **name**: *string*
+• **id**: `string` \| `number`
 
 ___
 
-###  recipient
+### message
 
-• **recipient**: *object*
-
-#### Type declaration:
-
-* **email**: *string*
-
-* **name**: *string*
+• **message**: `string`
 
 ___
 
-###  sender
+### name
 
-• **sender**: *object*
-
-#### Type declaration:
-
-* **email**: *string*
-
-* **name**: *string*
+• **name**: `string`
 
 ___
 
-###  taxable
+### recipient
 
-• **taxable**: *boolean*
+• **recipient**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `email` | `string` |
+| `name` | `string` |
 
 ___
 
-###  theme
+### sender
 
-• **theme**: *string*
+• **sender**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `email` | `string` |
+| `name` | `string` |
+
+___
+
+### taxable
+
+• **taxable**: `boolean`
+
+___
+
+### theme
+
+• **theme**: `string`

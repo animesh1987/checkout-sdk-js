@@ -1,50 +1,50 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeFormFieldType](braintreeformfieldtype.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeFormFieldType
 
 # Enumeration: BraintreeFormFieldType
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [CardCode](braintreeformfieldtype.md#cardcode)
-* [CardCodeVerification](braintreeformfieldtype.md#cardcodeverification)
-* [CardExpiry](braintreeformfieldtype.md#cardexpiry)
-* [CardName](braintreeformfieldtype.md#cardname)
-* [CardNumber](braintreeformfieldtype.md#cardnumber)
-* [CardNumberVerification](braintreeformfieldtype.md#cardnumberverification)
+- [CardCode](BraintreeFormFieldType.md#cardcode)
+- [CardCodeVerification](BraintreeFormFieldType.md#cardcodeverification)
+- [CardExpiry](BraintreeFormFieldType.md#cardexpiry)
+- [CardName](BraintreeFormFieldType.md#cardname)
+- [CardNumber](BraintreeFormFieldType.md#cardnumber)
+- [CardNumberVerification](BraintreeFormFieldType.md#cardnumberverification)
 
 ## Enumeration members
 
-###  CardCode
+### CardCode
 
-• **CardCode**: = "cardCode"
-
-___
-
-###  CardCodeVerification
-
-• **CardCodeVerification**: = "cardCodeVerification"
+• **CardCode** = `"cardCode"`
 
 ___
 
-###  CardExpiry
+### CardCodeVerification
 
-• **CardExpiry**: = "cardExpiry"
-
-___
-
-###  CardName
-
-• **CardName**: = "cardName"
+• **CardCodeVerification** = `"cardCodeVerification"`
 
 ___
 
-###  CardNumber
+### CardExpiry
 
-• **CardNumber**: = "cardNumber"
+• **CardExpiry** = `"cardExpiry"`
 
 ___
 
-###  CardNumberVerification
+### CardName
 
-• **CardNumberVerification**: = "cardNumberVerification"
+• **CardName** = `"cardName"`
+
+___
+
+### CardNumber
+
+• **CardNumber** = `"cardNumber"`
+
+___
+
+### CardNumberVerification
+
+• **CardNumberVerification** = `"cardNumberVerification"`

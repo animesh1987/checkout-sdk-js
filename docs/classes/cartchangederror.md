@@ -1,103 +1,76 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CartChangedError](cartchangederror.md)
+[@bigcommerce/checkout-sdk](../README.md) / CartChangedError
 
 # Class: CartChangedError
 
 ## Hierarchy
 
-  ↳ [StandardError](standarderror.md)
+- [`StandardError`](StandardError.md)
 
-  ↳ **CartChangedError**
+  ↳ **`CartChangedError`**
 
-## Implements
-
-* [CustomError](../interfaces/customerror.md)
-
-## Index
+## Table of contents
 
 ### Constructors
 
-* [constructor](cartchangederror.md#constructor)
+- [constructor](CartChangedError.md#constructor)
 
 ### Properties
 
-* [data](cartchangederror.md#data)
-* [message](cartchangederror.md#message)
-* [name](cartchangederror.md#name)
-* [stack](cartchangederror.md#optional-stack)
-* [type](cartchangederror.md#type)
+- [data](CartChangedError.md#data)
+- [name](CartChangedError.md#name)
+- [type](CartChangedError.md#type)
 
 ## Constructors
 
-###  constructor
+### constructor
 
-\+ **new CartChangedError**(`previous`: [ComparableCheckout](../README.md#comparablecheckout), `updated`: [ComparableCheckout](../README.md#comparablecheckout)): *[CartChangedError](cartchangederror.md)*
+• **new CartChangedError**(`previous`, `updated`)
 
-*Overrides [StandardError](standarderror.md).[constructor](standarderror.md#constructor)*
+#### Parameters
 
-**Parameters:**
+| Name | Type |
+| :------ | :------ |
+| `previous` | [`ComparableCheckout`](../README.md#comparablecheckout) |
+| `updated` | [`ComparableCheckout`](../README.md#comparablecheckout) |
 
-Name | Type |
------- | ------ |
-`previous` | [ComparableCheckout](../README.md#comparablecheckout) |
-`updated` | [ComparableCheckout](../README.md#comparablecheckout) |
+#### Overrides
 
-**Returns:** *[CartChangedError](cartchangederror.md)*
+[StandardError](StandardError.md).[constructor](StandardError.md#constructor)
 
 ## Properties
 
-###  data
+### data
 
-• **data**: *object*
+• **data**: `Object`
 
-**`alpha`** 
+**`alpha`**
 Please note that this option is currently in an early stage of
 development. Therefore the API is unstable and not ready for public
 consumption.
 
-#### Type declaration:
+#### Type declaration
 
-* **previous**: *[ComparableCheckout](../README.md#comparablecheckout)*
-
-* **updated**: *[ComparableCheckout](../README.md#comparablecheckout)*
-
-___
-
-###  message
-
-• **message**: *string*
-
-*Implementation of [CustomError](../interfaces/customerror.md).[message](../interfaces/customerror.md#message)*
-
-*Inherited from [AmazonPayWidgetError](../interfaces/amazonpaywidgeterror.md).[message](../interfaces/amazonpaywidgeterror.md#message)*
+| Name | Type |
+| :------ | :------ |
+| `previous` | [`ComparableCheckout`](../README.md#comparablecheckout) |
+| `updated` | [`ComparableCheckout`](../README.md#comparablecheckout) |
 
 ___
 
-###  name
+### name
 
-• **name**: *string*
+• **name**: `string`
 
-*Implementation of [CustomError](../interfaces/customerror.md).[name](../interfaces/customerror.md#name)*
+#### Inherited from
 
-*Inherited from [CartChangedError](cartchangederror.md).[name](cartchangederror.md#name)*
-
-*Overrides [AmazonPayWidgetError](../interfaces/amazonpaywidgeterror.md).[name](../interfaces/amazonpaywidgeterror.md#name)*
+[StandardError](StandardError.md).[name](StandardError.md#name)
 
 ___
 
-### `Optional` stack
+### type
 
-• **stack**? : *undefined | string*
+• **type**: `string`
 
-*Implementation of [CustomError](../interfaces/customerror.md).[stack](../interfaces/customerror.md#optional-stack)*
+#### Inherited from
 
-*Inherited from [AmazonPayWidgetError](../interfaces/amazonpaywidgeterror.md).[stack](../interfaces/amazonpaywidgeterror.md#optional-stack)*
-
-___
-
-###  type
-
-• **type**: *string*
-
-*Implementation of [CustomError](../interfaces/customerror.md).[type](../interfaces/customerror.md#type)*
-
-*Inherited from [CartChangedError](cartchangederror.md).[type](cartchangederror.md#type)*
+[StandardError](StandardError.md).[type](StandardError.md#type)

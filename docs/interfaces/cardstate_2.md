@@ -1,40 +1,40 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CardState_2](cardstate_2.md)
+[@bigcommerce/checkout-sdk](../README.md) / CardState_2
 
-# Interface: CardState_2
+# Interface: CardState\_2
 
-## Hierarchy
-
-* **CardState_2**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [data](cardstate_2.md#data)
-* [errors](cardstate_2.md#optional-errors)
-* [isValid](cardstate_2.md#optional-isvalid)
-* [valid](cardstate_2.md#optional-valid)
+- [data](CardState_2.md#data)
+- [errors](CardState_2.md#errors)
+- [isValid](CardState_2.md#isvalid)
+- [valid](CardState_2.md#valid)
 
 ## Properties
 
-###  data
+### data
 
-• **data**: *[CardDataPaymentMethodState_2](carddatapaymentmethodstate_2.md)*
-
-___
-
-### `Optional` errors
-
-• **errors**? : *[CardStateErrors_2](cardstateerrors_2.md)*
+• **data**: [`CardDataPaymentMethodState_2`](CardDataPaymentMethodState_2.md)
 
 ___
 
-### `Optional` isValid
+### errors
 
-• **isValid**? : *undefined | false | true*
+• `Optional` **errors**: [`CardStateErrors_2`](CardStateErrors_2.md)
 
 ___
 
-### `Optional` valid
+### isValid
 
-• **valid**? : *undefined | object*
+• `Optional` **isValid**: `boolean`
+
+___
+
+### valid
+
+• `Optional` **valid**: `Object`
+
+#### Index signature
+
+▪ [key: `string`]: `boolean`

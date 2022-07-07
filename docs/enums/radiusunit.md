@@ -1,22 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [RadiusUnit](radiusunit.md)
+[@bigcommerce/checkout-sdk](../README.md) / RadiusUnit
 
 # Enumeration: RadiusUnit
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [KM](radiusunit.md#km)
-* [MI](radiusunit.md#mi)
+- [KM](RadiusUnit.md#km)
+- [MI](RadiusUnit.md#mi)
 
 ## Enumeration members
 
-###  KM
+### KM
 
-• **KM**: = "KM"
+• **KM** = `"KM"`
 
 ___
 
-###  MI
+### MI
 
-• **MI**: = "MI"
+• **MI** = `"MI"`

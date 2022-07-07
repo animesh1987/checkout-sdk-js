@@ -1,68 +1,74 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AdyenComponentEvents](adyencomponentevents.md)
+[@bigcommerce/checkout-sdk](../README.md) / AdyenComponentEvents
 
 # Interface: AdyenComponentEvents
 
 ## Hierarchy
 
-* **AdyenComponentEvents**
+- **`AdyenComponentEvents`**
 
-  ↳ [AdyenCreditCardComponentOptions](adyencreditcardcomponentoptions.md)
+  ↳ [`AdyenCreditCardComponentOptions`](AdyenCreditCardComponentOptions.md)
 
-## Index
+## Table of contents
 
 ### Methods
 
-* [onChange](adyencomponentevents.md#optional-onchange)
-* [onError](adyencomponentevents.md#optional-onerror)
-* [onFieldValid](adyencomponentevents.md#optional-onfieldvalid)
+- [onChange](AdyenComponentEvents.md#onchange)
+- [onError](AdyenComponentEvents.md#onerror)
+- [onFieldValid](AdyenComponentEvents.md#onfieldvalid)
 
 ## Methods
 
-### `Optional` onChange
+### onChange
 
-▸ **onChange**(`state`: [AdyenComponentState](../README.md#adyencomponentstate), `component`: [AdyenComponent](adyencomponent.md)): *void*
+▸ `Optional` **onChange**(`state`, `component`): `void`
 
 Called when the shopper enters data in the card input fields.
 Here you have the option to override your main Adyen Checkout configuration.
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`state` | [AdyenComponentState](../README.md#adyencomponentstate) |
-`component` | [AdyenComponent](adyencomponent.md) |
+| Name | Type |
+| :------ | :------ |
+| `state` | [`AdyenComponentState`](../README.md#adyencomponentstate) |
+| `component` | [`AdyenComponent`](AdyenComponent.md) |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`state`: [AdyenComponentState](../README.md#adyencomponentstate), `component`: [AdyenComponent](adyencomponent.md)): *void*
+▸ `Optional` **onError**(`state`, `component`): `void`
 
 Called in case of an invalid card number, invalid expiry date, or
  incomplete field. Called again when errors are cleared.
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`state` | [AdyenComponentState](../README.md#adyencomponentstate) |
-`component` | [AdyenComponent](adyencomponent.md) |
+| Name | Type |
+| :------ | :------ |
+| `state` | [`AdyenComponentState`](../README.md#adyencomponentstate) |
+| `component` | [`AdyenComponent`](AdyenComponent.md) |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onFieldValid
+### onFieldValid
 
-▸ **onFieldValid**(`state`: [AdyenComponentState](../README.md#adyencomponentstate), `component`: [AdyenComponent](adyencomponent.md)): *void*
+▸ `Optional` **onFieldValid**(`state`, `component`): `void`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`state` | [AdyenComponentState](../README.md#adyencomponentstate) |
-`component` | [AdyenComponent](adyencomponent.md) |
+| Name | Type |
+| :------ | :------ |
+| `state` | [`AdyenComponentState`](../README.md#adyencomponentstate) |
+| `component` | [`AdyenComponent`](AdyenComponent.md) |
 
-**Returns:** *void*
+#### Returns
+
+`void`

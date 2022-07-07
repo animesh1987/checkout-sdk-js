@@ -1,61 +1,57 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StoreLinks](storelinks.md)
+[@bigcommerce/checkout-sdk](../README.md) / StoreLinks
 
 # Interface: StoreLinks
 
-## Hierarchy
-
-* **StoreLinks**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [cartLink](storelinks.md#cartlink)
-* [checkoutLink](storelinks.md#checkoutlink)
-* [createAccountLink](storelinks.md#createaccountlink)
-* [forgotPasswordLink](storelinks.md#forgotpasswordlink)
-* [loginLink](storelinks.md#loginlink)
-* [orderConfirmationLink](storelinks.md#orderconfirmationlink)
-* [siteLink](storelinks.md#sitelink)
+- [cartLink](StoreLinks.md#cartlink)
+- [checkoutLink](StoreLinks.md#checkoutlink)
+- [createAccountLink](StoreLinks.md#createaccountlink)
+- [forgotPasswordLink](StoreLinks.md#forgotpasswordlink)
+- [loginLink](StoreLinks.md#loginlink)
+- [orderConfirmationLink](StoreLinks.md#orderconfirmationlink)
+- [siteLink](StoreLinks.md#sitelink)
 
 ## Properties
 
-###  cartLink
+### cartLink
 
-• **cartLink**: *string*
-
-___
-
-###  checkoutLink
-
-• **checkoutLink**: *string*
+• **cartLink**: `string`
 
 ___
 
-###  createAccountLink
+### checkoutLink
 
-• **createAccountLink**: *string*
-
-___
-
-###  forgotPasswordLink
-
-• **forgotPasswordLink**: *string*
+• **checkoutLink**: `string`
 
 ___
 
-###  loginLink
+### createAccountLink
 
-• **loginLink**: *string*
-
-___
-
-###  orderConfirmationLink
-
-• **orderConfirmationLink**: *string*
+• **createAccountLink**: `string`
 
 ___
 
-###  siteLink
+### forgotPasswordLink
 
-• **siteLink**: *string*
+• **forgotPasswordLink**: `string`
+
+___
+
+### loginLink
+
+• **loginLink**: `string`
+
+___
+
+### orderConfirmationLink
+
+• **orderConfirmationLink**: `string`
+
+___
+
+### siteLink
+
+• **siteLink**: `string`

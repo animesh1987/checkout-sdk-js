@@ -1,37 +1,35 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeVisaCheckoutCustomerInitializeOptions](braintreevisacheckoutcustomerinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeVisaCheckoutCustomerInitializeOptions
 
 # Interface: BraintreeVisaCheckoutCustomerInitializeOptions
 
-## Hierarchy
-
-* **BraintreeVisaCheckoutCustomerInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [container](braintreevisacheckoutcustomerinitializeoptions.md#container)
+- [container](BraintreeVisaCheckoutCustomerInitializeOptions.md#container)
 
 ### Methods
 
-* [onError](braintreevisacheckoutcustomerinitializeoptions.md#optional-onerror)
+- [onError](BraintreeVisaCheckoutCustomerInitializeOptions.md#onerror)
 
 ## Properties
 
-###  container
+### container
 
-• **container**: *string*
+• **container**: `string`
 
 ## Methods
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`error`: [Error](amazonpaywidgeterror.md#error)): *void*
+▸ `Optional` **onError**(`error`): `void`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`error` | [Error](amazonpaywidgeterror.md#error) |
+| Name | Type |
+| :------ | :------ |
+| `error` | `Error` |
 
-**Returns:** *void*
+#### Returns
+
+`void`

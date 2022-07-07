@@ -1,81 +1,94 @@
-[@bigcommerce/checkout-sdk](../README.md) › [GiftCertificateOrderPayment](giftcertificateorderpayment.md)
+[@bigcommerce/checkout-sdk](../README.md) / GiftCertificateOrderPayment
 
 # Interface: GiftCertificateOrderPayment
 
 ## Hierarchy
 
-* [OrderPayment](orderpayment.md)
+- [`OrderPayment`](OrderPayment.md)
 
-  ↳ **GiftCertificateOrderPayment**
+  ↳ **`GiftCertificateOrderPayment`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [amount](giftcertificateorderpayment.md#amount)
-* [description](giftcertificateorderpayment.md#description)
-* [detail](giftcertificateorderpayment.md#detail)
-* [gatewayId](giftcertificateorderpayment.md#optional-gatewayid)
-* [methodId](giftcertificateorderpayment.md#optional-methodid)
-* [paymentId](giftcertificateorderpayment.md#optional-paymentid)
-* [providerId](giftcertificateorderpayment.md#providerid)
+- [amount](GiftCertificateOrderPayment.md#amount)
+- [description](GiftCertificateOrderPayment.md#description)
+- [detail](GiftCertificateOrderPayment.md#detail)
+- [gatewayId](GiftCertificateOrderPayment.md#gatewayid)
+- [methodId](GiftCertificateOrderPayment.md#methodid)
+- [paymentId](GiftCertificateOrderPayment.md#paymentid)
+- [providerId](GiftCertificateOrderPayment.md#providerid)
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *number*
+• **amount**: `number`
 
-*Inherited from [GatewayOrderPayment](gatewayorderpayment.md).[amount](gatewayorderpayment.md#amount)*
+#### Inherited from
 
-___
-
-###  description
-
-• **description**: *string*
-
-*Inherited from [GatewayOrderPayment](gatewayorderpayment.md).[description](gatewayorderpayment.md#description)*
+[OrderPayment](OrderPayment.md).[amount](OrderPayment.md#amount)
 
 ___
 
-###  detail
+### description
 
-• **detail**: *object*
+• **description**: `string`
 
-#### Type declaration:
+#### Inherited from
 
-* **code**: *string*
-
-* **remaining**: *number*
+[OrderPayment](OrderPayment.md).[description](OrderPayment.md#description)
 
 ___
 
-### `Optional` gatewayId
+### detail
 
-• **gatewayId**? : *undefined | string*
+• **detail**: `Object`
 
-*Inherited from [GatewayOrderPayment](gatewayorderpayment.md).[gatewayId](gatewayorderpayment.md#optional-gatewayid)*
+#### Type declaration
 
-___
-
-### `Optional` methodId
-
-• **methodId**? : *undefined | string*
-
-*Inherited from [GatewayOrderPayment](gatewayorderpayment.md).[methodId](gatewayorderpayment.md#optional-methodid)*
+| Name | Type |
+| :------ | :------ |
+| `code` | `string` |
+| `remaining` | `number` |
 
 ___
 
-### `Optional` paymentId
+### gatewayId
 
-• **paymentId**? : *undefined | string*
+• `Optional` **gatewayId**: `string`
 
-*Inherited from [GatewayOrderPayment](gatewayorderpayment.md).[paymentId](gatewayorderpayment.md#optional-paymentid)*
+#### Inherited from
+
+[OrderPayment](OrderPayment.md).[gatewayId](OrderPayment.md#gatewayid)
 
 ___
 
-###  providerId
+### methodId
 
-• **providerId**: *string*
+• `Optional` **methodId**: `string`
 
-*Inherited from [GatewayOrderPayment](gatewayorderpayment.md).[providerId](gatewayorderpayment.md#providerid)*
+#### Inherited from
+
+[OrderPayment](OrderPayment.md).[methodId](OrderPayment.md#methodid)
+
+___
+
+### paymentId
+
+• `Optional` **paymentId**: `string`
+
+#### Inherited from
+
+[OrderPayment](OrderPayment.md).[paymentId](OrderPayment.md#paymentid)
+
+___
+
+### providerId
+
+• **providerId**: `string`
+
+#### Inherited from
+
+[OrderPayment](OrderPayment.md).[providerId](OrderPayment.md#providerid)

@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [GooglePayPaymentInitializeOptions](googlepaypaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / GooglePayPaymentInitializeOptions
 
 # Interface: GooglePayPaymentInitializeOptions
 
@@ -40,26 +40,22 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **GooglePayPaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [walletButton](googlepaypaymentinitializeoptions.md#optional-walletbutton)
+- [walletButton](GooglePayPaymentInitializeOptions.md#walletbutton)
 
 ### Methods
 
-* [onError](googlepaypaymentinitializeoptions.md#optional-onerror)
-* [onPaymentSelect](googlepaypaymentinitializeoptions.md#optional-onpaymentselect)
+- [onError](GooglePayPaymentInitializeOptions.md#onerror)
+- [onPaymentSelect](GooglePayPaymentInitializeOptions.md#onpaymentselect)
 
 ## Properties
 
-### `Optional` walletButton
+### walletButton
 
-• **walletButton**? : *undefined | string*
+• `Optional` **walletButton**: `string`
 
 This walletButton is used to set an event listener, provide an element ID if you want
 users to be able to launch the GooglePay wallet modal by clicking on a button.
@@ -67,27 +63,31 @@ It should be an HTML element.
 
 ## Methods
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`error`: [Error](amazonpaywidgeterror.md#error)): *void*
+▸ `Optional` **onError**(`error`): `void`
 
 A callback that gets called when GooglePay fails to initialize or
 selects a payment option.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [Error](amazonpaywidgeterror.md#error) | The error object describing the failure.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | `Error` | The error object describing the failure. |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onPaymentSelect
+### onPaymentSelect
 
-▸ **onPaymentSelect**(): *void*
+▸ `Optional` **onPaymentSelect**(): `void`
 
 A callback that gets called when the customer selects a payment option.
 
-**Returns:** *void*
+#### Returns
+
+`void`

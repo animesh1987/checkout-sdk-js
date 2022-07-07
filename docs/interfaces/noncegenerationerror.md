@@ -1,33 +1,29 @@
-[@bigcommerce/checkout-sdk](../README.md) › [NonceGenerationError](noncegenerationerror.md)
+[@bigcommerce/checkout-sdk](../README.md) / NonceGenerationError
 
 # Interface: NonceGenerationError
 
-## Hierarchy
-
-* **NonceGenerationError**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [field](noncegenerationerror.md#field)
-* [message](noncegenerationerror.md#message)
-* [type](noncegenerationerror.md#type)
+- [field](NonceGenerationError.md#field)
+- [message](NonceGenerationError.md#message)
+- [type](NonceGenerationError.md#type)
 
 ## Properties
 
-###  field
+### field
 
-• **field**: *string*
-
-___
-
-###  message
-
-• **message**: *string*
+• **field**: `string`
 
 ___
 
-###  type
+### message
 
-• **type**: *string*
+• **message**: `string`
+
+___
+
+### type
+
+• **type**: `string`

@@ -1,32 +1,30 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BoltCustomerInitializeOptions](boltcustomerinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BoltCustomerInitializeOptions
 
 # Interface: BoltCustomerInitializeOptions
 
 A set of options that are required to initialize the customer step of
 checkout to support Bolt.
 
-## Hierarchy
-
-* **BoltCustomerInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Methods
 
-* [onInit](boltcustomerinitializeoptions.md#optional-oninit)
+- [onInit](BoltCustomerInitializeOptions.md#oninit)
 
 ## Methods
 
-### `Optional` onInit
+### onInit
 
-▸ **onInit**(`hasBoltAccount`: boolean): *void*
+▸ `Optional` **onInit**(`hasBoltAccount`): `void`
 
 A callback that gets called on initialize the strategy
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`hasBoltAccount` | boolean | The hasBoltAccount variable handle the result of checking user account availability on Bolt.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `hasBoltAccount` | `boolean` | The hasBoltAccount variable handle the result of checking user account availability on Bolt. |
 
-**Returns:** *void*
+#### Returns
+
+`void`

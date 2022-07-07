@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaymentSettings](paymentsettings.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaymentSettings
 
 # Interface: PaymentSettings
 
-## Hierarchy
-
-* **PaymentSettings**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [bigpayBaseUrl](paymentsettings.md#bigpaybaseurl)
-* [clientSidePaymentProviders](paymentsettings.md#clientsidepaymentproviders)
+- [bigpayBaseUrl](PaymentSettings.md#bigpaybaseurl)
+- [clientSidePaymentProviders](PaymentSettings.md#clientsidepaymentproviders)
 
 ## Properties
 
-###  bigpayBaseUrl
+### bigpayBaseUrl
 
-• **bigpayBaseUrl**: *string*
+• **bigpayBaseUrl**: `string`
 
 ___
 
-###  clientSidePaymentProviders
+### clientSidePaymentProviders
 
-• **clientSidePaymentProviders**: *string[]*
+• **clientSidePaymentProviders**: `string`[]

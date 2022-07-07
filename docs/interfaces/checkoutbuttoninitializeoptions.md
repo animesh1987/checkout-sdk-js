@@ -1,232 +1,234 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / CheckoutButtonInitializeOptions
 
-# Interface: CheckoutButtonInitializeOptions ‹**TParams**›
-
-## Type parameters
-
-▪ **TParams**
+# Interface: CheckoutButtonInitializeOptions
 
 ## Hierarchy
 
-  ↳ [CheckoutButtonOptions](checkoutbuttonoptions.md)
+- [`CheckoutButtonOptions`](CheckoutButtonOptions.md)
 
-  ↳ **CheckoutButtonInitializeOptions**
+  ↳ **`CheckoutButtonInitializeOptions`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [amazonpay](checkoutbuttoninitializeoptions.md#optional-amazonpay)
-* [applepay](checkoutbuttoninitializeoptions.md#optional-applepay)
-* [braintreepaypal](checkoutbuttoninitializeoptions.md#optional-braintreepaypal)
-* [braintreepaypalcredit](checkoutbuttoninitializeoptions.md#optional-braintreepaypalcredit)
-* [braintreevenmo](checkoutbuttoninitializeoptions.md#optional-braintreevenmo)
-* [containerId](checkoutbuttoninitializeoptions.md#containerid)
-* [googlepayadyenv2](checkoutbuttoninitializeoptions.md#optional-googlepayadyenv2)
-* [googlepayadyenv3](checkoutbuttoninitializeoptions.md#optional-googlepayadyenv3)
-* [googlepayauthorizenet](checkoutbuttoninitializeoptions.md#optional-googlepayauthorizenet)
-* [googlepaybraintree](checkoutbuttoninitializeoptions.md#optional-googlepaybraintree)
-* [googlepaycheckoutcom](checkoutbuttoninitializeoptions.md#optional-googlepaycheckoutcom)
-* [googlepaycybersourcev2](checkoutbuttoninitializeoptions.md#optional-googlepaycybersourcev2)
-* [googlepayorbital](checkoutbuttoninitializeoptions.md#optional-googlepayorbital)
-* [googlepaystripe](checkoutbuttoninitializeoptions.md#optional-googlepaystripe)
-* [googlepaystripeupe](checkoutbuttoninitializeoptions.md#optional-googlepaystripeupe)
-* [methodId](checkoutbuttoninitializeoptions.md#methodid)
-* [params](checkoutbuttoninitializeoptions.md#optional-params)
-* [paypal](checkoutbuttoninitializeoptions.md#optional-paypal)
-* [paypalCommerce](checkoutbuttoninitializeoptions.md#optional-paypalcommerce)
-* [paypalcommercevenmo](checkoutbuttoninitializeoptions.md#optional-paypalcommercevenmo)
-* [timeout](checkoutbuttoninitializeoptions.md#optional-timeout)
+- [amazonpay](CheckoutButtonInitializeOptions.md#amazonpay)
+- [applepay](CheckoutButtonInitializeOptions.md#applepay)
+- [braintreepaypal](CheckoutButtonInitializeOptions.md#braintreepaypal)
+- [braintreepaypalcredit](CheckoutButtonInitializeOptions.md#braintreepaypalcredit)
+- [braintreevenmo](CheckoutButtonInitializeOptions.md#braintreevenmo)
+- [containerId](CheckoutButtonInitializeOptions.md#containerid)
+- [googlepayadyenv2](CheckoutButtonInitializeOptions.md#googlepayadyenv2)
+- [googlepayadyenv3](CheckoutButtonInitializeOptions.md#googlepayadyenv3)
+- [googlepayauthorizenet](CheckoutButtonInitializeOptions.md#googlepayauthorizenet)
+- [googlepaybraintree](CheckoutButtonInitializeOptions.md#googlepaybraintree)
+- [googlepaycheckoutcom](CheckoutButtonInitializeOptions.md#googlepaycheckoutcom)
+- [googlepaycybersourcev2](CheckoutButtonInitializeOptions.md#googlepaycybersourcev2)
+- [googlepayorbital](CheckoutButtonInitializeOptions.md#googlepayorbital)
+- [googlepaystripe](CheckoutButtonInitializeOptions.md#googlepaystripe)
+- [googlepaystripeupe](CheckoutButtonInitializeOptions.md#googlepaystripeupe)
+- [methodId](CheckoutButtonInitializeOptions.md#methodid)
+- [params](CheckoutButtonInitializeOptions.md#params)
+- [paypal](CheckoutButtonInitializeOptions.md#paypal)
+- [paypalCommerce](CheckoutButtonInitializeOptions.md#paypalcommerce)
+- [paypalcommercevenmo](CheckoutButtonInitializeOptions.md#paypalcommercevenmo)
+- [timeout](CheckoutButtonInitializeOptions.md#timeout)
 
 ## Properties
 
-### `Optional` amazonpay
+### amazonpay
 
-• **amazonpay**? : *[AmazonPayV2ButtonInitializeOptions](../README.md#amazonpayv2buttoninitializeoptions)*
+• `Optional` **amazonpay**: [`AmazonPayV2ButtonParams`](AmazonPayV2ButtonParams.md)
 
 The options that are required to facilitate AmazonPayV2. They can be
 omitted unless you need to support AmazonPayV2.
 
 ___
 
-### `Optional` applepay
+### applepay
 
-• **applepay**? : *[ApplePayButtonInitializeOptions](applepaybuttoninitializeoptions.md)*
+• `Optional` **applepay**: [`ApplePayButtonInitializeOptions`](ApplePayButtonInitializeOptions.md)
 
 The options that are required to initialize the ApplePay payment method.
 They can be omitted unless you need to support ApplePay in cart.
 
 ___
 
-### `Optional` braintreepaypal
+### braintreepaypal
 
-• **braintreepaypal**? : *[BraintreePaypalButtonInitializeOptions](braintreepaypalbuttoninitializeoptions.md)*
+• `Optional` **braintreepaypal**: [`BraintreePaypalButtonInitializeOptions`](BraintreePaypalButtonInitializeOptions.md)
 
 The options that are required to facilitate Braintree PayPal. They can be
 omitted unless you need to support Braintree PayPal.
 
 ___
 
-### `Optional` braintreepaypalcredit
+### braintreepaypalcredit
 
-• **braintreepaypalcredit**? : *[BraintreePaypalCreditButtonInitializeOptions](braintreepaypalcreditbuttoninitializeoptions.md)*
+• `Optional` **braintreepaypalcredit**: [`BraintreePaypalCreditButtonInitializeOptions`](BraintreePaypalCreditButtonInitializeOptions.md)
 
 The options that are required to facilitate Braintree Credit. They can be
 omitted unless you need to support Braintree Credit.
 
 ___
 
-### `Optional` braintreevenmo
+### braintreevenmo
 
-• **braintreevenmo**? : *[BraintreeVenmoButtonInitializeOptions](braintreevenmobuttoninitializeoptions.md)*
+• `Optional` **braintreevenmo**: [`BraintreeVenmoButtonInitializeOptions`](BraintreeVenmoButtonInitializeOptions.md)
 
 The options that are required to facilitate Braintree Venmo. They can be
 omitted unless you need to support Braintree Venmo.
 
 ___
 
-###  containerId
+### containerId
 
-• **containerId**: *string*
+• **containerId**: `string`
 
 The ID of a container which the checkout button should be inserted.
 
 ___
 
-### `Optional` googlepayadyenv2
+### googlepayadyenv2
 
-• **googlepayadyenv2**? : *[GooglePayButtonInitializeOptions](googlepaybuttoninitializeoptions.md)*
-
-The options that are required to initialize the GooglePay payment method.
-They can be omitted unless you need to support adyenv2 GooglePay.
-
-___
-
-### `Optional` googlepayadyenv3
-
-• **googlepayadyenv3**? : *[GooglePayButtonInitializeOptions](googlepaybuttoninitializeoptions.md)*
+• `Optional` **googlepayadyenv2**: [`GooglePayButtonInitializeOptions`](GooglePayButtonInitializeOptions.md)
 
 The options that are required to initialize the GooglePay payment method.
 They can be omitted unless you need to support adyenv2 GooglePay.
 
 ___
 
-### `Optional` googlepayauthorizenet
+### googlepayadyenv3
 
-• **googlepayauthorizenet**? : *[GooglePayButtonInitializeOptions](googlepaybuttoninitializeoptions.md)*
+• `Optional` **googlepayadyenv3**: [`GooglePayButtonInitializeOptions`](GooglePayButtonInitializeOptions.md)
+
+The options that are required to initialize the GooglePay payment method.
+They can be omitted unless you need to support adyenv2 GooglePay.
+
+___
+
+### googlepayauthorizenet
+
+• `Optional` **googlepayauthorizenet**: [`GooglePayButtonInitializeOptions`](GooglePayButtonInitializeOptions.md)
 
 The options that are required to facilitate Authorize.Net GooglePay.
 They can be omitted unless you need to support Authorize.Net GooglePay.
 
 ___
 
-### `Optional` googlepaybraintree
+### googlepaybraintree
 
-• **googlepaybraintree**? : *[GooglePayButtonInitializeOptions](googlepaybuttoninitializeoptions.md)*
+• `Optional` **googlepaybraintree**: [`GooglePayButtonInitializeOptions`](GooglePayButtonInitializeOptions.md)
 
 The options that are required to facilitate Braintree GooglePay. They can be
 omitted unless you need to support Braintree GooglePay.
 
 ___
 
-### `Optional` googlepaycheckoutcom
+### googlepaycheckoutcom
 
-• **googlepaycheckoutcom**? : *[GooglePayButtonInitializeOptions](googlepaybuttoninitializeoptions.md)*
+• `Optional` **googlepaycheckoutcom**: [`GooglePayButtonInitializeOptions`](GooglePayButtonInitializeOptions.md)
 
 The options that are required to facilitate Checkout.com GooglePay. They can be
 omitted unless you need to support Checkout.com GooglePay.
 
 ___
 
-### `Optional` googlepaycybersourcev2
+### googlepaycybersourcev2
 
-• **googlepaycybersourcev2**? : *[GooglePayButtonInitializeOptions](googlepaybuttoninitializeoptions.md)*
+• `Optional` **googlepaycybersourcev2**: [`GooglePayButtonInitializeOptions`](GooglePayButtonInitializeOptions.md)
 
 The options that are required to facilitate CybersourceV2 GooglePay. They can be
 omitted unless you need to support CybersourceV2 GooglePay.
 
 ___
 
-### `Optional` googlepayorbital
+### googlepayorbital
 
-• **googlepayorbital**? : *[GooglePayButtonInitializeOptions](googlepaybuttoninitializeoptions.md)*
+• `Optional` **googlepayorbital**: [`GooglePayButtonInitializeOptions`](GooglePayButtonInitializeOptions.md)
 
 The options that are required to facilitate Orbital GooglePay. They can be
 omitted unless you need to support Orbital GooglePay.
 
 ___
 
-### `Optional` googlepaystripe
+### googlepaystripe
 
-• **googlepaystripe**? : *[GooglePayButtonInitializeOptions](googlepaybuttoninitializeoptions.md)*
-
-The options that are required to facilitate Stripe GooglePay. They can be
-omitted unless you need to support Stripe GooglePay.
-
-___
-
-### `Optional` googlepaystripeupe
-
-• **googlepaystripeupe**? : *[GooglePayButtonInitializeOptions](googlepaybuttoninitializeoptions.md)*
+• `Optional` **googlepaystripe**: [`GooglePayButtonInitializeOptions`](GooglePayButtonInitializeOptions.md)
 
 The options that are required to facilitate Stripe GooglePay. They can be
 omitted unless you need to support Stripe GooglePay.
 
 ___
 
-###  methodId
+### googlepaystripeupe
 
-• **methodId**: *[CheckoutButtonMethodType](../enums/checkoutbuttonmethodtype.md)*
+• `Optional` **googlepaystripeupe**: [`GooglePayButtonInitializeOptions`](GooglePayButtonInitializeOptions.md)
 
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[methodId](checkoutbuttoninitializeoptions.md#methodid)*
+The options that are required to facilitate Stripe GooglePay. They can be
+omitted unless you need to support Stripe GooglePay.
+
+___
+
+### methodId
+
+• **methodId**: [`CheckoutButtonMethodType`](../enums/CheckoutButtonMethodType.md)
 
 The identifier of the payment method.
 
+#### Inherited from
+
+[CheckoutButtonOptions](CheckoutButtonOptions.md).[methodId](CheckoutButtonOptions.md#methodid)
+
 ___
 
-### `Optional` params
+### params
 
-• **params**? : *TParams*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[params](checkoutbuttoninitializeoptions.md#optional-params)*
+• `Optional` **params**: `Object`
 
 The parameters of the request, if required.
 
+#### Inherited from
+
+[CheckoutButtonOptions](CheckoutButtonOptions.md).[params](CheckoutButtonOptions.md#params)
+
 ___
 
-### `Optional` paypal
+### paypal
 
-• **paypal**? : *[PaypalButtonInitializeOptions](paypalbuttoninitializeoptions.md)*
+• `Optional` **paypal**: [`PaypalButtonInitializeOptions`](PaypalButtonInitializeOptions.md)
 
 The options that are required to facilitate PayPal. They can be omitted
 unless you need to support Paypal.
 
 ___
 
-### `Optional` paypalCommerce
+### paypalCommerce
 
-• **paypalCommerce**? : *[PaypalCommerceButtonInitializeOptions](paypalcommercebuttoninitializeoptions.md)*
+• `Optional` **paypalCommerce**: [`PaypalCommerceButtonInitializeOptions`](PaypalCommerceButtonInitializeOptions.md)
 
 The options that are required to facilitate PayPal Commerce. They can be omitted
 unless you need to support Paypal.
 
 ___
 
-### `Optional` paypalcommercevenmo
+### paypalcommercevenmo
 
-• **paypalcommercevenmo**? : *[PaypalCommerceVenmoButtonInitializeOptions](paypalcommercevenmobuttoninitializeoptions.md)*
+• `Optional` **paypalcommercevenmo**: [`PaypalCommerceVenmoButtonInitializeOptions`](PaypalCommerceVenmoButtonInitializeOptions.md)
 
 The options that are required to facilitate PayPal Commerce Venmo. They can be omitted
 unless you need to support PayPal Commerce Venmo.
 
 ___
 
-### `Optional` timeout
+### timeout
 
-• **timeout**? : *Timeout*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[timeout](checkoutbuttoninitializeoptions.md#optional-timeout)*
+• `Optional` **timeout**: `default`
 
 Provide this option if you want to cancel or time out the request. If the
 timeout object completes before the request, the request will be
 cancelled.
+
+#### Inherited from
+
+[CheckoutButtonOptions](CheckoutButtonOptions.md).[timeout](CheckoutButtonOptions.md#timeout)

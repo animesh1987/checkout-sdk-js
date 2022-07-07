@@ -1,40 +1,40 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CardState](cardstate.md)
+[@bigcommerce/checkout-sdk](../README.md) / CardState
 
 # Interface: CardState
 
-## Hierarchy
-
-* **CardState**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [data](cardstate.md#data)
-* [errors](cardstate.md#optional-errors)
-* [isValid](cardstate.md#optional-isvalid)
-* [valid](cardstate.md#optional-valid)
+- [data](CardState.md#data)
+- [errors](CardState.md#errors)
+- [isValid](CardState.md#isvalid)
+- [valid](CardState.md#valid)
 
 ## Properties
 
-###  data
+### data
 
-• **data**: *[CardDataPaymentMethodState](carddatapaymentmethodstate.md)*
-
-___
-
-### `Optional` errors
-
-• **errors**? : *[CardStateErrors](cardstateerrors.md)*
+• **data**: [`CardDataPaymentMethodState`](CardDataPaymentMethodState.md)
 
 ___
 
-### `Optional` isValid
+### errors
 
-• **isValid**? : *undefined | false | true*
+• `Optional` **errors**: [`CardStateErrors`](CardStateErrors.md)
 
 ___
 
-### `Optional` valid
+### isValid
 
-• **valid**? : *undefined | object*
+• `Optional` **isValid**: `boolean`
+
+___
+
+### valid
+
+• `Optional` **valid**: `Object`
+
+#### Index signature
+
+▪ [key: `string`]: `boolean`

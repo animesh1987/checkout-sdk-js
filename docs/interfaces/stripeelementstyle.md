@@ -1,48 +1,44 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StripeElementStyle](stripeelementstyle.md)
+[@bigcommerce/checkout-sdk](../README.md) / StripeElementStyle
 
 # Interface: StripeElementStyle
 
-## Hierarchy
-
-* **StripeElementStyle**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [base](stripeelementstyle.md#optional-base)
-* [complete](stripeelementstyle.md#optional-complete)
-* [empty](stripeelementstyle.md#optional-empty)
-* [invalid](stripeelementstyle.md#optional-invalid)
+- [base](StripeElementStyle.md#base)
+- [complete](StripeElementStyle.md#complete)
+- [empty](StripeElementStyle.md#empty)
+- [invalid](StripeElementStyle.md#invalid)
 
 ## Properties
 
-### `Optional` base
+### base
 
-• **base**? : *[StripeElementStyleVariant](stripeelementstylevariant.md)*
+• `Optional` **base**: [`StripeElementStyleVariant`](StripeElementStyleVariant.md)
 
 Base variant—all other variants inherit from these styles.
 
 ___
 
-### `Optional` complete
+### complete
 
-• **complete**? : *[StripeElementStyleVariant](stripeelementstylevariant.md)*
+• `Optional` **complete**: [`StripeElementStyleVariant`](StripeElementStyleVariant.md)
 
 Applied when the element has valid input.
 
 ___
 
-### `Optional` empty
+### empty
 
-• **empty**? : *[StripeElementStyleVariant](stripeelementstylevariant.md)*
+• `Optional` **empty**: [`StripeElementStyleVariant`](StripeElementStyleVariant.md)
 
 Applied when the element has no customer input.
 
 ___
 
-### `Optional` invalid
+### invalid
 
-• **invalid**? : *[StripeElementStyleVariant](stripeelementstylevariant.md)*
+• `Optional` **invalid**: [`StripeElementStyleVariant`](StripeElementStyleVariant.md)
 
 Applied when the element has invalid input.

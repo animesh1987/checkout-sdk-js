@@ -1,22 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalButtonStyleLayoutOption](paypalbuttonstylelayoutoption.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalButtonStyleLayoutOption
 
 # Enumeration: PaypalButtonStyleLayoutOption
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [HORIZONTAL](paypalbuttonstylelayoutoption.md#horizontal)
-* [VERTICAL](paypalbuttonstylelayoutoption.md#vertical)
+- [HORIZONTAL](PaypalButtonStyleLayoutOption.md#horizontal)
+- [VERTICAL](PaypalButtonStyleLayoutOption.md#vertical)
 
 ## Enumeration members
 
-###  HORIZONTAL
+### HORIZONTAL
 
-• **HORIZONTAL**: = "horizontal"
+• **HORIZONTAL** = `"horizontal"`
 
 ___
 
-###  VERTICAL
+### VERTICAL
 
-• **VERTICAL**: = "vertical"
+• **VERTICAL** = `"vertical"`

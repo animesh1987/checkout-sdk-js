@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StripeV3PaymentInitializeOptions](stripev3paymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / StripeV3PaymentInitializeOptions
 
 # Interface: StripeV3PaymentInitializeOptions
 
@@ -45,36 +45,32 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **StripeV3PaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [containerId](stripev3paymentinitializeoptions.md#containerid)
-* [form](stripev3paymentinitializeoptions.md#optional-form)
-* [options](stripev3paymentinitializeoptions.md#optional-options)
+- [containerId](StripeV3PaymentInitializeOptions.md#containerid)
+- [form](StripeV3PaymentInitializeOptions.md#form)
+- [options](StripeV3PaymentInitializeOptions.md#options)
 
 ## Properties
 
-###  containerId
+### containerId
 
-• **containerId**: *string*
+• **containerId**: `string`
 
 The location to insert the credit card number form field.
 
 ___
 
-### `Optional` form
+### form
 
-• **form**? : *[HostedFormOptions](hostedformoptions.md)*
+• `Optional` **form**: [`HostedFormOptions`](HostedFormOptions.md)
 
 Hosted Form Validation Options
 
 ___
 
-### `Optional` options
+### options
 
-• **options**? : *[StripeElementOptions](../README.md#stripeelementoptions) | [IndividualCardElementOptions](individualcardelementoptions.md)*
+• `Optional` **options**: [`CardCvcElementOptions`](CardCvcElementOptions.md) \| [`CardElementOptions`](CardElementOptions.md) \| [`CardExpiryElementOptions`](CardExpiryElementOptions.md) \| [`CardNumberElementOptions`](CardNumberElementOptions.md) \| [`IbanElementOptions`](IbanElementOptions.md) \| [`IdealElementOptions`](IdealElementOptions.md) \| [`IndividualCardElementOptions`](IndividualCardElementOptions.md) \| [`ZipCodeElementOptions`](ZipCodeElementOptions.md)

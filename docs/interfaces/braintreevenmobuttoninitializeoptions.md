@@ -1,29 +1,27 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeVenmoButtonInitializeOptions](braintreevenmobuttoninitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeVenmoButtonInitializeOptions
 
 # Interface: BraintreeVenmoButtonInitializeOptions
 
-## Hierarchy
-
-* **BraintreeVenmoButtonInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Methods
 
-* [onError](braintreevenmobuttoninitializeoptions.md#optional-onerror)
+- [onError](BraintreeVenmoButtonInitializeOptions.md#onerror)
 
 ## Methods
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`error`: [BraintreeError](braintreeerror.md) | [StandardError](../classes/standarderror.md)): *void*
+▸ `Optional` **onError**(`error`): `void`
 
 A callback that gets called on any error.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [BraintreeError](braintreeerror.md) &#124; [StandardError](../classes/standarderror.md) | The error object describing the failure.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | [`StandardError`](../classes/StandardError.md) \| [`BraintreeError`](BraintreeError.md) | The error object describing the failure. |
 
-**Returns:** *void*
+#### Returns
+
+`void`

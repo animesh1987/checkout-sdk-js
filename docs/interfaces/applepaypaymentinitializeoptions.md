@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ApplePayPaymentInitializeOptions](applepaypaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / ApplePayPaymentInitializeOptions
 
 # Interface: ApplePayPaymentInitializeOptions
 
@@ -16,29 +16,25 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **ApplePayPaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [shippingLabel](applepaypaymentinitializeoptions.md#optional-shippinglabel)
-* [subtotalLabel](applepaypaymentinitializeoptions.md#optional-subtotallabel)
+- [shippingLabel](ApplePayPaymentInitializeOptions.md#shippinglabel)
+- [subtotalLabel](ApplePayPaymentInitializeOptions.md#subtotallabel)
 
 ## Properties
 
-### `Optional` shippingLabel
+### shippingLabel
 
-• **shippingLabel**? : *undefined | string*
+• `Optional` **shippingLabel**: `string`
 
 Shipping label to be passed to apple sheet.
 
 ___
 
-### `Optional` subtotalLabel
+### subtotalLabel
 
-• **subtotalLabel**? : *undefined | string*
+• `Optional` **subtotalLabel**: `string`
 
 Sub total label to be passed to apple sheet.

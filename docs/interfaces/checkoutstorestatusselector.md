@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CheckoutStoreStatusSelector](checkoutstorestatusselector.md)
+[@bigcommerce/checkout-sdk](../README.md) / CheckoutStoreStatusSelector
 
 # Interface: CheckoutStoreStatusSelector
 
@@ -9,149 +9,159 @@ This object has a set of getters that return true if an action is in
 progress. For example, you can check whether a customer is submitting an
 order and waiting for the request to complete.
 
-## Hierarchy
-
-* **CheckoutStoreStatusSelector**
-
-## Index
+## Table of contents
 
 ### Methods
 
-* [isApplyingCoupon](checkoutstorestatusselector.md#isapplyingcoupon)
-* [isApplyingGiftCertificate](checkoutstorestatusselector.md#isapplyinggiftcertificate)
-* [isApplyingStoreCredit](checkoutstorestatusselector.md#isapplyingstorecredit)
-* [isContinuingAsGuest](checkoutstorestatusselector.md#iscontinuingasguest)
-* [isCreatingConsignments](checkoutstorestatusselector.md#iscreatingconsignments)
-* [isCreatingCustomerAccount](checkoutstorestatusselector.md#iscreatingcustomeraccount)
-* [isCreatingCustomerAddress](checkoutstorestatusselector.md#iscreatingcustomeraddress)
-* [isCustomerStepPending](checkoutstorestatusselector.md#iscustomersteppending)
-* [isDeletingConsignment](checkoutstorestatusselector.md#isdeletingconsignment)
-* [isDeletingInstrument](checkoutstorestatusselector.md#isdeletinginstrument)
-* [isExecutingPaymentMethodCheckout](checkoutstorestatusselector.md#isexecutingpaymentmethodcheckout)
-* [isExecutingSpamCheck](checkoutstorestatusselector.md#isexecutingspamcheck)
-* [isFinalizingOrder](checkoutstorestatusselector.md#isfinalizingorder)
-* [isInitializingCustomer](checkoutstorestatusselector.md#isinitializingcustomer)
-* [isInitializingPayment](checkoutstorestatusselector.md#isinitializingpayment)
-* [isInitializingShipping](checkoutstorestatusselector.md#isinitializingshipping)
-* [isLoadingBillingCountries](checkoutstorestatusselector.md#isloadingbillingcountries)
-* [isLoadingCart](checkoutstorestatusselector.md#isloadingcart)
-* [isLoadingCheckout](checkoutstorestatusselector.md#isloadingcheckout)
-* [isLoadingConfig](checkoutstorestatusselector.md#isloadingconfig)
-* [isLoadingInstruments](checkoutstorestatusselector.md#isloadinginstruments)
-* [isLoadingOrder](checkoutstorestatusselector.md#isloadingorder)
-* [isLoadingPaymentMethod](checkoutstorestatusselector.md#isloadingpaymentmethod)
-* [isLoadingPaymentMethods](checkoutstorestatusselector.md#isloadingpaymentmethods)
-* [isLoadingPickupOptions](checkoutstorestatusselector.md#isloadingpickupoptions)
-* [isLoadingShippingCountries](checkoutstorestatusselector.md#isloadingshippingcountries)
-* [isLoadingShippingOptions](checkoutstorestatusselector.md#isloadingshippingoptions)
-* [isPaymentStepPending](checkoutstorestatusselector.md#ispaymentsteppending)
-* [isPending](checkoutstorestatusselector.md#ispending)
-* [isRemovingCoupon](checkoutstorestatusselector.md#isremovingcoupon)
-* [isRemovingGiftCertificate](checkoutstorestatusselector.md#isremovinggiftcertificate)
-* [isSelectingShippingOption](checkoutstorestatusselector.md#isselectingshippingoption)
-* [isSendingSignInEmail](checkoutstorestatusselector.md#issendingsigninemail)
-* [isShippingStepPending](checkoutstorestatusselector.md#isshippingsteppending)
-* [isSigningIn](checkoutstorestatusselector.md#issigningin)
-* [isSigningOut](checkoutstorestatusselector.md#issigningout)
-* [isSubmittingOrder](checkoutstorestatusselector.md#issubmittingorder)
-* [isUpdatingBillingAddress](checkoutstorestatusselector.md#isupdatingbillingaddress)
-* [isUpdatingCheckout](checkoutstorestatusselector.md#isupdatingcheckout)
-* [isUpdatingConsignment](checkoutstorestatusselector.md#isupdatingconsignment)
-* [isUpdatingShippingAddress](checkoutstorestatusselector.md#isupdatingshippingaddress)
-* [isUpdatingSubscriptions](checkoutstorestatusselector.md#isupdatingsubscriptions)
+- [isApplyingCoupon](CheckoutStoreStatusSelector.md#isapplyingcoupon)
+- [isApplyingGiftCertificate](CheckoutStoreStatusSelector.md#isapplyinggiftcertificate)
+- [isApplyingStoreCredit](CheckoutStoreStatusSelector.md#isapplyingstorecredit)
+- [isContinuingAsGuest](CheckoutStoreStatusSelector.md#iscontinuingasguest)
+- [isCreatingConsignments](CheckoutStoreStatusSelector.md#iscreatingconsignments)
+- [isCreatingCustomerAccount](CheckoutStoreStatusSelector.md#iscreatingcustomeraccount)
+- [isCreatingCustomerAddress](CheckoutStoreStatusSelector.md#iscreatingcustomeraddress)
+- [isCustomerStepPending](CheckoutStoreStatusSelector.md#iscustomersteppending)
+- [isDeletingConsignment](CheckoutStoreStatusSelector.md#isdeletingconsignment)
+- [isDeletingInstrument](CheckoutStoreStatusSelector.md#isdeletinginstrument)
+- [isExecutingPaymentMethodCheckout](CheckoutStoreStatusSelector.md#isexecutingpaymentmethodcheckout)
+- [isExecutingSpamCheck](CheckoutStoreStatusSelector.md#isexecutingspamcheck)
+- [isFinalizingOrder](CheckoutStoreStatusSelector.md#isfinalizingorder)
+- [isInitializingCustomer](CheckoutStoreStatusSelector.md#isinitializingcustomer)
+- [isInitializingPayment](CheckoutStoreStatusSelector.md#isinitializingpayment)
+- [isInitializingShipping](CheckoutStoreStatusSelector.md#isinitializingshipping)
+- [isLoadingBillingCountries](CheckoutStoreStatusSelector.md#isloadingbillingcountries)
+- [isLoadingCart](CheckoutStoreStatusSelector.md#isloadingcart)
+- [isLoadingCheckout](CheckoutStoreStatusSelector.md#isloadingcheckout)
+- [isLoadingConfig](CheckoutStoreStatusSelector.md#isloadingconfig)
+- [isLoadingInstruments](CheckoutStoreStatusSelector.md#isloadinginstruments)
+- [isLoadingOrder](CheckoutStoreStatusSelector.md#isloadingorder)
+- [isLoadingPaymentMethod](CheckoutStoreStatusSelector.md#isloadingpaymentmethod)
+- [isLoadingPaymentMethods](CheckoutStoreStatusSelector.md#isloadingpaymentmethods)
+- [isLoadingPickupOptions](CheckoutStoreStatusSelector.md#isloadingpickupoptions)
+- [isLoadingShippingCountries](CheckoutStoreStatusSelector.md#isloadingshippingcountries)
+- [isLoadingShippingOptions](CheckoutStoreStatusSelector.md#isloadingshippingoptions)
+- [isPaymentStepPending](CheckoutStoreStatusSelector.md#ispaymentsteppending)
+- [isPending](CheckoutStoreStatusSelector.md#ispending)
+- [isRemovingCoupon](CheckoutStoreStatusSelector.md#isremovingcoupon)
+- [isRemovingGiftCertificate](CheckoutStoreStatusSelector.md#isremovinggiftcertificate)
+- [isSelectingShippingOption](CheckoutStoreStatusSelector.md#isselectingshippingoption)
+- [isSendingSignInEmail](CheckoutStoreStatusSelector.md#issendingsigninemail)
+- [isShippingStepPending](CheckoutStoreStatusSelector.md#isshippingsteppending)
+- [isSigningIn](CheckoutStoreStatusSelector.md#issigningin)
+- [isSigningOut](CheckoutStoreStatusSelector.md#issigningout)
+- [isSubmittingOrder](CheckoutStoreStatusSelector.md#issubmittingorder)
+- [isUpdatingBillingAddress](CheckoutStoreStatusSelector.md#isupdatingbillingaddress)
+- [isUpdatingCheckout](CheckoutStoreStatusSelector.md#isupdatingcheckout)
+- [isUpdatingConsignment](CheckoutStoreStatusSelector.md#isupdatingconsignment)
+- [isUpdatingShippingAddress](CheckoutStoreStatusSelector.md#isupdatingshippingaddress)
+- [isUpdatingSubscriptions](CheckoutStoreStatusSelector.md#isupdatingsubscriptions)
 
 ## Methods
 
-###  isApplyingCoupon
+### isApplyingCoupon
 
-▸ **isApplyingCoupon**(): *boolean*
+▸ **isApplyingCoupon**(): `boolean`
 
 Checks whether the current customer is applying a coupon code.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if applying a coupon code, otherwise false.
 
 ___
 
-###  isApplyingGiftCertificate
+### isApplyingGiftCertificate
 
-▸ **isApplyingGiftCertificate**(): *boolean*
+▸ **isApplyingGiftCertificate**(): `boolean`
 
 Checks whether the current customer is applying a gift certificate.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if applying a gift certificate, otherwise false.
 
 ___
 
-###  isApplyingStoreCredit
+### isApplyingStoreCredit
 
-▸ **isApplyingStoreCredit**(): *boolean*
+▸ **isApplyingStoreCredit**(): `boolean`
 
 Checks whether the current customer is applying store credit.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if applying store credit, otherwise false.
 
 ___
 
-###  isContinuingAsGuest
+### isContinuingAsGuest
 
-▸ **isContinuingAsGuest**(): *boolean*
+▸ **isContinuingAsGuest**(): `boolean`
 
 Checks whether the shopper is continuing out as a guest.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if continuing as guest, otherwise false.
 
 ___
 
-###  isCreatingConsignments
+### isCreatingConsignments
 
-▸ **isCreatingConsignments**(): *boolean*
+▸ **isCreatingConsignments**(): `boolean`
 
 Checks whether a given/any consignment is being updated.
 
 A consignment ID should be provided when checking for a specific consignment,
 otherwise it will check for any consignment.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if creating consignments, otherwise false.
 
 ___
 
-###  isCreatingCustomerAccount
+### isCreatingCustomerAccount
 
-▸ **isCreatingCustomerAccount**(): *boolean*
+▸ **isCreatingCustomerAccount**(): `boolean`
 
 Checks whether a customer account is being created
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if creating, otherwise false.
 
 ___
 
-###  isCreatingCustomerAddress
+### isCreatingCustomerAddress
 
-▸ **isCreatingCustomerAddress**(): *boolean*
+▸ **isCreatingCustomerAddress**(): `boolean`
 
 Checks whether a customer address is being created
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if creating, otherwise false.
 
 ___
 
-###  isCustomerStepPending
+### isCustomerStepPending
 
-▸ **isCustomerStepPending**(): *boolean*
+▸ **isCustomerStepPending**(): `boolean`
 
 Checks whether the customer step of a checkout is in a pending state.
 
@@ -159,141 +169,157 @@ The customer step is considered to be pending if it is in the process of
 initializing, signing in, signing out, and/or interacting with a customer
 widget.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the customer step is pending, otherwise false.
 
 ___
 
-###  isDeletingConsignment
+### isDeletingConsignment
 
-▸ **isDeletingConsignment**(`consignmentId?`: undefined | string): *boolean*
+▸ **isDeletingConsignment**(`consignmentId?`): `boolean`
 
 Checks whether a given/any consignment is being deleted.
 
 A consignment ID should be provided when checking for a specific consignment,
 otherwise it will check for any consignment.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignmentId?` | undefined &#124; string | The identifier of the consignment to be checked. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignmentId?` | `string` | The identifier of the consignment to be checked. |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if deleting consignment(s), otherwise false.
 
 ___
 
-###  isDeletingInstrument
+### isDeletingInstrument
 
-▸ **isDeletingInstrument**(`instrumentId?`: undefined | string): *boolean*
+▸ **isDeletingInstrument**(`instrumentId?`): `boolean`
 
 Checks whether the current customer is deleting a payment instrument.
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`instrumentId?` | undefined &#124; string |
+| Name | Type |
+| :------ | :------ |
+| `instrumentId?` | `string` |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if deleting a payment instrument, otherwise false.
 
 ___
 
-###  isExecutingPaymentMethodCheckout
+### isExecutingPaymentMethodCheckout
 
-▸ **isExecutingPaymentMethodCheckout**(`methodId?`: undefined | string): *boolean*
+▸ **isExecutingPaymentMethodCheckout**(`methodId?`): `boolean`
 
 Checks whether the current customer is executing payment method checkout.
 
 If an ID is provided, the method also checks whether the customer is
 executing payment method checkout using a specific customer method with the same ID.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId?` | undefined &#124; string | The identifier of the method used for continuing the current customer. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId?` | `string` | The identifier of the method used for continuing the current customer. |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the customer is executing payment method checkout, otherwise false.
 
 ___
 
-###  isExecutingSpamCheck
+### isExecutingSpamCheck
 
-▸ **isExecutingSpamCheck**(): *boolean*
+▸ **isExecutingSpamCheck**(): `boolean`
 
 Checks whether spam check is executing.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the current checkout is being updated, otherwise false.
 
 ___
 
-###  isFinalizingOrder
+### isFinalizingOrder
 
-▸ **isFinalizingOrder**(): *boolean*
+▸ **isFinalizingOrder**(): `boolean`
 
 Checks whether the current order is finalizing.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the current order is finalizing, otherwise false.
 
 ___
 
-###  isInitializingCustomer
+### isInitializingCustomer
 
-▸ **isInitializingCustomer**(`methodId?`: undefined | string): *boolean*
+▸ **isInitializingCustomer**(`methodId?`): `boolean`
 
 Checks whether the customer step is initializing.
 
 If an ID is provided, the method also checks whether the customer step is
 initializing using a specific customer method with the same ID.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId?` | undefined &#124; string | The identifier of the method used for initializing the customer step of checkout. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId?` | `string` | The identifier of the method used for initializing the customer step of checkout. |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the customer step is initializing, otherwise false.
 
 ___
 
-###  isInitializingPayment
+### isInitializingPayment
 
-▸ **isInitializingPayment**(`methodId?`: undefined | string): *boolean*
+▸ **isInitializingPayment**(`methodId?`): `boolean`
 
 Checks whether a specific or any payment method is initializing.
 
 The method returns true if no ID is provided and at least one payment
 method is initializing.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId?` | undefined &#124; string | The identifier of the payment method to check. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId?` | `string` | The identifier of the payment method to check. |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the payment method is initializing, otherwise false.
 
 ___
 
-###  isInitializingShipping
+### isInitializingShipping
 
-▸ **isInitializingShipping**(`methodId?`: undefined | string): *boolean*
+▸ **isInitializingShipping**(`methodId?`): `boolean`
 
 Checks whether the shipping step of a checkout process is initializing.
 
@@ -301,162 +327,186 @@ If an identifier is provided, the method also checks whether the shipping
 step is initializing using a specific shipping method with the same
 identifier.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId?` | undefined &#124; string | The identifer of the initialization method to check. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId?` | `string` | The identifer of the initialization method to check. |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the shipping step is initializing, otherwise false.
 
 ___
 
-###  isLoadingBillingCountries
+### isLoadingBillingCountries
 
-▸ **isLoadingBillingCountries**(): *boolean*
+▸ **isLoadingBillingCountries**(): `boolean`
 
 Checks whether billing countries are loading.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if billing countries are loading, otherwise false.
 
 ___
 
-###  isLoadingCart
+### isLoadingCart
 
-▸ **isLoadingCart**(): *boolean*
+▸ **isLoadingCart**(): `boolean`
 
 Checks whether the current cart is loading.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the current cart is loading, otherwise false.
 
 ___
 
-###  isLoadingCheckout
+### isLoadingCheckout
 
-▸ **isLoadingCheckout**(): *boolean*
+▸ **isLoadingCheckout**(): `boolean`
 
 Checks whether the current checkout is loading.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the current checkout is loading, otherwise false.
 
 ___
 
-###  isLoadingConfig
+### isLoadingConfig
 
-▸ **isLoadingConfig**(): *boolean*
+▸ **isLoadingConfig**(): `boolean`
 
 Checks whether the checkout configuration of a store is loading.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the configuration is loading, otherwise false.
 
 ___
 
-###  isLoadingInstruments
+### isLoadingInstruments
 
-▸ **isLoadingInstruments**(): *boolean*
+▸ **isLoadingInstruments**(): `boolean`
 
 Checks whether the current customer's payment instruments are loading.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if payment instruments are loading, otherwise false.
 
 ___
 
-###  isLoadingOrder
+### isLoadingOrder
 
-▸ **isLoadingOrder**(): *boolean*
+▸ **isLoadingOrder**(): `boolean`
 
 Checks whether the current order is loading.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the current order is loading, otherwise false.
 
 ___
 
-###  isLoadingPaymentMethod
+### isLoadingPaymentMethod
 
-▸ **isLoadingPaymentMethod**(`methodId?`: undefined | string): *boolean*
+▸ **isLoadingPaymentMethod**(`methodId?`): `boolean`
 
 Checks whether a specific or any payment method is loading.
 
 The method returns true if no ID is provided and at least one payment
 method is loading.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId?` | undefined &#124; string | The identifier of the payment method to check. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId?` | `string` | The identifier of the payment method to check. |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the payment method is loading, otherwise false.
 
 ___
 
-###  isLoadingPaymentMethods
+### isLoadingPaymentMethods
 
-▸ **isLoadingPaymentMethods**(): *boolean*
+▸ **isLoadingPaymentMethods**(): `boolean`
 
 Checks whether payment methods are loading.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if payment methods are loading, otherwise false.
 
 ___
 
-###  isLoadingPickupOptions
+### isLoadingPickupOptions
 
-▸ **isLoadingPickupOptions**(): *boolean*
+▸ **isLoadingPickupOptions**(): `boolean`
 
 Checks whether pickup options are loading.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if pickup options are loading, otherwise false.
 
 ___
 
-###  isLoadingShippingCountries
+### isLoadingShippingCountries
 
-▸ **isLoadingShippingCountries**(): *boolean*
+▸ **isLoadingShippingCountries**(): `boolean`
 
 Checks whether shipping countries are loading.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if shipping countries are loading, otherwise false.
 
 ___
 
-###  isLoadingShippingOptions
+### isLoadingShippingOptions
 
-▸ **isLoadingShippingOptions**(): *boolean*
+▸ **isLoadingShippingOptions**(): `boolean`
 
 Checks whether shipping options are loading.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if shipping options are loading, otherwise false.
 
 ___
 
-###  isPaymentStepPending
+### isPaymentStepPending
 
-▸ **isPaymentStepPending**(): *boolean*
+▸ **isPaymentStepPending**(): `boolean`
 
 Checks whether the payment step of a checkout is in a pending state.
 
@@ -464,51 +514,59 @@ The payment step is considered to be pending if it is in the process of
 initializing, submitting an order, finalizing an order, and/or
 interacting with a payment widget.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the payment step is pending, otherwise false.
 
 ___
 
-###  isPending
+### isPending
 
-▸ **isPending**(): *boolean*
+▸ **isPending**(): `boolean`
 
 Checks whether any checkout action is pending.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if there is a pending action, otherwise false.
 
 ___
 
-###  isRemovingCoupon
+### isRemovingCoupon
 
-▸ **isRemovingCoupon**(): *boolean*
+▸ **isRemovingCoupon**(): `boolean`
 
 Checks whether the current customer is removing a coupon code.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if removing a coupon code, otherwise false.
 
 ___
 
-###  isRemovingGiftCertificate
+### isRemovingGiftCertificate
 
-▸ **isRemovingGiftCertificate**(): *boolean*
+▸ **isRemovingGiftCertificate**(): `boolean`
 
 Checks whether the current customer is removing a gift certificate.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if removing a gift certificate, otherwise false.
 
 ___
 
-###  isSelectingShippingOption
+### isSelectingShippingOption
 
-▸ **isSelectingShippingOption**(`consignmentId?`: undefined | string): *boolean*
+▸ **isSelectingShippingOption**(`consignmentId?`): `boolean`
 
 Checks whether a shipping option is being selected.
 
@@ -516,33 +574,37 @@ A consignment ID should be provided when checking if a shipping option
 is being selected for a specific consignment, otherwise it will check
 for all consignments.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignmentId?` | undefined &#124; string | The identifier of the consignment to be checked. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignmentId?` | `string` | The identifier of the consignment to be checked. |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if selecting a shipping option, otherwise false.
 
 ___
 
-###  isSendingSignInEmail
+### isSendingSignInEmail
 
-▸ **isSendingSignInEmail**(): *boolean*
+▸ **isSendingSignInEmail**(): `boolean`
 
 Checks whether a sign-in email is being sent.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if sending a sign-in email, otherwise false
 
 ___
 
-###  isShippingStepPending
+### isShippingStepPending
 
-▸ **isShippingStepPending**(): *boolean*
+▸ **isShippingStepPending**(): `boolean`
 
 Checks whether the shipping step of a checkout is in a pending state.
 
@@ -550,129 +612,147 @@ The shipping step is considered to be pending if it is in the process of
 initializing, updating address, selecting a shipping option, and/or
 interacting with a shipping widget.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the shipping step is pending, otherwise false.
 
 ___
 
-###  isSigningIn
+### isSigningIn
 
-▸ **isSigningIn**(`methodId?`: undefined | string): *boolean*
+▸ **isSigningIn**(`methodId?`): `boolean`
 
 Checks whether the current customer is signing in.
 
 If an ID is provided, the method also checks whether the customer is
 signing in using a specific customer method with the same ID.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId?` | undefined &#124; string | The identifier of the method used for signing in the current customer. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId?` | `string` | The identifier of the method used for signing in the current customer. |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the customer is signing in, otherwise false.
 
 ___
 
-###  isSigningOut
+### isSigningOut
 
-▸ **isSigningOut**(`methodId?`: undefined | string): *boolean*
+▸ **isSigningOut**(`methodId?`): `boolean`
 
 Checks whether the current customer is signing out.
 
 If an ID is provided, the method also checks whether the customer is
 signing out using a specific customer method with the same ID.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId?` | undefined &#124; string | The identifier of the method used for signing out the current customer. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId?` | `string` | The identifier of the method used for signing out the current customer. |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the customer is signing out, otherwise false.
 
 ___
 
-###  isSubmittingOrder
+### isSubmittingOrder
 
-▸ **isSubmittingOrder**(): *boolean*
+▸ **isSubmittingOrder**(): `boolean`
 
 Checks whether the current order is submitting.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the current order is submitting, otherwise false.
 
 ___
 
-###  isUpdatingBillingAddress
+### isUpdatingBillingAddress
 
-▸ **isUpdatingBillingAddress**(): *boolean*
+▸ **isUpdatingBillingAddress**(): `boolean`
 
 Checks whether the billing address is being updated.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if updating their billing address, otherwise false.
 
 ___
 
-###  isUpdatingCheckout
+### isUpdatingCheckout
 
-▸ **isUpdatingCheckout**(): *boolean*
+▸ **isUpdatingCheckout**(): `boolean`
 
 Checks whether the current checkout is being updated.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if the current checkout is being updated, otherwise false.
 
 ___
 
-###  isUpdatingConsignment
+### isUpdatingConsignment
 
-▸ **isUpdatingConsignment**(`consignmentId?`: undefined | string): *boolean*
+▸ **isUpdatingConsignment**(`consignmentId?`): `boolean`
 
 Checks whether a given/any consignment is being updated.
 
 A consignment ID should be provided when checking for a specific consignment,
 otherwise it will check for any consignment.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignmentId?` | undefined &#124; string | The identifier of the consignment to be checked. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignmentId?` | `string` | The identifier of the consignment to be checked. |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if updating consignment(s), otherwise false.
 
 ___
 
-###  isUpdatingShippingAddress
+### isUpdatingShippingAddress
 
-▸ **isUpdatingShippingAddress**(): *boolean*
+▸ **isUpdatingShippingAddress**(): `boolean`
 
 Checks the shipping address is being updated.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if updating their shipping address, otherwise false.
 
 ___
 
-###  isUpdatingSubscriptions
+### isUpdatingSubscriptions
 
-▸ **isUpdatingSubscriptions**(): *boolean*
+▸ **isUpdatingSubscriptions**(): `boolean`
 
 Checks whether the subscriptions are being updated.
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if updating subscriptions, otherwise false.

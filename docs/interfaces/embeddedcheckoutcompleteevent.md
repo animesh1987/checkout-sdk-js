@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [EmbeddedCheckoutCompleteEvent](embeddedcheckoutcompleteevent.md)
+[@bigcommerce/checkout-sdk](../README.md) / EmbeddedCheckoutCompleteEvent
 
 # Interface: EmbeddedCheckoutCompleteEvent
 
-## Hierarchy
-
-* **EmbeddedCheckoutCompleteEvent**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [type](embeddedcheckoutcompleteevent.md#type)
+- [type](EmbeddedCheckoutCompleteEvent.md#type)
 
 ## Properties
 
-###  type
+### type
 
-• **type**: *[CheckoutComplete](../enums/embeddedcheckouteventtype.md#checkoutcomplete)*
+• **type**: [`CheckoutComplete`](../enums/EmbeddedCheckoutEventType.md#checkoutcomplete)

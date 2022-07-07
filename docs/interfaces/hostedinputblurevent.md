@@ -1,30 +1,28 @@
-[@bigcommerce/checkout-sdk](../README.md) › [HostedInputBlurEvent](hostedinputblurevent.md)
+[@bigcommerce/checkout-sdk](../README.md) / HostedInputBlurEvent
 
 # Interface: HostedInputBlurEvent
 
-## Hierarchy
-
-* **HostedInputBlurEvent**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [payload](hostedinputblurevent.md#payload)
-* [type](hostedinputblurevent.md#type)
+- [payload](HostedInputBlurEvent.md#payload)
+- [type](HostedInputBlurEvent.md#type)
 
 ## Properties
 
-###  payload
+### payload
 
-• **payload**: *object*
+• **payload**: `Object`
 
-#### Type declaration:
+#### Type declaration
 
-* **fieldType**: *[HostedFieldType](../enums/hostedfieldtype.md)*
+| Name | Type |
+| :------ | :------ |
+| `fieldType` | [`HostedFieldType`](../enums/HostedFieldType.md) |
 
 ___
 
-###  type
+### type
 
-• **type**: *[Blurred](../enums/hostedinputeventtype.md#blurred)*
+• **type**: [`Blurred`](../enums/HostedInputEventType.md#blurred)

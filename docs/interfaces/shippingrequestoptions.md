@@ -1,6 +1,6 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ShippingRequestOptions](shippingrequestoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / ShippingRequestOptions
 
-# Interface: ShippingRequestOptions ‹**T**›
+# Interface: ShippingRequestOptions<T\>
 
 A set of options for configuring any requests related to the shipping step of
 the current checkout flow.
@@ -12,48 +12,54 @@ options are not required.
 
 ## Type parameters
 
-▪ **T**
+| Name | Type |
+| :------ | :------ |
+| `T` | {} |
 
 ## Hierarchy
 
-* [RequestOptions](requestoptions.md)‹T›
+- [`RequestOptions`](RequestOptions.md)<`T`\>
 
-  ↳ **ShippingRequestOptions**
+  ↳ **`ShippingRequestOptions`**
 
-  ↳ [ShippingInitializeOptions](shippinginitializeoptions.md)
+  ↳↳ [`ShippingInitializeOptions`](ShippingInitializeOptions.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [methodId](shippingrequestoptions.md#optional-methodid)
-* [params](shippingrequestoptions.md#optional-params)
-* [timeout](shippingrequestoptions.md#optional-timeout)
+- [methodId](ShippingRequestOptions.md#methodid)
+- [params](ShippingRequestOptions.md#params)
+- [timeout](ShippingRequestOptions.md#timeout)
 
 ## Properties
 
-### `Optional` methodId
+### methodId
 
-• **methodId**? : *undefined | string*
+• `Optional` **methodId**: `string`
 
 ___
 
-### `Optional` params
+### params
 
-• **params**? : *TParams*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[params](checkoutbuttoninitializeoptions.md#optional-params)*
+• `Optional` **params**: `T`
 
 The parameters of the request, if required.
 
+#### Inherited from
+
+[RequestOptions](RequestOptions.md).[params](RequestOptions.md#params)
+
 ___
 
-### `Optional` timeout
+### timeout
 
-• **timeout**? : *Timeout*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[timeout](checkoutbuttoninitializeoptions.md#optional-timeout)*
+• `Optional` **timeout**: `default`
 
 Provide this option if you want to cancel or time out the request. If the
 timeout object completes before the request, the request will be
 cancelled.
+
+#### Inherited from
+
+[RequestOptions](RequestOptions.md).[timeout](RequestOptions.md#timeout)

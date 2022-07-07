@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalExpressPaymentInitializeOptions](paypalexpresspaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalExpressPaymentInitializeOptions
 
 # Interface: PaypalExpressPaymentInitializeOptions
 
@@ -23,18 +23,14 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **PaypalExpressPaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [useRedirectFlow](paypalexpresspaymentinitializeoptions.md#optional-useredirectflow)
+- [useRedirectFlow](PaypalExpressPaymentInitializeOptions.md#useredirectflow)
 
 ## Properties
 
-### `Optional` useRedirectFlow
+### useRedirectFlow
 
-• **useRedirectFlow**? : *undefined | false | true*
+• `Optional` **useRedirectFlow**: `boolean`

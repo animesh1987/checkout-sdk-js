@@ -1,33 +1,29 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceFormFieldStylesMap](paypalcommerceformfieldstylesmap.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceFormFieldStylesMap
 
 # Interface: PaypalCommerceFormFieldStylesMap
 
-## Hierarchy
-
-* **PaypalCommerceFormFieldStylesMap**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [default](paypalcommerceformfieldstylesmap.md#optional-default)
-* [error](paypalcommerceformfieldstylesmap.md#optional-error)
-* [focus](paypalcommerceformfieldstylesmap.md#optional-focus)
+- [default](PaypalCommerceFormFieldStylesMap.md#default)
+- [error](PaypalCommerceFormFieldStylesMap.md#error)
+- [focus](PaypalCommerceFormFieldStylesMap.md#focus)
 
 ## Properties
 
-### `Optional` default
+### default
 
-• **default**? : *[PaypalCommerceFormFieldStyles](../README.md#paypalcommerceformfieldstyles)*
-
-___
-
-### `Optional` error
-
-• **error**? : *[PaypalCommerceFormFieldStyles](../README.md#paypalcommerceformfieldstyles)*
+• `Optional` **default**: `Partial`<`Pick`<`CSSStyleDeclaration`, ``"color"`` \| ``"fontFamily"`` \| ``"fontSize"`` \| ``"fontWeight"``\>\>
 
 ___
 
-### `Optional` focus
+### error
 
-• **focus**? : *[PaypalCommerceFormFieldStyles](../README.md#paypalcommerceformfieldstyles)*
+• `Optional` **error**: `Partial`<`Pick`<`CSSStyleDeclaration`, ``"color"`` \| ``"fontFamily"`` \| ``"fontSize"`` \| ``"fontWeight"``\>\>
+
+___
+
+### focus
+
+• `Optional` **focus**: `Partial`<`Pick`<`CSSStyleDeclaration`, ``"color"`` \| ``"fontFamily"`` \| ``"fontSize"`` \| ``"fontWeight"``\>\>

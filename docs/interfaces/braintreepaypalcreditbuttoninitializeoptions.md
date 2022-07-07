@@ -1,85 +1,87 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreePaypalCreditButtonInitializeOptions](braintreepaypalcreditbuttoninitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreePaypalCreditButtonInitializeOptions
 
 # Interface: BraintreePaypalCreditButtonInitializeOptions
 
-## Hierarchy
-
-* **BraintreePaypalCreditButtonInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [shippingAddress](braintreepaypalcreditbuttoninitializeoptions.md#optional-shippingaddress)
-* [style](braintreepaypalcreditbuttoninitializeoptions.md#optional-style)
+- [shippingAddress](BraintreePaypalCreditButtonInitializeOptions.md#shippingaddress)
+- [style](BraintreePaypalCreditButtonInitializeOptions.md#style)
 
 ### Methods
 
-* [onAuthorizeError](braintreepaypalcreditbuttoninitializeoptions.md#optional-onauthorizeerror)
-* [onError](braintreepaypalcreditbuttoninitializeoptions.md#optional-onerror)
-* [onPaymentError](braintreepaypalcreditbuttoninitializeoptions.md#optional-onpaymenterror)
+- [onAuthorizeError](BraintreePaypalCreditButtonInitializeOptions.md#onauthorizeerror)
+- [onError](BraintreePaypalCreditButtonInitializeOptions.md#onerror)
+- [onPaymentError](BraintreePaypalCreditButtonInitializeOptions.md#onpaymenterror)
 
 ## Properties
 
-### `Optional` shippingAddress
+### shippingAddress
 
-• **shippingAddress**? : *[Address](address.md) | null*
+• `Optional` **shippingAddress**: ``null`` \| [`Address`](Address.md)
 
 Address to be used for shipping.
 If not provided, it will use the first saved address from the active customer.
 
 ___
 
-### `Optional` style
+### style
 
-• **style**? : *Pick‹[PaypalButtonStyleOptions](paypalbuttonstyleoptions.md), "layout" | "size" | "color" | "label" | "shape" | "tagline" | "fundingicons" | "height"›*
+• `Optional` **style**: `Pick`<[`PaypalButtonStyleOptions`](PaypalButtonStyleOptions.md), ``"color"`` \| ``"layout"`` \| ``"size"`` \| ``"label"`` \| ``"shape"`` \| ``"tagline"`` \| ``"fundingicons"`` \| ``"height"``\>
 
 A set of styling options for the checkout button.
 
 ## Methods
 
-### `Optional` onAuthorizeError
+### onAuthorizeError
 
-▸ **onAuthorizeError**(`error`: [BraintreeError](braintreeerror.md) | [StandardError](../classes/standarderror.md)): *void*
+▸ `Optional` **onAuthorizeError**(`error`): `void`
 
 A callback that gets called if unable to authorize and tokenize payment.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [BraintreeError](braintreeerror.md) &#124; [StandardError](../classes/standarderror.md) | The error object describing the failure.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | [`StandardError`](../classes/StandardError.md) \| [`BraintreeError`](BraintreeError.md) | The error object describing the failure. |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`error`: [BraintreeError](braintreeerror.md) | [StandardError](../classes/standarderror.md)): *void*
+▸ `Optional` **onError**(`error`): `void`
 
 A callback that gets called on any error instead of submit payment or authorization errors.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [BraintreeError](braintreeerror.md) &#124; [StandardError](../classes/standarderror.md) | The error object describing the failure.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | [`StandardError`](../classes/StandardError.md) \| [`BraintreeError`](BraintreeError.md) | The error object describing the failure. |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onPaymentError
+### onPaymentError
 
-▸ **onPaymentError**(`error`: [BraintreeError](braintreeerror.md) | [StandardError](../classes/standarderror.md)): *void*
+▸ `Optional` **onPaymentError**(`error`): `void`
 
 A callback that gets called if unable to submit payment.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [BraintreeError](braintreeerror.md) &#124; [StandardError](../classes/standarderror.md) | The error object describing the failure.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | [`StandardError`](../classes/StandardError.md) \| [`BraintreeError`](BraintreeError.md) | The error object describing the failure. |
 
-**Returns:** *void*
+#### Returns
+
+`void`

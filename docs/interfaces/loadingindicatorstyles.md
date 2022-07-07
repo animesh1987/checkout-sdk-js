@@ -1,33 +1,29 @@
-[@bigcommerce/checkout-sdk](../README.md) › [LoadingIndicatorStyles](loadingindicatorstyles.md)
+[@bigcommerce/checkout-sdk](../README.md) / LoadingIndicatorStyles
 
 # Interface: LoadingIndicatorStyles
 
-## Hierarchy
-
-* **LoadingIndicatorStyles**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [backgroundColor](loadingindicatorstyles.md#optional-backgroundcolor)
-* [color](loadingindicatorstyles.md#optional-color)
-* [size](loadingindicatorstyles.md#optional-size)
+- [backgroundColor](LoadingIndicatorStyles.md#backgroundcolor)
+- [color](LoadingIndicatorStyles.md#color)
+- [size](LoadingIndicatorStyles.md#size)
 
 ## Properties
 
-### `Optional` backgroundColor
+### backgroundColor
 
-• **backgroundColor**? : *undefined | string*
-
-___
-
-### `Optional` color
-
-• **color**? : *undefined | string*
+• `Optional` **backgroundColor**: `string`
 
 ___
 
-### `Optional` size
+### color
 
-• **size**? : *undefined | number*
+• `Optional` **color**: `string`
+
+___
+
+### size
+
+• `Optional` **size**: `number`

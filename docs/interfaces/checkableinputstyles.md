@@ -1,147 +1,175 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CheckableInputStyles](checkableinputstyles.md)
+[@bigcommerce/checkout-sdk](../README.md) / CheckableInputStyles
 
 # Interface: CheckableInputStyles
 
 ## Hierarchy
 
-  ↳ [InputStyles](inputstyles.md)
+- [`InputStyles`](InputStyles.md)
 
-  ↳ **CheckableInputStyles**
+  ↳ **`CheckableInputStyles`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [active](checkableinputstyles.md#optional-active)
-* [backgroundColor](checkableinputstyles.md#optional-backgroundcolor)
-* [borderColor](checkableinputstyles.md#optional-bordercolor)
-* [borderWidth](checkableinputstyles.md#optional-borderwidth)
-* [boxShadow](checkableinputstyles.md#optional-boxshadow)
-* [checked](checkableinputstyles.md#optional-checked)
-* [color](checkableinputstyles.md#optional-color)
-* [disabled](checkableinputstyles.md#optional-disabled)
-* [error](checkableinputstyles.md#optional-error)
-* [focus](checkableinputstyles.md#optional-focus)
-* [fontFamily](checkableinputstyles.md#optional-fontfamily)
-* [fontWeight](checkableinputstyles.md#optional-fontweight)
-* [hover](checkableinputstyles.md#optional-hover)
-* [letterSpacing](checkableinputstyles.md#optional-letterspacing)
-* [lineHeight](checkableinputstyles.md#optional-lineheight)
+- [active](CheckableInputStyles.md#active)
+- [backgroundColor](CheckableInputStyles.md#backgroundcolor)
+- [borderColor](CheckableInputStyles.md#bordercolor)
+- [borderWidth](CheckableInputStyles.md#borderwidth)
+- [boxShadow](CheckableInputStyles.md#boxshadow)
+- [checked](CheckableInputStyles.md#checked)
+- [color](CheckableInputStyles.md#color)
+- [disabled](CheckableInputStyles.md#disabled)
+- [error](CheckableInputStyles.md#error)
+- [focus](CheckableInputStyles.md#focus)
+- [fontFamily](CheckableInputStyles.md#fontfamily)
+- [fontWeight](CheckableInputStyles.md#fontweight)
+- [hover](CheckableInputStyles.md#hover)
+- [letterSpacing](CheckableInputStyles.md#letterspacing)
+- [lineHeight](CheckableInputStyles.md#lineheight)
 
 ## Properties
 
-### `Optional` active
+### active
 
-• **active**? : *[BlockElementStyles](blockelementstyles.md)*
+• `Optional` **active**: [`BlockElementStyles`](BlockElementStyles.md)
 
-*Inherited from [CheckableInputStyles](checkableinputstyles.md).[active](checkableinputstyles.md#optional-active)*
+#### Inherited from
 
-___
-
-### `Optional` backgroundColor
-
-• **backgroundColor**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[backgroundColor](blockelementstyles.md#optional-backgroundcolor)*
+[InputStyles](InputStyles.md).[active](InputStyles.md#active)
 
 ___
 
-### `Optional` borderColor
+### backgroundColor
 
-• **borderColor**? : *undefined | string*
+• `Optional` **backgroundColor**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[borderColor](blockelementstyles.md#optional-bordercolor)*
+#### Inherited from
 
-___
-
-### `Optional` borderWidth
-
-• **borderWidth**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[borderWidth](blockelementstyles.md#optional-borderwidth)*
+[InputStyles](InputStyles.md).[backgroundColor](InputStyles.md#backgroundcolor)
 
 ___
 
-### `Optional` boxShadow
+### borderColor
 
-• **boxShadow**? : *undefined | string*
+• `Optional` **borderColor**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[boxShadow](blockelementstyles.md#optional-boxshadow)*
+#### Inherited from
 
-___
-
-### `Optional` checked
-
-• **checked**? : *[BlockElementStyles](blockelementstyles.md)*
+[InputStyles](InputStyles.md).[borderColor](InputStyles.md#bordercolor)
 
 ___
 
-### `Optional` color
+### borderWidth
 
-• **color**? : *undefined | string*
+• `Optional` **borderWidth**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[color](blockelementstyles.md#optional-color)*
+#### Inherited from
 
-___
-
-### `Optional` disabled
-
-• **disabled**? : *[BlockElementStyles](blockelementstyles.md)*
-
-*Inherited from [CheckableInputStyles](checkableinputstyles.md).[disabled](checkableinputstyles.md#optional-disabled)*
+[InputStyles](InputStyles.md).[borderWidth](InputStyles.md#borderwidth)
 
 ___
 
-### `Optional` error
+### boxShadow
 
-• **error**? : *[InputStyles](inputstyles.md)*
+• `Optional` **boxShadow**: `string`
 
-*Overrides [InputStyles](inputstyles.md).[error](inputstyles.md#optional-error)*
+#### Inherited from
 
-___
-
-### `Optional` focus
-
-• **focus**? : *[BlockElementStyles](blockelementstyles.md)*
-
-*Inherited from [CheckableInputStyles](checkableinputstyles.md).[focus](checkableinputstyles.md#optional-focus)*
+[InputStyles](InputStyles.md).[boxShadow](InputStyles.md#boxshadow)
 
 ___
 
-### `Optional` fontFamily
+### checked
 
-• **fontFamily**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[fontFamily](blockelementstyles.md#optional-fontfamily)*
+• `Optional` **checked**: [`BlockElementStyles`](BlockElementStyles.md)
 
 ___
 
-### `Optional` fontWeight
+### color
 
-• **fontWeight**? : *undefined | string*
+• `Optional` **color**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[fontWeight](blockelementstyles.md#optional-fontweight)*
+#### Inherited from
 
-___
-
-### `Optional` hover
-
-• **hover**? : *[BlockElementStyles](blockelementstyles.md)*
-
-*Inherited from [CheckableInputStyles](checkableinputstyles.md).[hover](checkableinputstyles.md#optional-hover)*
+[InputStyles](InputStyles.md).[color](InputStyles.md#color)
 
 ___
 
-### `Optional` letterSpacing
+### disabled
 
-• **letterSpacing**? : *undefined | string*
+• `Optional` **disabled**: [`BlockElementStyles`](BlockElementStyles.md)
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[letterSpacing](blockelementstyles.md#optional-letterspacing)*
+#### Inherited from
+
+[InputStyles](InputStyles.md).[disabled](InputStyles.md#disabled)
 
 ___
 
-### `Optional` lineHeight
+### error
 
-• **lineHeight**? : *undefined | string*
+• `Optional` **error**: [`InputStyles`](InputStyles.md)
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[lineHeight](blockelementstyles.md#optional-lineheight)*
+#### Overrides
+
+[InputStyles](InputStyles.md).[error](InputStyles.md#error)
+
+___
+
+### focus
+
+• `Optional` **focus**: [`BlockElementStyles`](BlockElementStyles.md)
+
+#### Inherited from
+
+[InputStyles](InputStyles.md).[focus](InputStyles.md#focus)
+
+___
+
+### fontFamily
+
+• `Optional` **fontFamily**: `string`
+
+#### Inherited from
+
+[InputStyles](InputStyles.md).[fontFamily](InputStyles.md#fontfamily)
+
+___
+
+### fontWeight
+
+• `Optional` **fontWeight**: `string`
+
+#### Inherited from
+
+[InputStyles](InputStyles.md).[fontWeight](InputStyles.md#fontweight)
+
+___
+
+### hover
+
+• `Optional` **hover**: [`BlockElementStyles`](BlockElementStyles.md)
+
+#### Inherited from
+
+[InputStyles](InputStyles.md).[hover](InputStyles.md#hover)
+
+___
+
+### letterSpacing
+
+• `Optional` **letterSpacing**: `string`
+
+#### Inherited from
+
+[InputStyles](InputStyles.md).[letterSpacing](InputStyles.md#letterspacing)
+
+___
+
+### lineHeight
+
+• `Optional` **lineHeight**: `string`
+
+#### Inherited from
+
+[InputStyles](InputStyles.md).[lineHeight](InputStyles.md#lineheight)

@@ -1,6 +1,6 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ExecutePaymentMethodCheckoutOptions](executepaymentmethodcheckoutoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / ExecutePaymentMethodCheckoutOptions
 
-# Interface: ExecutePaymentMethodCheckoutOptions ‹**TParams**›
+# Interface: ExecutePaymentMethodCheckoutOptions
 
 A set of options that are required to pass the customer step of the
 current checkout flow.
@@ -11,62 +11,66 @@ their custom checkout with prefilled form values. As a result, you
 may need to provide additional information, error handler or callback
 to execution method.
 
-## Type parameters
-
-▪ **TParams**
-
 ## Hierarchy
 
-  ↳ [CustomerRequestOptions](customerrequestoptions.md)
+- [`CustomerRequestOptions`](CustomerRequestOptions.md)
 
-  ↳ **ExecutePaymentMethodCheckoutOptions**
+  ↳ **`ExecutePaymentMethodCheckoutOptions`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [methodId](executepaymentmethodcheckoutoptions.md#optional-methodid)
-* [params](executepaymentmethodcheckoutoptions.md#optional-params)
-* [timeout](executepaymentmethodcheckoutoptions.md#optional-timeout)
+- [methodId](ExecutePaymentMethodCheckoutOptions.md#methodid)
+- [params](ExecutePaymentMethodCheckoutOptions.md#params)
+- [timeout](ExecutePaymentMethodCheckoutOptions.md#timeout)
 
 ### Methods
 
-* [continueWithCheckoutCallback](executepaymentmethodcheckoutoptions.md#optional-continuewithcheckoutcallback)
+- [continueWithCheckoutCallback](ExecutePaymentMethodCheckoutOptions.md#continuewithcheckoutcallback)
 
 ## Properties
 
-### `Optional` methodId
+### methodId
 
-• **methodId**? : *undefined | string*
+• `Optional` **methodId**: `string`
 
-*Inherited from [CustomerInitializeOptions](customerinitializeoptions.md).[methodId](customerinitializeoptions.md#optional-methodid)*
+#### Inherited from
+
+[CustomerRequestOptions](CustomerRequestOptions.md).[methodId](CustomerRequestOptions.md#methodid)
 
 ___
 
-### `Optional` params
+### params
 
-• **params**? : *TParams*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[params](checkoutbuttoninitializeoptions.md#optional-params)*
+• `Optional` **params**: `Object`
 
 The parameters of the request, if required.
 
+#### Inherited from
+
+[CustomerRequestOptions](CustomerRequestOptions.md).[params](CustomerRequestOptions.md#params)
+
 ___
 
-### `Optional` timeout
+### timeout
 
-• **timeout**? : *Timeout*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[timeout](checkoutbuttoninitializeoptions.md#optional-timeout)*
+• `Optional` **timeout**: `default`
 
 Provide this option if you want to cancel or time out the request. If the
 timeout object completes before the request, the request will be
 cancelled.
 
+#### Inherited from
+
+[CustomerRequestOptions](CustomerRequestOptions.md).[timeout](CustomerRequestOptions.md#timeout)
+
 ## Methods
 
-### `Optional` continueWithCheckoutCallback
+### continueWithCheckoutCallback
 
-▸ **continueWithCheckoutCallback**(): *void*
+▸ `Optional` **continueWithCheckoutCallback**(): `void`
 
-**Returns:** *void*
+#### Returns
+
+`void`

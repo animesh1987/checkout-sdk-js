@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [SearchArea](searcharea.md)
+[@bigcommerce/checkout-sdk](../README.md) / SearchArea
 
 # Interface: SearchArea
 
-## Hierarchy
-
-* **SearchArea**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [coordinates](searcharea.md#coordinates)
-* [radius](searcharea.md#radius)
+- [coordinates](SearchArea.md#coordinates)
+- [radius](SearchArea.md#radius)
 
 ## Properties
 
-###  coordinates
+### coordinates
 
-• **coordinates**: *[Coordinates](coordinates.md)*
+• **coordinates**: [`Coordinates`](Coordinates.md)
 
 ___
 
-###  radius
+### radius
 
-• **radius**: *[Radius](radius.md)*
+• **radius**: [`Radius`](Radius.md)

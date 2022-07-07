@@ -1,98 +1,112 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BankInstrument](bankinstrument.md)
+[@bigcommerce/checkout-sdk](../README.md) / BankInstrument
 
 # Interface: BankInstrument
 
 ## Hierarchy
 
-  ↳ [BaseAccountInstrument](baseaccountinstrument.md)
+- [`BaseAccountInstrument`](BaseAccountInstrument.md)
 
-  ↳ **BankInstrument**
+  ↳ **`BankInstrument`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [accountNumber](bankinstrument.md#accountnumber)
-* [bigpayToken](bankinstrument.md#bigpaytoken)
-* [defaultInstrument](bankinstrument.md#defaultinstrument)
-* [externalId](bankinstrument.md#externalid)
-* [iban](bankinstrument.md#iban)
-* [issuer](bankinstrument.md#issuer)
-* [method](bankinstrument.md#method)
-* [provider](bankinstrument.md#provider)
-* [trustedShippingAddress](bankinstrument.md#trustedshippingaddress)
-* [type](bankinstrument.md#type)
+- [accountNumber](BankInstrument.md#accountnumber)
+- [bigpayToken](BankInstrument.md#bigpaytoken)
+- [defaultInstrument](BankInstrument.md#defaultinstrument)
+- [externalId](BankInstrument.md#externalid)
+- [iban](BankInstrument.md#iban)
+- [issuer](BankInstrument.md#issuer)
+- [method](BankInstrument.md#method)
+- [provider](BankInstrument.md#provider)
+- [trustedShippingAddress](BankInstrument.md#trustedshippingaddress)
+- [type](BankInstrument.md#type)
 
 ## Properties
 
-###  accountNumber
+### accountNumber
 
-• **accountNumber**: *string*
-
-___
-
-###  bigpayToken
-
-• **bigpayToken**: *string*
-
-*Inherited from [BankInstrument](bankinstrument.md).[bigpayToken](bankinstrument.md#bigpaytoken)*
+• **accountNumber**: `string`
 
 ___
 
-###  defaultInstrument
+### bigpayToken
 
-• **defaultInstrument**: *boolean*
+• **bigpayToken**: `string`
 
-*Inherited from [BankInstrument](bankinstrument.md).[defaultInstrument](bankinstrument.md#defaultinstrument)*
+#### Inherited from
 
-___
-
-###  externalId
-
-• **externalId**: *string*
-
-*Inherited from [BankInstrument](bankinstrument.md).[externalId](bankinstrument.md#externalid)*
+[BaseAccountInstrument](BaseAccountInstrument.md).[bigpayToken](BaseAccountInstrument.md#bigpaytoken)
 
 ___
 
-###  iban
+### defaultInstrument
 
-• **iban**: *string*
+• **defaultInstrument**: `boolean`
 
-___
+#### Inherited from
 
-###  issuer
-
-• **issuer**: *string*
+[BaseAccountInstrument](BaseAccountInstrument.md).[defaultInstrument](BaseAccountInstrument.md#defaultinstrument)
 
 ___
 
-###  method
+### externalId
 
-• **method**: *string*
+• **externalId**: `string`
 
-*Overrides [BaseAccountInstrument](baseaccountinstrument.md).[method](baseaccountinstrument.md#method)*
+#### Inherited from
 
-___
-
-###  provider
-
-• **provider**: *string*
-
-*Inherited from [BankInstrument](bankinstrument.md).[provider](bankinstrument.md#provider)*
+[BaseAccountInstrument](BaseAccountInstrument.md).[externalId](BaseAccountInstrument.md#externalid)
 
 ___
 
-###  trustedShippingAddress
+### iban
 
-• **trustedShippingAddress**: *boolean*
-
-*Inherited from [BankInstrument](bankinstrument.md).[trustedShippingAddress](bankinstrument.md#trustedshippingaddress)*
+• **iban**: `string`
 
 ___
 
-###  type
+### issuer
 
-• **type**: *"bank"*
+• **issuer**: `string`
 
-*Overrides [BaseAccountInstrument](baseaccountinstrument.md).[type](baseaccountinstrument.md#type)*
+___
+
+### method
+
+• **method**: `string`
+
+#### Overrides
+
+[BaseAccountInstrument](BaseAccountInstrument.md).[method](BaseAccountInstrument.md#method)
+
+___
+
+### provider
+
+• **provider**: `string`
+
+#### Inherited from
+
+[BaseAccountInstrument](BaseAccountInstrument.md).[provider](BaseAccountInstrument.md#provider)
+
+___
+
+### trustedShippingAddress
+
+• **trustedShippingAddress**: `boolean`
+
+#### Inherited from
+
+[BaseAccountInstrument](BaseAccountInstrument.md).[trustedShippingAddress](BaseAccountInstrument.md#trustedshippingaddress)
+
+___
+
+### type
+
+• **type**: ``"bank"``
+
+#### Overrides
+
+[BaseAccountInstrument](BaseAccountInstrument.md).[type](BaseAccountInstrument.md#type)

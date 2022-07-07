@@ -1,40 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [LineItemOption](lineitemoption.md)
+[@bigcommerce/checkout-sdk](../README.md) / LineItemOption
 
 # Interface: LineItemOption
 
-## Hierarchy
-
-* **LineItemOption**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [name](lineitemoption.md#name)
-* [nameId](lineitemoption.md#nameid)
-* [value](lineitemoption.md#value)
-* [valueId](lineitemoption.md#valueid)
+- [name](LineItemOption.md#name)
+- [nameId](LineItemOption.md#nameid)
+- [value](LineItemOption.md#value)
+- [valueId](LineItemOption.md#valueid)
 
 ## Properties
 
-###  name
+### name
 
-• **name**: *string*
-
-___
-
-###  nameId
-
-• **nameId**: *number*
+• **name**: `string`
 
 ___
 
-###  value
+### nameId
 
-• **value**: *string*
+• **nameId**: `number`
 
 ___
 
-###  valueId
+### value
 
-• **valueId**: *number | null*
+• **value**: `string`
+
+___
+
+### valueId
+
+• **valueId**: ``null`` \| `number`

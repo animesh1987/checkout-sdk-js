@@ -1,76 +1,82 @@
-[@bigcommerce/checkout-sdk](../README.md) › [IbanElementOptions](ibanelementoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / IbanElementOptions
 
 # Interface: IbanElementOptions
 
 ## Hierarchy
 
-* [BaseElementOptions_2](baseelementoptions_2.md)
+- [`BaseElementOptions_2`](BaseElementOptions_2.md)
 
-  ↳ **IbanElementOptions**
+  ↳ **`IbanElementOptions`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [classes](ibanelementoptions.md#optional-classes)
-* [disabled](ibanelementoptions.md#optional-disabled)
-* [iconStyle](ibanelementoptions.md#optional-iconstyle)
-* [placeholderCountry](ibanelementoptions.md#optional-placeholdercountry)
-* [style](ibanelementoptions.md#optional-style)
-* [supportedCountries](ibanelementoptions.md#optional-supportedcountries)
+- [classes](IbanElementOptions.md#classes)
+- [disabled](IbanElementOptions.md#disabled)
+- [iconStyle](IbanElementOptions.md#iconstyle)
+- [placeholderCountry](IbanElementOptions.md#placeholdercountry)
+- [style](IbanElementOptions.md#style)
+- [supportedCountries](IbanElementOptions.md#supportedcountries)
 
 ## Properties
 
-### `Optional` classes
+### classes
 
-• **classes**? : *[StripeElementClasses](stripeelementclasses.md)*
-
-*Inherited from [BaseElementOptions_2](baseelementoptions_2.md).[classes](baseelementoptions_2.md#optional-classes)*
+• `Optional` **classes**: [`StripeElementClasses`](StripeElementClasses.md)
 
 Set custom class names on the container DOM element when the Stripe element is in a particular state.
 
+#### Inherited from
+
+[BaseElementOptions_2](BaseElementOptions_2.md).[classes](BaseElementOptions_2.md#classes)
+
 ___
 
-### `Optional` disabled
+### disabled
 
-• **disabled**? : *undefined | false | true*
-
-*Inherited from [BaseElementOptions_2](baseelementoptions_2.md).[disabled](baseelementoptions_2.md#optional-disabled)*
+• `Optional` **disabled**: `boolean`
 
 Applies a disabled state to the Element such that user input is not accepted. Default is false.
 
+#### Inherited from
+
+[BaseElementOptions_2](BaseElementOptions_2.md).[disabled](BaseElementOptions_2.md#disabled)
+
 ___
 
-### `Optional` iconStyle
+### iconStyle
 
-• **iconStyle**? : *[IconStyle](../enums/iconstyle.md)*
+• `Optional` **iconStyle**: [`Solid`](../enums/IconStyle.md#solid) \| [`Default`](../enums/IconStyle.md#default)
 
 Appearance of the icon in the Element.
 
 ___
 
-### `Optional` placeholderCountry
+### placeholderCountry
 
-• **placeholderCountry**? : *undefined | string*
+• `Optional` **placeholderCountry**: `string`
 
 Customize the country and format of the placeholder IBAN. Default is DE.
 
 ___
 
-### `Optional` style
+### style
 
-• **style**? : *[StripeElementStyle](stripeelementstyle.md)*
-
-*Inherited from [BaseElementOptions_2](baseelementoptions_2.md).[style](baseelementoptions_2.md#optional-style)*
+• `Optional` **style**: [`StripeElementStyle`](StripeElementStyle.md)
 
 Customize the appearance of an element using CSS properties passed in a [Style](https://stripe.com/docs/js/appendix/style) object,
 which consists of CSS properties nested under objects for each variant.
 
+#### Inherited from
+
+[BaseElementOptions_2](BaseElementOptions_2.md).[style](BaseElementOptions_2.md#style)
+
 ___
 
-### `Optional` supportedCountries
+### supportedCountries
 
-• **supportedCountries**? : *string[]*
+• `Optional` **supportedCountries**: `string`[]
 
 Specify the list of countries or country-groups whose IBANs you want to allow.
 Must be ['SEPA'].

@@ -1,75 +1,71 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AmazonPayV2ButtonParams](amazonpayv2buttonparams.md)
+[@bigcommerce/checkout-sdk](../README.md) / AmazonPayV2ButtonParams
 
 # Interface: AmazonPayV2ButtonParams
 
-## Hierarchy
-
-* **AmazonPayV2ButtonParams**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [checkoutLanguage](amazonpayv2buttonparams.md#optional-checkoutlanguage)
-* [createCheckoutSession](amazonpayv2buttonparams.md#createcheckoutsession)
-* [ledgerCurrency](amazonpayv2buttonparams.md#ledgercurrency)
-* [merchantId](amazonpayv2buttonparams.md#merchantid)
-* [placement](amazonpayv2buttonparams.md#placement)
-* [productType](amazonpayv2buttonparams.md#optional-producttype)
-* [sandbox](amazonpayv2buttonparams.md#optional-sandbox)
+- [checkoutLanguage](AmazonPayV2ButtonParams.md#checkoutlanguage)
+- [createCheckoutSession](AmazonPayV2ButtonParams.md#createcheckoutsession)
+- [ledgerCurrency](AmazonPayV2ButtonParams.md#ledgercurrency)
+- [merchantId](AmazonPayV2ButtonParams.md#merchantid)
+- [placement](AmazonPayV2ButtonParams.md#placement)
+- [productType](AmazonPayV2ButtonParams.md#producttype)
+- [sandbox](AmazonPayV2ButtonParams.md#sandbox)
 
 ## Properties
 
-### `Optional` checkoutLanguage
+### checkoutLanguage
 
-• **checkoutLanguage**? : *[AmazonPayV2CheckoutLanguage](../enums/amazonpayv2checkoutlanguage.md)*
+• `Optional` **checkoutLanguage**: [`en_US`](../enums/AmazonPayV2CheckoutLanguage.md#en_us) \| [`en_GB`](../enums/AmazonPayV2CheckoutLanguage.md#en_gb) \| [`de_DE`](../enums/AmazonPayV2CheckoutLanguage.md#de_de) \| [`fr_FR`](../enums/AmazonPayV2CheckoutLanguage.md#fr_fr) \| [`it_IT`](../enums/AmazonPayV2CheckoutLanguage.md#it_it) \| [`es_ES`](../enums/AmazonPayV2CheckoutLanguage.md#es_es) \| [`ja_JP`](../enums/AmazonPayV2CheckoutLanguage.md#ja_jp)
 
 Language used to render the button and text on Amazon Pay hosted pages.
 
 ___
 
-###  createCheckoutSession
+### createCheckoutSession
 
-• **createCheckoutSession**: *[AmazonPayV2CheckoutSession](amazonpayv2checkoutsession.md)*
+• **createCheckoutSession**: [`AmazonPayV2CheckoutSession`](AmazonPayV2CheckoutSession.md)
 
 Configuration for calling the endpoint to Create Checkout Session.
 
 ___
 
-###  ledgerCurrency
+### ledgerCurrency
 
-• **ledgerCurrency**: *[AmazonPayV2LedgerCurrency](../enums/amazonpayv2ledgercurrency.md)*
+• **ledgerCurrency**: [`AmazonPayV2LedgerCurrency`](../enums/AmazonPayV2LedgerCurrency.md)
 
 Ledger currency provided during registration for the given merchant identifier.
 
 ___
 
-###  merchantId
+### merchantId
 
-• **merchantId**: *string*
+• **merchantId**: `string`
 
 Amazon Pay merchant account identifier.
 
 ___
 
-###  placement
+### placement
 
-• **placement**: *[AmazonPayV2Placement](../enums/amazonpayv2placement.md)*
+• **placement**: [`AmazonPayV2Placement`](../enums/AmazonPayV2Placement.md)
 
 Placement of the Amazon Pay button on your website.
 
 ___
 
-### `Optional` productType
+### productType
 
-• **productType**? : *[AmazonPayV2PayOptions](../enums/amazonpayv2payoptions.md)*
+• `Optional` **productType**: [`PayAndShip`](../enums/AmazonPayV2PayOptions.md#payandship) \| [`PayOnly`](../enums/AmazonPayV2PayOptions.md#payonly)
 
 Product type selected for checkout. Default is 'PayAndShip'.
 
 ___
 
-### `Optional` sandbox
+### sandbox
 
-• **sandbox**? : *undefined | false | true*
+• `Optional` **sandbox**: `boolean`
 
 Sets button to Sandbox environment. Default is false.

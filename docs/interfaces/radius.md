@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Radius](radius.md)
+[@bigcommerce/checkout-sdk](../README.md) / Radius
 
 # Interface: Radius
 
-## Hierarchy
-
-* **Radius**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [unit](radius.md#unit)
-* [value](radius.md#value)
+- [unit](Radius.md#unit)
+- [value](Radius.md#value)
 
 ## Properties
 
-###  unit
+### unit
 
-• **unit**: *[RadiusUnit](../enums/radiusunit.md)*
+• **unit**: [`RadiusUnit`](../enums/RadiusUnit.md)
 
 ___
 
-###  value
+### value
 
-• **value**: *number*
+• **value**: `number`

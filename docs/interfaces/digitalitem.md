@@ -1,260 +1,310 @@
-[@bigcommerce/checkout-sdk](../README.md) › [DigitalItem](digitalitem.md)
+[@bigcommerce/checkout-sdk](../README.md) / DigitalItem
 
 # Interface: DigitalItem
 
 ## Hierarchy
 
-* [LineItem](lineitem.md)
+- [`LineItem`](LineItem.md)
 
-  ↳ **DigitalItem**
+  ↳ **`DigitalItem`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [addedByPromotion](digitalitem.md#addedbypromotion)
-* [brand](digitalitem.md#brand)
-* [categories](digitalitem.md#optional-categories)
-* [categoryNames](digitalitem.md#optional-categorynames)
-* [comparisonPrice](digitalitem.md#comparisonprice)
-* [couponAmount](digitalitem.md#couponamount)
-* [discountAmount](digitalitem.md#discountamount)
-* [discounts](digitalitem.md#discounts)
-* [downloadFileUrls](digitalitem.md#downloadfileurls)
-* [downloadPageUrl](digitalitem.md#downloadpageurl)
-* [downloadSize](digitalitem.md#downloadsize)
-* [extendedComparisonPrice](digitalitem.md#extendedcomparisonprice)
-* [extendedListPrice](digitalitem.md#extendedlistprice)
-* [extendedSalePrice](digitalitem.md#extendedsaleprice)
-* [id](digitalitem.md#id)
-* [imageUrl](digitalitem.md#imageurl)
-* [isTaxable](digitalitem.md#istaxable)
-* [listPrice](digitalitem.md#listprice)
-* [name](digitalitem.md#name)
-* [options](digitalitem.md#optional-options)
-* [parentId](digitalitem.md#optional-parentid)
-* [productId](digitalitem.md#productid)
-* [quantity](digitalitem.md#quantity)
-* [salePrice](digitalitem.md#saleprice)
-* [sku](digitalitem.md#sku)
-* [socialMedia](digitalitem.md#optional-socialmedia)
-* [url](digitalitem.md#url)
-* [variantId](digitalitem.md#variantid)
+- [addedByPromotion](DigitalItem.md#addedbypromotion)
+- [brand](DigitalItem.md#brand)
+- [categories](DigitalItem.md#categories)
+- [categoryNames](DigitalItem.md#categorynames)
+- [comparisonPrice](DigitalItem.md#comparisonprice)
+- [couponAmount](DigitalItem.md#couponamount)
+- [discountAmount](DigitalItem.md#discountamount)
+- [discounts](DigitalItem.md#discounts)
+- [downloadFileUrls](DigitalItem.md#downloadfileurls)
+- [downloadPageUrl](DigitalItem.md#downloadpageurl)
+- [downloadSize](DigitalItem.md#downloadsize)
+- [extendedComparisonPrice](DigitalItem.md#extendedcomparisonprice)
+- [extendedListPrice](DigitalItem.md#extendedlistprice)
+- [extendedSalePrice](DigitalItem.md#extendedsaleprice)
+- [id](DigitalItem.md#id)
+- [imageUrl](DigitalItem.md#imageurl)
+- [isTaxable](DigitalItem.md#istaxable)
+- [listPrice](DigitalItem.md#listprice)
+- [name](DigitalItem.md#name)
+- [options](DigitalItem.md#options)
+- [parentId](DigitalItem.md#parentid)
+- [productId](DigitalItem.md#productid)
+- [quantity](DigitalItem.md#quantity)
+- [salePrice](DigitalItem.md#saleprice)
+- [sku](DigitalItem.md#sku)
+- [socialMedia](DigitalItem.md#socialmedia)
+- [url](DigitalItem.md#url)
+- [variantId](DigitalItem.md#variantid)
 
 ## Properties
 
-###  addedByPromotion
+### addedByPromotion
 
-• **addedByPromotion**: *boolean*
+• **addedByPromotion**: `boolean`
 
-*Inherited from [DigitalItem](digitalitem.md).[addedByPromotion](digitalitem.md#addedbypromotion)*
+#### Inherited from
 
-___
-
-###  brand
-
-• **brand**: *string*
-
-*Inherited from [DigitalItem](digitalitem.md).[brand](digitalitem.md#brand)*
+[LineItem](LineItem.md).[addedByPromotion](LineItem.md#addedbypromotion)
 
 ___
 
-### `Optional` categories
+### brand
 
-• **categories**? : *[LineItemCategory](lineitemcategory.md)[][]*
+• **brand**: `string`
 
-*Inherited from [DigitalItem](digitalitem.md).[categories](digitalitem.md#optional-categories)*
+#### Inherited from
 
-___
-
-### `Optional` categoryNames
-
-• **categoryNames**? : *string[]*
-
-*Inherited from [DigitalItem](digitalitem.md).[categoryNames](digitalitem.md#optional-categorynames)*
+[LineItem](LineItem.md).[brand](LineItem.md#brand)
 
 ___
 
-###  comparisonPrice
+### categories
 
-• **comparisonPrice**: *number*
+• `Optional` **categories**: [`LineItemCategory`](LineItemCategory.md)[][]
 
-*Inherited from [DigitalItem](digitalitem.md).[comparisonPrice](digitalitem.md#comparisonprice)*
+#### Inherited from
 
-___
-
-###  couponAmount
-
-• **couponAmount**: *number*
-
-*Inherited from [DigitalItem](digitalitem.md).[couponAmount](digitalitem.md#couponamount)*
+[LineItem](LineItem.md).[categories](LineItem.md#categories)
 
 ___
 
-###  discountAmount
+### categoryNames
 
-• **discountAmount**: *number*
+• `Optional` **categoryNames**: `string`[]
 
-*Inherited from [DigitalItem](digitalitem.md).[discountAmount](digitalitem.md#discountamount)*
+#### Inherited from
 
-___
-
-###  discounts
-
-• **discounts**: *Array‹object›*
-
-*Inherited from [DigitalItem](digitalitem.md).[discounts](digitalitem.md#discounts)*
+[LineItem](LineItem.md).[categoryNames](LineItem.md#categorynames)
 
 ___
 
-###  downloadFileUrls
+### comparisonPrice
 
-• **downloadFileUrls**: *string[]*
+• **comparisonPrice**: `number`
 
-___
+#### Inherited from
 
-###  downloadPageUrl
-
-• **downloadPageUrl**: *string*
+[LineItem](LineItem.md).[comparisonPrice](LineItem.md#comparisonprice)
 
 ___
 
-###  downloadSize
+### couponAmount
 
-• **downloadSize**: *string*
+• **couponAmount**: `number`
 
-___
+#### Inherited from
 
-###  extendedComparisonPrice
-
-• **extendedComparisonPrice**: *number*
-
-*Inherited from [DigitalItem](digitalitem.md).[extendedComparisonPrice](digitalitem.md#extendedcomparisonprice)*
+[LineItem](LineItem.md).[couponAmount](LineItem.md#couponamount)
 
 ___
 
-###  extendedListPrice
+### discountAmount
 
-• **extendedListPrice**: *number*
+• **discountAmount**: `number`
 
-*Inherited from [DigitalItem](digitalitem.md).[extendedListPrice](digitalitem.md#extendedlistprice)*
+#### Inherited from
 
-___
-
-###  extendedSalePrice
-
-• **extendedSalePrice**: *number*
-
-*Inherited from [DigitalItem](digitalitem.md).[extendedSalePrice](digitalitem.md#extendedsaleprice)*
+[LineItem](LineItem.md).[discountAmount](LineItem.md#discountamount)
 
 ___
 
-###  id
+### discounts
 
-• **id**: *string | number*
+• **discounts**: { `discountedAmount`: `number` ; `name`: `string`  }[]
 
-*Inherited from [DigitalItem](digitalitem.md).[id](digitalitem.md#id)*
+#### Inherited from
 
-___
-
-###  imageUrl
-
-• **imageUrl**: *string*
-
-*Inherited from [DigitalItem](digitalitem.md).[imageUrl](digitalitem.md#imageurl)*
+[LineItem](LineItem.md).[discounts](LineItem.md#discounts)
 
 ___
 
-###  isTaxable
+### downloadFileUrls
 
-• **isTaxable**: *boolean*
-
-*Inherited from [DigitalItem](digitalitem.md).[isTaxable](digitalitem.md#istaxable)*
+• **downloadFileUrls**: `string`[]
 
 ___
 
-###  listPrice
+### downloadPageUrl
 
-• **listPrice**: *number*
-
-*Inherited from [DigitalItem](digitalitem.md).[listPrice](digitalitem.md#listprice)*
+• **downloadPageUrl**: `string`
 
 ___
 
-###  name
+### downloadSize
 
-• **name**: *string*
-
-*Inherited from [DigitalItem](digitalitem.md).[name](digitalitem.md#name)*
+• **downloadSize**: `string`
 
 ___
 
-### `Optional` options
+### extendedComparisonPrice
 
-• **options**? : *[LineItemOption](lineitemoption.md)[]*
+• **extendedComparisonPrice**: `number`
 
-*Inherited from [DigitalItem](digitalitem.md).[options](digitalitem.md#optional-options)*
+#### Inherited from
 
-___
-
-### `Optional` parentId
-
-• **parentId**? : *string | null*
-
-*Inherited from [DigitalItem](digitalitem.md).[parentId](digitalitem.md#optional-parentid)*
+[LineItem](LineItem.md).[extendedComparisonPrice](LineItem.md#extendedcomparisonprice)
 
 ___
 
-###  productId
+### extendedListPrice
 
-• **productId**: *number*
+• **extendedListPrice**: `number`
 
-*Inherited from [DigitalItem](digitalitem.md).[productId](digitalitem.md#productid)*
+#### Inherited from
 
-___
-
-###  quantity
-
-• **quantity**: *number*
-
-*Inherited from [DigitalItem](digitalitem.md).[quantity](digitalitem.md#quantity)*
+[LineItem](LineItem.md).[extendedListPrice](LineItem.md#extendedlistprice)
 
 ___
 
-###  salePrice
+### extendedSalePrice
 
-• **salePrice**: *number*
+• **extendedSalePrice**: `number`
 
-*Inherited from [DigitalItem](digitalitem.md).[salePrice](digitalitem.md#saleprice)*
+#### Inherited from
 
-___
-
-###  sku
-
-• **sku**: *string*
-
-*Inherited from [DigitalItem](digitalitem.md).[sku](digitalitem.md#sku)*
+[LineItem](LineItem.md).[extendedSalePrice](LineItem.md#extendedsaleprice)
 
 ___
 
-### `Optional` socialMedia
+### id
 
-• **socialMedia**? : *[LineItemSocialData](lineitemsocialdata.md)[]*
+• **id**: `string` \| `number`
 
-*Inherited from [DigitalItem](digitalitem.md).[socialMedia](digitalitem.md#optional-socialmedia)*
+#### Inherited from
 
-___
-
-###  url
-
-• **url**: *string*
-
-*Inherited from [DigitalItem](digitalitem.md).[url](digitalitem.md#url)*
+[LineItem](LineItem.md).[id](LineItem.md#id)
 
 ___
 
-###  variantId
+### imageUrl
 
-• **variantId**: *number*
+• **imageUrl**: `string`
 
-*Inherited from [DigitalItem](digitalitem.md).[variantId](digitalitem.md#variantid)*
+#### Inherited from
+
+[LineItem](LineItem.md).[imageUrl](LineItem.md#imageurl)
+
+___
+
+### isTaxable
+
+• **isTaxable**: `boolean`
+
+#### Inherited from
+
+[LineItem](LineItem.md).[isTaxable](LineItem.md#istaxable)
+
+___
+
+### listPrice
+
+• **listPrice**: `number`
+
+#### Inherited from
+
+[LineItem](LineItem.md).[listPrice](LineItem.md#listprice)
+
+___
+
+### name
+
+• **name**: `string`
+
+#### Inherited from
+
+[LineItem](LineItem.md).[name](LineItem.md#name)
+
+___
+
+### options
+
+• `Optional` **options**: [`LineItemOption`](LineItemOption.md)[]
+
+#### Inherited from
+
+[LineItem](LineItem.md).[options](LineItem.md#options)
+
+___
+
+### parentId
+
+• `Optional` **parentId**: ``null`` \| `string`
+
+#### Inherited from
+
+[LineItem](LineItem.md).[parentId](LineItem.md#parentid)
+
+___
+
+### productId
+
+• **productId**: `number`
+
+#### Inherited from
+
+[LineItem](LineItem.md).[productId](LineItem.md#productid)
+
+___
+
+### quantity
+
+• **quantity**: `number`
+
+#### Inherited from
+
+[LineItem](LineItem.md).[quantity](LineItem.md#quantity)
+
+___
+
+### salePrice
+
+• **salePrice**: `number`
+
+#### Inherited from
+
+[LineItem](LineItem.md).[salePrice](LineItem.md#saleprice)
+
+___
+
+### sku
+
+• **sku**: `string`
+
+#### Inherited from
+
+[LineItem](LineItem.md).[sku](LineItem.md#sku)
+
+___
+
+### socialMedia
+
+• `Optional` **socialMedia**: [`LineItemSocialData`](LineItemSocialData.md)[]
+
+#### Inherited from
+
+[LineItem](LineItem.md).[socialMedia](LineItem.md#socialmedia)
+
+___
+
+### url
+
+• **url**: `string`
+
+#### Inherited from
+
+[LineItem](LineItem.md).[url](LineItem.md#url)
+
+___
+
+### variantId
+
+• **variantId**: `number`
+
+#### Inherited from
+
+[LineItem](LineItem.md).[variantId](LineItem.md#variantid)

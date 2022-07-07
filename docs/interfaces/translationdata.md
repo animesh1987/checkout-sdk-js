@@ -1,11 +1,7 @@
-[@bigcommerce/checkout-sdk](../README.md) › [TranslationData](translationdata.md)
+[@bigcommerce/checkout-sdk](../README.md) / TranslationData
 
 # Interface: TranslationData
 
-## Hierarchy
-
-* **TranslationData**
-
 ## Indexable
 
-* \[ **key**: *string*\]: string | number
+▪ [key: `string`]: `string` \| `number`

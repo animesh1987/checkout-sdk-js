@@ -1,30 +1,26 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceButtonInitializeOptions](paypalcommercebuttoninitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceButtonInitializeOptions
 
 # Interface: PaypalCommerceButtonInitializeOptions
 
-## Hierarchy
-
-* **PaypalCommerceButtonInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [messagingContainer](paypalcommercebuttoninitializeoptions.md#optional-messagingcontainer)
-* [style](paypalcommercebuttoninitializeoptions.md#optional-style)
+- [messagingContainer](PaypalCommerceButtonInitializeOptions.md#messagingcontainer)
+- [style](PaypalCommerceButtonInitializeOptions.md#style)
 
 ## Properties
 
-### `Optional` messagingContainer
+### messagingContainer
 
-• **messagingContainer**? : *undefined | string*
+• `Optional` **messagingContainer**: `string`
 
 Container id for messaging banner container
 
 ___
 
-### `Optional` style
+### style
 
-• **style**? : *[PaypalButtonStyleOptions_2](paypalbuttonstyleoptions_2.md)*
+• `Optional` **style**: [`PaypalButtonStyleOptions_2`](PaypalButtonStyleOptions_2.md)
 
 A set of styling options for the checkout button.

@@ -1,58 +1,60 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CardPaymentMethodState](cardpaymentmethodstate.md)
+[@bigcommerce/checkout-sdk](../README.md) / CardPaymentMethodState
 
 # Interface: CardPaymentMethodState
 
 ## Hierarchy
 
-* [AdyenPaymentMethodState](adyenpaymentmethodstate.md)
+- [`AdyenPaymentMethodState`](AdyenPaymentMethodState.md)
 
-  ↳ **CardPaymentMethodState**
+  ↳ **`CardPaymentMethodState`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [encryptedCardNumber](cardpaymentmethodstate.md#encryptedcardnumber)
-* [encryptedExpiryMonth](cardpaymentmethodstate.md#encryptedexpirymonth)
-* [encryptedExpiryYear](cardpaymentmethodstate.md#encryptedexpiryyear)
-* [encryptedSecurityCode](cardpaymentmethodstate.md#encryptedsecuritycode)
-* [holderName](cardpaymentmethodstate.md#holdername)
-* [type](cardpaymentmethodstate.md#type)
+- [encryptedCardNumber](CardPaymentMethodState.md#encryptedcardnumber)
+- [encryptedExpiryMonth](CardPaymentMethodState.md#encryptedexpirymonth)
+- [encryptedExpiryYear](CardPaymentMethodState.md#encryptedexpiryyear)
+- [encryptedSecurityCode](CardPaymentMethodState.md#encryptedsecuritycode)
+- [holderName](CardPaymentMethodState.md#holdername)
+- [type](CardPaymentMethodState.md#type)
 
 ## Properties
 
-###  encryptedCardNumber
+### encryptedCardNumber
 
-• **encryptedCardNumber**: *string*
-
-___
-
-###  encryptedExpiryMonth
-
-• **encryptedExpiryMonth**: *string*
+• **encryptedCardNumber**: `string`
 
 ___
 
-###  encryptedExpiryYear
+### encryptedExpiryMonth
 
-• **encryptedExpiryYear**: *string*
-
-___
-
-###  encryptedSecurityCode
-
-• **encryptedSecurityCode**: *string*
+• **encryptedExpiryMonth**: `string`
 
 ___
 
-###  holderName
+### encryptedExpiryYear
 
-• **holderName**: *string*
+• **encryptedExpiryYear**: `string`
 
 ___
 
-###  type
+### encryptedSecurityCode
 
-• **type**: *string*
+• **encryptedSecurityCode**: `string`
 
-*Inherited from [AdyenPaymentMethodState](adyenpaymentmethodstate.md).[type](adyenpaymentmethodstate.md#type)*
+___
+
+### holderName
+
+• **holderName**: `string`
+
+___
+
+### type
+
+• **type**: `string`
+
+#### Inherited from
+
+[AdyenPaymentMethodState](AdyenPaymentMethodState.md).[type](AdyenPaymentMethodState.md#type)

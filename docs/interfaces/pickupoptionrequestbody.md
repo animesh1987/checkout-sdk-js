@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PickupOptionRequestBody](pickupoptionrequestbody.md)
+[@bigcommerce/checkout-sdk](../README.md) / PickupOptionRequestBody
 
 # Interface: PickupOptionRequestBody
 
-## Hierarchy
-
-* **PickupOptionRequestBody**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [consignmentId](pickupoptionrequestbody.md#consignmentid)
-* [searchArea](pickupoptionrequestbody.md#searcharea)
+- [consignmentId](PickupOptionRequestBody.md#consignmentid)
+- [searchArea](PickupOptionRequestBody.md#searcharea)
 
 ## Properties
 
-###  consignmentId
+### consignmentId
 
-• **consignmentId**: *string*
+• **consignmentId**: `string`
 
 ___
 
-###  searchArea
+### searchArea
 
-• **searchArea**: *[SearchArea](searcharea.md)*
+• **searchArea**: [`SearchArea`](SearchArea.md)

@@ -1,47 +1,43 @@
-[@bigcommerce/checkout-sdk](../README.md) › [GiftCertificate](giftcertificate.md)
+[@bigcommerce/checkout-sdk](../README.md) / GiftCertificate
 
 # Interface: GiftCertificate
 
-## Hierarchy
-
-* **GiftCertificate**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [balance](giftcertificate.md#balance)
-* [code](giftcertificate.md#code)
-* [purchaseDate](giftcertificate.md#purchasedate)
-* [remaining](giftcertificate.md#remaining)
-* [used](giftcertificate.md#used)
+- [balance](GiftCertificate.md#balance)
+- [code](GiftCertificate.md#code)
+- [purchaseDate](GiftCertificate.md#purchasedate)
+- [remaining](GiftCertificate.md#remaining)
+- [used](GiftCertificate.md#used)
 
 ## Properties
 
-###  balance
+### balance
 
-• **balance**: *number*
-
-___
-
-###  code
-
-• **code**: *string*
+• **balance**: `number`
 
 ___
 
-###  purchaseDate
+### code
 
-• **purchaseDate**: *string*
-
-___
-
-###  remaining
-
-• **remaining**: *number*
+• **code**: `string`
 
 ___
 
-###  used
+### purchaseDate
 
-• **used**: *number*
+• **purchaseDate**: `string`
+
+___
+
+### remaining
+
+• **remaining**: `number`
+
+___
+
+### used
+
+• **used**: `number`

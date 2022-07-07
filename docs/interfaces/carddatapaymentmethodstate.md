@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CardDataPaymentMethodState](carddatapaymentmethodstate.md)
+[@bigcommerce/checkout-sdk](../README.md) / CardDataPaymentMethodState
 
 # Interface: CardDataPaymentMethodState
 
-## Hierarchy
-
-* **CardDataPaymentMethodState**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [paymentMethod](carddatapaymentmethodstate.md#paymentmethod)
+- [paymentMethod](CardDataPaymentMethodState.md#paymentmethod)
 
 ## Properties
 
-###  paymentMethod
+### paymentMethod
 
-• **paymentMethod**: *[CardPaymentMethodState](cardpaymentmethodstate.md)*
+• **paymentMethod**: [`CardPaymentMethodState`](CardPaymentMethodState.md)

@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ApplePayCustomerInitializeOptions](applepaycustomerinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / ApplePayCustomerInitializeOptions
 
 # Interface: ApplePayCustomerInitializeOptions
 
@@ -8,70 +8,70 @@ checkout in order to support ApplePay.
 When ApplePay is initialized, a sign-in button will be inserted into the
 DOM. When the customer clicks on it, it will trigger apple sheet
 
-## Hierarchy
-
-* **ApplePayCustomerInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [container](applepaycustomerinitializeoptions.md#container)
-* [shippingLabel](applepaycustomerinitializeoptions.md#optional-shippinglabel)
-* [subtotalLabel](applepaycustomerinitializeoptions.md#optional-subtotallabel)
+- [container](ApplePayCustomerInitializeOptions.md#container)
+- [shippingLabel](ApplePayCustomerInitializeOptions.md#shippinglabel)
+- [subtotalLabel](ApplePayCustomerInitializeOptions.md#subtotallabel)
 
 ### Methods
 
-* [onError](applepaycustomerinitializeoptions.md#optional-onerror)
-* [onPaymentAuthorize](applepaycustomerinitializeoptions.md#onpaymentauthorize)
+- [onError](ApplePayCustomerInitializeOptions.md#onerror)
+- [onPaymentAuthorize](ApplePayCustomerInitializeOptions.md#onpaymentauthorize)
 
 ## Properties
 
-###  container
+### container
 
-• **container**: *string*
+• **container**: `string`
 
 The ID of a container which the sign-in button should insert into.
 
 ___
 
-### `Optional` shippingLabel
+### shippingLabel
 
-• **shippingLabel**? : *undefined | string*
+• `Optional` **shippingLabel**: `string`
 
 Shipping label to be passed to apple sheet.
 
 ___
 
-### `Optional` subtotalLabel
+### subtotalLabel
 
-• **subtotalLabel**? : *undefined | string*
+• `Optional` **subtotalLabel**: `string`
 
 Sub total label to be passed to apple sheet.
 
 ## Methods
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`error?`: [Error](amazonpaywidgeterror.md#error)): *void*
+▸ `Optional` **onError**(`error?`): `void`
 
 A callback that gets called if unable to initialize the widget or select
 one of the address options provided by the widget.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error?` | [Error](amazonpaywidgeterror.md#error) | The error object describing the failure.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error?` | `Error` | The error object describing the failure. |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-###  onPaymentAuthorize
+### onPaymentAuthorize
 
-▸ **onPaymentAuthorize**(): *void*
+▸ **onPaymentAuthorize**(): `void`
 
 A callback that gets called when a payment is successfully completed.
 
-**Returns:** *void*
+#### Returns
+
+`void`

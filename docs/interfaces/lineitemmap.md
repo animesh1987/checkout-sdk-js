@@ -1,40 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [LineItemMap](lineitemmap.md)
+[@bigcommerce/checkout-sdk](../README.md) / LineItemMap
 
 # Interface: LineItemMap
 
-## Hierarchy
-
-* **LineItemMap**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [customItems](lineitemmap.md#optional-customitems)
-* [digitalItems](lineitemmap.md#digitalitems)
-* [giftCertificates](lineitemmap.md#giftcertificates)
-* [physicalItems](lineitemmap.md#physicalitems)
+- [customItems](LineItemMap.md#customitems)
+- [digitalItems](LineItemMap.md#digitalitems)
+- [giftCertificates](LineItemMap.md#giftcertificates)
+- [physicalItems](LineItemMap.md#physicalitems)
 
 ## Properties
 
-### `Optional` customItems
+### customItems
 
-• **customItems**? : *[CustomItem](customitem.md)[]*
-
-___
-
-###  digitalItems
-
-• **digitalItems**: *[DigitalItem](digitalitem.md)[]*
+• `Optional` **customItems**: [`CustomItem`](CustomItem.md)[]
 
 ___
 
-###  giftCertificates
+### digitalItems
 
-• **giftCertificates**: *[GiftCertificateItem](giftcertificateitem.md)[]*
+• **digitalItems**: [`DigitalItem`](DigitalItem.md)[]
 
 ___
 
-###  physicalItems
+### giftCertificates
 
-• **physicalItems**: *[PhysicalItem](physicalitem.md)[]*
+• **giftCertificates**: [`GiftCertificateItem`](GiftCertificateItem.md)[]
+
+___
+
+### physicalItems
+
+• **physicalItems**: [`PhysicalItem`](PhysicalItem.md)[]

@@ -1,22 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StyleButtonLayout](stylebuttonlayout.md)
+[@bigcommerce/checkout-sdk](../README.md) / StyleButtonLayout
 
 # Enumeration: StyleButtonLayout
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [horizontal](stylebuttonlayout.md#horizontal)
-* [vertical](stylebuttonlayout.md#vertical)
+- [horizontal](StyleButtonLayout.md#horizontal)
+- [vertical](StyleButtonLayout.md#vertical)
 
 ## Enumeration members
 
-###  horizontal
+### horizontal
 
-• **horizontal**: = "horizontal"
+• **horizontal** = `"horizontal"`
 
 ___
 
-###  vertical
+### vertical
 
-• **vertical**: = "vertical"
+• **vertical** = `"vertical"`

@@ -1,96 +1,92 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaymentMethod](paymentmethod.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaymentMethod
 
 # Interface: PaymentMethod
 
-## Hierarchy
-
-* **PaymentMethod**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [clientToken](paymentmethod.md#optional-clienttoken)
-* [config](paymentmethod.md#config)
-* [gateway](paymentmethod.md#optional-gateway)
-* [id](paymentmethod.md#id)
-* [initializationData](paymentmethod.md#optional-initializationdata)
-* [initializationStrategy](paymentmethod.md#optional-initializationstrategy)
-* [logoUrl](paymentmethod.md#optional-logourl)
-* [method](paymentmethod.md#method)
-* [nonce](paymentmethod.md#optional-nonce)
-* [returnUrl](paymentmethod.md#optional-returnurl)
-* [supportedCards](paymentmethod.md#supportedcards)
-* [type](paymentmethod.md#type)
+- [clientToken](PaymentMethod.md#clienttoken)
+- [config](PaymentMethod.md#config)
+- [gateway](PaymentMethod.md#gateway)
+- [id](PaymentMethod.md#id)
+- [initializationData](PaymentMethod.md#initializationdata)
+- [initializationStrategy](PaymentMethod.md#initializationstrategy)
+- [logoUrl](PaymentMethod.md#logourl)
+- [method](PaymentMethod.md#method)
+- [nonce](PaymentMethod.md#nonce)
+- [returnUrl](PaymentMethod.md#returnurl)
+- [supportedCards](PaymentMethod.md#supportedcards)
+- [type](PaymentMethod.md#type)
 
 ## Properties
 
-### `Optional` clientToken
+### clientToken
 
-• **clientToken**? : *undefined | string*
-
-___
-
-###  config
-
-• **config**: *[PaymentMethodConfig](paymentmethodconfig.md)*
+• `Optional` **clientToken**: `string`
 
 ___
 
-### `Optional` gateway
+### config
 
-• **gateway**? : *undefined | string*
-
-___
-
-###  id
-
-• **id**: *string*
+• **config**: [`PaymentMethodConfig`](PaymentMethodConfig.md)
 
 ___
 
-### `Optional` initializationData
+### gateway
 
-• **initializationData**? : *any*
-
-___
-
-### `Optional` initializationStrategy
-
-• **initializationStrategy**? : *[InitializationStrategy](initializationstrategy.md)*
+• `Optional` **gateway**: `string`
 
 ___
 
-### `Optional` logoUrl
+### id
 
-• **logoUrl**? : *undefined | string*
-
-___
-
-###  method
-
-• **method**: *string*
+• **id**: `string`
 
 ___
 
-### `Optional` nonce
+### initializationData
 
-• **nonce**? : *undefined | string*
-
-___
-
-### `Optional` returnUrl
-
-• **returnUrl**? : *undefined | string*
+• `Optional` **initializationData**: `any`
 
 ___
 
-###  supportedCards
+### initializationStrategy
 
-• **supportedCards**: *string[]*
+• `Optional` **initializationStrategy**: [`InitializationStrategy`](InitializationStrategy.md)
 
 ___
 
-###  type
+### logoUrl
 
-• **type**: *string*
+• `Optional` **logoUrl**: `string`
+
+___
+
+### method
+
+• **method**: `string`
+
+___
+
+### nonce
+
+• `Optional` **nonce**: `string`
+
+___
+
+### returnUrl
+
+• `Optional` **returnUrl**: `string`
+
+___
+
+### supportedCards
+
+• **supportedCards**: `string`[]
+
+___
+
+### type
+
+• **type**: `string`

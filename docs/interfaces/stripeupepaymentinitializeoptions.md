@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StripeUPEPaymentInitializeOptions](stripeupepaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / StripeUPEPaymentInitializeOptions
 
 # Interface: StripeUPEPaymentInitializeOptions
 
@@ -22,47 +22,49 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **StripeUPEPaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [containerId](stripeupepaymentinitializeoptions.md#containerid)
-* [style](stripeupepaymentinitializeoptions.md#optional-style)
+- [containerId](StripeUPEPaymentInitializeOptions.md#containerid)
+- [style](StripeUPEPaymentInitializeOptions.md#style)
 
 ### Methods
 
-* [onError](stripeupepaymentinitializeoptions.md#optional-onerror)
+- [onError](StripeUPEPaymentInitializeOptions.md#onerror)
 
 ## Properties
 
-###  containerId
+### containerId
 
-• **containerId**: *string*
+• **containerId**: `string`
 
 The location to insert the credit card number form field.
 
 ___
 
-### `Optional` style
+### style
 
-• **style**? : *undefined | object*
+• `Optional` **style**: `Object`
 
 Checkout styles from store theme
 
+#### Index signature
+
+▪ [key: `string`]: `string`
+
 ## Methods
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`error?`: [Error](amazonpaywidgeterror.md#error)): *void*
+▸ `Optional` **onError**(`error?`): `void`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`error?` | [Error](amazonpaywidgeterror.md#error) |
+| Name | Type |
+| :------ | :------ |
+| `error?` | `Error` |
 
-**Returns:** *void*
+#### Returns
+
+`void`

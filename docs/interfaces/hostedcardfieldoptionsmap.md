@@ -1,40 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [HostedCardFieldOptionsMap](hostedcardfieldoptionsmap.md)
+[@bigcommerce/checkout-sdk](../README.md) / HostedCardFieldOptionsMap
 
 # Interface: HostedCardFieldOptionsMap
 
-## Hierarchy
-
-* **HostedCardFieldOptionsMap**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [[HostedFieldType.CardCode]](hostedcardfieldoptionsmap.md#optional-[hostedfieldtype.cardcode])
-* [[HostedFieldType.CardExpiry]](hostedcardfieldoptionsmap.md#[hostedfieldtype.cardexpiry])
-* [[HostedFieldType.CardName]](hostedcardfieldoptionsmap.md#[hostedfieldtype.cardname])
-* [[HostedFieldType.CardNumber]](hostedcardfieldoptionsmap.md#[hostedfieldtype.cardnumber])
+- [cardCode](HostedCardFieldOptionsMap.md#cardcode)
+- [cardExpiry](HostedCardFieldOptionsMap.md#cardexpiry)
+- [cardName](HostedCardFieldOptionsMap.md#cardname)
+- [cardNumber](HostedCardFieldOptionsMap.md#cardnumber)
 
 ## Properties
 
-### `Optional` [HostedFieldType.CardCode]
+### cardCode
 
-• **[HostedFieldType.CardCode]**? : *[HostedCardFieldOptions](hostedcardfieldoptions.md)*
-
-___
-
-###  [HostedFieldType.CardExpiry]
-
-• **[HostedFieldType.CardExpiry]**: *[HostedCardFieldOptions](hostedcardfieldoptions.md)*
+• `Optional` **cardCode**: [`HostedCardFieldOptions`](HostedCardFieldOptions.md)
 
 ___
 
-###  [HostedFieldType.CardName]
+### cardExpiry
 
-• **[HostedFieldType.CardName]**: *[HostedCardFieldOptions](hostedcardfieldoptions.md)*
+• **cardExpiry**: [`HostedCardFieldOptions`](HostedCardFieldOptions.md)
 
 ___
 
-###  [HostedFieldType.CardNumber]
+### cardName
 
-• **[HostedFieldType.CardNumber]**: *[HostedCardFieldOptions](hostedcardfieldoptions.md)*
+• **cardName**: [`HostedCardFieldOptions`](HostedCardFieldOptions.md)
+
+___
+
+### cardNumber
+
+• **cardNumber**: [`HostedCardFieldOptions`](HostedCardFieldOptions.md)

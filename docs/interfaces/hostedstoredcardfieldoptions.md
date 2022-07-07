@@ -1,48 +1,54 @@
-[@bigcommerce/checkout-sdk](../README.md) › [HostedStoredCardFieldOptions](hostedstoredcardfieldoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / HostedStoredCardFieldOptions
 
 # Interface: HostedStoredCardFieldOptions
 
 ## Hierarchy
 
-* [HostedCardFieldOptions](hostedcardfieldoptions.md)
+- [`HostedCardFieldOptions`](HostedCardFieldOptions.md)
 
-  ↳ **HostedStoredCardFieldOptions**
+  ↳ **`HostedStoredCardFieldOptions`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [accessibilityLabel](hostedstoredcardfieldoptions.md#optional-accessibilitylabel)
-* [containerId](hostedstoredcardfieldoptions.md#containerid)
-* [instrumentId](hostedstoredcardfieldoptions.md#instrumentid)
-* [placeholder](hostedstoredcardfieldoptions.md#optional-placeholder)
+- [accessibilityLabel](HostedStoredCardFieldOptions.md#accessibilitylabel)
+- [containerId](HostedStoredCardFieldOptions.md#containerid)
+- [instrumentId](HostedStoredCardFieldOptions.md#instrumentid)
+- [placeholder](HostedStoredCardFieldOptions.md#placeholder)
 
 ## Properties
 
-### `Optional` accessibilityLabel
+### accessibilityLabel
 
-• **accessibilityLabel**? : *undefined | string*
+• `Optional` **accessibilityLabel**: `string`
 
-*Inherited from [HostedCardFieldOptions](hostedcardfieldoptions.md).[accessibilityLabel](hostedcardfieldoptions.md#optional-accessibilitylabel)*
+#### Inherited from
 
-___
-
-###  containerId
-
-• **containerId**: *string*
-
-*Inherited from [HostedCardFieldOptions](hostedcardfieldoptions.md).[containerId](hostedcardfieldoptions.md#containerid)*
+[HostedCardFieldOptions](HostedCardFieldOptions.md).[accessibilityLabel](HostedCardFieldOptions.md#accessibilitylabel)
 
 ___
 
-###  instrumentId
+### containerId
 
-• **instrumentId**: *string*
+• **containerId**: `string`
+
+#### Inherited from
+
+[HostedCardFieldOptions](HostedCardFieldOptions.md).[containerId](HostedCardFieldOptions.md#containerid)
 
 ___
 
-### `Optional` placeholder
+### instrumentId
 
-• **placeholder**? : *undefined | string*
+• **instrumentId**: `string`
 
-*Inherited from [HostedCardFieldOptions](hostedcardfieldoptions.md).[placeholder](hostedcardfieldoptions.md#optional-placeholder)*
+___
+
+### placeholder
+
+• `Optional` **placeholder**: `string`
+
+#### Inherited from
+
+[HostedCardFieldOptions](HostedCardFieldOptions.md).[placeholder](HostedCardFieldOptions.md#placeholder)

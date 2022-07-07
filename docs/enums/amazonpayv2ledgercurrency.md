@@ -1,36 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AmazonPayV2LedgerCurrency](amazonpayv2ledgercurrency.md)
+[@bigcommerce/checkout-sdk](../README.md) / AmazonPayV2LedgerCurrency
 
 # Enumeration: AmazonPayV2LedgerCurrency
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [EUR](amazonpayv2ledgercurrency.md#eur)
-* [GBP](amazonpayv2ledgercurrency.md#gbp)
-* [JPY](amazonpayv2ledgercurrency.md#jpy)
-* [USD](amazonpayv2ledgercurrency.md#usd)
+- [EUR](AmazonPayV2LedgerCurrency.md#eur)
+- [GBP](AmazonPayV2LedgerCurrency.md#gbp)
+- [JPY](AmazonPayV2LedgerCurrency.md#jpy)
+- [USD](AmazonPayV2LedgerCurrency.md#usd)
 
 ## Enumeration members
 
-###  EUR
+### EUR
 
-• **EUR**: = "EUR"
-
-___
-
-###  GBP
-
-• **GBP**: = "GBP"
+• **EUR** = `"EUR"`
 
 ___
 
-###  JPY
+### GBP
 
-• **JPY**: = "JPY"
+• **GBP** = `"GBP"`
 
 ___
 
-###  USD
+### JPY
 
-• **USD**: = "USD"
+• **JPY** = `"JPY"`
+
+___
+
+### USD
+
+• **USD** = `"USD"`

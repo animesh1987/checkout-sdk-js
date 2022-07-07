@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Tax](tax.md)
+[@bigcommerce/checkout-sdk](../README.md) / Tax
 
 # Interface: Tax
 
-## Hierarchy
-
-* **Tax**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [amount](tax.md#amount)
-* [name](tax.md#name)
+- [amount](Tax.md#amount)
+- [name](Tax.md#name)
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *number*
+• **amount**: `number`
 
 ___
 
-###  name
+### name
 
-• **name**: *string*
+• **name**: `string`

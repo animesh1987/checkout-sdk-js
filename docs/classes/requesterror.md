@@ -1,128 +1,106 @@
-[@bigcommerce/checkout-sdk](../README.md) › [RequestError](requesterror.md)
+[@bigcommerce/checkout-sdk](../README.md) / RequestError
 
-# Class: RequestError ‹**TBody**›
+# Class: RequestError<TBody\>
 
 Throw this error if we are unable to make a request to the server. It wraps
 any server response into a JS error object.
 
 ## Type parameters
 
-▪ **TBody**
+| Name | Type |
+| :------ | :------ |
+| `TBody` | `any` |
 
 ## Hierarchy
 
-  ↳ [StandardError](standarderror.md)
+- [`StandardError`](StandardError.md)
 
-  ↳ **RequestError**
+  ↳ **`RequestError`**
 
-## Implements
-
-* [CustomError](../interfaces/customerror.md)
-
-## Index
+## Table of contents
 
 ### Constructors
 
-* [constructor](requesterror.md#constructor)
+- [constructor](RequestError.md#constructor)
 
 ### Properties
 
-* [body](requesterror.md#body)
-* [errors](requesterror.md#errors)
-* [headers](requesterror.md#headers)
-* [message](requesterror.md#message)
-* [name](requesterror.md#name)
-* [stack](requesterror.md#optional-stack)
-* [status](requesterror.md#status)
-* [type](requesterror.md#type)
+- [body](RequestError.md#body)
+- [errors](RequestError.md#errors)
+- [headers](RequestError.md#headers)
+- [name](RequestError.md#name)
+- [status](RequestError.md#status)
+- [type](RequestError.md#type)
 
 ## Constructors
 
-###  constructor
+### constructor
 
-\+ **new RequestError**(`response?`: Response‹TBody | object›, `__namedParameters?`: object): *[RequestError](requesterror.md)*
+• **new RequestError**<`TBody`\>(`response?`, `__namedParameters?`)
 
-*Overrides [StandardError](standarderror.md).[constructor](standarderror.md#constructor)*
+#### Type parameters
 
-**Parameters:**
+| Name | Type |
+| :------ | :------ |
+| `TBody` | `any` |
 
-▪`Optional`  **response**: *Response‹TBody | object›*
+#### Parameters
 
-▪`Optional`  **__namedParameters**: *object*
+| Name | Type |
+| :------ | :------ |
+| `response?` | `default`<{} \| `TBody`\> |
+| `__namedParameters?` | `Object` |
+| `__namedParameters.errors?` | { `code`: `string` ; `message?`: `string`  }[] |
+| `__namedParameters.message?` | `string` |
 
-Name | Type |
------- | ------ |
-`errors` | undefined &#124; object[] |
-`message` | undefined &#124; string |
+#### Overrides
 
-**Returns:** *[RequestError](requesterror.md)*
+[StandardError](StandardError.md).[constructor](StandardError.md#constructor)
 
 ## Properties
 
-###  body
+### body
 
-• **body**: *TBody | object*
-
-___
-
-###  errors
-
-• **errors**: *Array‹object›*
+• **body**: {} \| `TBody`
 
 ___
 
-###  headers
+### errors
 
-• **headers**: *object*
-
-#### Type declaration:
-
-* \[ **key**: *string*\]: any
+• **errors**: { `code`: `string` ; `message?`: `string`  }[]
 
 ___
 
-###  message
+### headers
 
-• **message**: *string*
+• **headers**: `Object`
 
-*Implementation of [CustomError](../interfaces/customerror.md).[message](../interfaces/customerror.md#message)*
+#### Index signature
 
-*Inherited from [AmazonPayWidgetError](../interfaces/amazonpaywidgeterror.md).[message](../interfaces/amazonpaywidgeterror.md#message)*
-
-___
-
-###  name
-
-• **name**: *string*
-
-*Implementation of [CustomError](../interfaces/customerror.md).[name](../interfaces/customerror.md#name)*
-
-*Inherited from [CartChangedError](cartchangederror.md).[name](cartchangederror.md#name)*
-
-*Overrides [AmazonPayWidgetError](../interfaces/amazonpaywidgeterror.md).[name](../interfaces/amazonpaywidgeterror.md#name)*
+▪ [key: `string`]: `any`
 
 ___
 
-### `Optional` stack
+### name
 
-• **stack**? : *undefined | string*
+• **name**: `string`
 
-*Implementation of [CustomError](../interfaces/customerror.md).[stack](../interfaces/customerror.md#optional-stack)*
+#### Inherited from
 
-*Inherited from [AmazonPayWidgetError](../interfaces/amazonpaywidgeterror.md).[stack](../interfaces/amazonpaywidgeterror.md#optional-stack)*
-
-___
-
-###  status
-
-• **status**: *number*
+[StandardError](StandardError.md).[name](StandardError.md#name)
 
 ___
 
-###  type
+### status
 
-• **type**: *string*
+• **status**: `number`
 
-*Implementation of [CustomError](../interfaces/customerror.md).[type](../interfaces/customerror.md#type)*
+___
 
-*Inherited from [CartChangedError](cartchangederror.md).[type](cartchangederror.md#type)*
+### type
+
+• **type**: `string`
+
+#### Inherited from
+
+[StandardError](StandardError.md).[type](StandardError.md#type)

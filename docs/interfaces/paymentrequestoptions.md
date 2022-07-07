@@ -1,36 +1,32 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaymentRequestOptions](paymentrequestoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaymentRequestOptions
 
-# Interface: PaymentRequestOptions ‹**TParams**›
+# Interface: PaymentRequestOptions
 
 The set of options for configuring any requests related to the payment step of
 the current checkout flow.
 
-## Type parameters
-
-▪ **TParams**
-
 ## Hierarchy
 
-* [RequestOptions](requestoptions.md)
+- [`RequestOptions`](RequestOptions.md)
 
-  ↳ **PaymentRequestOptions**
+  ↳ **`PaymentRequestOptions`**
 
-  ↳ [PaymentInitializeOptions](paymentinitializeoptions.md)
+  ↳↳ [`PaymentInitializeOptions`](PaymentInitializeOptions.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [gatewayId](paymentrequestoptions.md#optional-gatewayid)
-* [methodId](paymentrequestoptions.md#methodid)
-* [params](paymentrequestoptions.md#optional-params)
-* [timeout](paymentrequestoptions.md#optional-timeout)
+- [gatewayId](PaymentRequestOptions.md#gatewayid)
+- [methodId](PaymentRequestOptions.md#methodid)
+- [params](PaymentRequestOptions.md#params)
+- [timeout](PaymentRequestOptions.md#timeout)
 
 ## Properties
 
-### `Optional` gatewayId
+### gatewayId
 
-• **gatewayId**? : *undefined | string*
+• `Optional` **gatewayId**: `string`
 
 The identifier of the payment provider providing the payment method. This
 option is only required if the provider offers multiple payment options.
@@ -38,30 +34,34 @@ i.e.: Adyen and Klarna.
 
 ___
 
-###  methodId
+### methodId
 
-• **methodId**: *string*
+• **methodId**: `string`
 
 The identifier of the payment method.
 
 ___
 
-### `Optional` params
+### params
 
-• **params**? : *TParams*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[params](checkoutbuttoninitializeoptions.md#optional-params)*
+• `Optional` **params**: `Object`
 
 The parameters of the request, if required.
 
+#### Inherited from
+
+[RequestOptions](RequestOptions.md).[params](RequestOptions.md#params)
+
 ___
 
-### `Optional` timeout
+### timeout
 
-• **timeout**? : *Timeout*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[timeout](checkoutbuttoninitializeoptions.md#optional-timeout)*
+• `Optional` **timeout**: `default`
 
 Provide this option if you want to cancel or time out the request. If the
 timeout object completes before the request, the request will be
 cancelled.
+
+#### Inherited from
+
+[RequestOptions](RequestOptions.md).[timeout](RequestOptions.md#timeout)

@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [HostedInputValidateResults](hostedinputvalidateresults.md)
+[@bigcommerce/checkout-sdk](../README.md) / HostedInputValidateResults
 
 # Interface: HostedInputValidateResults
 
-## Hierarchy
-
-* **HostedInputValidateResults**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [errors](hostedinputvalidateresults.md#errors)
-* [isValid](hostedinputvalidateresults.md#isvalid)
+- [errors](HostedInputValidateResults.md#errors)
+- [isValid](HostedInputValidateResults.md#isvalid)
 
 ## Properties
 
-###  errors
+### errors
 
-• **errors**: *[HostedInputValidateErrorDataMap](hostedinputvalidateerrordatamap.md)*
+• **errors**: [`HostedInputValidateErrorDataMap`](HostedInputValidateErrorDataMap.md)
 
 ___
 
-###  isValid
+### isValid
 
-• **isValid**: *boolean*
+• **isValid**: `boolean`

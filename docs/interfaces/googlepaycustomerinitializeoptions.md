@@ -1,24 +1,20 @@
-[@bigcommerce/checkout-sdk](../README.md) › [GooglePayCustomerInitializeOptions](googlepaycustomerinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / GooglePayCustomerInitializeOptions
 
 # Interface: GooglePayCustomerInitializeOptions
 
-## Hierarchy
-
-* **GooglePayCustomerInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [buttonColor](googlepaycustomerinitializeoptions.md#optional-buttoncolor)
-* [buttonType](googlepaycustomerinitializeoptions.md#optional-buttontype)
-* [container](googlepaycustomerinitializeoptions.md#container)
+- [buttonColor](GooglePayCustomerInitializeOptions.md#buttoncolor)
+- [buttonType](GooglePayCustomerInitializeOptions.md#buttontype)
+- [container](GooglePayCustomerInitializeOptions.md#container)
 
 ## Properties
 
-### `Optional` buttonColor
+### buttonColor
 
-• **buttonColor**? : *[ButtonColor](../enums/buttoncolor.md)*
+• `Optional` **buttonColor**: [`Default`](../enums/ButtonColor.md#default) \| [`Black`](../enums/ButtonColor.md#black) \| [`White`](../enums/ButtonColor.md#white)
 
 The color of the GooglePay button that will be inserted.
  black (default): a black button suitable for use on white or light backgrounds.
@@ -26,9 +22,9 @@ The color of the GooglePay button that will be inserted.
 
 ___
 
-### `Optional` buttonType
+### buttonType
 
-• **buttonType**? : *[ButtonType](../enums/buttontype.md)*
+• `Optional` **buttonType**: [`Long`](../enums/ButtonType.md#long) \| [`Short`](../enums/ButtonType.md#short)
 
 The size of the GooglePay button that will be inserted.
  long: "Buy with Google Pay" button (default). A translated button label may appear
@@ -37,9 +33,9 @@ The size of the GooglePay button that will be inserted.
 
 ___
 
-###  container
+### container
 
-• **container**: *string*
+• **container**: `string`
 
 This container is used to set an event listener, provide an element ID if you want
 users to be able to launch the GooglePay wallet modal by clicking on a button.

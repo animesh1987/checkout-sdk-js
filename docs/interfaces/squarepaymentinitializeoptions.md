@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [SquarePaymentInitializeOptions](squarepaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / SquarePaymentInitializeOptions
 
 # Interface: SquarePaymentInitializeOptions
 
@@ -36,96 +36,96 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **SquarePaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [cardNumber](squarepaymentinitializeoptions.md#cardnumber)
-* [cvv](squarepaymentinitializeoptions.md#cvv)
-* [expirationDate](squarepaymentinitializeoptions.md#expirationdate)
-* [inputClass](squarepaymentinitializeoptions.md#optional-inputclass)
-* [inputStyles](squarepaymentinitializeoptions.md#optional-inputstyles)
-* [postalCode](squarepaymentinitializeoptions.md#postalcode)
+- [cardNumber](SquarePaymentInitializeOptions.md#cardnumber)
+- [cvv](SquarePaymentInitializeOptions.md#cvv)
+- [expirationDate](SquarePaymentInitializeOptions.md#expirationdate)
+- [inputClass](SquarePaymentInitializeOptions.md#inputclass)
+- [inputStyles](SquarePaymentInitializeOptions.md#inputstyles)
+- [postalCode](SquarePaymentInitializeOptions.md#postalcode)
 
 ### Methods
 
-* [onError](squarepaymentinitializeoptions.md#optional-onerror)
-* [onPaymentSelect](squarepaymentinitializeoptions.md#optional-onpaymentselect)
+- [onError](SquarePaymentInitializeOptions.md#onerror)
+- [onPaymentSelect](SquarePaymentInitializeOptions.md#onpaymentselect)
 
 ## Properties
 
-###  cardNumber
+### cardNumber
 
-• **cardNumber**: *[SquareFormElement](squareformelement.md)*
+• **cardNumber**: [`SquareFormElement`](SquareFormElement.md)
 
 The location to insert the credit card number form field.
 
 ___
 
-###  cvv
+### cvv
 
-• **cvv**: *[SquareFormElement](squareformelement.md)*
+• **cvv**: [`SquareFormElement`](SquareFormElement.md)
 
 The location to insert the CVV form field.
 
 ___
 
-###  expirationDate
+### expirationDate
 
-• **expirationDate**: *[SquareFormElement](squareformelement.md)*
+• **expirationDate**: [`SquareFormElement`](SquareFormElement.md)
 
 The location to insert the expiration date form field.
 
 ___
 
-### `Optional` inputClass
+### inputClass
 
-• **inputClass**? : *undefined | string*
+• `Optional` **inputClass**: `string`
 
 The CSS class to apply to all form fields.
 
 ___
 
-### `Optional` inputStyles
+### inputStyles
 
-• **inputStyles**? : *Array‹object›*
+• `Optional` **inputStyles**: { [key: string]: `string`;  }[]
 
 The set of CSS styles to apply to all form fields.
 
 ___
 
-###  postalCode
+### postalCode
 
-• **postalCode**: *[SquareFormElement](squareformelement.md)*
+• **postalCode**: [`SquareFormElement`](SquareFormElement.md)
 
 The location to insert the postal code form field.
 
 ## Methods
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`errors?`: [NonceGenerationError](noncegenerationerror.md)[]): *void*
+▸ `Optional` **onError**(`errors?`): `void`
 
 A callback that gets called when an error occurs in the card nonce generation
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`errors?` | [NonceGenerationError](noncegenerationerror.md)[] |
+| Name | Type |
+| :------ | :------ |
+| `errors?` | [`NonceGenerationError`](NonceGenerationError.md)[] |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onPaymentSelect
+### onPaymentSelect
 
-▸ **onPaymentSelect**(): *void*
+▸ `Optional` **onPaymentSelect**(): `void`
 
 A callback that gets called when the customer selects a payment option.
 
-**Returns:** *void*
+#### Returns
+
+`void`

@@ -1,103 +1,115 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CardInstrument](cardinstrument.md)
+[@bigcommerce/checkout-sdk](../README.md) / CardInstrument
 
 # Interface: CardInstrument
 
 ## Hierarchy
 
-* [BaseInstrument](baseinstrument.md)
+- [`BaseInstrument`](BaseInstrument.md)
 
-  ↳ **CardInstrument**
+  ↳ **`CardInstrument`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [bigpayToken](cardinstrument.md#bigpaytoken)
-* [brand](cardinstrument.md#brand)
-* [defaultInstrument](cardinstrument.md#defaultinstrument)
-* [expiryMonth](cardinstrument.md#expirymonth)
-* [expiryYear](cardinstrument.md#expiryyear)
-* [iin](cardinstrument.md#iin)
-* [last4](cardinstrument.md#last4)
-* [method](cardinstrument.md#method)
-* [provider](cardinstrument.md#provider)
-* [trustedShippingAddress](cardinstrument.md#trustedshippingaddress)
-* [type](cardinstrument.md#type)
+- [bigpayToken](CardInstrument.md#bigpaytoken)
+- [brand](CardInstrument.md#brand)
+- [defaultInstrument](CardInstrument.md#defaultinstrument)
+- [expiryMonth](CardInstrument.md#expirymonth)
+- [expiryYear](CardInstrument.md#expiryyear)
+- [iin](CardInstrument.md#iin)
+- [last4](CardInstrument.md#last4)
+- [method](CardInstrument.md#method)
+- [provider](CardInstrument.md#provider)
+- [trustedShippingAddress](CardInstrument.md#trustedshippingaddress)
+- [type](CardInstrument.md#type)
 
 ## Properties
 
-###  bigpayToken
+### bigpayToken
 
-• **bigpayToken**: *string*
+• **bigpayToken**: `string`
 
-*Inherited from [BankInstrument](bankinstrument.md).[bigpayToken](bankinstrument.md#bigpaytoken)*
+#### Inherited from
 
-___
-
-###  brand
-
-• **brand**: *string*
+[BaseInstrument](BaseInstrument.md).[bigpayToken](BaseInstrument.md#bigpaytoken)
 
 ___
 
-###  defaultInstrument
+### brand
 
-• **defaultInstrument**: *boolean*
-
-*Inherited from [BankInstrument](bankinstrument.md).[defaultInstrument](bankinstrument.md#defaultinstrument)*
+• **brand**: `string`
 
 ___
 
-###  expiryMonth
+### defaultInstrument
 
-• **expiryMonth**: *string*
+• **defaultInstrument**: `boolean`
 
-___
+#### Inherited from
 
-###  expiryYear
-
-• **expiryYear**: *string*
+[BaseInstrument](BaseInstrument.md).[defaultInstrument](BaseInstrument.md#defaultinstrument)
 
 ___
 
-###  iin
+### expiryMonth
 
-• **iin**: *string*
-
-___
-
-###  last4
-
-• **last4**: *string*
+• **expiryMonth**: `string`
 
 ___
 
-###  method
+### expiryYear
 
-• **method**: *string*
-
-*Inherited from [BaseInstrument](baseinstrument.md).[method](baseinstrument.md#method)*
+• **expiryYear**: `string`
 
 ___
 
-###  provider
+### iin
 
-• **provider**: *string*
-
-*Inherited from [BankInstrument](bankinstrument.md).[provider](bankinstrument.md#provider)*
+• **iin**: `string`
 
 ___
 
-###  trustedShippingAddress
+### last4
 
-• **trustedShippingAddress**: *boolean*
-
-*Inherited from [BankInstrument](bankinstrument.md).[trustedShippingAddress](bankinstrument.md#trustedshippingaddress)*
+• **last4**: `string`
 
 ___
 
-###  type
+### method
 
-• **type**: *"card"*
+• **method**: `string`
 
-*Overrides [BaseInstrument](baseinstrument.md).[type](baseinstrument.md#type)*
+#### Inherited from
+
+[BaseInstrument](BaseInstrument.md).[method](BaseInstrument.md#method)
+
+___
+
+### provider
+
+• **provider**: `string`
+
+#### Inherited from
+
+[BaseInstrument](BaseInstrument.md).[provider](BaseInstrument.md#provider)
+
+___
+
+### trustedShippingAddress
+
+• **trustedShippingAddress**: `boolean`
+
+#### Inherited from
+
+[BaseInstrument](BaseInstrument.md).[trustedShippingAddress](BaseInstrument.md#trustedshippingaddress)
+
+___
+
+### type
+
+• **type**: ``"card"``
+
+#### Overrides
+
+[BaseInstrument](BaseInstrument.md).[type](BaseInstrument.md#type)

@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Promotion](promotion.md)
+[@bigcommerce/checkout-sdk](../README.md) / Promotion
 
 # Interface: Promotion
 
-## Hierarchy
-
-* **Promotion**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [banners](promotion.md#banners)
+- [banners](Promotion.md#banners)
 
 ## Properties
 
-###  banners
+### banners
 
-• **banners**: *[Banner](banner.md)[]*
+• **banners**: [`Banner`](Banner.md)[]

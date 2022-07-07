@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceCreditCardPaymentInitializeOptions](paypalcommercecreditcardpaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceCreditCardPaymentInitializeOptions
 
 # Interface: PaypalCommerceCreditCardPaymentInitializeOptions
 
@@ -75,20 +75,16 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **PaypalCommerceCreditCardPaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [form](paypalcommercecreditcardpaymentinitializeoptions.md#form)
+- [form](PaypalCommerceCreditCardPaymentInitializeOptions.md#form)
 
 ## Properties
 
-###  form
+### form
 
-• **form**: *[PaypalCommerceFormOptions](paypalcommerceformoptions.md)*
+• **form**: [`PaypalCommerceFormOptions`](PaypalCommerceFormOptions.md)
 
 The form is data for Credit Card Form

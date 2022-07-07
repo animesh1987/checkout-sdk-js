@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [EmbeddedCheckoutErrorEvent](embeddedcheckouterrorevent.md)
+[@bigcommerce/checkout-sdk](../README.md) / EmbeddedCheckoutErrorEvent
 
 # Interface: EmbeddedCheckoutErrorEvent
 
-## Hierarchy
-
-* **EmbeddedCheckoutErrorEvent**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [payload](embeddedcheckouterrorevent.md#payload)
-* [type](embeddedcheckouterrorevent.md#type)
+- [payload](EmbeddedCheckoutErrorEvent.md#payload)
+- [type](EmbeddedCheckoutErrorEvent.md#type)
 
 ## Properties
 
-###  payload
+### payload
 
-• **payload**: *[EmbeddedCheckoutError](embeddedcheckouterror.md)*
+• **payload**: [`EmbeddedCheckoutError`](EmbeddedCheckoutError.md)
 
 ___
 
-###  type
+### type
 
-• **type**: *[CheckoutError](../enums/embeddedcheckouteventtype.md#checkouterror)*
+• **type**: [`CheckoutError`](../enums/EmbeddedCheckoutEventType.md#checkouterror)

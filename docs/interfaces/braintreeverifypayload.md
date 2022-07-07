@@ -1,55 +1,51 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeVerifyPayload](braintreeverifypayload.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeVerifyPayload
 
 # Interface: BraintreeVerifyPayload
 
-## Hierarchy
-
-* **BraintreeVerifyPayload**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [description](braintreeverifypayload.md#description)
-* [details](braintreeverifypayload.md#details)
-* [liabilityShiftPossible](braintreeverifypayload.md#liabilityshiftpossible)
-* [liabilityShifted](braintreeverifypayload.md#liabilityshifted)
-* [nonce](braintreeverifypayload.md#nonce)
+- [description](BraintreeVerifyPayload.md#description)
+- [details](BraintreeVerifyPayload.md#details)
+- [liabilityShiftPossible](BraintreeVerifyPayload.md#liabilityshiftpossible)
+- [liabilityShifted](BraintreeVerifyPayload.md#liabilityshifted)
+- [nonce](BraintreeVerifyPayload.md#nonce)
 
 ## Properties
 
-###  description
+### description
 
-• **description**: *string*
-
-___
-
-###  details
-
-• **details**: *object*
-
-#### Type declaration:
-
-* **cardType**: *string*
-
-* **lastFour**: *string*
-
-* **lastTwo**: *string*
+• **description**: `string`
 
 ___
 
-###  liabilityShiftPossible
+### details
 
-• **liabilityShiftPossible**: *boolean*
+• **details**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `cardType` | `string` |
+| `lastFour` | `string` |
+| `lastTwo` | `string` |
 
 ___
 
-###  liabilityShifted
+### liabilityShiftPossible
 
-• **liabilityShifted**: *boolean*
+• **liabilityShiftPossible**: `boolean`
 
 ___
 
-###  nonce
+### liabilityShifted
 
-• **nonce**: *string*
+• **liabilityShifted**: `boolean`
+
+___
+
+### nonce
+
+• **nonce**: `string`

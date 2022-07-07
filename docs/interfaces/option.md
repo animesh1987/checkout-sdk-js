@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Option](option.md)
+[@bigcommerce/checkout-sdk](../README.md) / Option
 
 # Interface: Option
 
-## Hierarchy
-
-* **Option**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [itemQuantities](option.md#itemquantities)
-* [pickupMethod](option.md#pickupmethod)
+- [itemQuantities](Option.md#itemquantities)
+- [pickupMethod](Option.md#pickupmethod)
 
 ## Properties
 
-###  itemQuantities
+### itemQuantities
 
-• **itemQuantities**: *[Item](item.md)*
+• **itemQuantities**: [`Item`](Item.md)
 
 ___
 
-###  pickupMethod
+### pickupMethod
 
-• **pickupMethod**: *[PickupMethod](pickupmethod.md)*
+• **pickupMethod**: [`PickupMethod`](PickupMethod.md)

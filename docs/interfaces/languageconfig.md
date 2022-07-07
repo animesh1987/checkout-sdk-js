@@ -1,61 +1,57 @@
-[@bigcommerce/checkout-sdk](../README.md) › [LanguageConfig](languageconfig.md)
+[@bigcommerce/checkout-sdk](../README.md) / LanguageConfig
 
 # Interface: LanguageConfig
 
-## Hierarchy
-
-* **LanguageConfig**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [defaultLocale](languageconfig.md#optional-defaultlocale)
-* [defaultTranslations](languageconfig.md#defaulttranslations)
-* [fallbackLocale](languageconfig.md#optional-fallbacklocale)
-* [fallbackTranslations](languageconfig.md#optional-fallbacktranslations)
-* [locale](languageconfig.md#locale)
-* [locales](languageconfig.md#locales)
-* [translations](languageconfig.md#translations)
+- [defaultLocale](LanguageConfig.md#defaultlocale)
+- [defaultTranslations](LanguageConfig.md#defaulttranslations)
+- [fallbackLocale](LanguageConfig.md#fallbacklocale)
+- [fallbackTranslations](LanguageConfig.md#fallbacktranslations)
+- [locale](LanguageConfig.md#locale)
+- [locales](LanguageConfig.md#locales)
+- [translations](LanguageConfig.md#translations)
 
 ## Properties
 
-### `Optional` defaultLocale
+### defaultLocale
 
-• **defaultLocale**? : *undefined | string*
-
-___
-
-###  defaultTranslations
-
-• **defaultTranslations**: *[Translations](translations.md)*
+• `Optional` **defaultLocale**: `string`
 
 ___
 
-### `Optional` fallbackLocale
+### defaultTranslations
 
-• **fallbackLocale**? : *undefined | string*
-
-___
-
-### `Optional` fallbackTranslations
-
-• **fallbackTranslations**? : *[Translations](translations.md)*
+• **defaultTranslations**: [`Translations`](Translations.md)
 
 ___
 
-###  locale
+### fallbackLocale
 
-• **locale**: *string*
-
-___
-
-###  locales
-
-• **locales**: *[Locales](locales.md)*
+• `Optional` **fallbackLocale**: `string`
 
 ___
 
-###  translations
+### fallbackTranslations
 
-• **translations**: *[Translations](translations.md)*
+• `Optional` **fallbackTranslations**: [`Translations`](Translations.md)
+
+___
+
+### locale
+
+• **locale**: `string`
+
+___
+
+### locales
+
+• **locales**: [`Locales`](Locales.md)
+
+___
+
+### translations
+
+• **translations**: [`Translations`](Translations.md)

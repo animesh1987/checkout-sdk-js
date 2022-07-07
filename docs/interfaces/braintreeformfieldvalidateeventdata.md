@@ -1,40 +1,33 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeFormFieldValidateEventData](braintreeformfieldvalidateeventdata.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeFormFieldValidateEventData
 
 # Interface: BraintreeFormFieldValidateEventData
 
-## Hierarchy
-
-* **BraintreeFormFieldValidateEventData**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [errors](braintreeformfieldvalidateeventdata.md#errors)
-* [isValid](braintreeformfieldvalidateeventdata.md#isvalid)
+- [errors](BraintreeFormFieldValidateEventData.md#errors)
+- [isValid](BraintreeFormFieldValidateEventData.md#isvalid)
 
 ## Properties
 
-###  errors
+### errors
 
-• **errors**: *object*
+• **errors**: `Object`
 
-#### Type declaration:
+#### Type declaration
 
-* **[BraintreeFormFieldType.CardCodeVerification]**? : *[BraintreeFormFieldValidateErrorData](braintreeformfieldvalidateerrordata.md)[]*
-
-* **[BraintreeFormFieldType.CardCode]**? : *[BraintreeFormFieldValidateErrorData](braintreeformfieldvalidateerrordata.md)[]*
-
-* **[BraintreeFormFieldType.CardExpiry]**? : *[BraintreeFormFieldValidateErrorData](braintreeformfieldvalidateerrordata.md)[]*
-
-* **[BraintreeFormFieldType.CardName]**? : *[BraintreeFormFieldValidateErrorData](braintreeformfieldvalidateerrordata.md)[]*
-
-* **[BraintreeFormFieldType.CardNumberVerification]**? : *[BraintreeFormFieldValidateErrorData](braintreeformfieldvalidateerrordata.md)[]*
-
-* **[BraintreeFormFieldType.CardNumber]**? : *[BraintreeFormFieldValidateErrorData](braintreeformfieldvalidateerrordata.md)[]*
+| Name | Type |
+| :------ | :------ |
+| `cardCode?` | [`BraintreeFormFieldValidateErrorData`](BraintreeFormFieldValidateErrorData.md)[] |
+| `cardCodeVerification?` | [`BraintreeFormFieldValidateErrorData`](BraintreeFormFieldValidateErrorData.md)[] |
+| `cardExpiry?` | [`BraintreeFormFieldValidateErrorData`](BraintreeFormFieldValidateErrorData.md)[] |
+| `cardName?` | [`BraintreeFormFieldValidateErrorData`](BraintreeFormFieldValidateErrorData.md)[] |
+| `cardNumber?` | [`BraintreeFormFieldValidateErrorData`](BraintreeFormFieldValidateErrorData.md)[] |
+| `cardNumberVerification?` | [`BraintreeFormFieldValidateErrorData`](BraintreeFormFieldValidateErrorData.md)[] |
 
 ___
 
-###  isValid
+### isValid
 
-• **isValid**: *boolean*
+• **isValid**: `boolean`

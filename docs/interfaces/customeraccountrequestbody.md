@@ -1,54 +1,50 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CustomerAccountRequestBody](customeraccountrequestbody.md)
+[@bigcommerce/checkout-sdk](../README.md) / CustomerAccountRequestBody
 
 # Interface: CustomerAccountRequestBody
 
-## Hierarchy
-
-* **CustomerAccountRequestBody**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [acceptsMarketingEmails](customeraccountrequestbody.md#optional-acceptsmarketingemails)
-* [customFields](customeraccountrequestbody.md#optional-customfields)
-* [email](customeraccountrequestbody.md#email)
-* [firstName](customeraccountrequestbody.md#firstname)
-* [lastName](customeraccountrequestbody.md#lastname)
-* [password](customeraccountrequestbody.md#password)
+- [acceptsMarketingEmails](CustomerAccountRequestBody.md#acceptsmarketingemails)
+- [customFields](CustomerAccountRequestBody.md#customfields)
+- [email](CustomerAccountRequestBody.md#email)
+- [firstName](CustomerAccountRequestBody.md#firstname)
+- [lastName](CustomerAccountRequestBody.md#lastname)
+- [password](CustomerAccountRequestBody.md#password)
 
 ## Properties
 
-### `Optional` acceptsMarketingEmails
+### acceptsMarketingEmails
 
-• **acceptsMarketingEmails**? : *undefined | false | true*
-
-___
-
-### `Optional` customFields
-
-• **customFields**? : *Array‹object›*
+• `Optional` **acceptsMarketingEmails**: `boolean`
 
 ___
 
-###  email
+### customFields
 
-• **email**: *string*
-
-___
-
-###  firstName
-
-• **firstName**: *string*
+• `Optional` **customFields**: { `fieldId`: `string` ; `fieldValue`: `string` \| `number` \| `string`[]  }[]
 
 ___
 
-###  lastName
+### email
 
-• **lastName**: *string*
+• **email**: `string`
 
 ___
 
-###  password
+### firstName
 
-• **password**: *string*
+• **firstName**: `string`
+
+___
+
+### lastName
+
+• **lastName**: `string`
+
+___
+
+### password
+
+• **password**: `string`

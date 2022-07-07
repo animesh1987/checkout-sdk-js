@@ -1,33 +1,29 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BlueSnapV2StyleProps](bluesnapv2styleprops.md)
+[@bigcommerce/checkout-sdk](../README.md) / BlueSnapV2StyleProps
 
 # Interface: BlueSnapV2StyleProps
 
-## Hierarchy
-
-* **BlueSnapV2StyleProps**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [border](bluesnapv2styleprops.md#optional-border)
-* [height](bluesnapv2styleprops.md#optional-height)
-* [width](bluesnapv2styleprops.md#optional-width)
+- [border](BlueSnapV2StyleProps.md#border)
+- [height](BlueSnapV2StyleProps.md#height)
+- [width](BlueSnapV2StyleProps.md#width)
 
 ## Properties
 
-### `Optional` border
+### border
 
-• **border**? : *undefined | string*
-
-___
-
-### `Optional` height
-
-• **height**? : *undefined | string*
+• `Optional` **border**: `string`
 
 ___
 
-### `Optional` width
+### height
 
-• **width**? : *undefined | string*
+• `Optional` **height**: `string`
+
+___
+
+### width
+
+• `Optional` **width**: `string`

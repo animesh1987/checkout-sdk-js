@@ -1,50 +1,50 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceFormFieldType](paypalcommerceformfieldtype.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceFormFieldType
 
 # Enumeration: PaypalCommerceFormFieldType
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [CardCode](paypalcommerceformfieldtype.md#cardcode)
-* [CardCodeVerification](paypalcommerceformfieldtype.md#cardcodeverification)
-* [CardExpiry](paypalcommerceformfieldtype.md#cardexpiry)
-* [CardName](paypalcommerceformfieldtype.md#cardname)
-* [CardNumber](paypalcommerceformfieldtype.md#cardnumber)
-* [CardNumberVerification](paypalcommerceformfieldtype.md#cardnumberverification)
+- [CardCode](PaypalCommerceFormFieldType.md#cardcode)
+- [CardCodeVerification](PaypalCommerceFormFieldType.md#cardcodeverification)
+- [CardExpiry](PaypalCommerceFormFieldType.md#cardexpiry)
+- [CardName](PaypalCommerceFormFieldType.md#cardname)
+- [CardNumber](PaypalCommerceFormFieldType.md#cardnumber)
+- [CardNumberVerification](PaypalCommerceFormFieldType.md#cardnumberverification)
 
 ## Enumeration members
 
-###  CardCode
+### CardCode
 
-• **CardCode**: = "cardCode"
-
-___
-
-###  CardCodeVerification
-
-• **CardCodeVerification**: = "cardCodeVerification"
+• **CardCode** = `"cardCode"`
 
 ___
 
-###  CardExpiry
+### CardCodeVerification
 
-• **CardExpiry**: = "cardExpiry"
-
-___
-
-###  CardName
-
-• **CardName**: = "cardName"
+• **CardCodeVerification** = `"cardCodeVerification"`
 
 ___
 
-###  CardNumber
+### CardExpiry
 
-• **CardNumber**: = "cardNumber"
+• **CardExpiry** = `"cardExpiry"`
 
 ___
 
-###  CardNumberVerification
+### CardName
 
-• **CardNumberVerification**: = "cardNumberVerification"
+• **CardName** = `"cardName"`
+
+___
+
+### CardNumber
+
+• **CardNumber** = `"cardNumber"`
+
+___
+
+### CardNumberVerification
+
+• **CardNumberVerification** = `"cardNumberVerification"`

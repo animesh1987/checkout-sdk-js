@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [MonerisStylingProps](monerisstylingprops.md)
+[@bigcommerce/checkout-sdk](../README.md) / MonerisStylingProps
 
 # Interface: MonerisStylingProps
 
@@ -20,65 +20,61 @@ IE:
 When using several attributes use semicolon to separate each one.
 IE: 'background:white;width:40px;'
 
-## Hierarchy
-
-* **MonerisStylingProps**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [cssBody](monerisstylingprops.md#optional-cssbody)
-* [cssInputLabel](monerisstylingprops.md#optional-cssinputlabel)
-* [cssTextbox](monerisstylingprops.md#optional-csstextbox)
-* [cssTextboxCVV](monerisstylingprops.md#optional-csstextboxcvv)
-* [cssTextboxCardNumber](monerisstylingprops.md#optional-csstextboxcardnumber)
-* [cssTextboxExpiryDate](monerisstylingprops.md#optional-csstextboxexpirydate)
+- [cssBody](MonerisStylingProps.md#cssbody)
+- [cssInputLabel](MonerisStylingProps.md#cssinputlabel)
+- [cssTextbox](MonerisStylingProps.md#csstextbox)
+- [cssTextboxCVV](MonerisStylingProps.md#csstextboxcvv)
+- [cssTextboxCardNumber](MonerisStylingProps.md#csstextboxcardnumber)
+- [cssTextboxExpiryDate](MonerisStylingProps.md#csstextboxexpirydate)
 
 ## Properties
 
-### `Optional` cssBody
+### cssBody
 
-• **cssBody**? : *undefined | string*
+• `Optional` **cssBody**: `string`
 
 Stringified CSS to apply to the body of the IFrame.
 
 ___
 
-### `Optional` cssInputLabel
+### cssInputLabel
 
-• **cssInputLabel**? : *undefined | string*
+• `Optional` **cssInputLabel**: `string`
 
 Stringified CSS to apply to input labels
 
 ___
 
-### `Optional` cssTextbox
+### cssTextbox
 
-• **cssTextbox**? : *undefined | string*
+• `Optional` **cssTextbox**: `string`
 
 Stringified CSS to apply to each of input fields.
 
 ___
 
-### `Optional` cssTextboxCVV
+### cssTextboxCVV
 
-• **cssTextboxCVV**? : *undefined | string*
+• `Optional` **cssTextboxCVV**: `string`
 
 Stringified CSS to apply to the card's CVV field.
 
 ___
 
-### `Optional` cssTextboxCardNumber
+### cssTextboxCardNumber
 
-• **cssTextboxCardNumber**? : *undefined | string*
+• `Optional` **cssTextboxCardNumber**: `string`
 
 Stringified CSS to apply to the card's number field.
 
 ___
 
-### `Optional` cssTextboxExpiryDate
+### cssTextboxExpiryDate
 
-• **cssTextboxExpiryDate**? : *undefined | string*
+• `Optional` **cssTextboxExpiryDate**: `string`
 
 Stringified CSS to apply to the card's expiry field.

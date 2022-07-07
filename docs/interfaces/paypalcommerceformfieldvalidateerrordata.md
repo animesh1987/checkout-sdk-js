@@ -1,33 +1,29 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceFormFieldValidateErrorData](paypalcommerceformfieldvalidateerrordata.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceFormFieldValidateErrorData
 
 # Interface: PaypalCommerceFormFieldValidateErrorData
 
-## Hierarchy
-
-* **PaypalCommerceFormFieldValidateErrorData**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [fieldType](paypalcommerceformfieldvalidateerrordata.md#fieldtype)
-* [message](paypalcommerceformfieldvalidateerrordata.md#message)
-* [type](paypalcommerceformfieldvalidateerrordata.md#type)
+- [fieldType](PaypalCommerceFormFieldValidateErrorData.md#fieldtype)
+- [message](PaypalCommerceFormFieldValidateErrorData.md#message)
+- [type](PaypalCommerceFormFieldValidateErrorData.md#type)
 
 ## Properties
 
-###  fieldType
+### fieldType
 
-• **fieldType**: *string*
-
-___
-
-###  message
-
-• **message**: *string*
+• **fieldType**: `string`
 
 ___
 
-###  type
+### message
 
-• **type**: *string*
+• **message**: `string`
+
+___
+
+### type
+
+• **type**: `string`

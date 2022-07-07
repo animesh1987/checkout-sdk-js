@@ -1,124 +1,120 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaymentMethodConfig](paymentmethodconfig.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaymentMethodConfig
 
 # Interface: PaymentMethodConfig
 
-## Hierarchy
-
-* **PaymentMethodConfig**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [cardCode](paymentmethodconfig.md#optional-cardcode)
-* [displayName](paymentmethodconfig.md#optional-displayname)
-* [enablePaypal](paymentmethodconfig.md#optional-enablepaypal)
-* [hasDefaultStoredInstrument](paymentmethodconfig.md#optional-hasdefaultstoredinstrument)
-* [helpText](paymentmethodconfig.md#optional-helptext)
-* [is3dsEnabled](paymentmethodconfig.md#optional-is3dsenabled)
-* [isHostedFormEnabled](paymentmethodconfig.md#optional-ishostedformenabled)
-* [isVaultingCvvEnabled](paymentmethodconfig.md#optional-isvaultingcvvenabled)
-* [isVaultingEnabled](paymentmethodconfig.md#optional-isvaultingenabled)
-* [isVisaCheckoutEnabled](paymentmethodconfig.md#optional-isvisacheckoutenabled)
-* [logo](paymentmethodconfig.md#optional-logo)
-* [merchantId](paymentmethodconfig.md#optional-merchantid)
-* [redirectUrl](paymentmethodconfig.md#optional-redirecturl)
-* [requireCustomerCode](paymentmethodconfig.md#optional-requirecustomercode)
-* [returnUrl](paymentmethodconfig.md#optional-returnurl)
-* [testMode](paymentmethodconfig.md#optional-testmode)
+- [cardCode](PaymentMethodConfig.md#cardcode)
+- [displayName](PaymentMethodConfig.md#displayname)
+- [enablePaypal](PaymentMethodConfig.md#enablepaypal)
+- [hasDefaultStoredInstrument](PaymentMethodConfig.md#hasdefaultstoredinstrument)
+- [helpText](PaymentMethodConfig.md#helptext)
+- [is3dsEnabled](PaymentMethodConfig.md#is3dsenabled)
+- [isHostedFormEnabled](PaymentMethodConfig.md#ishostedformenabled)
+- [isVaultingCvvEnabled](PaymentMethodConfig.md#isvaultingcvvenabled)
+- [isVaultingEnabled](PaymentMethodConfig.md#isvaultingenabled)
+- [isVisaCheckoutEnabled](PaymentMethodConfig.md#isvisacheckoutenabled)
+- [logo](PaymentMethodConfig.md#logo)
+- [merchantId](PaymentMethodConfig.md#merchantid)
+- [redirectUrl](PaymentMethodConfig.md#redirecturl)
+- [requireCustomerCode](PaymentMethodConfig.md#requirecustomercode)
+- [returnUrl](PaymentMethodConfig.md#returnurl)
+- [testMode](PaymentMethodConfig.md#testmode)
 
 ## Properties
 
-### `Optional` cardCode
+### cardCode
 
-• **cardCode**? : *undefined | false | true*
-
-___
-
-### `Optional` displayName
-
-• **displayName**? : *undefined | string*
+• `Optional` **cardCode**: `boolean`
 
 ___
 
-### `Optional` enablePaypal
+### displayName
 
-• **enablePaypal**? : *undefined | false | true*
-
-___
-
-### `Optional` hasDefaultStoredInstrument
-
-• **hasDefaultStoredInstrument**? : *undefined | false | true*
+• `Optional` **displayName**: `string`
 
 ___
 
-### `Optional` helpText
+### enablePaypal
 
-• **helpText**? : *undefined | string*
-
-___
-
-### `Optional` is3dsEnabled
-
-• **is3dsEnabled**? : *undefined | false | true*
+• `Optional` **enablePaypal**: `boolean`
 
 ___
 
-### `Optional` isHostedFormEnabled
+### hasDefaultStoredInstrument
 
-• **isHostedFormEnabled**? : *undefined | false | true*
-
-___
-
-### `Optional` isVaultingCvvEnabled
-
-• **isVaultingCvvEnabled**? : *undefined | false | true*
+• `Optional` **hasDefaultStoredInstrument**: `boolean`
 
 ___
 
-### `Optional` isVaultingEnabled
+### helpText
 
-• **isVaultingEnabled**? : *undefined | false | true*
-
-___
-
-### `Optional` isVisaCheckoutEnabled
-
-• **isVisaCheckoutEnabled**? : *undefined | false | true*
+• `Optional` **helpText**: `string`
 
 ___
 
-### `Optional` logo
+### is3dsEnabled
 
-• **logo**? : *undefined | string*
-
-___
-
-### `Optional` merchantId
-
-• **merchantId**? : *undefined | string*
+• `Optional` **is3dsEnabled**: `boolean`
 
 ___
 
-### `Optional` redirectUrl
+### isHostedFormEnabled
 
-• **redirectUrl**? : *undefined | string*
-
-___
-
-### `Optional` requireCustomerCode
-
-• **requireCustomerCode**? : *undefined | false | true*
+• `Optional` **isHostedFormEnabled**: `boolean`
 
 ___
 
-### `Optional` returnUrl
+### isVaultingCvvEnabled
 
-• **returnUrl**? : *undefined | string*
+• `Optional` **isVaultingCvvEnabled**: `boolean`
 
 ___
 
-### `Optional` testMode
+### isVaultingEnabled
 
-• **testMode**? : *undefined | false | true*
+• `Optional` **isVaultingEnabled**: `boolean`
+
+___
+
+### isVisaCheckoutEnabled
+
+• `Optional` **isVisaCheckoutEnabled**: `boolean`
+
+___
+
+### logo
+
+• `Optional` **logo**: `string`
+
+___
+
+### merchantId
+
+• `Optional` **merchantId**: `string`
+
+___
+
+### redirectUrl
+
+• `Optional` **redirectUrl**: `string`
+
+___
+
+### requireCustomerCode
+
+• `Optional` **requireCustomerCode**: `boolean`
+
+___
+
+### returnUrl
+
+• `Optional` **returnUrl**: `string`
+
+___
+
+### testMode
+
+• `Optional` **testMode**: `boolean`

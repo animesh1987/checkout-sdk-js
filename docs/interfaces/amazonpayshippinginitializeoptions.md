@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AmazonPayShippingInitializeOptions](amazonpayshippinginitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / AmazonPayShippingInitializeOptions
 
 # Interface: AmazonPayShippingInitializeOptions
 
@@ -8,76 +8,78 @@ checkout in order to support Amazon Pay.
 When Amazon Pay is initialized, a widget will be inserted into the DOM. The
 widget has a list of shipping addresses for the customer to choose from.
 
-## Hierarchy
-
-* **AmazonPayShippingInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [container](amazonpayshippinginitializeoptions.md#container)
+- [container](AmazonPayShippingInitializeOptions.md#container)
 
 ### Methods
 
-* [onAddressSelect](amazonpayshippinginitializeoptions.md#optional-onaddressselect)
-* [onError](amazonpayshippinginitializeoptions.md#optional-onerror)
-* [onReady](amazonpayshippinginitializeoptions.md#optional-onready)
+- [onAddressSelect](AmazonPayShippingInitializeOptions.md#onaddressselect)
+- [onError](AmazonPayShippingInitializeOptions.md#onerror)
+- [onReady](AmazonPayShippingInitializeOptions.md#onready)
 
 ## Properties
 
-###  container
+### container
 
-• **container**: *string*
+• **container**: `string`
 
 The ID of a container which the address widget should insert into.
 
 ## Methods
 
-### `Optional` onAddressSelect
+### onAddressSelect
 
-▸ **onAddressSelect**(`reference`: [AmazonPayOrderReference](amazonpayorderreference.md)): *void*
+▸ `Optional` **onAddressSelect**(`reference`): `void`
 
 A callback that gets called when the customer selects an address option.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`reference` | [AmazonPayOrderReference](amazonpayorderreference.md) | The order reference provided by Amazon.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `reference` | [`AmazonPayOrderReference`](AmazonPayOrderReference.md) | The order reference provided by Amazon. |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`error`: [AmazonPayWidgetError](amazonpaywidgeterror.md) | [StandardError](../classes/standarderror.md)): *void*
+▸ `Optional` **onError**(`error`): `void`
 
 A callback that gets called if unable to initialize the widget or select
 one of the address options provided by the widget.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [AmazonPayWidgetError](amazonpaywidgeterror.md) &#124; [StandardError](../classes/standarderror.md) | The error object describing the failure of the initialization.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | [`AmazonPayWidgetError`](AmazonPayWidgetError.md) \| [`StandardError`](../classes/StandardError.md) | The error object describing the failure of the initialization. |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onReady
+### onReady
 
-▸ **onReady**(`reference`: [AmazonPayOrderReference](amazonpayorderreference.md)): *void*
+▸ `Optional` **onReady**(`reference`): `void`
 
 A callback that gets called when the widget is loaded and ready to be
 interacted with.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`reference` | [AmazonPayOrderReference](amazonpayorderreference.md) | The order reference provided by Amazon.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `reference` | [`AmazonPayOrderReference`](AmazonPayOrderReference.md) | The order reference provided by Amazon. |
 
-**Returns:** *void*
+#### Returns
+
+`void`

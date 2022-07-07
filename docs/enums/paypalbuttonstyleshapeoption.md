@@ -1,22 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalButtonStyleShapeOption](paypalbuttonstyleshapeoption.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalButtonStyleShapeOption
 
 # Enumeration: PaypalButtonStyleShapeOption
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [PILL](paypalbuttonstyleshapeoption.md#pill)
-* [RECT](paypalbuttonstyleshapeoption.md#rect)
+- [PILL](PaypalButtonStyleShapeOption.md#pill)
+- [RECT](PaypalButtonStyleShapeOption.md#rect)
 
 ## Enumeration members
 
-###  PILL
+### PILL
 
-• **PILL**: = "pill"
+• **PILL** = `"pill"`
 
 ___
 
-###  RECT
+### RECT
 
-• **RECT**: = "rect"
+• **RECT** = `"rect"`

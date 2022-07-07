@@ -1,60 +1,64 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StepTracker](steptracker.md)
+[@bigcommerce/checkout-sdk](../README.md) / StepTracker
 
 # Interface: StepTracker
 
-## Hierarchy
-
-* **StepTracker**
-
-## Index
+## Table of contents
 
 ### Methods
 
-* [trackCheckoutStarted](steptracker.md#trackcheckoutstarted)
-* [trackOrderComplete](steptracker.md#trackordercomplete)
-* [trackStepCompleted](steptracker.md#trackstepcompleted)
-* [trackStepViewed](steptracker.md#trackstepviewed)
+- [trackCheckoutStarted](StepTracker.md#trackcheckoutstarted)
+- [trackOrderComplete](StepTracker.md#trackordercomplete)
+- [trackStepCompleted](StepTracker.md#trackstepcompleted)
+- [trackStepViewed](StepTracker.md#trackstepviewed)
 
 ## Methods
 
-###  trackCheckoutStarted
+### trackCheckoutStarted
 
-▸ **trackCheckoutStarted**(): *void*
+▸ **trackCheckoutStarted**(): `void`
 
-**Returns:** *void*
+#### Returns
 
-___
-
-###  trackOrderComplete
-
-▸ **trackOrderComplete**(): *void*
-
-**Returns:** *void*
+`void`
 
 ___
 
-###  trackStepCompleted
+### trackOrderComplete
 
-▸ **trackStepCompleted**(`step`: string): *void*
+▸ **trackOrderComplete**(): `void`
 
-**Parameters:**
+#### Returns
 
-Name | Type |
------- | ------ |
-`step` | string |
-
-**Returns:** *void*
+`void`
 
 ___
 
-###  trackStepViewed
+### trackStepCompleted
 
-▸ **trackStepViewed**(`step`: string): *void*
+▸ **trackStepCompleted**(`step`): `void`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`step` | string |
+| Name | Type |
+| :------ | :------ |
+| `step` | `string` |
 
-**Returns:** *void*
+#### Returns
+
+`void`
+
+___
+
+### trackStepViewed
+
+▸ **trackStepViewed**(`step`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `step` | `string` |
+
+#### Returns
+
+`void`

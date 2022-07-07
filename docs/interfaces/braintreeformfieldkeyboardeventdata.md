@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeFormFieldKeyboardEventData](braintreeformfieldkeyboardeventdata.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeFormFieldKeyboardEventData
 
 # Interface: BraintreeFormFieldKeyboardEventData
 
-## Hierarchy
-
-* **BraintreeFormFieldKeyboardEventData**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [fieldType](braintreeformfieldkeyboardeventdata.md#fieldtype)
+- [fieldType](BraintreeFormFieldKeyboardEventData.md#fieldtype)
 
 ## Properties
 
-###  fieldType
+### fieldType
 
-• **fieldType**: *string*
+• **fieldType**: `string`

@@ -1,36 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalButtonStyleColorOption](paypalbuttonstylecoloroption.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalButtonStyleColorOption
 
 # Enumeration: PaypalButtonStyleColorOption
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [BLACK](paypalbuttonstylecoloroption.md#black)
-* [BLUE](paypalbuttonstylecoloroption.md#blue)
-* [GOLD](paypalbuttonstylecoloroption.md#gold)
-* [SIlVER](paypalbuttonstylecoloroption.md#silver)
+- [BLACK](PaypalButtonStyleColorOption.md#black)
+- [BLUE](PaypalButtonStyleColorOption.md#blue)
+- [GOLD](PaypalButtonStyleColorOption.md#gold)
+- [SIlVER](PaypalButtonStyleColorOption.md#silver)
 
 ## Enumeration members
 
-###  BLACK
+### BLACK
 
-• **BLACK**: = "black"
-
-___
-
-###  BLUE
-
-• **BLUE**: = "blue"
+• **BLACK** = `"black"`
 
 ___
 
-###  GOLD
+### BLUE
 
-• **GOLD**: = "gold"
+• **BLUE** = `"blue"`
 
 ___
 
-###  SIlVER
+### GOLD
 
-• **SIlVER**: = "silver"
+• **GOLD** = `"gold"`
+
+___
+
+### SIlVER
+
+• **SIlVER** = `"silver"`

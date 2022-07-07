@@ -1,21 +1,17 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BaseElementOptions](baseelementoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BaseElementOptions
 
 # Interface: BaseElementOptions
 
-## Hierarchy
-
-* **BaseElementOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [classes](baseelementoptions.md#optional-classes)
+- [classes](BaseElementOptions.md#classes)
 
 ## Properties
 
-### `Optional` classes
+### classes
 
-• **classes**? : *[DigitalRiverElementClasses](digitalriverelementclasses.md)*
+• `Optional` **classes**: [`DigitalRiverElementClasses`](DigitalRiverElementClasses.md)
 
 Set custom class names on the container DOM element when the Digital River element is in a particular state.

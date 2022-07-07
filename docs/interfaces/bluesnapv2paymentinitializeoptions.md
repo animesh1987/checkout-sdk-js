@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BlueSnapV2PaymentInitializeOptions](bluesnapv2paymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BlueSnapV2PaymentInitializeOptions
 
 # Interface: BlueSnapV2PaymentInitializeOptions
 
@@ -32,50 +32,41 @@ service.initializePayment({
     },
 });
 
-## Hierarchy
-
-* **BlueSnapV2PaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [style](bluesnapv2paymentinitializeoptions.md#optional-style)
+- [style](BlueSnapV2PaymentInitializeOptions.md#style)
 
 ### Methods
 
-* [onLoad](bluesnapv2paymentinitializeoptions.md#onload)
+- [onLoad](BlueSnapV2PaymentInitializeOptions.md#onload)
 
 ## Properties
 
-### `Optional` style
+### style
 
-• **style**? : *[BlueSnapV2StyleProps](bluesnapv2styleprops.md)*
+• `Optional` **style**: [`BlueSnapV2StyleProps`](BlueSnapV2StyleProps.md)
 
 A set of CSS properties to apply to the iframe.
 
 ## Methods
 
-###  onLoad
+### onLoad
 
-▸ **onLoad**(`iframe`: HTMLIFrameElement, `cancel`: function): *void*
+▸ **onLoad**(`iframe`, `cancel`): `void`
 
 A callback that gets called when the iframe is ready to be added to the
 current page. It is responsible for determining where the iframe should
 be inserted in the DOM.
 
-**Parameters:**
+#### Parameters
 
-▪ **iframe**: *HTMLIFrameElement*
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `iframe` | `HTMLIFrameElement` | The iframe element containing the payment web page provided by the strategy. |
+| `cancel` | () => `void` | A function, when called, will cancel the payment process and remove the iframe. |
 
-The iframe element containing the payment web page
-provided by the strategy.
+#### Returns
 
-▪ **cancel**: *function*
-
-A function, when called, will cancel the payment
-process and remove the iframe.
-
-▸ (): *void*
-
-**Returns:** *void*
+`void`

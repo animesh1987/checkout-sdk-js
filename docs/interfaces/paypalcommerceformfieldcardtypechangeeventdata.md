@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceFormFieldCardTypeChangeEventData](paypalcommerceformfieldcardtypechangeeventdata.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceFormFieldCardTypeChangeEventData
 
 # Interface: PaypalCommerceFormFieldCardTypeChangeEventData
 
-## Hierarchy
-
-* **PaypalCommerceFormFieldCardTypeChangeEventData**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [cardType](paypalcommerceformfieldcardtypechangeeventdata.md#optional-cardtype)
+- [cardType](PaypalCommerceFormFieldCardTypeChangeEventData.md#cardtype)
 
 ## Properties
 
-### `Optional` cardType
+### cardType
 
-• **cardType**? : *undefined | string*
+• `Optional` **cardType**: `string`

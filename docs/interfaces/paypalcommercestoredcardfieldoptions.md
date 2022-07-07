@@ -1,39 +1,43 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceStoredCardFieldOptions](paypalcommercestoredcardfieldoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceStoredCardFieldOptions
 
 # Interface: PaypalCommerceStoredCardFieldOptions
 
 ## Hierarchy
 
-* [PaypalCommerceFormFieldOptions](paypalcommerceformfieldoptions.md)
+- [`PaypalCommerceFormFieldOptions`](PaypalCommerceFormFieldOptions.md)
 
-  ↳ **PaypalCommerceStoredCardFieldOptions**
+  ↳ **`PaypalCommerceStoredCardFieldOptions`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [containerId](paypalcommercestoredcardfieldoptions.md#containerid)
-* [instrumentId](paypalcommercestoredcardfieldoptions.md#instrumentid)
-* [placeholder](paypalcommercestoredcardfieldoptions.md#optional-placeholder)
+- [containerId](PaypalCommerceStoredCardFieldOptions.md#containerid)
+- [instrumentId](PaypalCommerceStoredCardFieldOptions.md#instrumentid)
+- [placeholder](PaypalCommerceStoredCardFieldOptions.md#placeholder)
 
 ## Properties
 
-###  containerId
+### containerId
 
-• **containerId**: *string*
+• **containerId**: `string`
 
-*Inherited from [PaypalCommerceFormFieldOptions](paypalcommerceformfieldoptions.md).[containerId](paypalcommerceformfieldoptions.md#containerid)*
+#### Inherited from
 
-___
-
-###  instrumentId
-
-• **instrumentId**: *string*
+[PaypalCommerceFormFieldOptions](PaypalCommerceFormFieldOptions.md).[containerId](PaypalCommerceFormFieldOptions.md#containerid)
 
 ___
 
-### `Optional` placeholder
+### instrumentId
 
-• **placeholder**? : *undefined | string*
+• **instrumentId**: `string`
 
-*Inherited from [PaypalCommerceFormFieldOptions](paypalcommerceformfieldoptions.md).[placeholder](paypalcommerceformfieldoptions.md#optional-placeholder)*
+___
+
+### placeholder
+
+• `Optional` **placeholder**: `string`
+
+#### Inherited from
+
+[PaypalCommerceFormFieldOptions](PaypalCommerceFormFieldOptions.md).[placeholder](PaypalCommerceFormFieldOptions.md#placeholder)

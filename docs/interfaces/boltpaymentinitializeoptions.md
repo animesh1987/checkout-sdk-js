@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BoltPaymentInitializeOptions](boltpaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BoltPaymentInitializeOptions
 
 # Interface: BoltPaymentInitializeOptions
 
@@ -50,47 +50,45 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **BoltPaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [containerId](boltpaymentinitializeoptions.md#optional-containerid)
-* [useBigCommerceCheckout](boltpaymentinitializeoptions.md#usebigcommercecheckout)
+- [containerId](BoltPaymentInitializeOptions.md#containerid)
+- [useBigCommerceCheckout](BoltPaymentInitializeOptions.md#usebigcommercecheckout)
 
 ### Methods
 
-* [onPaymentSelect](boltpaymentinitializeoptions.md#optional-onpaymentselect)
+- [onPaymentSelect](BoltPaymentInitializeOptions.md#onpaymentselect)
 
 ## Properties
 
-### `Optional` containerId
+### containerId
 
-• **containerId**? : *undefined | string*
+• `Optional` **containerId**: `string`
 
 The CSS selector of a container where the Bolt Embedded payment field should be inserted into.
 
 ___
 
-###  useBigCommerceCheckout
+### useBigCommerceCheckout
 
-• **useBigCommerceCheckout**: *boolean*
+• **useBigCommerceCheckout**: `boolean`
 
 ## Methods
 
-### `Optional` onPaymentSelect
+### onPaymentSelect
 
-▸ **onPaymentSelect**(`hasBoltAccount`: boolean): *void*
+▸ `Optional` **onPaymentSelect**(`hasBoltAccount`): `void`
 
 A callback that gets called when the customer selects Bolt as payment option.
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`hasBoltAccount` | boolean |
+| Name | Type |
+| :------ | :------ |
+| `hasBoltAccount` | `boolean` |
 
-**Returns:** *void*
+#### Returns
+
+`void`

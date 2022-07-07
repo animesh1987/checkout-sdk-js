@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [WithAccountCreation](withaccountcreation.md)
+[@bigcommerce/checkout-sdk](../README.md) / WithAccountCreation
 
 # Interface: WithAccountCreation
 
-## Hierarchy
-
-* **WithAccountCreation**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [shouldCreateAccount](withaccountcreation.md#optional-shouldcreateaccount)
+- [shouldCreateAccount](WithAccountCreation.md#shouldcreateaccount)
 
 ## Properties
 
-### `Optional` shouldCreateAccount
+### shouldCreateAccount
 
-• **shouldCreateAccount**? : *undefined | false | true*
+• `Optional` **shouldCreateAccount**: `boolean`

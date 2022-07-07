@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ChasePayCustomerInitializeOptions](chasepaycustomerinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / ChasePayCustomerInitializeOptions
 
 # Interface: ChasePayCustomerInitializeOptions
 
-## Hierarchy
-
-* **ChasePayCustomerInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [container](chasepaycustomerinitializeoptions.md#container)
+- [container](ChasePayCustomerInitializeOptions.md#container)
 
 ## Properties
 
-###  container
+### container
 
-• **container**: *string*
+• **container**: `string`

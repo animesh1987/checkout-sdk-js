@@ -1,33 +1,29 @@
-[@bigcommerce/checkout-sdk](../README.md) › [HostedFieldStylesMap](hostedfieldstylesmap.md)
+[@bigcommerce/checkout-sdk](../README.md) / HostedFieldStylesMap
 
 # Interface: HostedFieldStylesMap
 
-## Hierarchy
-
-* **HostedFieldStylesMap**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [default](hostedfieldstylesmap.md#optional-default)
-* [error](hostedfieldstylesmap.md#optional-error)
-* [focus](hostedfieldstylesmap.md#optional-focus)
+- [default](HostedFieldStylesMap.md#default)
+- [error](HostedFieldStylesMap.md#error)
+- [focus](HostedFieldStylesMap.md#focus)
 
 ## Properties
 
-### `Optional` default
+### default
 
-• **default**? : *[HostedFieldStyles](../README.md#hostedfieldstyles)*
-
-___
-
-### `Optional` error
-
-• **error**? : *[HostedFieldStyles](../README.md#hostedfieldstyles)*
+• `Optional` **default**: `Partial`<`Pick`<`CSSStyleDeclaration`, ``"color"`` \| ``"fontFamily"`` \| ``"fontSize"`` \| ``"fontWeight"``\>\>
 
 ___
 
-### `Optional` focus
+### error
 
-• **focus**? : *[HostedFieldStyles](../README.md#hostedfieldstyles)*
+• `Optional` **error**: `Partial`<`Pick`<`CSSStyleDeclaration`, ``"color"`` \| ``"fontFamily"`` \| ``"fontSize"`` \| ``"fontWeight"``\>\>
+
+___
+
+### focus
+
+• `Optional` **focus**: `Partial`<`Pick`<`CSSStyleDeclaration`, ``"color"`` \| ``"fontFamily"`` \| ``"fontSize"`` \| ``"fontWeight"``\>\>

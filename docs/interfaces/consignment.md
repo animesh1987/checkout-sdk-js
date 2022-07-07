@@ -1,75 +1,71 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Consignment](consignment.md)
+[@bigcommerce/checkout-sdk](../README.md) / Consignment
 
 # Interface: Consignment
 
-## Hierarchy
-
-* **Consignment**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [address](consignment.md#address)
-* [availableShippingOptions](consignment.md#optional-availableshippingoptions)
-* [handlingCost](consignment.md#handlingcost)
-* [id](consignment.md#id)
-* [lineItemIds](consignment.md#lineitemids)
-* [selectedPickupOption](consignment.md#optional-selectedpickupoption)
-* [selectedShippingOption](consignment.md#optional-selectedshippingoption)
-* [shippingAddress](consignment.md#shippingaddress)
-* [shippingCost](consignment.md#shippingcost)
+- [address](Consignment.md#address)
+- [availableShippingOptions](Consignment.md#availableshippingoptions)
+- [handlingCost](Consignment.md#handlingcost)
+- [id](Consignment.md#id)
+- [lineItemIds](Consignment.md#lineitemids)
+- [selectedPickupOption](Consignment.md#selectedpickupoption)
+- [selectedShippingOption](Consignment.md#selectedshippingoption)
+- [shippingAddress](Consignment.md#shippingaddress)
+- [shippingCost](Consignment.md#shippingcost)
 
 ## Properties
 
-###  address
+### address
 
-• **address**: *[Address](address.md)*
-
-___
-
-### `Optional` availableShippingOptions
-
-• **availableShippingOptions**? : *[ShippingOption](shippingoption.md)[]*
+• **address**: [`Address`](Address.md)
 
 ___
 
-###  handlingCost
+### availableShippingOptions
 
-• **handlingCost**: *number*
-
-___
-
-###  id
-
-• **id**: *string*
+• `Optional` **availableShippingOptions**: [`ShippingOption`](ShippingOption.md)[]
 
 ___
 
-###  lineItemIds
+### handlingCost
 
-• **lineItemIds**: *string[]*
-
-___
-
-### `Optional` selectedPickupOption
-
-• **selectedPickupOption**? : *[ConsignmentPickupOption](consignmentpickupoption.md)*
+• **handlingCost**: `number`
 
 ___
 
-### `Optional` selectedShippingOption
+### id
 
-• **selectedShippingOption**? : *[ShippingOption](shippingoption.md)*
-
-___
-
-###  shippingAddress
-
-• **shippingAddress**: *[Address](address.md)*
+• **id**: `string`
 
 ___
 
-###  shippingCost
+### lineItemIds
 
-• **shippingCost**: *number*
+• **lineItemIds**: `string`[]
+
+___
+
+### selectedPickupOption
+
+• `Optional` **selectedPickupOption**: [`ConsignmentPickupOption`](ConsignmentPickupOption.md)
+
+___
+
+### selectedShippingOption
+
+• `Optional` **selectedShippingOption**: [`ShippingOption`](ShippingOption.md)
+
+___
+
+### shippingAddress
+
+• **shippingAddress**: [`Address`](Address.md)
+
+___
+
+### shippingCost
+
+• **shippingCost**: `number`

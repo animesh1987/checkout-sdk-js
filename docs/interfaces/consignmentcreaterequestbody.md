@@ -1,40 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ConsignmentCreateRequestBody](consignmentcreaterequestbody.md)
+[@bigcommerce/checkout-sdk](../README.md) / ConsignmentCreateRequestBody
 
 # Interface: ConsignmentCreateRequestBody
 
-## Hierarchy
-
-* **ConsignmentCreateRequestBody**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [address](consignmentcreaterequestbody.md#optional-address)
-* [lineItems](consignmentcreaterequestbody.md#lineitems)
-* [pickupOption](consignmentcreaterequestbody.md#optional-pickupoption)
-* [shippingAddress](consignmentcreaterequestbody.md#optional-shippingaddress)
+- [address](ConsignmentCreateRequestBody.md#address)
+- [lineItems](ConsignmentCreateRequestBody.md#lineitems)
+- [pickupOption](ConsignmentCreateRequestBody.md#pickupoption)
+- [shippingAddress](ConsignmentCreateRequestBody.md#shippingaddress)
 
 ## Properties
 
-### `Optional` address
+### address
 
-• **address**? : *[AddressRequestBody](addressrequestbody.md)*
-
-___
-
-###  lineItems
-
-• **lineItems**: *[ConsignmentLineItem](consignmentlineitem.md)[]*
+• `Optional` **address**: [`AddressRequestBody`](AddressRequestBody.md)
 
 ___
 
-### `Optional` pickupOption
+### lineItems
 
-• **pickupOption**? : *[ConsignmentPickupOption](consignmentpickupoption.md)*
+• **lineItems**: [`ConsignmentLineItem`](ConsignmentLineItem.md)[]
 
 ___
 
-### `Optional` shippingAddress
+### pickupOption
 
-• **shippingAddress**? : *[AddressRequestBody](addressrequestbody.md)*
+• `Optional` **pickupOption**: [`ConsignmentPickupOption`](ConsignmentPickupOption.md)
+
+___
+
+### shippingAddress
+
+• `Optional` **shippingAddress**: [`AddressRequestBody`](AddressRequestBody.md)

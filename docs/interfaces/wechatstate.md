@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [WechatState](wechatstate.md)
+[@bigcommerce/checkout-sdk](../README.md) / WechatState
 
 # Interface: WechatState
 
-## Hierarchy
-
-* **WechatState**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [data](wechatstate.md#data)
+- [data](WechatState.md#data)
 
 ## Properties
 
-###  data
+### data
 
-• **data**: *[WechatDataPaymentMethodState](wechatdatapaymentmethodstate.md)*
+• **data**: [`WechatDataPaymentMethodState`](WechatDataPaymentMethodState.md)

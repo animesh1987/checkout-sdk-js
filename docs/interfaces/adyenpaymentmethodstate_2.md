@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AdyenPaymentMethodState_2](adyenpaymentmethodstate_2.md)
+[@bigcommerce/checkout-sdk](../README.md) / AdyenPaymentMethodState_2
 
-# Interface: AdyenPaymentMethodState_2
+# Interface: AdyenPaymentMethodState\_2
 
-## Hierarchy
-
-* **AdyenPaymentMethodState_2**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [type](adyenpaymentmethodstate_2.md#type)
+- [type](AdyenPaymentMethodState_2.md#type)
 
 ## Properties
 
-###  type
+### type
 
-• **type**: *string*
+• **type**: `string`

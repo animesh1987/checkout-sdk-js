@@ -1,84 +1,80 @@
-[@bigcommerce/checkout-sdk](../README.md) › [InputDetail](inputdetail.md)
+[@bigcommerce/checkout-sdk](../README.md) / InputDetail
 
 # Interface: InputDetail
 
-## Hierarchy
-
-* **InputDetail**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [configuration](inputdetail.md#optional-configuration)
-* [details](inputdetail.md#optional-details)
-* [itemSearchUrl](inputdetail.md#optional-itemsearchurl)
-* [items](inputdetail.md#optional-items)
-* [key](inputdetail.md#optional-key)
-* [optional](inputdetail.md#optional-optional)
-* [type](inputdetail.md#optional-type)
-* [value](inputdetail.md#optional-value)
+- [configuration](InputDetail.md#configuration)
+- [details](InputDetail.md#details)
+- [itemSearchUrl](InputDetail.md#itemsearchurl)
+- [items](InputDetail.md#items)
+- [key](InputDetail.md#key)
+- [optional](InputDetail.md#optional)
+- [type](InputDetail.md#type)
+- [value](InputDetail.md#value)
 
 ## Properties
 
-### `Optional` configuration
+### configuration
 
-• **configuration**? : *undefined | object*
+• `Optional` **configuration**: `object`
 
 Configuration parameters for the required input.
 
 ___
 
-### `Optional` details
+### details
 
-• **details**? : *[SubInputDetail](subinputdetail.md)[]*
+• `Optional` **details**: [`SubInputDetail`](SubInputDetail.md)[]
 
 Input details can also be provided recursively.
 
 ___
 
-### `Optional` itemSearchUrl
+### itemSearchUrl
 
-• **itemSearchUrl**? : *undefined | string*
+• `Optional` **itemSearchUrl**: `string`
 
 In case of a select, the URL from which to query the items.
 
 ___
 
-### `Optional` items
+### items
 
-• **items**? : *[Item_2](item_2.md)[]*
+• `Optional` **items**: [`Item_2`](Item_2.md)[]
 
 In case of a select, the items to choose from.
 
 ___
 
-### `Optional` key
+### key
 
-• **key**? : *undefined | string*
+• `Optional` **key**: `string`
 
 The value to provide in the result.
 
 ___
 
-### `Optional` optional
+### optional
 
-• **optional**? : *undefined | false | true*
+• `Optional` **optional**: `boolean`
 
 True if this input value is optional.
 
 ___
 
-### `Optional` type
+### type
 
-• **type**? : *undefined | string*
+• `Optional` **type**: `string`
 
 The type of the required input.
 
 ___
 
-### `Optional` value
+### value
 
-• **value**? : *undefined | string*
+• `Optional` **value**: `string`
 
 The value can be pre-filled, if available.

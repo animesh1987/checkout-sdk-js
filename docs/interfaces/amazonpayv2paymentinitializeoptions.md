@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AmazonPayV2PaymentInitializeOptions](amazonpayv2paymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / AmazonPayV2PaymentInitializeOptions
 
 # Interface: AmazonPayV2PaymentInitializeOptions
 
@@ -22,21 +22,17 @@ service.initializePayment({
     },
 });
 
-## Hierarchy
-
-* **AmazonPayV2PaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [editButtonId](amazonpayv2paymentinitializeoptions.md#optional-editbuttonid)
+- [editButtonId](AmazonPayV2PaymentInitializeOptions.md#editbuttonid)
 
 ## Properties
 
-### `Optional` editButtonId
+### editButtonId
 
-• **editButtonId**? : *undefined | string*
+• `Optional` **editButtonId**: `string`
 
 This editButtonId is used to set an event listener, provide an element ID
 if you want users to be able to select a different payment method by

@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StripeElementCSSProperties](stripeelementcssproperties.md)
+[@bigcommerce/checkout-sdk](../README.md) / StripeElementCSSProperties
 
 # Interface: StripeElementCSSProperties
 
@@ -6,36 +6,36 @@ CSS properties supported by Stripe.js.
 
 ## Hierarchy
 
-* **StripeElementCSSProperties**
+- **`StripeElementCSSProperties`**
 
-  ↳ [StripeElementStyleVariant](stripeelementstylevariant.md)
+  ↳ [`StripeElementStyleVariant`](StripeElementStyleVariant.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [backgroundColor](stripeelementcssproperties.md#optional-backgroundcolor)
-* [color](stripeelementcssproperties.md#optional-color)
-* [fontFamily](stripeelementcssproperties.md#optional-fontfamily)
-* [fontSize](stripeelementcssproperties.md#optional-fontsize)
-* [fontSmoothing](stripeelementcssproperties.md#optional-fontsmoothing)
-* [fontStyle](stripeelementcssproperties.md#optional-fontstyle)
-* [fontVariant](stripeelementcssproperties.md#optional-fontvariant)
-* [fontWeight](stripeelementcssproperties.md#optional-fontweight)
-* [iconColor](stripeelementcssproperties.md#optional-iconcolor)
-* [letterSpacing](stripeelementcssproperties.md#optional-letterspacing)
-* [lineHeight](stripeelementcssproperties.md#optional-lineheight)
-* [padding](stripeelementcssproperties.md#optional-padding)
-* [textAlign](stripeelementcssproperties.md#optional-textalign)
-* [textDecoration](stripeelementcssproperties.md#optional-textdecoration)
-* [textShadow](stripeelementcssproperties.md#optional-textshadow)
-* [textTransform](stripeelementcssproperties.md#optional-texttransform)
+- [backgroundColor](StripeElementCSSProperties.md#backgroundcolor)
+- [color](StripeElementCSSProperties.md#color)
+- [fontFamily](StripeElementCSSProperties.md#fontfamily)
+- [fontSize](StripeElementCSSProperties.md#fontsize)
+- [fontSmoothing](StripeElementCSSProperties.md#fontsmoothing)
+- [fontStyle](StripeElementCSSProperties.md#fontstyle)
+- [fontVariant](StripeElementCSSProperties.md#fontvariant)
+- [fontWeight](StripeElementCSSProperties.md#fontweight)
+- [iconColor](StripeElementCSSProperties.md#iconcolor)
+- [letterSpacing](StripeElementCSSProperties.md#letterspacing)
+- [lineHeight](StripeElementCSSProperties.md#lineheight)
+- [padding](StripeElementCSSProperties.md#padding)
+- [textAlign](StripeElementCSSProperties.md#textalign)
+- [textDecoration](StripeElementCSSProperties.md#textdecoration)
+- [textShadow](StripeElementCSSProperties.md#textshadow)
+- [textTransform](StripeElementCSSProperties.md#texttransform)
 
 ## Properties
 
-### `Optional` backgroundColor
+### backgroundColor
 
-• **backgroundColor**? : *undefined | string*
+• `Optional` **backgroundColor**: `string`
 
 The [background-color](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color) CSS property.
 
@@ -44,81 +44,81 @@ In other cases, consider setting the background color on the element's container
 
 ___
 
-### `Optional` color
+### color
 
-• **color**? : *undefined | string*
+• `Optional` **color**: `string`
 
 The [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color) CSS property.
 
 ___
 
-### `Optional` fontFamily
+### fontFamily
 
-• **fontFamily**? : *undefined | string*
+• `Optional` **fontFamily**: `string`
 
 The [font-family](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) CSS property.
 
 ___
 
-### `Optional` fontSize
+### fontSize
 
-• **fontSize**? : *undefined | string*
+• `Optional` **fontSize**: `string`
 
 The [font-size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size) CSS property.
 
 ___
 
-### `Optional` fontSmoothing
+### fontSmoothing
 
-• **fontSmoothing**? : *undefined | string*
+• `Optional` **fontSmoothing**: `string`
 
 The [font-smoothing](https://developer.mozilla.org/en-US/docs/Web/CSS/font-smoothing) CSS property.
 
 ___
 
-### `Optional` fontStyle
+### fontStyle
 
-• **fontStyle**? : *undefined | string*
+• `Optional` **fontStyle**: `string`
 
 The [font-style](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style) CSS property.
 
 ___
 
-### `Optional` fontVariant
+### fontVariant
 
-• **fontVariant**? : *undefined | string*
+• `Optional` **fontVariant**: `string`
 
 The [font-variant](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant) CSS property.
 
 ___
 
-### `Optional` fontWeight
+### fontWeight
 
-• **fontWeight**? : *undefined | string*
+• `Optional` **fontWeight**: `string`
 
 The [font-weight](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight) CSS property.
 
 ___
 
-### `Optional` iconColor
+### iconColor
 
-• **iconColor**? : *undefined | string*
+• `Optional` **iconColor**: `string`
 
 A custom property, used to set the color of the icons that are rendered in an element.
 
 ___
 
-### `Optional` letterSpacing
+### letterSpacing
 
-• **letterSpacing**? : *undefined | string*
+• `Optional` **letterSpacing**: `string`
 
 The [letter-spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing) CSS property.
 
 ___
 
-### `Optional` lineHeight
+### lineHeight
 
-• **lineHeight**? : *undefined | string*
+• `Optional` **lineHeight**: `string`
 
 The [line-height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) CSS property.
 
@@ -126,9 +126,9 @@ To avoid cursors being rendered inconsistently across browsers, consider using a
 
 ___
 
-### `Optional` padding
+### padding
 
-• **padding**? : *undefined | string*
+• `Optional` **padding**: `string`
 
 The [padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) CSS property.
 
@@ -137,9 +137,9 @@ Accepts integer `px` values.
 
 ___
 
-### `Optional` textAlign
+### textAlign
 
-• **textAlign**? : *undefined | string*
+• `Optional` **textAlign**: `string`
 
 The [text-align](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align) CSS property.
 
@@ -147,24 +147,24 @@ Available for the `cardNumber`, `cardExpiry`, and `cardCvc` elements.
 
 ___
 
-### `Optional` textDecoration
+### textDecoration
 
-• **textDecoration**? : *undefined | string*
+• `Optional` **textDecoration**: `string`
 
 The [text-decoration](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration) CSS property.
 
 ___
 
-### `Optional` textShadow
+### textShadow
 
-• **textShadow**? : *undefined | string*
+• `Optional` **textShadow**: `string`
 
 The [text-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow) CSS property.
 
 ___
 
-### `Optional` textTransform
+### textTransform
 
-• **textTransform**? : *undefined | string*
+• `Optional` **textTransform**: `string`
 
 The [text-transform](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform) CSS property.

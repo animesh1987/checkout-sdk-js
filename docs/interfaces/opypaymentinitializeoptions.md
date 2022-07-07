@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [OpyPaymentInitializeOptions](opypaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / OpyPaymentInitializeOptions
 
 # Interface: OpyPaymentInitializeOptions
 
@@ -9,7 +9,7 @@ When Opy is initialized, a widget will be inserted into the DOM. The
 widget will open a modal that will show more information about Opy when
 clicking it.
 
-**`example`** 
+**`example`**
 
 ```html
 <!-- This is where the Opy widget will be inserted -->
@@ -25,20 +25,16 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **OpyPaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [containerId](opypaymentinitializeoptions.md#containerid)
+- [containerId](OpyPaymentInitializeOptions.md#containerid)
 
 ## Properties
 
-###  containerId
+### containerId
 
-• **containerId**: *string*
+• **containerId**: `string`
 
 The ID of a container which the payment widget should insert into.

@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [KlarnaV2PaymentInitializeOptions](klarnav2paymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / KlarnaV2PaymentInitializeOptions
 
 # Interface: KlarnaV2PaymentInitializeOptions
 
@@ -35,41 +35,39 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **KlarnaV2PaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [container](klarnav2paymentinitializeoptions.md#container)
+- [container](KlarnaV2PaymentInitializeOptions.md#container)
 
 ### Methods
 
-* [onLoad](klarnav2paymentinitializeoptions.md#optional-onload)
+- [onLoad](KlarnaV2PaymentInitializeOptions.md#onload)
 
 ## Properties
 
-###  container
+### container
 
-• **container**: *string*
+• **container**: `string`
 
 The ID of a container which the payment widget should insert into.
 
 ## Methods
 
-### `Optional` onLoad
+### onLoad
 
-▸ **onLoad**(`response`: [KlarnaLoadResponse_2](klarnaloadresponse_2.md)): *void*
+▸ `Optional` **onLoad**(`response`): `void`
 
 A callback that gets called when the widget is loaded and ready to be
 interacted with.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`response` | [KlarnaLoadResponse_2](klarnaloadresponse_2.md) | The result of the initialization. It indicates whether or not the widget is loaded successfully.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `response` | [`KlarnaLoadResponse_2`](KlarnaLoadResponse_2.md) | The result of the initialization. It indicates whether or not the widget is loaded successfully. |
 
-**Returns:** *void*
+#### Returns
+
+`void`

@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ChasePayInitializeOptions](chasepayinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / ChasePayInitializeOptions
 
 # Interface: ChasePayInitializeOptions
 
@@ -42,36 +42,32 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **ChasePayInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [logoContainer](chasepayinitializeoptions.md#optional-logocontainer)
-* [walletButton](chasepayinitializeoptions.md#optional-walletbutton)
+- [logoContainer](ChasePayInitializeOptions.md#logocontainer)
+- [walletButton](ChasePayInitializeOptions.md#walletbutton)
 
 ### Methods
 
-* [onCancel](chasepayinitializeoptions.md#optional-oncancel)
-* [onPaymentSelect](chasepayinitializeoptions.md#optional-onpaymentselect)
+- [onCancel](ChasePayInitializeOptions.md#oncancel)
+- [onPaymentSelect](ChasePayInitializeOptions.md#onpaymentselect)
 
 ## Properties
 
-### `Optional` logoContainer
+### logoContainer
 
-• **logoContainer**? : *undefined | string*
+• `Optional` **logoContainer**: `string`
 
 This container is used to host the chasepay branding logo.
 It should be an HTML element.
 
 ___
 
-### `Optional` walletButton
+### walletButton
 
-• **walletButton**? : *undefined | string*
+• `Optional` **walletButton**: `string`
 
 This walletButton is used to set an event listener, provide an element ID if you want
 users to be able to launch the ChasePay wallet modal by clicking on a button.
@@ -79,20 +75,24 @@ It should be an HTML element.
 
 ## Methods
 
-### `Optional` onCancel
+### onCancel
 
-▸ **onCancel**(): *void*
+▸ `Optional` **onCancel**(): `void`
 
 A callback that gets called when the customer cancels their payment selection.
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onPaymentSelect
+### onPaymentSelect
 
-▸ **onPaymentSelect**(): *void*
+▸ `Optional` **onPaymentSelect**(): `void`
 
 A callback that gets called when the customer selects a payment option.
 
-**Returns:** *void*
+#### Returns
+
+`void`

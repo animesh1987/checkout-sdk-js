@@ -1,48 +1,54 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeStoredCardFieldOptions](braintreestoredcardfieldoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeStoredCardFieldOptions
 
 # Interface: BraintreeStoredCardFieldOptions
 
 ## Hierarchy
 
-* [BraintreeFormFieldOptions](braintreeformfieldoptions.md)
+- [`BraintreeFormFieldOptions`](BraintreeFormFieldOptions.md)
 
-  ↳ **BraintreeStoredCardFieldOptions**
+  ↳ **`BraintreeStoredCardFieldOptions`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [accessibilityLabel](braintreestoredcardfieldoptions.md#optional-accessibilitylabel)
-* [containerId](braintreestoredcardfieldoptions.md#containerid)
-* [instrumentId](braintreestoredcardfieldoptions.md#instrumentid)
-* [placeholder](braintreestoredcardfieldoptions.md#optional-placeholder)
+- [accessibilityLabel](BraintreeStoredCardFieldOptions.md#accessibilitylabel)
+- [containerId](BraintreeStoredCardFieldOptions.md#containerid)
+- [instrumentId](BraintreeStoredCardFieldOptions.md#instrumentid)
+- [placeholder](BraintreeStoredCardFieldOptions.md#placeholder)
 
 ## Properties
 
-### `Optional` accessibilityLabel
+### accessibilityLabel
 
-• **accessibilityLabel**? : *undefined | string*
+• `Optional` **accessibilityLabel**: `string`
 
-*Inherited from [BraintreeFormFieldOptions](braintreeformfieldoptions.md).[accessibilityLabel](braintreeformfieldoptions.md#optional-accessibilitylabel)*
+#### Inherited from
 
-___
-
-###  containerId
-
-• **containerId**: *string*
-
-*Inherited from [BraintreeFormFieldOptions](braintreeformfieldoptions.md).[containerId](braintreeformfieldoptions.md#containerid)*
+[BraintreeFormFieldOptions](BraintreeFormFieldOptions.md).[accessibilityLabel](BraintreeFormFieldOptions.md#accessibilitylabel)
 
 ___
 
-###  instrumentId
+### containerId
 
-• **instrumentId**: *string*
+• **containerId**: `string`
+
+#### Inherited from
+
+[BraintreeFormFieldOptions](BraintreeFormFieldOptions.md).[containerId](BraintreeFormFieldOptions.md#containerid)
 
 ___
 
-### `Optional` placeholder
+### instrumentId
 
-• **placeholder**? : *undefined | string*
+• **instrumentId**: `string`
 
-*Inherited from [BraintreeFormFieldOptions](braintreeformfieldoptions.md).[placeholder](braintreeformfieldoptions.md#optional-placeholder)*
+___
+
+### placeholder
+
+• `Optional` **placeholder**: `string`
+
+#### Inherited from
+
+[BraintreeFormFieldOptions](BraintreeFormFieldOptions.md).[placeholder](BraintreeFormFieldOptions.md#placeholder)

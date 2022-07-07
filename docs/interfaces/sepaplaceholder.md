@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [SepaPlaceHolder](sepaplaceholder.md)
+[@bigcommerce/checkout-sdk](../README.md) / SepaPlaceHolder
 
 # Interface: SepaPlaceHolder
 
-## Hierarchy
-
-* **SepaPlaceHolder**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [ibanNumber](sepaplaceholder.md#optional-ibannumber)
-* [ownerName](sepaplaceholder.md#optional-ownername)
+- [ibanNumber](SepaPlaceHolder.md#ibannumber)
+- [ownerName](SepaPlaceHolder.md#ownername)
 
 ## Properties
 
-### `Optional` ibanNumber
+### ibanNumber
 
-• **ibanNumber**? : *undefined | string*
+• `Optional` **ibanNumber**: `string`
 
 ___
 
-### `Optional` ownerName
+### ownerName
 
-• **ownerName**? : *undefined | string*
+• `Optional` **ownerName**: `string`

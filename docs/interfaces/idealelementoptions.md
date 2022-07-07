@@ -1,64 +1,70 @@
-[@bigcommerce/checkout-sdk](../README.md) › [IdealElementOptions](idealelementoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / IdealElementOptions
 
 # Interface: IdealElementOptions
 
 ## Hierarchy
 
-* [BaseElementOptions_2](baseelementoptions_2.md)
+- [`BaseElementOptions_2`](BaseElementOptions_2.md)
 
-  ↳ **IdealElementOptions**
+  ↳ **`IdealElementOptions`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [classes](idealelementoptions.md#optional-classes)
-* [disabled](idealelementoptions.md#optional-disabled)
-* [hideIcon](idealelementoptions.md#optional-hideicon)
-* [style](idealelementoptions.md#optional-style)
-* [value](idealelementoptions.md#optional-value)
+- [classes](IdealElementOptions.md#classes)
+- [disabled](IdealElementOptions.md#disabled)
+- [hideIcon](IdealElementOptions.md#hideicon)
+- [style](IdealElementOptions.md#style)
+- [value](IdealElementOptions.md#value)
 
 ## Properties
 
-### `Optional` classes
+### classes
 
-• **classes**? : *[StripeElementClasses](stripeelementclasses.md)*
-
-*Inherited from [BaseElementOptions_2](baseelementoptions_2.md).[classes](baseelementoptions_2.md#optional-classes)*
+• `Optional` **classes**: [`StripeElementClasses`](StripeElementClasses.md)
 
 Set custom class names on the container DOM element when the Stripe element is in a particular state.
 
+#### Inherited from
+
+[BaseElementOptions_2](BaseElementOptions_2.md).[classes](BaseElementOptions_2.md#classes)
+
 ___
 
-### `Optional` disabled
+### disabled
 
-• **disabled**? : *undefined | false | true*
-
-*Inherited from [BaseElementOptions_2](baseelementoptions_2.md).[disabled](baseelementoptions_2.md#optional-disabled)*
+• `Optional` **disabled**: `boolean`
 
 Applies a disabled state to the Element such that user input is not accepted. Default is false.
 
+#### Inherited from
+
+[BaseElementOptions_2](BaseElementOptions_2.md).[disabled](BaseElementOptions_2.md#disabled)
+
 ___
 
-### `Optional` hideIcon
+### hideIcon
 
-• **hideIcon**? : *undefined | false | true*
+• `Optional` **hideIcon**: `boolean`
 
 Hides the icon in the Element. Default is false.
 
 ___
 
-### `Optional` style
+### style
 
-• **style**? : *[StripeElementStyle](stripeelementstyle.md)*
-
-*Inherited from [BaseElementOptions_2](baseelementoptions_2.md).[style](baseelementoptions_2.md#optional-style)*
+• `Optional` **style**: [`StripeElementStyle`](StripeElementStyle.md)
 
 Customize the appearance of an element using CSS properties passed in a [Style](https://stripe.com/docs/js/appendix/style) object,
 which consists of CSS properties nested under objects for each variant.
 
+#### Inherited from
+
+[BaseElementOptions_2](BaseElementOptions_2.md).[style](BaseElementOptions_2.md#style)
+
 ___
 
-### `Optional` value
+### value
 
-• **value**? : *undefined | string*
+• `Optional` **value**: `string`

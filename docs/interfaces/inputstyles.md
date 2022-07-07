@@ -1,134 +1,152 @@
-[@bigcommerce/checkout-sdk](../README.md) › [InputStyles](inputstyles.md)
+[@bigcommerce/checkout-sdk](../README.md) / InputStyles
 
 # Interface: InputStyles
 
 ## Hierarchy
 
-  ↳ [BlockElementStyles](blockelementstyles.md)
+- [`BlockElementStyles`](BlockElementStyles.md)
 
-  ↳ **InputStyles**
+  ↳ **`InputStyles`**
 
-  ↳ [CheckableInputStyles](checkableinputstyles.md)
+  ↳↳ [`CheckableInputStyles`](CheckableInputStyles.md)
 
-  ↳ [TextInputStyles](textinputstyles.md)
+  ↳↳ [`TextInputStyles`](TextInputStyles.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [active](inputstyles.md#optional-active)
-* [backgroundColor](inputstyles.md#optional-backgroundcolor)
-* [borderColor](inputstyles.md#optional-bordercolor)
-* [borderWidth](inputstyles.md#optional-borderwidth)
-* [boxShadow](inputstyles.md#optional-boxshadow)
-* [color](inputstyles.md#optional-color)
-* [disabled](inputstyles.md#optional-disabled)
-* [error](inputstyles.md#optional-error)
-* [focus](inputstyles.md#optional-focus)
-* [fontFamily](inputstyles.md#optional-fontfamily)
-* [fontWeight](inputstyles.md#optional-fontweight)
-* [hover](inputstyles.md#optional-hover)
-* [letterSpacing](inputstyles.md#optional-letterspacing)
-* [lineHeight](inputstyles.md#optional-lineheight)
+- [active](InputStyles.md#active)
+- [backgroundColor](InputStyles.md#backgroundcolor)
+- [borderColor](InputStyles.md#bordercolor)
+- [borderWidth](InputStyles.md#borderwidth)
+- [boxShadow](InputStyles.md#boxshadow)
+- [color](InputStyles.md#color)
+- [disabled](InputStyles.md#disabled)
+- [error](InputStyles.md#error)
+- [focus](InputStyles.md#focus)
+- [fontFamily](InputStyles.md#fontfamily)
+- [fontWeight](InputStyles.md#fontweight)
+- [hover](InputStyles.md#hover)
+- [letterSpacing](InputStyles.md#letterspacing)
+- [lineHeight](InputStyles.md#lineheight)
 
 ## Properties
 
-### `Optional` active
+### active
 
-• **active**? : *[BlockElementStyles](blockelementstyles.md)*
-
-___
-
-### `Optional` backgroundColor
-
-• **backgroundColor**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[backgroundColor](blockelementstyles.md#optional-backgroundcolor)*
+• `Optional` **active**: [`BlockElementStyles`](BlockElementStyles.md)
 
 ___
 
-### `Optional` borderColor
+### backgroundColor
 
-• **borderColor**? : *undefined | string*
+• `Optional` **backgroundColor**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[borderColor](blockelementstyles.md#optional-bordercolor)*
+#### Inherited from
 
-___
-
-### `Optional` borderWidth
-
-• **borderWidth**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[borderWidth](blockelementstyles.md#optional-borderwidth)*
+[BlockElementStyles](BlockElementStyles.md).[backgroundColor](BlockElementStyles.md#backgroundcolor)
 
 ___
 
-### `Optional` boxShadow
+### borderColor
 
-• **boxShadow**? : *undefined | string*
+• `Optional` **borderColor**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[boxShadow](blockelementstyles.md#optional-boxshadow)*
+#### Inherited from
 
-___
-
-### `Optional` color
-
-• **color**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[color](blockelementstyles.md#optional-color)*
+[BlockElementStyles](BlockElementStyles.md).[borderColor](BlockElementStyles.md#bordercolor)
 
 ___
 
-### `Optional` disabled
+### borderWidth
 
-• **disabled**? : *[BlockElementStyles](blockelementstyles.md)*
+• `Optional` **borderWidth**: `string`
 
-___
+#### Inherited from
 
-### `Optional` error
-
-• **error**? : *[InputStyles](inputstyles.md)*
+[BlockElementStyles](BlockElementStyles.md).[borderWidth](BlockElementStyles.md#borderwidth)
 
 ___
 
-### `Optional` focus
+### boxShadow
 
-• **focus**? : *[BlockElementStyles](blockelementstyles.md)*
+• `Optional` **boxShadow**: `string`
 
-___
+#### Inherited from
 
-### `Optional` fontFamily
-
-• **fontFamily**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[fontFamily](blockelementstyles.md#optional-fontfamily)*
+[BlockElementStyles](BlockElementStyles.md).[boxShadow](BlockElementStyles.md#boxshadow)
 
 ___
 
-### `Optional` fontWeight
+### color
 
-• **fontWeight**? : *undefined | string*
+• `Optional` **color**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[fontWeight](blockelementstyles.md#optional-fontweight)*
+#### Inherited from
 
-___
-
-### `Optional` hover
-
-• **hover**? : *[BlockElementStyles](blockelementstyles.md)*
+[BlockElementStyles](BlockElementStyles.md).[color](BlockElementStyles.md#color)
 
 ___
 
-### `Optional` letterSpacing
+### disabled
 
-• **letterSpacing**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[letterSpacing](blockelementstyles.md#optional-letterspacing)*
+• `Optional` **disabled**: [`BlockElementStyles`](BlockElementStyles.md)
 
 ___
 
-### `Optional` lineHeight
+### error
 
-• **lineHeight**? : *undefined | string*
+• `Optional` **error**: [`InputStyles`](InputStyles.md)
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[lineHeight](blockelementstyles.md#optional-lineheight)*
+___
+
+### focus
+
+• `Optional` **focus**: [`BlockElementStyles`](BlockElementStyles.md)
+
+___
+
+### fontFamily
+
+• `Optional` **fontFamily**: `string`
+
+#### Inherited from
+
+[BlockElementStyles](BlockElementStyles.md).[fontFamily](BlockElementStyles.md#fontfamily)
+
+___
+
+### fontWeight
+
+• `Optional` **fontWeight**: `string`
+
+#### Inherited from
+
+[BlockElementStyles](BlockElementStyles.md).[fontWeight](BlockElementStyles.md#fontweight)
+
+___
+
+### hover
+
+• `Optional` **hover**: [`BlockElementStyles`](BlockElementStyles.md)
+
+___
+
+### letterSpacing
+
+• `Optional` **letterSpacing**: `string`
+
+#### Inherited from
+
+[BlockElementStyles](BlockElementStyles.md).[letterSpacing](BlockElementStyles.md#letterspacing)
+
+___
+
+### lineHeight
+
+• `Optional` **lineHeight**: `string`
+
+#### Inherited from
+
+[BlockElementStyles](BlockElementStyles.md).[lineHeight](BlockElementStyles.md#lineheight)

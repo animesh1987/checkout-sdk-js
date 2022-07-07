@@ -1,39 +1,30 @@
-[@bigcommerce/checkout-sdk](../README.md) › [WorldpayPaymentInitializeOptions](worldpaypaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / WorldpayPaymentInitializeOptions
 
 # Interface: WorldpayPaymentInitializeOptions
 
-## Hierarchy
-
-* **WorldpayPaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Methods
 
-* [onLoad](worldpaypaymentinitializeoptions.md#onload)
+- [onLoad](WorldpayPaymentInitializeOptions.md#onload)
 
 ## Methods
 
-###  onLoad
+### onLoad
 
-▸ **onLoad**(`iframe`: HTMLIFrameElement, `cancel`: function): *void*
+▸ **onLoad**(`iframe`, `cancel`): `void`
 
 A callback that gets called when the iframe is ready to be added to the
 current page. It is responsible for determining where the iframe should
 be inserted in the DOM.
 
-**Parameters:**
+#### Parameters
 
-▪ **iframe**: *HTMLIFrameElement*
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `iframe` | `HTMLIFrameElement` | The iframe element containing the payment web page provided by the strategy. |
+| `cancel` | () => `void` | A function, when called, will cancel the payment process and remove the iframe. |
 
-The iframe element containing the payment web page
-provided by the strategy.
+#### Returns
 
-▪ **cancel**: *function*
-
-A function, when called, will cancel the payment
-process and remove the iframe.
-
-▸ (): *void*
-
-**Returns:** *void*
+`void`

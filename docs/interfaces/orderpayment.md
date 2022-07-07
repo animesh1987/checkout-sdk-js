@@ -1,58 +1,58 @@
-[@bigcommerce/checkout-sdk](../README.md) › [OrderPayment](orderpayment.md)
+[@bigcommerce/checkout-sdk](../README.md) / OrderPayment
 
 # Interface: OrderPayment
 
 ## Hierarchy
 
-* **OrderPayment**
+- **`OrderPayment`**
 
-  ↳ [GatewayOrderPayment](gatewayorderpayment.md)
+  ↳ [`GatewayOrderPayment`](GatewayOrderPayment.md)
 
-  ↳ [GiftCertificateOrderPayment](giftcertificateorderpayment.md)
+  ↳ [`GiftCertificateOrderPayment`](GiftCertificateOrderPayment.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [amount](orderpayment.md#amount)
-* [description](orderpayment.md#description)
-* [gatewayId](orderpayment.md#optional-gatewayid)
-* [methodId](orderpayment.md#optional-methodid)
-* [paymentId](orderpayment.md#optional-paymentid)
-* [providerId](orderpayment.md#providerid)
+- [amount](OrderPayment.md#amount)
+- [description](OrderPayment.md#description)
+- [gatewayId](OrderPayment.md#gatewayid)
+- [methodId](OrderPayment.md#methodid)
+- [paymentId](OrderPayment.md#paymentid)
+- [providerId](OrderPayment.md#providerid)
 
 ## Properties
 
-###  amount
+### amount
 
-• **amount**: *number*
-
-___
-
-###  description
-
-• **description**: *string*
+• **amount**: `number`
 
 ___
 
-### `Optional` gatewayId
+### description
 
-• **gatewayId**? : *undefined | string*
-
-___
-
-### `Optional` methodId
-
-• **methodId**? : *undefined | string*
+• **description**: `string`
 
 ___
 
-### `Optional` paymentId
+### gatewayId
 
-• **paymentId**? : *undefined | string*
+• `Optional` **gatewayId**: `string`
 
 ___
 
-###  providerId
+### methodId
 
-• **providerId**: *string*
+• `Optional` **methodId**: `string`
+
+___
+
+### paymentId
+
+• `Optional` **paymentId**: `string`
+
+___
+
+### providerId
+
+• **providerId**: `string`

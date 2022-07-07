@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CheckoutService](checkoutservice.md)
+[@bigcommerce/checkout-sdk](../README.md) / CheckoutService
 
 # Class: CheckoutService
 
@@ -8,68 +8,74 @@ This object can be used to collect all information that is required for
 checkout, such as shipping and billing information. It can also be used to
 retrieve the current checkout state and subscribe to its changes.
 
-## Hierarchy
+## Table of contents
 
-* **CheckoutService**
+### Constructors
 
-## Index
+- [constructor](CheckoutService.md#constructor)
 
 ### Methods
 
-* [applyCoupon](checkoutservice.md#applycoupon)
-* [applyGiftCertificate](checkoutservice.md#applygiftcertificate)
-* [applyStoreCredit](checkoutservice.md#applystorecredit)
-* [assignItemsToAddress](checkoutservice.md#assignitemstoaddress)
-* [clearError](checkoutservice.md#clearerror)
-* [continueAsGuest](checkoutservice.md#continueasguest)
-* [createConsignments](checkoutservice.md#createconsignments)
-* [createCustomerAccount](checkoutservice.md#createcustomeraccount)
-* [createCustomerAddress](checkoutservice.md#createcustomeraddress)
-* [deinitializeCustomer](checkoutservice.md#deinitializecustomer)
-* [deinitializePayment](checkoutservice.md#deinitializepayment)
-* [deinitializeShipping](checkoutservice.md#deinitializeshipping)
-* [deleteConsignment](checkoutservice.md#deleteconsignment)
-* [deleteInstrument](checkoutservice.md#deleteinstrument)
-* [executePaymentMethodCheckout](checkoutservice.md#executepaymentmethodcheckout)
-* [executeSpamCheck](checkoutservice.md#executespamcheck)
-* [finalizeOrderIfNeeded](checkoutservice.md#finalizeorderifneeded)
-* [getState](checkoutservice.md#getstate)
-* [initializeCustomer](checkoutservice.md#initializecustomer)
-* [initializePayment](checkoutservice.md#initializepayment)
-* [initializeShipping](checkoutservice.md#initializeshipping)
-* [initializeSpamProtection](checkoutservice.md#initializespamprotection)
-* [loadBillingAddressFields](checkoutservice.md#loadbillingaddressfields)
-* [loadBillingCountries](checkoutservice.md#loadbillingcountries)
-* [loadCheckout](checkoutservice.md#loadcheckout)
-* [loadInstruments](checkoutservice.md#loadinstruments)
-* [loadOrder](checkoutservice.md#loadorder)
-* [loadPaymentMethods](checkoutservice.md#loadpaymentmethods)
-* [loadPickupOptions](checkoutservice.md#loadpickupoptions)
-* [loadShippingAddressFields](checkoutservice.md#loadshippingaddressfields)
-* [loadShippingCountries](checkoutservice.md#loadshippingcountries)
-* [loadShippingOptions](checkoutservice.md#loadshippingoptions)
-* [notifyState](checkoutservice.md#notifystate)
-* [removeCoupon](checkoutservice.md#removecoupon)
-* [removeGiftCertificate](checkoutservice.md#removegiftcertificate)
-* [selectConsignmentShippingOption](checkoutservice.md#selectconsignmentshippingoption)
-* [selectShippingOption](checkoutservice.md#selectshippingoption)
-* [sendSignInEmail](checkoutservice.md#sendsigninemail)
-* [signInCustomer](checkoutservice.md#signincustomer)
-* [signOutCustomer](checkoutservice.md#signoutcustomer)
-* [submitOrder](checkoutservice.md#submitorder)
-* [subscribe](checkoutservice.md#subscribe)
-* [unassignItemsToAddress](checkoutservice.md#unassignitemstoaddress)
-* [updateBillingAddress](checkoutservice.md#updatebillingaddress)
-* [updateCheckout](checkoutservice.md#updatecheckout)
-* [updateConsignment](checkoutservice.md#updateconsignment)
-* [updateShippingAddress](checkoutservice.md#updateshippingaddress)
-* [updateSubscriptions](checkoutservice.md#updatesubscriptions)
+- [applyCoupon](CheckoutService.md#applycoupon)
+- [applyGiftCertificate](CheckoutService.md#applygiftcertificate)
+- [applyStoreCredit](CheckoutService.md#applystorecredit)
+- [assignItemsToAddress](CheckoutService.md#assignitemstoaddress)
+- [clearError](CheckoutService.md#clearerror)
+- [continueAsGuest](CheckoutService.md#continueasguest)
+- [createConsignments](CheckoutService.md#createconsignments)
+- [createCustomerAccount](CheckoutService.md#createcustomeraccount)
+- [createCustomerAddress](CheckoutService.md#createcustomeraddress)
+- [deinitializeCustomer](CheckoutService.md#deinitializecustomer)
+- [deinitializePayment](CheckoutService.md#deinitializepayment)
+- [deinitializeShipping](CheckoutService.md#deinitializeshipping)
+- [deleteConsignment](CheckoutService.md#deleteconsignment)
+- [deleteInstrument](CheckoutService.md#deleteinstrument)
+- [executePaymentMethodCheckout](CheckoutService.md#executepaymentmethodcheckout)
+- [executeSpamCheck](CheckoutService.md#executespamcheck)
+- [finalizeOrderIfNeeded](CheckoutService.md#finalizeorderifneeded)
+- [getState](CheckoutService.md#getstate)
+- [initializeCustomer](CheckoutService.md#initializecustomer)
+- [initializePayment](CheckoutService.md#initializepayment)
+- [initializeShipping](CheckoutService.md#initializeshipping)
+- [initializeSpamProtection](CheckoutService.md#initializespamprotection)
+- [loadBillingAddressFields](CheckoutService.md#loadbillingaddressfields)
+- [loadBillingCountries](CheckoutService.md#loadbillingcountries)
+- [loadCheckout](CheckoutService.md#loadcheckout)
+- [loadInstruments](CheckoutService.md#loadinstruments)
+- [loadOrder](CheckoutService.md#loadorder)
+- [loadPaymentMethods](CheckoutService.md#loadpaymentmethods)
+- [loadPickupOptions](CheckoutService.md#loadpickupoptions)
+- [loadShippingAddressFields](CheckoutService.md#loadshippingaddressfields)
+- [loadShippingCountries](CheckoutService.md#loadshippingcountries)
+- [loadShippingOptions](CheckoutService.md#loadshippingoptions)
+- [notifyState](CheckoutService.md#notifystate)
+- [removeCoupon](CheckoutService.md#removecoupon)
+- [removeGiftCertificate](CheckoutService.md#removegiftcertificate)
+- [selectConsignmentShippingOption](CheckoutService.md#selectconsignmentshippingoption)
+- [selectShippingOption](CheckoutService.md#selectshippingoption)
+- [sendSignInEmail](CheckoutService.md#sendsigninemail)
+- [signInCustomer](CheckoutService.md#signincustomer)
+- [signOutCustomer](CheckoutService.md#signoutcustomer)
+- [submitOrder](CheckoutService.md#submitorder)
+- [subscribe](CheckoutService.md#subscribe)
+- [unassignItemsToAddress](CheckoutService.md#unassignitemstoaddress)
+- [updateBillingAddress](CheckoutService.md#updatebillingaddress)
+- [updateCheckout](CheckoutService.md#updatecheckout)
+- [updateConsignment](CheckoutService.md#updateconsignment)
+- [updateShippingAddress](CheckoutService.md#updateshippingaddress)
+- [updateSubscriptions](CheckoutService.md#updatesubscriptions)
+
+## Constructors
+
+### constructor
+
+• **new CheckoutService**()
 
 ## Methods
 
-###  applyCoupon
+### applyCoupon
 
-▸ **applyCoupon**(`code`: string, `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **applyCoupon**(`code`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Applies a coupon code to the current checkout.
 
@@ -81,22 +87,24 @@ once.
 await service.applyCoupon('COUPON');
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`code` | string | The coupon code to apply to the current checkout. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for applying the coupon code. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `code` | `string` | The coupon code to apply to the current checkout. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for applying the coupon code. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  applyGiftCertificate
+### applyGiftCertificate
 
-▸ **applyGiftCertificate**(`code`: string, `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **applyGiftCertificate**(`code`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Applies a gift certificate to the current checkout.
 
@@ -107,22 +115,24 @@ checkout will be adjusted accordingly.
 await service.applyGiftCertificate('GIFT_CERTIFICATE');
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`code` | string | The gift certificate to apply to the current checkout. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for applying the gift certificate. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `code` | `string` | The gift certificate to apply to the current checkout. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for applying the gift certificate. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  applyStoreCredit
+### applyStoreCredit
 
-▸ **applyStoreCredit**(`useStoreCredit`: boolean, `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **applyStoreCredit**(`useStoreCredit`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Applies or removes customer's store credit code to the current checkout.
 
@@ -134,22 +144,24 @@ const state = await service.applyStoreCredit(true);
 console.log(state.data.getCheckout().outstandingBalance);
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`useStoreCredit` | boolean | - |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for applying store credit. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `useStoreCredit` | `boolean` | - |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for applying store credit. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  assignItemsToAddress
+### assignItemsToAddress
 
-▸ **assignItemsToAddress**(`consignment`: [ConsignmentAssignmentRequestBody](../README.md#consignmentassignmentrequestbody), `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **assignItemsToAddress**(`consignment`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Convenience method that assigns items to be shipped to a specific address.
 
@@ -157,22 +169,24 @@ Note: this method finds an existing consignment that matches the provided addres
 and assigns the provided items. If no consignment matches the address, a new one
 will be created.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignment` | [ConsignmentAssignmentRequestBody](../README.md#consignmentassignmentrequestbody) | The consignment data that will be used. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for the request |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignment` | [`ConsignmentAssignmentRequestBody`](../README.md#consignmentassignmentrequestbody) | The consignment data that will be used. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for the request |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  clearError
+### clearError
 
-▸ **clearError**(`error`: [Error](../interfaces/amazonpaywidgeterror.md#error)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **clearError**(`error`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Clear errors that have been collected from previous calls.
 
@@ -182,21 +196,23 @@ const state = await service.clearError(error);
 console.log(state.errors.getError());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [Error](../interfaces/amazonpaywidgeterror.md#error) | Specific error object to clear |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | `Error` | Specific error object to clear |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  continueAsGuest
+### continueAsGuest
 
-▸ **continueAsGuest**(`credentials`: [GuestCredentials](../README.md#guestcredentials), `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **continueAsGuest**(`credentials`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Continues to check out as a guest.
 
@@ -207,22 +223,24 @@ exposed as part of the [Customer](../interfaces/customer.md) object.
 Once they provide their email address, it will be stored as
 part of their [billing address](../interfaces/billingaddress.md).
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`credentials` | [GuestCredentials](../README.md#guestcredentials) | The guest credentials to use, with optional subscriptions. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for continuing as a guest. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `credentials` | [`GuestCredentials`](../README.md#guestcredentials) | The guest credentials to use, with optional subscriptions. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for continuing as a guest. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  createConsignments
+### createConsignments
 
-▸ **createConsignments**(`consignments`: [ConsignmentsRequestBody](../README.md#consignmentsrequestbody), `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **createConsignments**(`consignments`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Creates consignments given a list.
 
@@ -248,26 +266,28 @@ const state = await service.createConsignments(consignments);
 console.log(state.data.getConsignments());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignments` | [ConsignmentsRequestBody](../README.md#consignmentsrequestbody) | The list of consignments to be created. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for updating the shipping address. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignments` | [`ConsignmentsRequestBody`](../README.md#consignmentsrequestbody) | The list of consignments to be created. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for updating the shipping address. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  createCustomerAccount
+### createCustomerAccount
 
-▸ **createCustomerAccount**(`customerAccount`: [CustomerAccountRequestBody](../interfaces/customeraccountrequestbody.md), `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **createCustomerAccount**(`customerAccount`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Creates a customer account.
 
-**`remarks`** 
+**`remarks`**
 ```js
 checkoutService.createCustomerAccount({
   email: 'foo@bar.com',
@@ -282,28 +302,30 @@ Please note that `createCustomerAccount` is currently in an early stage
 of development. Therefore the API is unstable and not ready for public
 consumption.
 
-**`alpha`** 
+**`alpha`**
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`customerAccount` | [CustomerAccountRequestBody](../interfaces/customeraccountrequestbody.md) | The customer account data. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for creating customer account. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `customerAccount` | [`CustomerAccountRequestBody`](../interfaces/CustomerAccountRequestBody.md) | The customer account data. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for creating customer account. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  createCustomerAddress
+### createCustomerAddress
 
-▸ **createCustomerAddress**(`customerAddress`: [CustomerAddressRequestBody](../README.md#customeraddressrequestbody), `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **createCustomerAddress**(`customerAddress`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Creates a customer account address.
 
-**`remarks`** 
+**`remarks`**
 ```js
 checkoutService.createCustomerAddress({
   firstName: 'Foo',
@@ -319,24 +341,26 @@ Please note that `createCustomerAccountAddress` is currently in an early stage
 of development. Therefore the API is unstable and not ready for public
 consumption.
 
-**`alpha`** 
+**`alpha`**
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`customerAddress` | [CustomerAddressRequestBody](../README.md#customeraddressrequestbody) | The customer account data. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for creating customer account. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `customerAddress` | [`AddressRequestBody`](../interfaces/AddressRequestBody.md) | The customer account data. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for creating customer account. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  deinitializeCustomer
+### deinitializeCustomer
 
-▸ **deinitializeCustomer**(`options?`: [CustomerRequestOptions](../interfaces/customerrequestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **deinitializeCustomer**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 De-initializes the sign-in step of a checkout process.
 
@@ -351,21 +375,23 @@ await service.deinitializeCustomer({
 });
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [CustomerRequestOptions](../interfaces/customerrequestoptions.md) | Options for deinitializing the customer step of checkout. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`CustomerRequestOptions`](../interfaces/CustomerRequestOptions.md) | Options for deinitializing the customer step of checkout. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  deinitializePayment
+### deinitializePayment
 
-▸ **deinitializePayment**(`options`: [PaymentRequestOptions](../interfaces/paymentrequestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **deinitializePayment**(`options`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 De-initializes the payment step of a checkout process.
 
@@ -380,21 +406,23 @@ await service.deinitializePayment({
 });
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options` | [PaymentRequestOptions](../interfaces/paymentrequestoptions.md) | Options for deinitializing the payment step of checkout. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options` | [`PaymentRequestOptions`](../interfaces/PaymentRequestOptions.md) | Options for deinitializing the payment step of checkout. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  deinitializeShipping
+### deinitializeShipping
 
-▸ **deinitializeShipping**(`options?`: [ShippingRequestOptions](../interfaces/shippingrequestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **deinitializeShipping**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 De-initializes the shipping step of a checkout process.
 
@@ -409,21 +437,23 @@ await service.deinitializeShipping({
 });
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [ShippingRequestOptions](../interfaces/shippingrequestoptions.md) | Options for deinitializing the shipping step of checkout. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`ShippingRequestOptions`](../interfaces/ShippingRequestOptions.md)<`Object`\> | Options for deinitializing the shipping step of checkout. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  deleteConsignment
+### deleteConsignment
 
-▸ **deleteConsignment**(`consignmentId`: string, `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **deleteConsignment**(`consignmentId`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Deletes a consignment
 
@@ -433,22 +463,24 @@ const state = await service.deleteConsignment('55c96cda6f04c');
 console.log(state.data.getConsignments());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignmentId` | string | The ID of the consignment to be deleted |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for the consignment delete request |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignmentId` | `string` | The ID of the consignment to be deleted |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for the consignment delete request |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  deleteInstrument
+### deleteInstrument
 
-▸ **deleteInstrument**(`instrumentId`: string): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **deleteInstrument**(`instrumentId`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Deletes a payment instrument by an id.
 
@@ -461,21 +493,23 @@ const state = service.deleteInstrument('123');
 console.log(state.data.getInstruments());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`instrumentId` | string | The identifier of the payment instrument to delete. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `instrumentId` | `string` | The identifier of the payment instrument to delete. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  executePaymentMethodCheckout
+### executePaymentMethodCheckout
 
-▸ **executePaymentMethodCheckout**(`options?`: [ExecutePaymentMethodCheckoutOptions](../interfaces/executepaymentmethodcheckoutoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **executePaymentMethodCheckout**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Executes custom checkout of the priority payment method.
 
@@ -490,21 +524,23 @@ await service.executePaymentMethodCheckout({
 });
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [ExecutePaymentMethodCheckoutOptions](../interfaces/executepaymentmethodcheckoutoptions.md) | Options for executing payment method checkout. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`ExecutePaymentMethodCheckoutOptions`](../interfaces/ExecutePaymentMethodCheckoutOptions.md) | Options for executing payment method checkout. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  executeSpamCheck
+### executeSpamCheck
 
-▸ **executeSpamCheck**(): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **executeSpamCheck**(): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Verifies whether the current checkout is created by a human.
 
@@ -524,15 +560,17 @@ first gets to the payment step).
 await service.executeSpamCheck();
 ```
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  finalizeOrderIfNeeded
+### finalizeOrderIfNeeded
 
-▸ **finalizeOrderIfNeeded**(`options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **finalizeOrderIfNeeded**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Finalizes the submission process for an order.
 
@@ -561,21 +599,23 @@ try {
 **`throws`** `OrderFinalizationNotRequiredError` error if order finalization
 is not required for the current order at the time of execution.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for finalizing the current order. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for finalizing the current order. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  getState
+### getState
 
-▸ **getState**(): *[CheckoutSelectors](../interfaces/checkoutselectors.md)*
+▸ **getState**(): [`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)
 
 Returns a snapshot of the current checkout state.
 
@@ -591,15 +631,17 @@ console.log(state.errors.getSubmitOrderError());
 console.log(state.statuses.isSubmittingOrder());
 ```
 
-**Returns:** *[CheckoutSelectors](../interfaces/checkoutselectors.md)*
+#### Returns
+
+[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)
 
 The current customer's checkout state
 
 ___
 
-###  initializeCustomer
+### initializeCustomer
 
-▸ **initializeCustomer**(`options?`: [CustomerInitializeOptions](../interfaces/customerinitializeoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **initializeCustomer**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Initializes the sign-in step of a checkout process.
 
@@ -615,21 +657,23 @@ await service.initializeCustomer({
 });
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [CustomerInitializeOptions](../interfaces/customerinitializeoptions.md) | Options for initializing the customer step of checkout. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`CustomerInitializeOptions`](../interfaces/CustomerInitializeOptions.md) | Options for initializing the customer step of checkout. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  initializePayment
+### initializePayment
 
-▸ **initializePayment**(`options`: [PaymentInitializeOptions](../interfaces/paymentinitializeoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **initializePayment**(`options`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Initializes the payment step of a checkout process.
 
@@ -647,21 +691,23 @@ await service.initializePayment({
 });
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options` | [PaymentInitializeOptions](../interfaces/paymentinitializeoptions.md) | Options for initializing the payment step of checkout. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options` | [`PaymentInitializeOptions`](../interfaces/PaymentInitializeOptions.md) | Options for initializing the payment step of checkout. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  initializeShipping
+### initializeShipping
 
-▸ **initializeShipping**(`options?`: [ShippingInitializeOptions](../interfaces/shippinginitializeoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **initializeShipping**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Initializes the shipping step of a checkout process.
 
@@ -678,21 +724,23 @@ await service.initializeShipping({
 });
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [ShippingInitializeOptions](../interfaces/shippinginitializeoptions.md) | Options for initializing the shipping step of checkout. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`ShippingInitializeOptions`](../interfaces/ShippingInitializeOptions.md)<`Object`\> | Options for initializing the shipping step of checkout. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  initializeSpamProtection
+### initializeSpamProtection
 
-▸ **initializeSpamProtection**(`options`: [SpamProtectionOptions](../interfaces/spamprotectionoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **initializeSpamProtection**(`options`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Initializes the spam protection for order creation.
 
@@ -710,21 +758,23 @@ await service.initializeSpamProtection();
 
 **`deprecated`** - Use CheckoutService#executeSpamCheck instead.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options` | [SpamProtectionOptions](../interfaces/spamprotectionoptions.md) | Options for initializing spam protection. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options` | [`SpamProtectionOptions`](../interfaces/SpamProtectionOptions.md) | Options for initializing spam protection. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  loadBillingAddressFields
+### loadBillingAddressFields
 
-▸ **loadBillingAddressFields**(`options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **loadBillingAddressFields**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Loads a set of form fields that should be presented to customers in order
 to capture their billing address.
@@ -739,21 +789,23 @@ const state = service.loadBillingAddressFields();
 console.log(state.data.getBillingAddressFields('US'));
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for loading the billing address form fields. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for loading the billing address form fields. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  loadBillingCountries
+### loadBillingCountries
 
-▸ **loadBillingCountries**(`options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **loadBillingCountries**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Loads a list of countries available for billing.
 
@@ -766,21 +818,23 @@ const state = await service.loadBillingCountries();
 console.log(state.data.getBillingCountries());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for loading the available billing countries. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for loading the available billing countries. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  loadCheckout
+### loadCheckout
 
-▸ **loadCheckout**(`id?`: undefined | string, `options?`: [RequestOptions](../interfaces/requestoptions.md)‹[CheckoutParams](../interfaces/checkoutparams.md)›): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **loadCheckout**(`id?`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Loads the current checkout.
 
@@ -795,22 +849,24 @@ const state = await service.loadCheckout('0cfd6c06-57c3-4e29-8d7a-de55cc8a9052')
 console.log(state.data.getCheckout());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`id?` | undefined &#124; string | The identifier of the checkout to load, or the default checkout if not provided. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md)‹[CheckoutParams](../interfaces/checkoutparams.md)› | Options for loading the current checkout. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id?` | `string` | The identifier of the checkout to load, or the default checkout if not provided. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<[`CheckoutParams`](../interfaces/CheckoutParams.md)\> | Options for loading the current checkout. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  loadInstruments
+### loadInstruments
 
-▸ **loadInstruments**(): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **loadInstruments**(): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Loads a list of payment instruments associated with a customer.
 
@@ -825,15 +881,17 @@ const state = service.loadInstruments();
 console.log(state.data.getInstruments());
 ```
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  loadOrder
+### loadOrder
 
-▸ **loadOrder**(`orderId`: number, `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **loadOrder**(`orderId`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Loads an order by an id.
 
@@ -847,22 +905,24 @@ const state = await service.loadOrder(123);
 console.log(state.data.getOrder());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`orderId` | number | The identifier of the order to load. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for loading the order. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `orderId` | `number` | The identifier of the order to load. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for loading the order. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  loadPaymentMethods
+### loadPaymentMethods
 
-▸ **loadPaymentMethods**(`options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **loadPaymentMethods**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Loads a list of payment methods available for checkout.
 
@@ -882,21 +942,23 @@ const state = service.loadPaymentMethods();
 console.log(state.data.getPaymentMethods());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for loading the payment methods that are available to the current customer. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for loading the payment methods that are available to the current customer. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  loadPickupOptions
+### loadPickupOptions
 
-▸ **loadPickupOptions**(`query`: [PickupOptionRequestBody](../interfaces/pickupoptionrequestbody.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **loadPickupOptions**(`query`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Loads a list of pickup options for a given criteria.
 
@@ -917,23 +979,25 @@ const state = await service.loadPickupOptions({ consignmentId, searchArea });
 console.log(state.data.getPickupOptions(consignmentId, searchArea));
 ```
 
-**`alpha`** 
+**`alpha`**
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`query` | [PickupOptionRequestBody](../interfaces/pickupoptionrequestbody.md) |
+| Name | Type |
+| :------ | :------ |
+| `query` | [`PickupOptionRequestBody`](../interfaces/PickupOptionRequestBody.md) |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  loadShippingAddressFields
+### loadShippingAddressFields
 
-▸ **loadShippingAddressFields**(`options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **loadShippingAddressFields**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Loads a set of form fields that should be presented to customers in order
 to capture their shipping address.
@@ -948,21 +1012,23 @@ const state = service.loadShippingAddressFields();
 console.log(state.data.getShippingAddressFields('US'));
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for loading the shipping address form fields. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for loading the shipping address form fields. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  loadShippingCountries
+### loadShippingCountries
 
-▸ **loadShippingCountries**(`options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **loadShippingCountries**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Loads a list of countries available for shipping.
 
@@ -977,21 +1043,23 @@ const state = await service.loadShippingCountries();
 console.log(state.data.getShippingCountries());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for loading the available shipping countries. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for loading the available shipping countries. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  loadShippingOptions
+### loadShippingOptions
 
-▸ **loadShippingOptions**(`options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **loadShippingOptions**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Loads a list of shipping options available for checkout.
 
@@ -1006,34 +1074,38 @@ const state = await service.loadShippingOptions();
 console.log(state.data.getShippingOptions());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for loading the available shipping options. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for loading the available shipping options. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  notifyState
+### notifyState
 
-▸ **notifyState**(): *void*
+▸ **notifyState**(): `void`
 
 Notifies all subscribers with the current state.
 
 When this method gets called, the subscribers get called regardless if
 they have any filters applied.
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-###  removeCoupon
+### removeCoupon
 
-▸ **removeCoupon**(`code`: string, `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **removeCoupon**(`code`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Removes a coupon code from the current checkout.
 
@@ -1044,22 +1116,24 @@ be adjusted accordingly.
 await service.removeCoupon('COUPON');
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`code` | string | The coupon code to remove from the current checkout. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for removing the coupon code. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `code` | `string` | The coupon code to remove from the current checkout. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for removing the coupon code. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  removeGiftCertificate
+### removeGiftCertificate
 
-▸ **removeGiftCertificate**(`code`: string, `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **removeGiftCertificate**(`code`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Removes a gift certificate from an order.
 
@@ -1070,22 +1144,24 @@ checkout will be adjusted accordingly.
 await service.removeGiftCertificate('GIFT_CERTIFICATE');
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`code` | string | The gift certificate to remove from the current checkout. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for removing the gift certificate. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `code` | `string` | The gift certificate to remove from the current checkout. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for removing the gift certificate. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  selectConsignmentShippingOption
+### selectConsignmentShippingOption
 
-▸ **selectConsignmentShippingOption**(`consignmentId`: string, `shippingOptionId`: string, `options?`: [ShippingRequestOptions](../interfaces/shippingrequestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **selectConsignmentShippingOption**(`consignmentId`, `shippingOptionId`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Selects a shipping option for a given consignment.
 
@@ -1101,23 +1177,25 @@ const state = await service.selectConsignmentShippingOption(consignmentId, optio
 console.log(state.data.getConsignments());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignmentId` | string | The identified of the consignment to be updated. |
-`shippingOptionId` | string | The identifier of the shipping option to select. |
-`options?` | [ShippingRequestOptions](../interfaces/shippingrequestoptions.md) | Options for selecting the shipping option. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignmentId` | `string` | The identified of the consignment to be updated. |
+| `shippingOptionId` | `string` | The identifier of the shipping option to select. |
+| `options?` | [`ShippingRequestOptions`](../interfaces/ShippingRequestOptions.md)<`Object`\> | Options for selecting the shipping option. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  selectShippingOption
+### selectShippingOption
 
-▸ **selectShippingOption**(`shippingOptionId`: string, `options?`: [ShippingRequestOptions](../interfaces/shippingrequestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **selectShippingOption**(`shippingOptionId`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Selects a shipping option for the current address.
 
@@ -1130,22 +1208,24 @@ const state = await service.selectShippingOption('address-id', 'shipping-option-
 console.log(state.data.getSelectedShippingOption());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`shippingOptionId` | string | The identifier of the shipping option to select. |
-`options?` | [ShippingRequestOptions](../interfaces/shippingrequestoptions.md) | Options for selecting the shipping option. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `shippingOptionId` | `string` | The identifier of the shipping option to select. |
+| `options?` | [`ShippingRequestOptions`](../interfaces/ShippingRequestOptions.md)<`Object`\> | Options for selecting the shipping option. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  sendSignInEmail
+### sendSignInEmail
 
-▸ **sendSignInEmail**(`signInEmailRequest`: [SignInEmailRequestBody](../interfaces/signinemailrequestbody.md), `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **sendSignInEmail**(`signInEmailRequest`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Sends a email that contains a single-use sign-in link. When a valid links is clicked,
 signs in the customer without requiring any password, redirecting them to the account page if no redirectUrl is provided.
@@ -1154,22 +1234,24 @@ signs in the customer without requiring any password, redirecting them to the ac
 checkoutService.sendSignInEmail({ email: 'foo@bar.com', redirectUrl: 'checkout' });
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`signInEmailRequest` | [SignInEmailRequestBody](../interfaces/signinemailrequestbody.md) | The sign-in email request values. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for the send email request. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `signInEmailRequest` | [`SignInEmailRequestBody`](../interfaces/SignInEmailRequestBody.md) | The sign-in email request values. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for the send email request. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  signInCustomer
+### signInCustomer
 
-▸ **signInCustomer**(`credentials`: [CustomerCredentials](../interfaces/customercredentials.md), `options?`: [CustomerRequestOptions](../interfaces/customerrequestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **signInCustomer**(`credentials`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Signs into a customer's registered account.
 
@@ -1187,22 +1269,24 @@ const state = await service.signInCustomer({
 console.log(state.data.getCustomer());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`credentials` | [CustomerCredentials](../interfaces/customercredentials.md) | The credentials to be used for signing in the customer. |
-`options?` | [CustomerRequestOptions](../interfaces/customerrequestoptions.md) | Options for signing in the customer. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `credentials` | [`CustomerCredentials`](../interfaces/CustomerCredentials.md) | The credentials to be used for signing in the customer. |
+| `options?` | [`CustomerRequestOptions`](../interfaces/CustomerRequestOptions.md) | Options for signing in the customer. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  signOutCustomer
+### signOutCustomer
 
-▸ **signOutCustomer**(`options?`: [CustomerRequestOptions](../interfaces/customerrequestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **signOutCustomer**(`options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Signs out the current customer if they are previously signed in.
 
@@ -1229,21 +1313,23 @@ try {
 }
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`options?` | [CustomerRequestOptions](../interfaces/customerrequestoptions.md) | Options for signing out the customer. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`CustomerRequestOptions`](../interfaces/CustomerRequestOptions.md) | Options for signing out the customer. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  submitOrder
+### submitOrder
 
-▸ **submitOrder**(`payload`: [OrderRequestBody](../interfaces/orderrequestbody.md), `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **submitOrder**(`payload`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Submits an order, thereby completing a checkout process.
 
@@ -1280,22 +1366,24 @@ const state = await service.submitOrder(payload);
 console.log(state.data.getOrder());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`payload` | [OrderRequestBody](../interfaces/orderrequestbody.md) | The request payload to submit for the current order. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for submitting the current order. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `payload` | [`OrderRequestBody`](../interfaces/OrderRequestBody.md) | The request payload to submit for the current order. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for submitting the current order. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  subscribe
+### subscribe
 
-▸ **subscribe**(`subscriber`: function, ...`filters`: Array‹function›): *function*
+▸ **subscribe**(`subscriber`, ...`filters`): () => `void`
 
 Subscribes to any changes to the current state.
 
@@ -1320,37 +1408,55 @@ service.subscribe(state => {
 }, filter);
 ```
 
-**Parameters:**
+#### Parameters
 
-▪ **subscriber**: *function*
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `subscriber` | (`state`: [`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)) => `void` | The function to subscribe to state changes. |
+| `...filters` | (`state`: [`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)) => `any`[] | One or more functions to filter out irrelevant state changes. If more than one function is provided, the subscriber will only be triggered if all conditions are met. |
 
-The function to subscribe to state changes.
+#### Returns
 
-▸ (`state`: [CheckoutSelectors](../interfaces/checkoutselectors.md)): *void*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`state` | [CheckoutSelectors](../interfaces/checkoutselectors.md) |
-
-▪... **filters**: *Array‹function›*
-
-One or more functions to filter out irrelevant state
-changes. If more than one function is provided, the subscriber will only
-be triggered if all conditions are met.
-
-**Returns:** *function*
+`fn`
 
 A function, if called, will unsubscribe the subscriber.
 
-▸ (): *void*
+▸ (): `void`
+
+Subscribes to any changes to the current state.
+
+The method registers a callback function and executes it every time there
+is a change in the checkout state.
+
+```js
+service.subscribe(state => {
+    console.log(state.data.getCart());
+});
+```
+
+The method can be configured to notify subscribers only regarding
+relevant changes, by providing a filter function.
+
+```js
+const filter = state => state.data.getCart();
+
+// Only trigger the subscriber when the cart changes.
+service.subscribe(state => {
+    console.log(state.data.getCart())
+}, filter);
+```
+
+##### Returns
+
+`void`
+
+A function, if called, will unsubscribe the subscriber.
 
 ___
 
-###  unassignItemsToAddress
+### unassignItemsToAddress
 
-▸ **unassignItemsToAddress**(`consignment`: [ConsignmentAssignmentRequestBody](../README.md#consignmentassignmentrequestbody), `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **unassignItemsToAddress**(`consignment`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Convenience method that unassigns items from a specific shipping address.
 
@@ -1358,22 +1464,24 @@ Note: this method finds an existing consignment that matches the provided addres
 and unassigns the specified items. If the consignment ends up with no line items
 after the unassignment, it will be deleted.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignment` | [ConsignmentAssignmentRequestBody](../README.md#consignmentassignmentrequestbody) | The consignment data that will be used. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for the request |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignment` | [`ConsignmentAssignmentRequestBody`](../README.md#consignmentassignmentrequestbody) | The consignment data that will be used. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for the request |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  updateBillingAddress
+### updateBillingAddress
 
-▸ **updateBillingAddress**(`address`: Partial‹[BillingAddressRequestBody](../interfaces/billingaddressrequestbody.md)›, `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **updateBillingAddress**(`address`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Updates the billing address for the current checkout.
 
@@ -1389,22 +1497,24 @@ const state = await service.updateBillingAddress(address);
 console.log(state.data.getBillingAddress());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`address` | Partial‹[BillingAddressRequestBody](../interfaces/billingaddressrequestbody.md)› | The address to be used for billing. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for updating the billing address. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `address` | `Partial`<[`BillingAddressRequestBody`](../interfaces/BillingAddressRequestBody.md)\> | The address to be used for billing. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for updating the billing address. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  updateCheckout
+### updateCheckout
 
-▸ **updateCheckout**(`payload`: [CheckoutRequestBody](../interfaces/checkoutrequestbody.md), `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **updateCheckout**(`payload`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Updates specific properties of the current checkout.
 
@@ -1414,22 +1524,24 @@ const state = await service.updateCheckout(checkout);
 console.log(state.data.getCheckout());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`payload` | [CheckoutRequestBody](../interfaces/checkoutrequestbody.md) | The checkout properties to be updated. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for loading the current checkout. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `payload` | [`CheckoutRequestBody`](../interfaces/CheckoutRequestBody.md) | The checkout properties to be updated. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for loading the current checkout. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  updateConsignment
+### updateConsignment
 
-▸ **updateConsignment**(`consignment`: [ConsignmentUpdateRequestBody](../interfaces/consignmentupdaterequestbody.md), `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **updateConsignment**(`consignment`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Updates a specific consignment.
 
@@ -1459,22 +1571,24 @@ const state = await service.updateConsignment(consignment);
 console.log(state.data.getConsignments());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignment` | [ConsignmentUpdateRequestBody](../interfaces/consignmentupdaterequestbody.md) | The consignment data that will be used. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for updating the shipping address. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignment` | [`ConsignmentUpdateRequestBody`](../interfaces/ConsignmentUpdateRequestBody.md) | The consignment data that will be used. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for updating the shipping address. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  updateShippingAddress
+### updateShippingAddress
 
-▸ **updateShippingAddress**(`address`: Partial‹[AddressRequestBody](../interfaces/addressrequestbody.md)›, `options?`: [ShippingRequestOptions](../interfaces/shippingrequestoptions.md)‹[CheckoutParams](../interfaces/checkoutparams.md)›): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **updateShippingAddress**(`address`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Updates the shipping address for the current checkout.
 
@@ -1496,32 +1610,36 @@ const state = await service.updateShippingAddress(address);
 console.log(state.data.getShippingAddress());
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`address` | Partial‹[AddressRequestBody](../interfaces/addressrequestbody.md)› | The address to be used for shipping. |
-`options?` | [ShippingRequestOptions](../interfaces/shippingrequestoptions.md)‹[CheckoutParams](../interfaces/checkoutparams.md)› | Options for updating the shipping address. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `address` | `Partial`<[`AddressRequestBody`](../interfaces/AddressRequestBody.md)\> | The address to be used for shipping. |
+| `options?` | [`ShippingRequestOptions`](../interfaces/ShippingRequestOptions.md)<[`CheckoutParams`](../interfaces/CheckoutParams.md)\> | Options for updating the shipping address. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.
 
 ___
 
-###  updateSubscriptions
+### updateSubscriptions
 
-▸ **updateSubscriptions**(`subscriptions`: [Subscriptions](../interfaces/subscriptions.md), `options?`: [RequestOptions](../interfaces/requestoptions.md)): *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+▸ **updateSubscriptions**(`subscriptions`, `options?`): `Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 Updates the subscriptions associated to an email.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`subscriptions` | [Subscriptions](../interfaces/subscriptions.md) | The email and associated subscriptions to update. |
-`options?` | [RequestOptions](../interfaces/requestoptions.md) | Options for continuing as a guest. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `subscriptions` | [`Subscriptions`](../interfaces/Subscriptions.md) | The email and associated subscriptions to update. |
+| `options?` | [`RequestOptions`](../interfaces/RequestOptions.md)<`Object`\> | Options for continuing as a guest. |
 
-**Returns:** *Promise‹[CheckoutSelectors](../interfaces/checkoutselectors.md)›*
+#### Returns
+
+`Promise`<[`CheckoutSelectors`](../interfaces/CheckoutSelectors.md)\>
 
 A promise that resolves to the current state.

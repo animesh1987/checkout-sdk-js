@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [MolliePaymentInitializeOptions](molliepaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / MolliePaymentInitializeOptions
 
 # Interface: MolliePaymentInitializeOptions
 
@@ -25,59 +25,55 @@ service.initializePayment({
      }
 });
 
-## Hierarchy
-
-* **MolliePaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [cardCvcId](molliepaymentinitializeoptions.md#cardcvcid)
-* [cardExpiryId](molliepaymentinitializeoptions.md#cardexpiryid)
-* [cardHolderId](molliepaymentinitializeoptions.md#cardholderid)
-* [cardNumberId](molliepaymentinitializeoptions.md#cardnumberid)
-* [containerId](molliepaymentinitializeoptions.md#optional-containerid)
-* [form](molliepaymentinitializeoptions.md#optional-form)
-* [styles](molliepaymentinitializeoptions.md#styles)
+- [cardCvcId](MolliePaymentInitializeOptions.md#cardcvcid)
+- [cardExpiryId](MolliePaymentInitializeOptions.md#cardexpiryid)
+- [cardHolderId](MolliePaymentInitializeOptions.md#cardholderid)
+- [cardNumberId](MolliePaymentInitializeOptions.md#cardnumberid)
+- [containerId](MolliePaymentInitializeOptions.md#containerid)
+- [form](MolliePaymentInitializeOptions.md#form)
+- [styles](MolliePaymentInitializeOptions.md#styles)
 
 ## Properties
 
-###  cardCvcId
+### cardCvcId
 
-• **cardCvcId**: *string*
-
-The location to insert Mollie Component
-
-___
-
-###  cardExpiryId
-
-• **cardExpiryId**: *string*
+• **cardCvcId**: `string`
 
 The location to insert Mollie Component
 
 ___
 
-###  cardHolderId
+### cardExpiryId
 
-• **cardHolderId**: *string*
-
-The location to insert Mollie Component
-
-___
-
-###  cardNumberId
-
-• **cardNumberId**: *string*
+• **cardExpiryId**: `string`
 
 The location to insert Mollie Component
 
 ___
 
-### `Optional` containerId
+### cardHolderId
 
-• **containerId**? : *undefined | string*
+• **cardHolderId**: `string`
+
+The location to insert Mollie Component
+
+___
+
+### cardNumberId
+
+• **cardNumberId**: `string`
+
+The location to insert Mollie Component
+
+___
+
+### containerId
+
+• `Optional` **containerId**: `string`
 
 ContainerId is use in Mollie for determined either its showing or not the
 container, because when Mollie has Vaulted Instruments it gets hide,
@@ -85,16 +81,16 @@ and shows an error because can't mount Provider Components
 
 ___
 
-### `Optional` form
+### form
 
-• **form**? : *[HostedFormOptions](hostedformoptions.md)*
+• `Optional` **form**: [`HostedFormOptions`](HostedFormOptions.md)
 
 Hosted Form Validation Options
 
 ___
 
-###  styles
+### styles
 
-• **styles**: *object*
+• **styles**: `object`
 
 A set of styles required for the mollie components

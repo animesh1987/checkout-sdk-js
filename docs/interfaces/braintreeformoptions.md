@@ -1,104 +1,110 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeFormOptions](braintreeformoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeFormOptions
 
 # Interface: BraintreeFormOptions
 
-## Hierarchy
-
-* **BraintreeFormOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [fields](braintreeformoptions.md#fields)
-* [styles](braintreeformoptions.md#optional-styles)
+- [fields](BraintreeFormOptions.md#fields)
+- [styles](BraintreeFormOptions.md#styles)
 
 ### Methods
 
-* [onBlur](braintreeformoptions.md#optional-onblur)
-* [onCardTypeChange](braintreeformoptions.md#optional-oncardtypechange)
-* [onEnter](braintreeformoptions.md#optional-onenter)
-* [onFocus](braintreeformoptions.md#optional-onfocus)
-* [onValidate](braintreeformoptions.md#optional-onvalidate)
+- [onBlur](BraintreeFormOptions.md#onblur)
+- [onCardTypeChange](BraintreeFormOptions.md#oncardtypechange)
+- [onEnter](BraintreeFormOptions.md#onenter)
+- [onFocus](BraintreeFormOptions.md#onfocus)
+- [onValidate](BraintreeFormOptions.md#onvalidate)
 
 ## Properties
 
-###  fields
+### fields
 
-• **fields**: *[BraintreeFormFieldsMap](braintreeformfieldsmap.md) | [BraintreeStoredCardFieldsMap](braintreestoredcardfieldsmap.md)*
+• **fields**: [`BraintreeFormFieldsMap`](BraintreeFormFieldsMap.md) \| [`BraintreeStoredCardFieldsMap`](BraintreeStoredCardFieldsMap.md)
 
 ___
 
-### `Optional` styles
+### styles
 
-• **styles**? : *[BraintreeFormFieldStylesMap](braintreeformfieldstylesmap.md)*
+• `Optional` **styles**: [`BraintreeFormFieldStylesMap`](BraintreeFormFieldStylesMap.md)
 
 ## Methods
 
-### `Optional` onBlur
+### onBlur
 
-▸ **onBlur**(`data`: [BraintreeFormFieldBlurEventData](../README.md#braintreeformfieldblureventdata)): *void*
+▸ `Optional` **onBlur**(`data`): `void`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`data` | [BraintreeFormFieldBlurEventData](../README.md#braintreeformfieldblureventdata) |
+| Name | Type |
+| :------ | :------ |
+| `data` | [`BraintreeFormFieldKeyboardEventData`](BraintreeFormFieldKeyboardEventData.md) |
 
-**Returns:** *void*
+#### Returns
 
-___
-
-### `Optional` onCardTypeChange
-
-▸ **onCardTypeChange**(`data`: [BraintreeFormFieldCardTypeChangeEventData](braintreeformfieldcardtypechangeeventdata.md)): *void*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`data` | [BraintreeFormFieldCardTypeChangeEventData](braintreeformfieldcardtypechangeeventdata.md) |
-
-**Returns:** *void*
+`void`
 
 ___
 
-### `Optional` onEnter
+### onCardTypeChange
 
-▸ **onEnter**(`data`: [BraintreeFormFieldEnterEventData](../README.md#braintreeformfieldentereventdata)): *void*
+▸ `Optional` **onCardTypeChange**(`data`): `void`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`data` | [BraintreeFormFieldEnterEventData](../README.md#braintreeformfieldentereventdata) |
+| Name | Type |
+| :------ | :------ |
+| `data` | [`BraintreeFormFieldCardTypeChangeEventData`](BraintreeFormFieldCardTypeChangeEventData.md) |
 
-**Returns:** *void*
+#### Returns
 
-___
-
-### `Optional` onFocus
-
-▸ **onFocus**(`data`: [BraintreeFormFieldFocusEventData](../README.md#braintreeformfieldfocuseventdata)): *void*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`data` | [BraintreeFormFieldFocusEventData](../README.md#braintreeformfieldfocuseventdata) |
-
-**Returns:** *void*
+`void`
 
 ___
 
-### `Optional` onValidate
+### onEnter
 
-▸ **onValidate**(`data`: [BraintreeFormFieldValidateEventData](braintreeformfieldvalidateeventdata.md)): *void*
+▸ `Optional` **onEnter**(`data`): `void`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`data` | [BraintreeFormFieldValidateEventData](braintreeformfieldvalidateeventdata.md) |
+| Name | Type |
+| :------ | :------ |
+| `data` | [`BraintreeFormFieldKeyboardEventData`](BraintreeFormFieldKeyboardEventData.md) |
 
-**Returns:** *void*
+#### Returns
+
+`void`
+
+___
+
+### onFocus
+
+▸ `Optional` **onFocus**(`data`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`BraintreeFormFieldKeyboardEventData`](BraintreeFormFieldKeyboardEventData.md) |
+
+#### Returns
+
+`void`
+
+___
+
+### onValidate
+
+▸ `Optional` **onValidate**(`data`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`BraintreeFormFieldValidateEventData`](BraintreeFormFieldValidateEventData.md) |
+
+#### Returns
+
+`void`

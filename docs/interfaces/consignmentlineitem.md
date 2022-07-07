@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ConsignmentLineItem](consignmentlineitem.md)
+[@bigcommerce/checkout-sdk](../README.md) / ConsignmentLineItem
 
 # Interface: ConsignmentLineItem
 
-## Hierarchy
-
-* **ConsignmentLineItem**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [itemId](consignmentlineitem.md#itemid)
-* [quantity](consignmentlineitem.md#quantity)
+- [itemId](ConsignmentLineItem.md#itemid)
+- [quantity](ConsignmentLineItem.md#quantity)
 
 ## Properties
 
-###  itemId
+### itemId
 
-• **itemId**: *string | number*
+• **itemId**: `string` \| `number`
 
 ___
 
-###  quantity
+### quantity
 
-• **quantity**: *number*
+• **quantity**: `number`

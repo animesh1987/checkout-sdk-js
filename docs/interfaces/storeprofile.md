@@ -1,75 +1,71 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StoreProfile](storeprofile.md)
+[@bigcommerce/checkout-sdk](../README.md) / StoreProfile
 
 # Interface: StoreProfile
 
-## Hierarchy
-
-* **StoreProfile**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [orderEmail](storeprofile.md#orderemail)
-* [shopPath](storeprofile.md#shoppath)
-* [storeCountry](storeprofile.md#storecountry)
-* [storeCountryCode](storeprofile.md#storecountrycode)
-* [storeHash](storeprofile.md#storehash)
-* [storeId](storeprofile.md#storeid)
-* [storeLanguage](storeprofile.md#storelanguage)
-* [storeName](storeprofile.md#storename)
-* [storePhoneNumber](storeprofile.md#storephonenumber)
+- [orderEmail](StoreProfile.md#orderemail)
+- [shopPath](StoreProfile.md#shoppath)
+- [storeCountry](StoreProfile.md#storecountry)
+- [storeCountryCode](StoreProfile.md#storecountrycode)
+- [storeHash](StoreProfile.md#storehash)
+- [storeId](StoreProfile.md#storeid)
+- [storeLanguage](StoreProfile.md#storelanguage)
+- [storeName](StoreProfile.md#storename)
+- [storePhoneNumber](StoreProfile.md#storephonenumber)
 
 ## Properties
 
-###  orderEmail
+### orderEmail
 
-• **orderEmail**: *string*
-
-___
-
-###  shopPath
-
-• **shopPath**: *string*
+• **orderEmail**: `string`
 
 ___
 
-###  storeCountry
+### shopPath
 
-• **storeCountry**: *string*
-
-___
-
-###  storeCountryCode
-
-• **storeCountryCode**: *string*
+• **shopPath**: `string`
 
 ___
 
-###  storeHash
+### storeCountry
 
-• **storeHash**: *string*
-
-___
-
-###  storeId
-
-• **storeId**: *string*
+• **storeCountry**: `string`
 
 ___
 
-###  storeLanguage
+### storeCountryCode
 
-• **storeLanguage**: *string*
-
-___
-
-###  storeName
-
-• **storeName**: *string*
+• **storeCountryCode**: `string`
 
 ___
 
-###  storePhoneNumber
+### storeHash
 
-• **storePhoneNumber**: *string*
+• **storeHash**: `string`
+
+___
+
+### storeId
+
+• **storeId**: `string`
+
+___
+
+### storeLanguage
+
+• **storeLanguage**: `string`
+
+___
+
+### storeName
+
+• **storeName**: `string`
+
+___
+
+### storePhoneNumber
+
+• **storePhoneNumber**: `string`

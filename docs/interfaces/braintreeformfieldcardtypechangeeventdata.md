@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeFormFieldCardTypeChangeEventData](braintreeformfieldcardtypechangeeventdata.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeFormFieldCardTypeChangeEventData
 
 # Interface: BraintreeFormFieldCardTypeChangeEventData
 
-## Hierarchy
-
-* **BraintreeFormFieldCardTypeChangeEventData**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [cardType](braintreeformfieldcardtypechangeeventdata.md#optional-cardtype)
+- [cardType](BraintreeFormFieldCardTypeChangeEventData.md#cardtype)
 
 ## Properties
 
-### `Optional` cardType
+### cardType
 
-• **cardType**? : *undefined | string*
+• `Optional` **cardType**: `string`

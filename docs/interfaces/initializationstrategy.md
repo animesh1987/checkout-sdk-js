@@ -1,21 +1,21 @@
-[@bigcommerce/checkout-sdk](../README.md) › [InitializationStrategy](initializationstrategy.md)
+[@bigcommerce/checkout-sdk](../README.md) / InitializationStrategy
 
 # Interface: InitializationStrategy
 
 ## Hierarchy
 
-* object
+- `Partial`<[`UnknownObject`](UnknownObject.md)\>
 
-  ↳ **InitializationStrategy**
+  ↳ **`InitializationStrategy`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [type](initializationstrategy.md#type)
+- [type](InitializationStrategy.md#type)
 
 ## Properties
 
-###  type
+### type
 
-• **type**: *string*
+• **type**: `string`

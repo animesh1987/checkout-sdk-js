@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PickupOptionResult](pickupoptionresult.md)
+[@bigcommerce/checkout-sdk](../README.md) / PickupOptionResult
 
 # Interface: PickupOptionResult
 
-## Hierarchy
-
-* **PickupOptionResult**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [options](pickupoptionresult.md#options)
+- [options](PickupOptionResult.md#options)
 
 ## Properties
 
-###  options
+### options
 
-• **options**: *[Option](option.md)[]*
+• **options**: [`Option`](Option.md)[]

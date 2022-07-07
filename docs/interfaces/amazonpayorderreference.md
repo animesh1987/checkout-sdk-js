@@ -1,30 +1,30 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AmazonPayOrderReference](amazonpayorderreference.md)
+[@bigcommerce/checkout-sdk](../README.md) / AmazonPayOrderReference
 
 # Interface: AmazonPayOrderReference
 
-## Hierarchy
-
-* **AmazonPayOrderReference**
-
-## Index
+## Table of contents
 
 ### Methods
 
-* [getAmazonBillingAgreementId](amazonpayorderreference.md#getamazonbillingagreementid)
-* [getAmazonOrderReferenceId](amazonpayorderreference.md#getamazonorderreferenceid)
+- [getAmazonBillingAgreementId](AmazonPayOrderReference.md#getamazonbillingagreementid)
+- [getAmazonOrderReferenceId](AmazonPayOrderReference.md#getamazonorderreferenceid)
 
 ## Methods
 
-###  getAmazonBillingAgreementId
+### getAmazonBillingAgreementId
 
-▸ **getAmazonBillingAgreementId**(): *string*
+▸ **getAmazonBillingAgreementId**(): `string`
 
-**Returns:** *string*
+#### Returns
+
+`string`
 
 ___
 
-###  getAmazonOrderReferenceId
+### getAmazonOrderReferenceId
 
-▸ **getAmazonOrderReferenceId**(): *string*
+▸ **getAmazonOrderReferenceId**(): `string`
 
-**Returns:** *string*
+#### Returns
+
+`string`

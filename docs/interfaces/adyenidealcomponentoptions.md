@@ -1,21 +1,17 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AdyenIdealComponentOptions](adyenidealcomponentoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / AdyenIdealComponentOptions
 
 # Interface: AdyenIdealComponentOptions
 
-## Hierarchy
-
-* **AdyenIdealComponentOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [showImage](adyenidealcomponentoptions.md#optional-showimage)
+- [showImage](AdyenIdealComponentOptions.md#showimage)
 
 ## Properties
 
-### `Optional` showImage
+### showImage
 
-• **showImage**? : *undefined | false | true*
+• `Optional` **showImage**: `boolean`
 
 Optional. Set to **false** to remove the bank logos from the iDEAL form.

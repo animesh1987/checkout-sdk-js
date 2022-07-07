@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CheckoutButtonSelectors](checkoutbuttonselectors.md)
+[@bigcommerce/checkout-sdk](../README.md) / CheckoutButtonSelectors
 
 # Interface: CheckoutButtonSelectors
 
-## Hierarchy
-
-* **CheckoutButtonSelectors**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [errors](checkoutbuttonselectors.md#errors)
-* [statuses](checkoutbuttonselectors.md#statuses)
+- [errors](CheckoutButtonSelectors.md#errors)
+- [statuses](CheckoutButtonSelectors.md#statuses)
 
 ## Properties
 
-###  errors
+### errors
 
-• **errors**: *[CheckoutButtonErrorSelector](../classes/checkoutbuttonerrorselector.md)*
+• **errors**: [`CheckoutButtonErrorSelector`](../classes/CheckoutButtonErrorSelector.md)
 
 ___
 
-###  statuses
+### statuses
 
-• **statuses**: *[CheckoutButtonStatusSelector](../classes/checkoutbuttonstatusselector.md)*
+• **statuses**: [`CheckoutButtonStatusSelector`](../classes/CheckoutButtonStatusSelector.md)

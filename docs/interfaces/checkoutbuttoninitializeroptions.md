@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CheckoutButtonInitializerOptions](checkoutbuttoninitializeroptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / CheckoutButtonInitializerOptions
 
 # Interface: CheckoutButtonInitializerOptions
 
-## Hierarchy
-
-* **CheckoutButtonInitializerOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [host](checkoutbuttoninitializeroptions.md#optional-host)
-* [locale](checkoutbuttoninitializeroptions.md#optional-locale)
+- [host](CheckoutButtonInitializerOptions.md#host)
+- [locale](CheckoutButtonInitializerOptions.md#locale)
 
 ## Properties
 
-### `Optional` host
+### host
 
-• **host**? : *undefined | string*
+• `Optional` **host**: `string`
 
 ___
 
-### `Optional` locale
+### locale
 
-• **locale**? : *undefined | string*
+• `Optional` **locale**: `string`

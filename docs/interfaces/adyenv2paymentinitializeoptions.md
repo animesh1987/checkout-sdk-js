@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AdyenV2PaymentInitializeOptions](adyenv2paymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / AdyenV2PaymentInitializeOptions
 
 # Interface: AdyenV2PaymentInitializeOptions
 
@@ -63,101 +63,99 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **AdyenV2PaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [additionalActionOptions](adyenv2paymentinitializeoptions.md#additionalactionoptions)
-* [cardVerificationContainerId](adyenv2paymentinitializeoptions.md#optional-cardverificationcontainerid)
-* [containerId](adyenv2paymentinitializeoptions.md#containerid)
-* [hasVaultedInstruments](adyenv2paymentinitializeoptions.md#optional-hasvaultedinstruments)
-* [options](adyenv2paymentinitializeoptions.md#optional-options)
-* [shouldShowNumberField](adyenv2paymentinitializeoptions.md#optional-shouldshownumberfield)
-* [threeDS2ContainerId](adyenv2paymentinitializeoptions.md#threeds2containerid)
-* [threeDS2Options](adyenv2paymentinitializeoptions.md#optional-threeds2options)
+- [additionalActionOptions](AdyenV2PaymentInitializeOptions.md#additionalactionoptions)
+- [cardVerificationContainerId](AdyenV2PaymentInitializeOptions.md#cardverificationcontainerid)
+- [containerId](AdyenV2PaymentInitializeOptions.md#containerid)
+- [hasVaultedInstruments](AdyenV2PaymentInitializeOptions.md#hasvaultedinstruments)
+- [options](AdyenV2PaymentInitializeOptions.md#options)
+- [shouldShowNumberField](AdyenV2PaymentInitializeOptions.md#shouldshownumberfield)
+- [threeDS2ContainerId](AdyenV2PaymentInitializeOptions.md#threeds2containerid)
+- [threeDS2Options](AdyenV2PaymentInitializeOptions.md#threeds2options)
 
 ### Methods
 
-* [validateCardFields](adyenv2paymentinitializeoptions.md#validatecardfields)
+- [validateCardFields](AdyenV2PaymentInitializeOptions.md#validatecardfields)
 
 ## Properties
 
-###  additionalActionOptions
+### additionalActionOptions
 
-• **additionalActionOptions**: *[AdyenAdditionalActionOptions](adyenadditionalactionoptions.md)*
+• **additionalActionOptions**: [`AdyenAdditionalActionOptions`](AdyenAdditionalActionOptions.md)
 
 A set of options that are required to initialize additional payment actions.
 
 ___
 
-### `Optional` cardVerificationContainerId
+### cardVerificationContainerId
 
-• **cardVerificationContainerId**? : *undefined | string*
+• `Optional` **cardVerificationContainerId**: `string`
 
 The location to insert the Adyen custom card component
 
 ___
 
-###  containerId
+### containerId
 
-• **containerId**: *string*
+• **containerId**: `string`
 
 The location to insert the Adyen component.
 
 ___
 
-### `Optional` hasVaultedInstruments
+### hasVaultedInstruments
 
-• **hasVaultedInstruments**? : *undefined | false | true*
+• `Optional` **hasVaultedInstruments**: `boolean`
 
 True if the Adyen component has some Vaulted instrument
 
 ___
 
-### `Optional` options
+### options
 
-• **options**? : *[Omit](../README.md#omit)‹[AdyenCreditCardComponentOptions](adyencreditcardcomponentoptions.md), "onChange"› | [AdyenIdealComponentOptions](adyenidealcomponentoptions.md)*
+• `Optional` **options**: [`AdyenIdealComponentOptions`](AdyenIdealComponentOptions.md) \| `Pick`<[`AdyenCreditCardComponentOptions`](AdyenCreditCardComponentOptions.md), ``"details"`` \| ``"enableStoreDetails"`` \| ``"hasHolderName"`` \| ``"holderNameRequired"`` \| ``"data"`` \| ``"groupTypes"`` \| ``"placeholders"`` \| ``"brands"`` \| ``"styles"`` \| ``"onError"`` \| ``"onFieldValid"``\>
 
 Optional. Overwriting the default options
 
 ___
 
-### `Optional` shouldShowNumberField
+### shouldShowNumberField
 
-• **shouldShowNumberField**? : *undefined | false | true*
+• `Optional` **shouldShowNumberField**: `boolean`
 
 ___
 
-###  threeDS2ContainerId
+### threeDS2ContainerId
 
-• **threeDS2ContainerId**: *string*
+• **threeDS2ContainerId**: `string`
 
 **`deprecated`** The location to insert the Adyen 3DS V2 component.
 Use additionalActionOptions instead as this property will be removed in the future
 
 ___
 
-### `Optional` threeDS2Options
+### threeDS2Options
 
-• **threeDS2Options**? : *[AdyenThreeDS2Options](adyenthreeds2options.md)*
+• `Optional` **threeDS2Options**: [`AdyenThreeDS2Options`](AdyenThreeDS2Options.md)
 
-**`deprecated`** 
+**`deprecated`**
 Use additionalActionOptions instead as this property will be removed in the future
 
 ## Methods
 
-###  validateCardFields
+### validateCardFields
 
-▸ **validateCardFields**(`componentState`: [AdyenComponentState](../README.md#adyencomponentstate)): *void*
+▸ **validateCardFields**(`componentState`): `void`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`componentState` | [AdyenComponentState](../README.md#adyencomponentstate) |
+| Name | Type |
+| :------ | :------ |
+| `componentState` | [`AdyenComponentState`](../README.md#adyencomponentstate) |
 
-**Returns:** *void*
+#### Returns
+
+`void`

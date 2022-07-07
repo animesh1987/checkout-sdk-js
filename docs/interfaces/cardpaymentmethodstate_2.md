@@ -1,47 +1,43 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CardPaymentMethodState_2](cardpaymentmethodstate_2.md)
+[@bigcommerce/checkout-sdk](../README.md) / CardPaymentMethodState_2
 
-# Interface: CardPaymentMethodState_2
+# Interface: CardPaymentMethodState\_2
 
-## Hierarchy
-
-* **CardPaymentMethodState_2**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [encryptedCardNumber](cardpaymentmethodstate_2.md#encryptedcardnumber)
-* [encryptedExpiryMonth](cardpaymentmethodstate_2.md#encryptedexpirymonth)
-* [encryptedExpiryYear](cardpaymentmethodstate_2.md#encryptedexpiryyear)
-* [encryptedSecurityCode](cardpaymentmethodstate_2.md#encryptedsecuritycode)
-* [holderName](cardpaymentmethodstate_2.md#holdername)
+- [encryptedCardNumber](CardPaymentMethodState_2.md#encryptedcardnumber)
+- [encryptedExpiryMonth](CardPaymentMethodState_2.md#encryptedexpirymonth)
+- [encryptedExpiryYear](CardPaymentMethodState_2.md#encryptedexpiryyear)
+- [encryptedSecurityCode](CardPaymentMethodState_2.md#encryptedsecuritycode)
+- [holderName](CardPaymentMethodState_2.md#holdername)
 
 ## Properties
 
-###  encryptedCardNumber
+### encryptedCardNumber
 
-• **encryptedCardNumber**: *string*
-
-___
-
-###  encryptedExpiryMonth
-
-• **encryptedExpiryMonth**: *string*
+• **encryptedCardNumber**: `string`
 
 ___
 
-###  encryptedExpiryYear
+### encryptedExpiryMonth
 
-• **encryptedExpiryYear**: *string*
-
-___
-
-###  encryptedSecurityCode
-
-• **encryptedSecurityCode**: *string*
+• **encryptedExpiryMonth**: `string`
 
 ___
 
-###  holderName
+### encryptedExpiryYear
 
-• **holderName**: *string*
+• **encryptedExpiryYear**: `string`
+
+___
+
+### encryptedSecurityCode
+
+• **encryptedSecurityCode**: `string`
+
+___
+
+### holderName
+
+• **holderName**: `string`

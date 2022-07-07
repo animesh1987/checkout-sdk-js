@@ -1,50 +1,50 @@
-[@bigcommerce/checkout-sdk](../README.md) › [HostedFieldType](hostedfieldtype.md)
+[@bigcommerce/checkout-sdk](../README.md) / HostedFieldType
 
 # Enumeration: HostedFieldType
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [CardCode](hostedfieldtype.md#cardcode)
-* [CardCodeVerification](hostedfieldtype.md#cardcodeverification)
-* [CardExpiry](hostedfieldtype.md#cardexpiry)
-* [CardName](hostedfieldtype.md#cardname)
-* [CardNumber](hostedfieldtype.md#cardnumber)
-* [CardNumberVerification](hostedfieldtype.md#cardnumberverification)
+- [CardCode](HostedFieldType.md#cardcode)
+- [CardCodeVerification](HostedFieldType.md#cardcodeverification)
+- [CardExpiry](HostedFieldType.md#cardexpiry)
+- [CardName](HostedFieldType.md#cardname)
+- [CardNumber](HostedFieldType.md#cardnumber)
+- [CardNumberVerification](HostedFieldType.md#cardnumberverification)
 
 ## Enumeration members
 
-###  CardCode
+### CardCode
 
-• **CardCode**: = "cardCode"
-
-___
-
-###  CardCodeVerification
-
-• **CardCodeVerification**: = "cardCodeVerification"
+• **CardCode** = `"cardCode"`
 
 ___
 
-###  CardExpiry
+### CardCodeVerification
 
-• **CardExpiry**: = "cardExpiry"
-
-___
-
-###  CardName
-
-• **CardName**: = "cardName"
+• **CardCodeVerification** = `"cardCodeVerification"`
 
 ___
 
-###  CardNumber
+### CardExpiry
 
-• **CardNumber**: = "cardNumber"
+• **CardExpiry** = `"cardExpiry"`
 
 ___
 
-###  CardNumberVerification
+### CardName
 
-• **CardNumberVerification**: = "cardNumberVerification"
+• **CardName** = `"cardName"`
+
+___
+
+### CardNumber
+
+• **CardNumber** = `"cardNumber"`
+
+___
+
+### CardNumberVerification
+
+• **CardNumberVerification** = `"cardNumberVerification"`

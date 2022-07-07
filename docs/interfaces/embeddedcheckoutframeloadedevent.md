@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [EmbeddedCheckoutFrameLoadedEvent](embeddedcheckoutframeloadedevent.md)
+[@bigcommerce/checkout-sdk](../README.md) / EmbeddedCheckoutFrameLoadedEvent
 
 # Interface: EmbeddedCheckoutFrameLoadedEvent
 
-## Hierarchy
-
-* **EmbeddedCheckoutFrameLoadedEvent**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [payload](embeddedcheckoutframeloadedevent.md#optional-payload)
-* [type](embeddedcheckoutframeloadedevent.md#type)
+- [payload](EmbeddedCheckoutFrameLoadedEvent.md#payload)
+- [type](EmbeddedCheckoutFrameLoadedEvent.md#type)
 
 ## Properties
 
-### `Optional` payload
+### payload
 
-• **payload**? : *[EmbeddedContentOptions](embeddedcontentoptions.md)*
+• `Optional` **payload**: [`EmbeddedContentOptions`](EmbeddedContentOptions.md)
 
 ___
 
-###  type
+### type
 
-• **type**: *[FrameLoaded](../enums/embeddedcheckouteventtype.md#frameloaded)*
+• **type**: [`FrameLoaded`](../enums/EmbeddedCheckoutEventType.md#frameloaded)

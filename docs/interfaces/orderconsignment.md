@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [OrderConsignment](orderconsignment.md)
+[@bigcommerce/checkout-sdk](../README.md) / OrderConsignment
 
 # Interface: OrderConsignment
 
-## Hierarchy
-
-* **OrderConsignment**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [shipping](orderconsignment.md#shipping)
+- [shipping](OrderConsignment.md#shipping)
 
 ## Properties
 
-###  shipping
+### shipping
 
-• **shipping**: *[OrderShippingConsignment](ordershippingconsignment.md)[]*
+• **shipping**: [`OrderShippingConsignment`](OrderShippingConsignment.md)[]

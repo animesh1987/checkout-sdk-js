@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CheckoutStoreSelector](checkoutstoreselector.md)
+[@bigcommerce/checkout-sdk](../README.md) / CheckoutStoreSelector
 
 # Interface: CheckoutStoreSelector
 
@@ -7,246 +7,272 @@ Responsible for getting the state of the current checkout.
 This object has a set of methods that allow you to get a specific piece of
 checkout information, such as shipping and billing details.
 
-## Hierarchy
-
-* **CheckoutStoreSelector**
-
-## Index
+## Table of contents
 
 ### Methods
 
-* [getBillingAddress](checkoutstoreselector.md#getbillingaddress)
-* [getBillingAddressFields](checkoutstoreselector.md#getbillingaddressfields)
-* [getBillingCountries](checkoutstoreselector.md#getbillingcountries)
-* [getCart](checkoutstoreselector.md#getcart)
-* [getCheckout](checkoutstoreselector.md#getcheckout)
-* [getConfig](checkoutstoreselector.md#getconfig)
-* [getConsignments](checkoutstoreselector.md#getconsignments)
-* [getCoupons](checkoutstoreselector.md#getcoupons)
-* [getCustomer](checkoutstoreselector.md#getcustomer)
-* [getCustomerAccountFields](checkoutstoreselector.md#getcustomeraccountfields)
-* [getFlashMessages](checkoutstoreselector.md#getflashmessages)
-* [getGiftCertificates](checkoutstoreselector.md#getgiftcertificates)
-* [getInstruments](checkoutstoreselector.md#getinstruments)
-* [getOrder](checkoutstoreselector.md#getorder)
-* [getPaymentMethod](checkoutstoreselector.md#getpaymentmethod)
-* [getPaymentMethods](checkoutstoreselector.md#getpaymentmethods)
-* [getPickupOptions](checkoutstoreselector.md#getpickupoptions)
-* [getSelectedPaymentMethod](checkoutstoreselector.md#getselectedpaymentmethod)
-* [getSelectedShippingOption](checkoutstoreselector.md#getselectedshippingoption)
-* [getShippingAddress](checkoutstoreselector.md#getshippingaddress)
-* [getShippingAddressFields](checkoutstoreselector.md#getshippingaddressfields)
-* [getShippingCountries](checkoutstoreselector.md#getshippingcountries)
-* [getShippingOptions](checkoutstoreselector.md#getshippingoptions)
-* [getSignInEmail](checkoutstoreselector.md#getsigninemail)
-* [isPaymentDataRequired](checkoutstoreselector.md#ispaymentdatarequired)
-* [isPaymentDataSubmitted](checkoutstoreselector.md#ispaymentdatasubmitted)
+- [getBillingAddress](CheckoutStoreSelector.md#getbillingaddress)
+- [getBillingAddressFields](CheckoutStoreSelector.md#getbillingaddressfields)
+- [getBillingCountries](CheckoutStoreSelector.md#getbillingcountries)
+- [getCart](CheckoutStoreSelector.md#getcart)
+- [getCheckout](CheckoutStoreSelector.md#getcheckout)
+- [getConfig](CheckoutStoreSelector.md#getconfig)
+- [getConsignments](CheckoutStoreSelector.md#getconsignments)
+- [getCoupons](CheckoutStoreSelector.md#getcoupons)
+- [getCustomer](CheckoutStoreSelector.md#getcustomer)
+- [getCustomerAccountFields](CheckoutStoreSelector.md#getcustomeraccountfields)
+- [getFlashMessages](CheckoutStoreSelector.md#getflashmessages)
+- [getGiftCertificates](CheckoutStoreSelector.md#getgiftcertificates)
+- [getInstruments](CheckoutStoreSelector.md#getinstruments)
+- [getOrder](CheckoutStoreSelector.md#getorder)
+- [getPaymentMethod](CheckoutStoreSelector.md#getpaymentmethod)
+- [getPaymentMethods](CheckoutStoreSelector.md#getpaymentmethods)
+- [getPickupOptions](CheckoutStoreSelector.md#getpickupoptions)
+- [getSelectedPaymentMethod](CheckoutStoreSelector.md#getselectedpaymentmethod)
+- [getSelectedShippingOption](CheckoutStoreSelector.md#getselectedshippingoption)
+- [getShippingAddress](CheckoutStoreSelector.md#getshippingaddress)
+- [getShippingAddressFields](CheckoutStoreSelector.md#getshippingaddressfields)
+- [getShippingCountries](CheckoutStoreSelector.md#getshippingcountries)
+- [getShippingOptions](CheckoutStoreSelector.md#getshippingoptions)
+- [getSignInEmail](CheckoutStoreSelector.md#getsigninemail)
+- [isPaymentDataRequired](CheckoutStoreSelector.md#ispaymentdatarequired)
+- [isPaymentDataSubmitted](CheckoutStoreSelector.md#ispaymentdatasubmitted)
 
 ## Methods
 
-###  getBillingAddress
+### getBillingAddress
 
-▸ **getBillingAddress**(): *[BillingAddress](billingaddress.md) | undefined*
+▸ **getBillingAddress**(): `undefined` \| [`BillingAddress`](BillingAddress.md)
 
 Gets the billing address of an order.
 
-**Returns:** *[BillingAddress](billingaddress.md) | undefined*
+#### Returns
+
+`undefined` \| [`BillingAddress`](BillingAddress.md)
 
 The billing address object if it is loaded, otherwise undefined.
 
 ___
 
-###  getBillingAddressFields
+### getBillingAddressFields
 
-▸ **getBillingAddressFields**(`countryCode`: string): *[FormField](formfield.md)[]*
+▸ **getBillingAddressFields**(`countryCode`): [`FormField`](FormField.md)[]
 
 Gets a set of form fields that should be presented to customers in order
 to capture their billing address for a specific country.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`countryCode` | string | A 2-letter country code (ISO 3166-1 alpha-2). |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `countryCode` | `string` | A 2-letter country code (ISO 3166-1 alpha-2). |
 
-**Returns:** *[FormField](formfield.md)[]*
+#### Returns
+
+[`FormField`](FormField.md)[]
 
 The set of billing address form fields if it is loaded,
 otherwise undefined.
 
 ___
 
-###  getBillingCountries
+### getBillingCountries
 
-▸ **getBillingCountries**(): *[Country](country.md)[] | undefined*
+▸ **getBillingCountries**(): `undefined` \| [`Country`](Country.md)[]
 
 Gets a list of countries available for billing.
 
-**Returns:** *[Country](country.md)[] | undefined*
+#### Returns
+
+`undefined` \| [`Country`](Country.md)[]
 
 The list of countries if it is loaded, otherwise undefined.
 
 ___
 
-###  getCart
+### getCart
 
-▸ **getCart**(): *[Cart](cart.md) | undefined*
+▸ **getCart**(): `undefined` \| [`Cart`](Cart.md)
 
 Gets the current cart.
 
-**Returns:** *[Cart](cart.md) | undefined*
+#### Returns
+
+`undefined` \| [`Cart`](Cart.md)
 
 The current cart object if it is loaded, otherwise undefined.
 
 ___
 
-###  getCheckout
+### getCheckout
 
-▸ **getCheckout**(): *[Checkout](checkout.md) | undefined*
+▸ **getCheckout**(): `undefined` \| [`Checkout`](Checkout.md)
 
 Gets the current checkout.
 
-**Returns:** *[Checkout](checkout.md) | undefined*
+#### Returns
+
+`undefined` \| [`Checkout`](Checkout.md)
 
 The current checkout if it is loaded, otherwise undefined.
 
 ___
 
-###  getConfig
+### getConfig
 
-▸ **getConfig**(): *[StoreConfig](storeconfig.md) | undefined*
+▸ **getConfig**(): `undefined` \| [`StoreConfig`](StoreConfig.md)
 
 Gets the checkout configuration of a store.
 
-**Returns:** *[StoreConfig](storeconfig.md) | undefined*
+#### Returns
+
+`undefined` \| [`StoreConfig`](StoreConfig.md)
 
 The configuration object if it is loaded, otherwise undefined.
 
 ___
 
-###  getConsignments
+### getConsignments
 
-▸ **getConsignments**(): *[Consignment](consignment.md)[] | undefined*
+▸ **getConsignments**(): `undefined` \| [`Consignment`](Consignment.md)[]
 
 Gets a list of consignments.
 
 If there are no consignments created for to the current checkout, the
 list will be empty.
 
-**Returns:** *[Consignment](consignment.md)[] | undefined*
+#### Returns
+
+`undefined` \| [`Consignment`](Consignment.md)[]
 
 The list of consignments if any, otherwise undefined.
 
 ___
 
-###  getCoupons
+### getCoupons
 
-▸ **getCoupons**(): *[Coupon](coupon.md)[] | undefined*
+▸ **getCoupons**(): `undefined` \| [`Coupon`](Coupon.md)[]
 
 Gets a list of coupons that are applied to the current checkout.
 
-**Returns:** *[Coupon](coupon.md)[] | undefined*
+#### Returns
+
+`undefined` \| [`Coupon`](Coupon.md)[]
 
 The list of applied coupons if there is any, otherwise undefined.
 
 ___
 
-###  getCustomer
+### getCustomer
 
-▸ **getCustomer**(): *[Customer](customer.md) | undefined*
+▸ **getCustomer**(): `undefined` \| [`Customer`](Customer.md)
 
 Gets the current customer.
 
-**Returns:** *[Customer](customer.md) | undefined*
+#### Returns
+
+`undefined` \| [`Customer`](Customer.md)
 
 The current customer object if it is loaded, otherwise
 undefined.
 
 ___
 
-###  getCustomerAccountFields
+### getCustomerAccountFields
 
-▸ **getCustomerAccountFields**(): *[FormField](formfield.md)[]*
+▸ **getCustomerAccountFields**(): [`FormField`](FormField.md)[]
 
 Gets a set of form fields that should be presented in order to create a customer.
 
-**Returns:** *[FormField](formfield.md)[]*
+#### Returns
+
+[`FormField`](FormField.md)[]
 
 The set of customer account form fields if it is loaded,
 otherwise undefined.
 
 ___
 
-###  getFlashMessages
+### getFlashMessages
 
-▸ **getFlashMessages**(`type?`: [FlashMessageType](../README.md#flashmessagetype)): *[FlashMessage](flashmessage.md)[] | undefined*
+▸ **getFlashMessages**(`type?`): `undefined` \| [`FlashMessage`](FlashMessage.md)[]
 
 Gets the available flash messages.
 
 Flash messages contain messages set by the server,
 e.g: when trying to sign in using an invalid email link.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`type?` | [FlashMessageType](../README.md#flashmessagetype) | The type of flash messages to be returned. Optional |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `type?` | ``"error"`` \| ``"info"`` \| ``"warning"`` \| ``"success"`` | The type of flash messages to be returned. Optional |
 
-**Returns:** *[FlashMessage](flashmessage.md)[] | undefined*
+#### Returns
+
+`undefined` \| [`FlashMessage`](FlashMessage.md)[]
 
 The flash messages if available, otherwise undefined.
 
 ___
 
-###  getGiftCertificates
+### getGiftCertificates
 
-▸ **getGiftCertificates**(): *[GiftCertificate](giftcertificate.md)[] | undefined*
+▸ **getGiftCertificates**(): `undefined` \| [`GiftCertificate`](GiftCertificate.md)[]
 
 Gets a list of gift certificates that are applied to the current checkout.
 
-**Returns:** *[GiftCertificate](giftcertificate.md)[] | undefined*
+#### Returns
+
+`undefined` \| [`GiftCertificate`](GiftCertificate.md)[]
 
 The list of applied gift certificates if there is any, otherwise undefined.
 
 ___
 
-###  getInstruments
+### getInstruments
 
-▸ **getInstruments**(): *[Instrument](../README.md#instrument)[] | undefined*
+▸ **getInstruments**(): `undefined` \| [`CardInstrument`](CardInstrument.md)[]
 
 Gets a list of payment instruments associated with the current customer.
 
-**Returns:** *[Instrument](../README.md#instrument)[] | undefined*
+#### Returns
+
+`undefined` \| [`CardInstrument`](CardInstrument.md)[]
 
 The list of payment instruments if it is loaded, otherwise undefined.
 
-▸ **getInstruments**(`paymentMethod`: [PaymentMethod](paymentmethod.md)): *[PaymentInstrument](../README.md#paymentinstrument)[] | undefined*
+▸ **getInstruments**(`paymentMethod`): `undefined` \| [`PaymentInstrument`](../README.md#paymentinstrument)[]
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`paymentMethod` | [PaymentMethod](paymentmethod.md) |
+| Name | Type |
+| :------ | :------ |
+| `paymentMethod` | [`PaymentMethod`](PaymentMethod.md) |
 
-**Returns:** *[PaymentInstrument](../README.md#paymentinstrument)[] | undefined*
+#### Returns
+
+`undefined` \| [`PaymentInstrument`](../README.md#paymentinstrument)[]
 
 ___
 
-###  getOrder
+### getOrder
 
-▸ **getOrder**(): *[Order](order.md) | undefined*
+▸ **getOrder**(): `undefined` \| [`Order`](Order.md)
 
 Gets the current order.
 
-**Returns:** *[Order](order.md) | undefined*
+#### Returns
+
+`undefined` \| [`Order`](Order.md)
 
 The current order if it is loaded, otherwise undefined.
 
 ___
 
-###  getPaymentMethod
+### getPaymentMethod
 
-▸ **getPaymentMethod**(`methodId`: string, `gatewayId?`: undefined | string): *[PaymentMethod](paymentmethod.md) | undefined*
+▸ **getPaymentMethod**(`methodId`, `gatewayId?`): `undefined` \| [`PaymentMethod`](PaymentMethod.md)
 
 Gets a payment method by an id.
 
@@ -254,156 +280,176 @@ The method returns undefined if unable to find a payment method with the
 specified id, either because it is not available for the customer, or it
 is not loaded.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId` | string | The identifier of the payment method. |
-`gatewayId?` | undefined &#124; string | The identifier of a payment provider providing the payment method. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId` | `string` | The identifier of the payment method. |
+| `gatewayId?` | `string` | The identifier of a payment provider providing the payment method. |
 
-**Returns:** *[PaymentMethod](paymentmethod.md) | undefined*
+#### Returns
+
+`undefined` \| [`PaymentMethod`](PaymentMethod.md)
 
 The payment method object if loaded and available, otherwise,
 undefined.
 
 ___
 
-###  getPaymentMethods
+### getPaymentMethods
 
-▸ **getPaymentMethods**(): *[PaymentMethod](paymentmethod.md)[] | undefined*
+▸ **getPaymentMethods**(): `undefined` \| [`PaymentMethod`](PaymentMethod.md)[]
 
 Gets a list of payment methods available for checkout.
 
-**Returns:** *[PaymentMethod](paymentmethod.md)[] | undefined*
+#### Returns
+
+`undefined` \| [`PaymentMethod`](PaymentMethod.md)[]
 
 The list of payment methods if it is loaded, otherwise undefined.
 
 ___
 
-###  getPickupOptions
+### getPickupOptions
 
-▸ **getPickupOptions**(`consignmentId`: string, `searchArea`: [SearchArea](searcharea.md)): *[PickupOptionResult](pickupoptionresult.md)[] | undefined*
+▸ **getPickupOptions**(`consignmentId`, `searchArea`): `undefined` \| [`PickupOptionResult`](PickupOptionResult.md)[]
 
 Gets a list of pickup options for specified parameters.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignmentId` | string | Id of consignment. |
-`searchArea` | [SearchArea](searcharea.md) | An object containing of radius and co-ordinates. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignmentId` | `string` | Id of consignment. |
+| `searchArea` | [`SearchArea`](SearchArea.md) | An object containing of radius and co-ordinates. |
 
-**Returns:** *[PickupOptionResult](pickupoptionresult.md)[] | undefined*
+#### Returns
+
+`undefined` \| [`PickupOptionResult`](PickupOptionResult.md)[]
 
 The set of shipping address form fields if it is loaded,
 otherwise undefined.
 
 ___
 
-###  getSelectedPaymentMethod
+### getSelectedPaymentMethod
 
-▸ **getSelectedPaymentMethod**(): *[PaymentMethod](paymentmethod.md) | undefined*
+▸ **getSelectedPaymentMethod**(): `undefined` \| [`PaymentMethod`](PaymentMethod.md)
 
 Gets the payment method that is selected for checkout.
 
-**Returns:** *[PaymentMethod](paymentmethod.md) | undefined*
+#### Returns
+
+`undefined` \| [`PaymentMethod`](PaymentMethod.md)
 
 The payment method object if there is a selected method;
 undefined if otherwise.
 
 ___
 
-###  getSelectedShippingOption
+### getSelectedShippingOption
 
-▸ **getSelectedShippingOption**(): *[ShippingOption](shippingoption.md) | undefined*
+▸ **getSelectedShippingOption**(): `undefined` \| [`ShippingOption`](ShippingOption.md)
 
 Gets the selected shipping option for the current checkout.
 
-**Returns:** *[ShippingOption](shippingoption.md) | undefined*
+#### Returns
+
+`undefined` \| [`ShippingOption`](ShippingOption.md)
 
 The shipping option object if there is a selected option,
 otherwise undefined.
 
 ___
 
-###  getShippingAddress
+### getShippingAddress
 
-▸ **getShippingAddress**(): *[Address](address.md) | undefined*
+▸ **getShippingAddress**(): `undefined` \| [`Address`](Address.md)
 
 Gets the shipping address of the current checkout.
 
 If the address is partially complete, it may not have shipping options
 associated with it.
 
-**Returns:** *[Address](address.md) | undefined*
+#### Returns
+
+`undefined` \| [`Address`](Address.md)
 
 The shipping address object if it is loaded, otherwise
 undefined.
 
 ___
 
-###  getShippingAddressFields
+### getShippingAddressFields
 
-▸ **getShippingAddressFields**(`countryCode`: string): *[FormField](formfield.md)[]*
+▸ **getShippingAddressFields**(`countryCode`): [`FormField`](FormField.md)[]
 
 Gets a set of form fields that should be presented to customers in order
 to capture their shipping address for a specific country.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`countryCode` | string | A 2-letter country code (ISO 3166-1 alpha-2). |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `countryCode` | `string` | A 2-letter country code (ISO 3166-1 alpha-2). |
 
-**Returns:** *[FormField](formfield.md)[]*
+#### Returns
+
+[`FormField`](FormField.md)[]
 
 The set of shipping address form fields if it is loaded,
 otherwise undefined.
 
 ___
 
-###  getShippingCountries
+### getShippingCountries
 
-▸ **getShippingCountries**(): *[Country](country.md)[] | undefined*
+▸ **getShippingCountries**(): `undefined` \| [`Country`](Country.md)[]
 
 Gets a list of countries available for shipping.
 
-**Returns:** *[Country](country.md)[] | undefined*
+#### Returns
+
+`undefined` \| [`Country`](Country.md)[]
 
 The list of countries if it is loaded, otherwise undefined.
 
 ___
 
-###  getShippingOptions
+### getShippingOptions
 
-▸ **getShippingOptions**(): *[ShippingOption](shippingoption.md)[] | undefined*
+▸ **getShippingOptions**(): `undefined` \| [`ShippingOption`](ShippingOption.md)[]
 
 Gets a list of shipping options available for the shipping address.
 
 If there is no shipping address assigned to the current checkout, the
 list of shipping options will be empty.
 
-**Returns:** *[ShippingOption](shippingoption.md)[] | undefined*
+#### Returns
+
+`undefined` \| [`ShippingOption`](ShippingOption.md)[]
 
 The list of shipping options if any, otherwise undefined.
 
 ___
 
-###  getSignInEmail
+### getSignInEmail
 
-▸ **getSignInEmail**(): *[SignInEmail](signinemail.md) | undefined*
+▸ **getSignInEmail**(): `undefined` \| [`SignInEmail`](SignInEmail.md)
 
 Gets the sign-in email.
 
-**Returns:** *[SignInEmail](signinemail.md) | undefined*
+#### Returns
+
+`undefined` \| [`SignInEmail`](SignInEmail.md)
 
 The sign-in email object if sent, otherwise undefined
 
 ___
 
-###  isPaymentDataRequired
+### isPaymentDataRequired
 
-▸ **isPaymentDataRequired**(`useStoreCredit?`: undefined | false | true): *boolean*
+▸ **isPaymentDataRequired**(`useStoreCredit?`): `boolean`
 
 Checks if payment data is required or not.
 
@@ -418,34 +464,38 @@ if (state.checkout.isPaymentDataRequired()) {
 }
 ```
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`useStoreCredit?` | undefined &#124; false &#124; true | If true, check whether payment data is required with store credit applied; otherwise, check without store credit. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `useStoreCredit?` | `boolean` | If true, check whether payment data is required with store credit applied; otherwise, check without store credit. |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if payment data is required, otherwise false.
 
 ___
 
-###  isPaymentDataSubmitted
+### isPaymentDataSubmitted
 
-▸ **isPaymentDataSubmitted**(`methodId`: string, `gatewayId?`: undefined | string): *boolean*
+▸ **isPaymentDataSubmitted**(`methodId`, `gatewayId?`): `boolean`
 
 Checks if payment data is submitted or not.
 
 If payment data is already submitted using a payment method, customers
 should not be prompted to enter their payment details again.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId` | string | The identifier of the payment method. |
-`gatewayId?` | undefined &#124; string | The identifier of a payment provider providing the payment method. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId` | `string` | The identifier of the payment method. |
+| `gatewayId?` | `string` | The identifier of a payment provider providing the payment method. |
 
-**Returns:** *boolean*
+#### Returns
+
+`boolean`
 
 True if payment data is submitted, otherwise false.

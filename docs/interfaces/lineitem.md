@@ -1,191 +1,191 @@
-[@bigcommerce/checkout-sdk](../README.md) › [LineItem](lineitem.md)
+[@bigcommerce/checkout-sdk](../README.md) / LineItem
 
 # Interface: LineItem
 
 ## Hierarchy
 
-* **LineItem**
+- **`LineItem`**
 
-  ↳ [DigitalItem](digitalitem.md)
+  ↳ [`DigitalItem`](DigitalItem.md)
 
-  ↳ [PhysicalItem](physicalitem.md)
+  ↳ [`PhysicalItem`](PhysicalItem.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [addedByPromotion](lineitem.md#addedbypromotion)
-* [brand](lineitem.md#brand)
-* [categories](lineitem.md#optional-categories)
-* [categoryNames](lineitem.md#optional-categorynames)
-* [comparisonPrice](lineitem.md#comparisonprice)
-* [couponAmount](lineitem.md#couponamount)
-* [discountAmount](lineitem.md#discountamount)
-* [discounts](lineitem.md#discounts)
-* [extendedComparisonPrice](lineitem.md#extendedcomparisonprice)
-* [extendedListPrice](lineitem.md#extendedlistprice)
-* [extendedSalePrice](lineitem.md#extendedsaleprice)
-* [id](lineitem.md#id)
-* [imageUrl](lineitem.md#imageurl)
-* [isTaxable](lineitem.md#istaxable)
-* [listPrice](lineitem.md#listprice)
-* [name](lineitem.md#name)
-* [options](lineitem.md#optional-options)
-* [parentId](lineitem.md#optional-parentid)
-* [productId](lineitem.md#productid)
-* [quantity](lineitem.md#quantity)
-* [salePrice](lineitem.md#saleprice)
-* [sku](lineitem.md#sku)
-* [socialMedia](lineitem.md#optional-socialmedia)
-* [url](lineitem.md#url)
-* [variantId](lineitem.md#variantid)
+- [addedByPromotion](LineItem.md#addedbypromotion)
+- [brand](LineItem.md#brand)
+- [categories](LineItem.md#categories)
+- [categoryNames](LineItem.md#categorynames)
+- [comparisonPrice](LineItem.md#comparisonprice)
+- [couponAmount](LineItem.md#couponamount)
+- [discountAmount](LineItem.md#discountamount)
+- [discounts](LineItem.md#discounts)
+- [extendedComparisonPrice](LineItem.md#extendedcomparisonprice)
+- [extendedListPrice](LineItem.md#extendedlistprice)
+- [extendedSalePrice](LineItem.md#extendedsaleprice)
+- [id](LineItem.md#id)
+- [imageUrl](LineItem.md#imageurl)
+- [isTaxable](LineItem.md#istaxable)
+- [listPrice](LineItem.md#listprice)
+- [name](LineItem.md#name)
+- [options](LineItem.md#options)
+- [parentId](LineItem.md#parentid)
+- [productId](LineItem.md#productid)
+- [quantity](LineItem.md#quantity)
+- [salePrice](LineItem.md#saleprice)
+- [sku](LineItem.md#sku)
+- [socialMedia](LineItem.md#socialmedia)
+- [url](LineItem.md#url)
+- [variantId](LineItem.md#variantid)
 
 ## Properties
 
-###  addedByPromotion
+### addedByPromotion
 
-• **addedByPromotion**: *boolean*
-
-___
-
-###  brand
-
-• **brand**: *string*
+• **addedByPromotion**: `boolean`
 
 ___
 
-### `Optional` categories
+### brand
 
-• **categories**? : *[LineItemCategory](lineitemcategory.md)[][]*
-
-___
-
-### `Optional` categoryNames
-
-• **categoryNames**? : *string[]*
+• **brand**: `string`
 
 ___
 
-###  comparisonPrice
+### categories
 
-• **comparisonPrice**: *number*
-
-___
-
-###  couponAmount
-
-• **couponAmount**: *number*
+• `Optional` **categories**: [`LineItemCategory`](LineItemCategory.md)[][]
 
 ___
 
-###  discountAmount
+### categoryNames
 
-• **discountAmount**: *number*
-
-___
-
-###  discounts
-
-• **discounts**: *Array‹object›*
+• `Optional` **categoryNames**: `string`[]
 
 ___
 
-###  extendedComparisonPrice
+### comparisonPrice
 
-• **extendedComparisonPrice**: *number*
-
-___
-
-###  extendedListPrice
-
-• **extendedListPrice**: *number*
+• **comparisonPrice**: `number`
 
 ___
 
-###  extendedSalePrice
+### couponAmount
 
-• **extendedSalePrice**: *number*
-
-___
-
-###  id
-
-• **id**: *string | number*
+• **couponAmount**: `number`
 
 ___
 
-###  imageUrl
+### discountAmount
 
-• **imageUrl**: *string*
-
-___
-
-###  isTaxable
-
-• **isTaxable**: *boolean*
+• **discountAmount**: `number`
 
 ___
 
-###  listPrice
+### discounts
 
-• **listPrice**: *number*
-
-___
-
-###  name
-
-• **name**: *string*
+• **discounts**: { `discountedAmount`: `number` ; `name`: `string`  }[]
 
 ___
 
-### `Optional` options
+### extendedComparisonPrice
 
-• **options**? : *[LineItemOption](lineitemoption.md)[]*
-
-___
-
-### `Optional` parentId
-
-• **parentId**? : *string | null*
+• **extendedComparisonPrice**: `number`
 
 ___
 
-###  productId
+### extendedListPrice
 
-• **productId**: *number*
-
-___
-
-###  quantity
-
-• **quantity**: *number*
+• **extendedListPrice**: `number`
 
 ___
 
-###  salePrice
+### extendedSalePrice
 
-• **salePrice**: *number*
-
-___
-
-###  sku
-
-• **sku**: *string*
+• **extendedSalePrice**: `number`
 
 ___
 
-### `Optional` socialMedia
+### id
 
-• **socialMedia**? : *[LineItemSocialData](lineitemsocialdata.md)[]*
-
-___
-
-###  url
-
-• **url**: *string*
+• **id**: `string` \| `number`
 
 ___
 
-###  variantId
+### imageUrl
 
-• **variantId**: *number*
+• **imageUrl**: `string`
+
+___
+
+### isTaxable
+
+• **isTaxable**: `boolean`
+
+___
+
+### listPrice
+
+• **listPrice**: `number`
+
+___
+
+### name
+
+• **name**: `string`
+
+___
+
+### options
+
+• `Optional` **options**: [`LineItemOption`](LineItemOption.md)[]
+
+___
+
+### parentId
+
+• `Optional` **parentId**: ``null`` \| `string`
+
+___
+
+### productId
+
+• **productId**: `number`
+
+___
+
+### quantity
+
+• **quantity**: `number`
+
+___
+
+### salePrice
+
+• **salePrice**: `number`
+
+___
+
+### sku
+
+• **sku**: `string`
+
+___
+
+### socialMedia
+
+• `Optional` **socialMedia**: [`LineItemSocialData`](LineItemSocialData.md)[]
+
+___
+
+### url
+
+• **url**: `string`
+
+___
+
+### variantId
+
+• **variantId**: `number`

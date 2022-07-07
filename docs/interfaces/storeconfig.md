@@ -1,62 +1,58 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StoreConfig](storeconfig.md)
+[@bigcommerce/checkout-sdk](../README.md) / StoreConfig
 
 # Interface: StoreConfig
 
-## Hierarchy
-
-* **StoreConfig**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [cdnPath](storeconfig.md#cdnpath)
-* [checkoutSettings](storeconfig.md#checkoutsettings)
-* [currency](storeconfig.md#currency)
-* [displayDateFormat](storeconfig.md#displaydateformat)
-* [formFields](storeconfig.md#formfields)
-* [imageDirectory](storeconfig.md#imagedirectory)
-* [inputDateFormat](storeconfig.md#inputdateformat)
-* [isAngularDebuggingEnabled](storeconfig.md#isangulardebuggingenabled)
-* [links](storeconfig.md#links)
-* [paymentSettings](storeconfig.md#paymentsettings)
-* [shopperConfig](storeconfig.md#shopperconfig)
-* [shopperCurrency](storeconfig.md#shoppercurrency)
-* [storeProfile](storeconfig.md#storeprofile)
+- [cdnPath](StoreConfig.md#cdnpath)
+- [checkoutSettings](StoreConfig.md#checkoutsettings)
+- [currency](StoreConfig.md#currency)
+- [displayDateFormat](StoreConfig.md#displaydateformat)
+- [formFields](StoreConfig.md#formfields)
+- [imageDirectory](StoreConfig.md#imagedirectory)
+- [inputDateFormat](StoreConfig.md#inputdateformat)
+- [isAngularDebuggingEnabled](StoreConfig.md#isangulardebuggingenabled)
+- [links](StoreConfig.md#links)
+- [paymentSettings](StoreConfig.md#paymentsettings)
+- [shopperConfig](StoreConfig.md#shopperconfig)
+- [shopperCurrency](StoreConfig.md#shoppercurrency)
+- [storeProfile](StoreConfig.md#storeprofile)
 
 ## Properties
 
-###  cdnPath
+### cdnPath
 
-• **cdnPath**: *string*
-
-___
-
-###  checkoutSettings
-
-• **checkoutSettings**: *[CheckoutSettings](checkoutsettings.md)*
+• **cdnPath**: `string`
 
 ___
 
-###  currency
+### checkoutSettings
 
-• **currency**: *[StoreCurrency](storecurrency.md)*
-
-___
-
-###  displayDateFormat
-
-• **displayDateFormat**: *string*
+• **checkoutSettings**: [`CheckoutSettings`](CheckoutSettings.md)
 
 ___
 
-###  formFields
+### currency
 
-• **formFields**: *[FormFields](formfields.md)*
+• **currency**: [`StoreCurrency`](StoreCurrency.md)
+
+___
+
+### displayDateFormat
+
+• **displayDateFormat**: `string`
+
+___
+
+### formFields
+
+• **formFields**: [`FormFields`](FormFields.md)
 
 **`deprecated`** Please use instead the data selectors
 
-**`remarks`** 
+**`remarks`**
 ```js
 const data = CheckoutService.getState().data;
 const shippingAddressFields = data.getShippingAddressFields('US');
@@ -66,48 +62,48 @@ const customerAccountFields = data.getCustomerAccountFields();
 
 ___
 
-###  imageDirectory
+### imageDirectory
 
-• **imageDirectory**: *string*
-
-___
-
-###  inputDateFormat
-
-• **inputDateFormat**: *string*
+• **imageDirectory**: `string`
 
 ___
 
-###  isAngularDebuggingEnabled
+### inputDateFormat
 
-• **isAngularDebuggingEnabled**: *boolean*
-
-___
-
-###  links
-
-• **links**: *[StoreLinks](storelinks.md)*
+• **inputDateFormat**: `string`
 
 ___
 
-###  paymentSettings
+### isAngularDebuggingEnabled
 
-• **paymentSettings**: *[PaymentSettings](paymentsettings.md)*
-
-___
-
-###  shopperConfig
-
-• **shopperConfig**: *[ShopperConfig](shopperconfig.md)*
+• **isAngularDebuggingEnabled**: `boolean`
 
 ___
 
-###  shopperCurrency
+### links
 
-• **shopperCurrency**: *[ShopperCurrency](shoppercurrency.md)*
+• **links**: [`StoreLinks`](StoreLinks.md)
 
 ___
 
-###  storeProfile
+### paymentSettings
 
-• **storeProfile**: *[StoreProfile](storeprofile.md)*
+• **paymentSettings**: [`PaymentSettings`](PaymentSettings.md)
+
+___
+
+### shopperConfig
+
+• **shopperConfig**: [`ShopperConfig`](ShopperConfig.md)
+
+___
+
+### shopperCurrency
+
+• **shopperCurrency**: [`ShopperCurrency`](ShopperCurrency.md)
+
+___
+
+### storeProfile
+
+• **storeProfile**: [`StoreProfile`](StoreProfile.md)

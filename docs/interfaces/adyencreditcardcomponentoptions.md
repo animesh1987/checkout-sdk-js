@@ -1,75 +1,77 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AdyenCreditCardComponentOptions](adyencreditcardcomponentoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / AdyenCreditCardComponentOptions
 
 # Interface: AdyenCreditCardComponentOptions
 
 ## Hierarchy
 
-* [AdyenBaseCardComponentOptions](adyenbasecardcomponentoptions.md)
+- [`AdyenBaseCardComponentOptions`](AdyenBaseCardComponentOptions.md)
 
-* [AdyenComponentEvents](adyencomponentevents.md)
+- [`AdyenComponentEvents`](AdyenComponentEvents.md)
 
-  ↳ **AdyenCreditCardComponentOptions**
+  ↳ **`AdyenCreditCardComponentOptions`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [brands](adyencreditcardcomponentoptions.md#optional-brands)
-* [data](adyencreditcardcomponentoptions.md#optional-data)
-* [details](adyencreditcardcomponentoptions.md#optional-details)
-* [enableStoreDetails](adyencreditcardcomponentoptions.md#optional-enablestoredetails)
-* [groupTypes](adyencreditcardcomponentoptions.md#optional-grouptypes)
-* [hasHolderName](adyencreditcardcomponentoptions.md#optional-hasholdername)
-* [holderNameRequired](adyencreditcardcomponentoptions.md#optional-holdernamerequired)
-* [placeholders](adyencreditcardcomponentoptions.md#optional-placeholders)
-* [styles](adyencreditcardcomponentoptions.md#optional-styles)
+- [brands](AdyenCreditCardComponentOptions.md#brands)
+- [data](AdyenCreditCardComponentOptions.md#data)
+- [details](AdyenCreditCardComponentOptions.md#details)
+- [enableStoreDetails](AdyenCreditCardComponentOptions.md#enablestoredetails)
+- [groupTypes](AdyenCreditCardComponentOptions.md#grouptypes)
+- [hasHolderName](AdyenCreditCardComponentOptions.md#hasholdername)
+- [holderNameRequired](AdyenCreditCardComponentOptions.md#holdernamerequired)
+- [placeholders](AdyenCreditCardComponentOptions.md#placeholders)
+- [styles](AdyenCreditCardComponentOptions.md#styles)
 
 ### Methods
 
-* [onChange](adyencreditcardcomponentoptions.md#optional-onchange)
-* [onError](adyencreditcardcomponentoptions.md#optional-onerror)
-* [onFieldValid](adyencreditcardcomponentoptions.md#optional-onfieldvalid)
+- [onChange](AdyenCreditCardComponentOptions.md#onchange)
+- [onError](AdyenCreditCardComponentOptions.md#onerror)
+- [onFieldValid](AdyenCreditCardComponentOptions.md#onfieldvalid)
 
 ## Properties
 
-### `Optional` brands
+### brands
 
-• **brands**? : *string[]*
-
-*Inherited from [AdyenBaseCardComponentOptions](adyenbasecardcomponentoptions.md).[brands](adyenbasecardcomponentoptions.md#optional-brands)*
+• `Optional` **brands**: `string`[]
 
 Array of card brands that will be recognized by the component.
 
+#### Inherited from
+
+[AdyenBaseCardComponentOptions](AdyenBaseCardComponentOptions.md).[brands](AdyenBaseCardComponentOptions.md#brands)
+
 ___
 
-### `Optional` data
+### data
 
-• **data**? : *[AdyenPlaceholderData](adyenplaceholderdata.md)*
+• `Optional` **data**: [`AdyenPlaceholderData`](AdyenPlaceholderData.md)
 
 Information to prefill fields.
 
 ___
 
-### `Optional` details
+### details
 
-• **details**? : *[InputDetail](inputdetail.md)[]*
+• `Optional` **details**: [`InputDetail`](InputDetail.md)[]
 
 Set an object containing the details array for type: scheme from
 the /paymentMethods response.
 
 ___
 
-### `Optional` enableStoreDetails
+### enableStoreDetails
 
-• **enableStoreDetails**? : *undefined | false | true*
+• `Optional` **enableStoreDetails**: `boolean`
 
 Set to true to show the checkbox to save card details for the next payment.
 
 ___
 
-### `Optional` groupTypes
+### groupTypes
 
-• **groupTypes**? : *string[]*
+• `Optional` **groupTypes**: `string`[]
 
 Defaults to ['mc','visa','amex']. Configure supported card types to
 facilitate brand recognition used in the Secured Fields onBrand callback.
@@ -78,92 +80,106 @@ specified in the GroupTypes configuration, the onBrand callback will not be invo
 
 ___
 
-### `Optional` hasHolderName
+### hasHolderName
 
-• **hasHolderName**? : *undefined | false | true*
+• `Optional` **hasHolderName**: `boolean`
 
 Set to true to request the name of the card holder.
 
 ___
 
-### `Optional` holderNameRequired
+### holderNameRequired
 
-• **holderNameRequired**? : *undefined | false | true*
+• `Optional` **holderNameRequired**: `boolean`
 
 Set to true to require the card holder name.
 
 ___
 
-### `Optional` placeholders
+### placeholders
 
-• **placeholders**? : *[CreditCardPlaceHolder](creditcardplaceholder.md) | [SepaPlaceHolder](sepaplaceholder.md)*
+• `Optional` **placeholders**: [`CreditCardPlaceHolder`](CreditCardPlaceHolder.md) \| [`SepaPlaceHolder`](SepaPlaceHolder.md)
 
 Specify the sample values you want to appear for card detail input fields.
 
 ___
 
-### `Optional` styles
+### styles
 
-• **styles**? : *[StyleOptions](styleoptions.md)*
-
-*Inherited from [AdyenBaseCardComponentOptions](adyenbasecardcomponentoptions.md).[styles](adyenbasecardcomponentoptions.md#optional-styles)*
+• `Optional` **styles**: [`StyleOptions`](StyleOptions.md)
 
 Set a style object to customize the input fields. See Styling Secured Fields
 for a list of supported properties.
 
+#### Inherited from
+
+[AdyenBaseCardComponentOptions](AdyenBaseCardComponentOptions.md).[styles](AdyenBaseCardComponentOptions.md#styles)
+
 ## Methods
 
-### `Optional` onChange
+### onChange
 
-▸ **onChange**(`state`: [AdyenComponentState](../README.md#adyencomponentstate), `component`: [AdyenComponent](adyencomponent.md)): *void*
-
-*Inherited from [AdyenComponentEvents](adyencomponentevents.md).[onChange](adyencomponentevents.md#optional-onchange)*
+▸ `Optional` **onChange**(`state`, `component`): `void`
 
 Called when the shopper enters data in the card input fields.
 Here you have the option to override your main Adyen Checkout configuration.
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`state` | [AdyenComponentState](../README.md#adyencomponentstate) |
-`component` | [AdyenComponent](adyencomponent.md) |
+| Name | Type |
+| :------ | :------ |
+| `state` | [`AdyenComponentState`](../README.md#adyencomponentstate) |
+| `component` | [`AdyenComponent`](AdyenComponent.md) |
 
-**Returns:** *void*
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[AdyenComponentEvents](AdyenComponentEvents.md).[onChange](AdyenComponentEvents.md#onchange)
 
 ___
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`state`: [AdyenComponentState](../README.md#adyencomponentstate), `component`: [AdyenComponent](adyencomponent.md)): *void*
-
-*Inherited from [AdyenComponentEvents](adyencomponentevents.md).[onError](adyencomponentevents.md#optional-onerror)*
+▸ `Optional` **onError**(`state`, `component`): `void`
 
 Called in case of an invalid card number, invalid expiry date, or
  incomplete field. Called again when errors are cleared.
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`state` | [AdyenComponentState](../README.md#adyencomponentstate) |
-`component` | [AdyenComponent](adyencomponent.md) |
+| Name | Type |
+| :------ | :------ |
+| `state` | [`AdyenComponentState`](../README.md#adyencomponentstate) |
+| `component` | [`AdyenComponent`](AdyenComponent.md) |
 
-**Returns:** *void*
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[AdyenComponentEvents](AdyenComponentEvents.md).[onError](AdyenComponentEvents.md#onerror)
 
 ___
 
-### `Optional` onFieldValid
+### onFieldValid
 
-▸ **onFieldValid**(`state`: [AdyenComponentState](../README.md#adyencomponentstate), `component`: [AdyenComponent](adyencomponent.md)): *void*
+▸ `Optional` **onFieldValid**(`state`, `component`): `void`
 
-*Inherited from [AdyenComponentEvents](adyencomponentevents.md).[onFieldValid](adyencomponentevents.md#optional-onfieldvalid)*
+#### Parameters
 
-**Parameters:**
+| Name | Type |
+| :------ | :------ |
+| `state` | [`AdyenComponentState`](../README.md#adyencomponentstate) |
+| `component` | [`AdyenComponent`](AdyenComponent.md) |
 
-Name | Type |
------- | ------ |
-`state` | [AdyenComponentState](../README.md#adyencomponentstate) |
-`component` | [AdyenComponent](adyencomponent.md) |
+#### Returns
 
-**Returns:** *void*
+`void`
+
+#### Inherited from
+
+[AdyenComponentEvents](AdyenComponentEvents.md).[onFieldValid](AdyenComponentEvents.md#onfieldvalid)

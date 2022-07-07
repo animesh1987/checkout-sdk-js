@@ -1,22 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StyleButtonShape](stylebuttonshape.md)
+[@bigcommerce/checkout-sdk](../README.md) / StyleButtonShape
 
 # Enumeration: StyleButtonShape
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [pill](stylebuttonshape.md#pill)
-* [rect](stylebuttonshape.md#rect)
+- [pill](StyleButtonShape.md#pill)
+- [rect](StyleButtonShape.md#rect)
 
 ## Enumeration members
 
-###  pill
+### pill
 
-• **pill**: = "pill"
+• **pill** = `"pill"`
 
 ___
 
-###  rect
+### rect
 
-• **rect**: = "rect"
+• **rect** = `"rect"`

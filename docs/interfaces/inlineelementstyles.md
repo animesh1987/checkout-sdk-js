@@ -1,53 +1,53 @@
-[@bigcommerce/checkout-sdk](../README.md) › [InlineElementStyles](inlineelementstyles.md)
+[@bigcommerce/checkout-sdk](../README.md) / InlineElementStyles
 
 # Interface: InlineElementStyles
 
 ## Hierarchy
 
-* **InlineElementStyles**
+- **`InlineElementStyles`**
 
-  ↳ [BlockElementStyles](blockelementstyles.md)
+  ↳ [`BlockElementStyles`](BlockElementStyles.md)
 
-  ↳ [LabelStyles](labelstyles.md)
+  ↳ [`LabelStyles`](LabelStyles.md)
 
-  ↳ [LinkStyles](linkstyles.md)
+  ↳ [`LinkStyles`](LinkStyles.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [color](inlineelementstyles.md#optional-color)
-* [fontFamily](inlineelementstyles.md#optional-fontfamily)
-* [fontWeight](inlineelementstyles.md#optional-fontweight)
-* [letterSpacing](inlineelementstyles.md#optional-letterspacing)
-* [lineHeight](inlineelementstyles.md#optional-lineheight)
+- [color](InlineElementStyles.md#color)
+- [fontFamily](InlineElementStyles.md#fontfamily)
+- [fontWeight](InlineElementStyles.md#fontweight)
+- [letterSpacing](InlineElementStyles.md#letterspacing)
+- [lineHeight](InlineElementStyles.md#lineheight)
 
 ## Properties
 
-### `Optional` color
+### color
 
-• **color**? : *undefined | string*
-
-___
-
-### `Optional` fontFamily
-
-• **fontFamily**? : *undefined | string*
+• `Optional` **color**: `string`
 
 ___
 
-### `Optional` fontWeight
+### fontFamily
 
-• **fontWeight**? : *undefined | string*
-
-___
-
-### `Optional` letterSpacing
-
-• **letterSpacing**? : *undefined | string*
+• `Optional` **fontFamily**: `string`
 
 ___
 
-### `Optional` lineHeight
+### fontWeight
 
-• **lineHeight**? : *undefined | string*
+• `Optional` **fontWeight**: `string`
+
+___
+
+### letterSpacing
+
+• `Optional` **letterSpacing**: `string`
+
+___
+
+### lineHeight
+
+• `Optional` **lineHeight**: `string`

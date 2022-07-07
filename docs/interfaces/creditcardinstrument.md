@@ -1,88 +1,85 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CreditCardInstrument](creditcardinstrument.md)
+[@bigcommerce/checkout-sdk](../README.md) / CreditCardInstrument
 
 # Interface: CreditCardInstrument
 
-## Hierarchy
-
-* **CreditCardInstrument**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [browser_info](creditcardinstrument.md#optional-browser_info)
-* [ccCustomerCode](creditcardinstrument.md#optional-cccustomercode)
-* [ccCvv](creditcardinstrument.md#optional-cccvv)
-* [ccExpiry](creditcardinstrument.md#ccexpiry)
-* [ccName](creditcardinstrument.md#ccname)
-* [ccNumber](creditcardinstrument.md#ccnumber)
-* [extraData](creditcardinstrument.md#optional-extradata)
-* [shouldSaveInstrument](creditcardinstrument.md#optional-shouldsaveinstrument)
-* [shouldSetAsDefaultInstrument](creditcardinstrument.md#optional-shouldsetasdefaultinstrument)
-* [threeDSecure](creditcardinstrument.md#optional-threedsecure)
+- [browser_info](CreditCardInstrument.md#browser_info)
+- [ccCustomerCode](CreditCardInstrument.md#cccustomercode)
+- [ccCvv](CreditCardInstrument.md#cccvv)
+- [ccExpiry](CreditCardInstrument.md#ccexpiry)
+- [ccName](CreditCardInstrument.md#ccname)
+- [ccNumber](CreditCardInstrument.md#ccnumber)
+- [extraData](CreditCardInstrument.md#extradata)
+- [shouldSaveInstrument](CreditCardInstrument.md#shouldsaveinstrument)
+- [shouldSetAsDefaultInstrument](CreditCardInstrument.md#shouldsetasdefaultinstrument)
+- [threeDSecure](CreditCardInstrument.md#threedsecure)
 
 ## Properties
 
-### `Optional` browser_info
+### browser\_info
 
-• **browser_info**? : *[BrowserInfo](browserinfo.md)*
-
-___
-
-### `Optional` ccCustomerCode
-
-• **ccCustomerCode**? : *undefined | string*
+• `Optional` **browser\_info**: [`BrowserInfo`](BrowserInfo.md)
 
 ___
 
-### `Optional` ccCvv
+### ccCustomerCode
 
-• **ccCvv**? : *undefined | string*
-
-___
-
-###  ccExpiry
-
-• **ccExpiry**: *object*
-
-#### Type declaration:
-
-* **month**: *string*
-
-* **year**: *string*
+• `Optional` **ccCustomerCode**: `string`
 
 ___
 
-###  ccName
+### ccCvv
 
-• **ccName**: *string*
-
-___
-
-###  ccNumber
-
-• **ccNumber**: *string*
+• `Optional` **ccCvv**: `string`
 
 ___
 
-### `Optional` extraData
+### ccExpiry
 
-• **extraData**? : *any*
+• **ccExpiry**: `Object`
 
-___
+#### Type declaration
 
-### `Optional` shouldSaveInstrument
-
-• **shouldSaveInstrument**? : *undefined | false | true*
-
-___
-
-### `Optional` shouldSetAsDefaultInstrument
-
-• **shouldSetAsDefaultInstrument**? : *undefined | false | true*
+| Name | Type |
+| :------ | :------ |
+| `month` | `string` |
+| `year` | `string` |
 
 ___
 
-### `Optional` threeDSecure
+### ccName
 
-• **threeDSecure**? : *[ThreeDSecure](threedsecure.md) | [ThreeDSecureToken](threedsecuretoken.md)*
+• **ccName**: `string`
+
+___
+
+### ccNumber
+
+• **ccNumber**: `string`
+
+___
+
+### extraData
+
+• `Optional` **extraData**: `any`
+
+___
+
+### shouldSaveInstrument
+
+• `Optional` **shouldSaveInstrument**: `boolean`
+
+___
+
+### shouldSetAsDefaultInstrument
+
+• `Optional` **shouldSetAsDefaultInstrument**: `boolean`
+
+___
+
+### threeDSecure
+
+• `Optional` **threeDSecure**: [`ThreeDSecure`](ThreeDSecure.md) \| [`ThreeDSecureToken`](ThreeDSecureToken.md)

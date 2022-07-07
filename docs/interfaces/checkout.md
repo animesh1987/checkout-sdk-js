@@ -1,173 +1,169 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Checkout](checkout.md)
+[@bigcommerce/checkout-sdk](../README.md) / Checkout
 
 # Interface: Checkout
 
-## Hierarchy
-
-* **Checkout**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [balanceDue](checkout.md#balancedue)
-* [billingAddress](checkout.md#optional-billingaddress)
-* [cart](checkout.md#cart)
-* [consignments](checkout.md#consignments)
-* [coupons](checkout.md#coupons)
-* [createdTime](checkout.md#createdtime)
-* [customer](checkout.md#customer)
-* [customerMessage](checkout.md#customermessage)
-* [discounts](checkout.md#discounts)
-* [giftCertificates](checkout.md#giftcertificates)
-* [giftWrappingCostTotal](checkout.md#giftwrappingcosttotal)
-* [grandTotal](checkout.md#grandtotal)
-* [handlingCostTotal](checkout.md#handlingcosttotal)
-* [id](checkout.md#id)
-* [isStoreCreditApplied](checkout.md#isstorecreditapplied)
-* [orderId](checkout.md#optional-orderid)
-* [outstandingBalance](checkout.md#outstandingbalance)
-* [payments](checkout.md#optional-payments)
-* [promotions](checkout.md#optional-promotions)
-* [shippingCostBeforeDiscount](checkout.md#shippingcostbeforediscount)
-* [shippingCostTotal](checkout.md#shippingcosttotal)
-* [shouldExecuteSpamCheck](checkout.md#shouldexecutespamcheck)
-* [subtotal](checkout.md#subtotal)
-* [taxTotal](checkout.md#taxtotal)
-* [taxes](checkout.md#taxes)
-* [updatedTime](checkout.md#updatedtime)
+- [balanceDue](Checkout.md#balancedue)
+- [billingAddress](Checkout.md#billingaddress)
+- [cart](Checkout.md#cart)
+- [consignments](Checkout.md#consignments)
+- [coupons](Checkout.md#coupons)
+- [createdTime](Checkout.md#createdtime)
+- [customer](Checkout.md#customer)
+- [customerMessage](Checkout.md#customermessage)
+- [discounts](Checkout.md#discounts)
+- [giftCertificates](Checkout.md#giftcertificates)
+- [giftWrappingCostTotal](Checkout.md#giftwrappingcosttotal)
+- [grandTotal](Checkout.md#grandtotal)
+- [handlingCostTotal](Checkout.md#handlingcosttotal)
+- [id](Checkout.md#id)
+- [isStoreCreditApplied](Checkout.md#isstorecreditapplied)
+- [orderId](Checkout.md#orderid)
+- [outstandingBalance](Checkout.md#outstandingbalance)
+- [payments](Checkout.md#payments)
+- [promotions](Checkout.md#promotions)
+- [shippingCostBeforeDiscount](Checkout.md#shippingcostbeforediscount)
+- [shippingCostTotal](Checkout.md#shippingcosttotal)
+- [shouldExecuteSpamCheck](Checkout.md#shouldexecutespamcheck)
+- [subtotal](Checkout.md#subtotal)
+- [taxTotal](Checkout.md#taxtotal)
+- [taxes](Checkout.md#taxes)
+- [updatedTime](Checkout.md#updatedtime)
 
 ## Properties
 
-###  balanceDue
+### balanceDue
 
-• **balanceDue**: *number*
-
-___
-
-### `Optional` billingAddress
-
-• **billingAddress**? : *[BillingAddress](billingaddress.md)*
+• **balanceDue**: `number`
 
 ___
 
-###  cart
+### billingAddress
 
-• **cart**: *[Cart](cart.md)*
-
-___
-
-###  consignments
-
-• **consignments**: *[Consignment](consignment.md)[]*
+• `Optional` **billingAddress**: [`BillingAddress`](BillingAddress.md)
 
 ___
 
-###  coupons
+### cart
 
-• **coupons**: *[Coupon](coupon.md)[]*
-
-___
-
-###  createdTime
-
-• **createdTime**: *string*
+• **cart**: [`Cart`](Cart.md)
 
 ___
 
-###  customer
+### consignments
 
-• **customer**: *[Customer](customer.md)*
-
-___
-
-###  customerMessage
-
-• **customerMessage**: *string*
+• **consignments**: [`Consignment`](Consignment.md)[]
 
 ___
 
-###  discounts
+### coupons
 
-• **discounts**: *[Discount](discount.md)[]*
-
-___
-
-###  giftCertificates
-
-• **giftCertificates**: *[GiftCertificate](giftcertificate.md)[]*
+• **coupons**: [`Coupon`](Coupon.md)[]
 
 ___
 
-###  giftWrappingCostTotal
+### createdTime
 
-• **giftWrappingCostTotal**: *number*
-
-___
-
-###  grandTotal
-
-• **grandTotal**: *number*
+• **createdTime**: `string`
 
 ___
 
-###  handlingCostTotal
+### customer
 
-• **handlingCostTotal**: *number*
-
-___
-
-###  id
-
-• **id**: *string*
+• **customer**: [`Customer`](Customer.md)
 
 ___
 
-###  isStoreCreditApplied
+### customerMessage
 
-• **isStoreCreditApplied**: *boolean*
-
-___
-
-### `Optional` orderId
-
-• **orderId**? : *undefined | number*
+• **customerMessage**: `string`
 
 ___
 
-###  outstandingBalance
+### discounts
 
-• **outstandingBalance**: *number*
-
-___
-
-### `Optional` payments
-
-• **payments**? : *[CheckoutPayment](checkoutpayment.md)[]*
+• **discounts**: [`Discount`](Discount.md)[]
 
 ___
 
-### `Optional` promotions
+### giftCertificates
 
-• **promotions**? : *[Promotion](promotion.md)[]*
-
-___
-
-###  shippingCostBeforeDiscount
-
-• **shippingCostBeforeDiscount**: *number*
+• **giftCertificates**: [`GiftCertificate`](GiftCertificate.md)[]
 
 ___
 
-###  shippingCostTotal
+### giftWrappingCostTotal
 
-• **shippingCostTotal**: *number*
+• **giftWrappingCostTotal**: `number`
 
 ___
 
-###  shouldExecuteSpamCheck
+### grandTotal
 
-• **shouldExecuteSpamCheck**: *boolean*
+• **grandTotal**: `number`
+
+___
+
+### handlingCostTotal
+
+• **handlingCostTotal**: `number`
+
+___
+
+### id
+
+• **id**: `string`
+
+___
+
+### isStoreCreditApplied
+
+• **isStoreCreditApplied**: `boolean`
+
+___
+
+### orderId
+
+• `Optional` **orderId**: `number`
+
+___
+
+### outstandingBalance
+
+• **outstandingBalance**: `number`
+
+___
+
+### payments
+
+• `Optional` **payments**: [`CheckoutPayment`](CheckoutPayment.md)[]
+
+___
+
+### promotions
+
+• `Optional` **promotions**: [`Promotion`](Promotion.md)[]
+
+___
+
+### shippingCostBeforeDiscount
+
+• **shippingCostBeforeDiscount**: `number`
+
+___
+
+### shippingCostTotal
+
+• **shippingCostTotal**: `number`
+
+___
+
+### shouldExecuteSpamCheck
+
+• **shouldExecuteSpamCheck**: `boolean`
 
 Whether the current checkout must execute spam protection
 before placing the order.
@@ -176,24 +172,24 @@ Note: You need to enable Google ReCAPTCHA bot protection in your Checkout Settin
 
 ___
 
-###  subtotal
+### subtotal
 
-• **subtotal**: *number*
-
-___
-
-###  taxTotal
-
-• **taxTotal**: *number*
+• **subtotal**: `number`
 
 ___
 
-###  taxes
+### taxTotal
 
-• **taxes**: *[Tax](tax.md)[]*
+• **taxTotal**: `number`
 
 ___
 
-###  updatedTime
+### taxes
 
-• **updatedTime**: *string*
+• **taxes**: [`Tax`](Tax.md)[]
+
+___
+
+### updatedTime
+
+• **updatedTime**: `string`

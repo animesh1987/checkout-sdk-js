@@ -1,54 +1,50 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalButtonStyleOptions_2](paypalbuttonstyleoptions_2.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalButtonStyleOptions_2
 
-# Interface: PaypalButtonStyleOptions_2
+# Interface: PaypalButtonStyleOptions\_2
 
-## Hierarchy
-
-* **PaypalButtonStyleOptions_2**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [color](paypalbuttonstyleoptions_2.md#optional-color)
-* [height](paypalbuttonstyleoptions_2.md#optional-height)
-* [label](paypalbuttonstyleoptions_2.md#optional-label)
-* [layout](paypalbuttonstyleoptions_2.md#optional-layout)
-* [shape](paypalbuttonstyleoptions_2.md#optional-shape)
-* [tagline](paypalbuttonstyleoptions_2.md#optional-tagline)
+- [color](PaypalButtonStyleOptions_2.md#color)
+- [height](PaypalButtonStyleOptions_2.md#height)
+- [label](PaypalButtonStyleOptions_2.md#label)
+- [layout](PaypalButtonStyleOptions_2.md#layout)
+- [shape](PaypalButtonStyleOptions_2.md#shape)
+- [tagline](PaypalButtonStyleOptions_2.md#tagline)
 
 ## Properties
 
-### `Optional` color
+### color
 
-• **color**? : *[StyleButtonColor](../enums/stylebuttoncolor.md)*
-
-___
-
-### `Optional` height
-
-• **height**? : *undefined | number*
+• `Optional` **color**: [`gold`](../enums/StyleButtonColor.md#gold) \| [`blue`](../enums/StyleButtonColor.md#blue) \| [`silver`](../enums/StyleButtonColor.md#silver) \| [`black`](../enums/StyleButtonColor.md#black) \| [`white`](../enums/StyleButtonColor.md#white)
 
 ___
 
-### `Optional` label
+### height
 
-• **label**? : *[StyleButtonLabel](../enums/stylebuttonlabel.md)*
-
-___
-
-### `Optional` layout
-
-• **layout**? : *[StyleButtonLayout](../enums/stylebuttonlayout.md)*
+• `Optional` **height**: `number`
 
 ___
 
-### `Optional` shape
+### label
 
-• **shape**? : *[StyleButtonShape](../enums/stylebuttonshape.md)*
+• `Optional` **label**: [`paypal`](../enums/StyleButtonLabel.md#paypal) \| [`checkout`](../enums/StyleButtonLabel.md#checkout) \| [`buynow`](../enums/StyleButtonLabel.md#buynow) \| [`pay`](../enums/StyleButtonLabel.md#pay) \| [`installment`](../enums/StyleButtonLabel.md#installment)
 
 ___
 
-### `Optional` tagline
+### layout
 
-• **tagline**? : *undefined | false | true*
+• `Optional` **layout**: [`vertical`](../enums/StyleButtonLayout.md#vertical) \| [`horizontal`](../enums/StyleButtonLayout.md#horizontal)
+
+___
+
+### shape
+
+• `Optional` **shape**: [`pill`](../enums/StyleButtonShape.md#pill) \| [`rect`](../enums/StyleButtonShape.md#rect)
+
+___
+
+### tagline
+
+• `Optional` **tagline**: `boolean`

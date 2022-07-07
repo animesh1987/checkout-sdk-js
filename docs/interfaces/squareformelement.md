@@ -1,32 +1,28 @@
-[@bigcommerce/checkout-sdk](../README.md) › [SquareFormElement](squareformelement.md)
+[@bigcommerce/checkout-sdk](../README.md) / SquareFormElement
 
 # Interface: SquareFormElement
 
 Configures any form element provided by Square payment.
 
-## Hierarchy
-
-* **SquareFormElement**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [elementId](squareformelement.md#elementid)
-* [placeholder](squareformelement.md#optional-placeholder)
+- [elementId](SquareFormElement.md#elementid)
+- [placeholder](SquareFormElement.md#placeholder)
 
 ## Properties
 
-###  elementId
+### elementId
 
-• **elementId**: *string*
+• **elementId**: `string`
 
 The ID of the container which the form element should insert into.
 
 ___
 
-### `Optional` placeholder
+### placeholder
 
-• **placeholder**? : *undefined | string*
+• `Optional` **placeholder**: `string`
 
 The placeholder text to use for the form element, if provided.

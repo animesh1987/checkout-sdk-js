@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [WithCheckoutcomSEPAInstrument](withcheckoutcomsepainstrument.md)
+[@bigcommerce/checkout-sdk](../README.md) / WithCheckoutcomSEPAInstrument
 
 # Interface: WithCheckoutcomSEPAInstrument
 
-## Hierarchy
-
-* **WithCheckoutcomSEPAInstrument**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [bic](withcheckoutcomsepainstrument.md#bic)
-* [iban](withcheckoutcomsepainstrument.md#iban)
+- [bic](WithCheckoutcomSEPAInstrument.md#bic)
+- [iban](WithCheckoutcomSEPAInstrument.md#iban)
 
 ## Properties
 
-###  bic
+### bic
 
-• **bic**: *string*
+• **bic**: `string`
 
 ___
 
-###  iban
+### iban
 
-• **iban**: *string*
+• **iban**: `string`

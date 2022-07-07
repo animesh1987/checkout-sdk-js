@@ -1,30 +1,30 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AdyenThreeDS2Options](adyenthreeds2options.md)
+[@bigcommerce/checkout-sdk](../README.md) / AdyenThreeDS2Options
 
 # Interface: AdyenThreeDS2Options
 
 ## Hierarchy
 
-* [AdyenAdditionalActionCallbacks](adyenadditionalactioncallbacks.md)
+- [`AdyenAdditionalActionCallbacks`](AdyenAdditionalActionCallbacks.md)
 
-  ↳ **AdyenThreeDS2Options**
+  ↳ **`AdyenThreeDS2Options`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [widgetSize](adyenthreeds2options.md#optional-widgetsize)
+- [widgetSize](AdyenThreeDS2Options.md#widgetsize)
 
 ### Methods
 
-* [onBeforeLoad](adyenthreeds2options.md#optional-onbeforeload)
-* [onComplete](adyenthreeds2options.md#optional-oncomplete)
-* [onLoad](adyenthreeds2options.md#optional-onload)
+- [onBeforeLoad](AdyenThreeDS2Options.md#onbeforeload)
+- [onComplete](AdyenThreeDS2Options.md#oncomplete)
+- [onLoad](AdyenThreeDS2Options.md#onload)
 
 ## Properties
 
-### `Optional` widgetSize
+### widgetSize
 
-• **widgetSize**? : *undefined | string*
+• `Optional` **widgetSize**: `string`
 
 Specify Three3DS2Challenge Widget Size
 
@@ -37,49 +37,61 @@ Values
 
 ## Methods
 
-### `Optional` onBeforeLoad
+### onBeforeLoad
 
-▸ **onBeforeLoad**(`shopperInteraction?`: undefined | false | true): *void*
-
-*Inherited from [AdyenAdditionalActionCallbacks](adyenadditionalactioncallbacks.md).[onBeforeLoad](adyenadditionalactioncallbacks.md#optional-onbeforeload)*
+▸ `Optional` **onBeforeLoad**(`shopperInteraction?`): `void`
 
 A callback that gets called before adyen component is loaded
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`shopperInteraction?` | undefined &#124; false &#124; true |
+| Name | Type |
+| :------ | :------ |
+| `shopperInteraction?` | `boolean` |
 
-**Returns:** *void*
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[AdyenAdditionalActionCallbacks](AdyenAdditionalActionCallbacks.md).[onBeforeLoad](AdyenAdditionalActionCallbacks.md#onbeforeload)
 
 ___
 
-### `Optional` onComplete
+### onComplete
 
-▸ **onComplete**(): *void*
-
-*Inherited from [AdyenAdditionalActionCallbacks](adyenadditionalactioncallbacks.md).[onComplete](adyenadditionalactioncallbacks.md#optional-oncomplete)*
+▸ `Optional` **onComplete**(): `void`
 
 A callback that gets called when adyen component verification
 is completed
 
-**Returns:** *void*
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[AdyenAdditionalActionCallbacks](AdyenAdditionalActionCallbacks.md).[onComplete](AdyenAdditionalActionCallbacks.md#oncomplete)
 
 ___
 
-### `Optional` onLoad
+### onLoad
 
-▸ **onLoad**(`cancel?`: undefined | function): *void*
-
-*Inherited from [AdyenAdditionalActionCallbacks](adyenadditionalactioncallbacks.md).[onLoad](adyenadditionalactioncallbacks.md#optional-onload)*
+▸ `Optional` **onLoad**(`cancel?`): `void`
 
 A callback that gets called when adyen component is loaded
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`cancel?` | undefined &#124; function |
+| Name | Type |
+| :------ | :------ |
+| `cancel?` | () => `void` |
 
-**Returns:** *void*
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[AdyenAdditionalActionCallbacks](AdyenAdditionalActionCallbacks.md).[onLoad](AdyenAdditionalActionCallbacks.md#onload)

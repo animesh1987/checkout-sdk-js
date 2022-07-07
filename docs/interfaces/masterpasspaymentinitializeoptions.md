@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [MasterpassPaymentInitializeOptions](masterpasspaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / MasterpassPaymentInitializeOptions
 
 # Interface: MasterpassPaymentInitializeOptions
 
@@ -18,21 +18,17 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **MasterpassPaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [walletButton](masterpasspaymentinitializeoptions.md#optional-walletbutton)
+- [walletButton](MasterpassPaymentInitializeOptions.md#walletbutton)
 
 ## Properties
 
-### `Optional` walletButton
+### walletButton
 
-• **walletButton**? : *undefined | string*
+• `Optional` **walletButton**: `string`
 
 This walletButton is used to set an event listener, provide an element ID if you want
 users to be able to launch the ChasePay wallet modal by clicking on a button.

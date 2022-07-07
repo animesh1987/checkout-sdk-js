@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ZipCodeElementOptions](zipcodeelementoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / ZipCodeElementOptions
 
 # Interface: ZipCodeElementOptions
 
-## Hierarchy
-
-* **ZipCodeElementOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [containerId](zipcodeelementoptions.md#containerid)
+- [containerId](ZipCodeElementOptions.md#containerid)
 
 ## Properties
 
-###  containerId
+### containerId
 
-• **containerId**: *string*
+• **containerId**: `string`

@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreePaymentInitializeOptions](braintreepaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreePaymentInitializeOptions
 
 # Interface: BraintreePaymentInitializeOptions
 
@@ -76,30 +76,26 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **BraintreePaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [form](braintreepaymentinitializeoptions.md#optional-form)
-* [threeDSecure](braintreepaymentinitializeoptions.md#optional-threedsecure)
+- [form](BraintreePaymentInitializeOptions.md#form)
+- [threeDSecure](BraintreePaymentInitializeOptions.md#threedsecure)
 
 ## Properties
 
-### `Optional` form
+### form
 
-• **form**? : *[BraintreeFormOptions](braintreeformoptions.md)*
+• `Optional` **form**: [`BraintreeFormOptions`](BraintreeFormOptions.md)
 
-**`alpha`** 
+**`alpha`**
 Please note that this option is currently in an early stage of
 development. Therefore the API is unstable and not ready for public
 consumption.
 
 ___
 
-### `Optional` threeDSecure
+### threeDSecure
 
-• **threeDSecure**? : *[BraintreeThreeDSecureOptions](braintreethreedsecureoptions.md)*
+• `Optional` **threeDSecure**: [`BraintreeThreeDSecureOptions`](BraintreeThreeDSecureOptions.md)

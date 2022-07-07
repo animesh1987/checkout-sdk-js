@@ -1,11 +1,7 @@
-[@bigcommerce/checkout-sdk](../README.md) › [UnknownObject](unknownobject.md)
+[@bigcommerce/checkout-sdk](../README.md) / UnknownObject
 
 # Interface: UnknownObject
 
-## Hierarchy
-
-* **UnknownObject**
-
 ## Indexable
 
-* \[ **key**: *string*\]: unknown
+▪ [key: `string`]: `unknown`

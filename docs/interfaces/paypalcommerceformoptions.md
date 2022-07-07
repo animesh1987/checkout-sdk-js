@@ -1,31 +1,27 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceFormOptions](paypalcommerceformoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceFormOptions
 
 # Interface: PaypalCommerceFormOptions
 
-## Hierarchy
-
-* **PaypalCommerceFormOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [fields](paypalcommerceformoptions.md#fields)
-* [styles](paypalcommerceformoptions.md#optional-styles)
+- [fields](PaypalCommerceFormOptions.md#fields)
+- [styles](PaypalCommerceFormOptions.md#styles)
 
 ### Methods
 
-* [onBlur](paypalcommerceformoptions.md#optional-onblur)
-* [onCardTypeChange](paypalcommerceformoptions.md#optional-oncardtypechange)
-* [onEnter](paypalcommerceformoptions.md#optional-onenter)
-* [onFocus](paypalcommerceformoptions.md#optional-onfocus)
-* [onValidate](paypalcommerceformoptions.md#optional-onvalidate)
+- [onBlur](PaypalCommerceFormOptions.md#onblur)
+- [onCardTypeChange](PaypalCommerceFormOptions.md#oncardtypechange)
+- [onEnter](PaypalCommerceFormOptions.md#onenter)
+- [onFocus](PaypalCommerceFormOptions.md#onfocus)
+- [onValidate](PaypalCommerceFormOptions.md#onvalidate)
 
 ## Properties
 
-###  fields
+### fields
 
-• **fields**: *[PaypalCommerceFormFieldsMap](paypalcommerceformfieldsmap.md) | [PaypalCommerceStoredCardFieldsMap](paypalcommercestoredcardfieldsmap.md)*
+• **fields**: [`PaypalCommerceFormFieldsMap`](PaypalCommerceFormFieldsMap.md) \| [`PaypalCommerceStoredCardFieldsMap`](PaypalCommerceStoredCardFieldsMap.md)
 
 Containers for fields can be to present in one set of values
 
@@ -45,9 +41,9 @@ Containers for fields can be to present in one set of values
 
 ___
 
-### `Optional` styles
+### styles
 
-• **styles**? : *[PaypalCommerceFormFieldStylesMap](paypalcommerceformfieldstylesmap.md)*
+• `Optional` **styles**: [`PaypalCommerceFormFieldStylesMap`](PaypalCommerceFormFieldStylesMap.md)
 
 Styles for inputs. Change the width, height and other styling.
 
@@ -59,84 +55,94 @@ Styles for inputs. Change the width, height and other styling.
 
 ## Methods
 
-### `Optional` onBlur
+### onBlur
 
-▸ **onBlur**(`data`: [PaypalCommerceFormFieldBlurEventData](../README.md#paypalcommerceformfieldblureventdata)): *void*
+▸ `Optional` **onBlur**(`data`): `void`
 
 A callback that gets called when a field loses focus.
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`data` | [PaypalCommerceFormFieldBlurEventData](../README.md#paypalcommerceformfieldblureventdata) |
+| Name | Type |
+| :------ | :------ |
+| `data` | [`PaypalCommerceFormFieldKeyboardEventData`](PaypalCommerceFormFieldKeyboardEventData.md) |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onCardTypeChange
+### onCardTypeChange
 
-▸ **onCardTypeChange**(`data`: [PaypalCommerceFormFieldCardTypeChangeEventData](paypalcommerceformfieldcardtypechangeeventdata.md)): *void*
+▸ `Optional` **onCardTypeChange**(`data`): `void`
 
 A callback that gets called when activity within
 the number field has changed such that the possible
 card type has changed.
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`data` | [PaypalCommerceFormFieldCardTypeChangeEventData](paypalcommerceformfieldcardtypechangeeventdata.md) |
+| Name | Type |
+| :------ | :------ |
+| `data` | [`PaypalCommerceFormFieldCardTypeChangeEventData`](PaypalCommerceFormFieldCardTypeChangeEventData.md) |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onEnter
+### onEnter
 
-▸ **onEnter**(`data`: [PaypalCommerceFormFieldEnterEventData](../README.md#paypalcommerceformfieldentereventdata)): *void*
+▸ `Optional` **onEnter**(`data`): `void`
 
 A callback that gets called when the user requests submission
 of an input field, by pressing the Enter or Return key
 on their keyboard, or mobile equivalent.
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`data` | [PaypalCommerceFormFieldEnterEventData](../README.md#paypalcommerceformfieldentereventdata) |
+| Name | Type |
+| :------ | :------ |
+| `data` | [`PaypalCommerceFormFieldKeyboardEventData`](PaypalCommerceFormFieldKeyboardEventData.md) |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onFocus
+### onFocus
 
-▸ **onFocus**(`data`: [PaypalCommerceFormFieldFocusEventData](../README.md#paypalcommerceformfieldfocuseventdata)): *void*
+▸ `Optional` **onFocus**(`data`): `void`
 
 A callback that gets called when a field gains focus.
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`data` | [PaypalCommerceFormFieldFocusEventData](../README.md#paypalcommerceformfieldfocuseventdata) |
+| Name | Type |
+| :------ | :------ |
+| `data` | [`PaypalCommerceFormFieldKeyboardEventData`](PaypalCommerceFormFieldKeyboardEventData.md) |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onValidate
+### onValidate
 
-▸ **onValidate**(`data`: [PaypalCommerceFormFieldValidateEventData](paypalcommerceformfieldvalidateeventdata.md)): *void*
+▸ `Optional` **onValidate**(`data`): `void`
 
 A callback that gets called when the validity of a field has changed.
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`data` | [PaypalCommerceFormFieldValidateEventData](paypalcommerceformfieldvalidateeventdata.md) |
+| Name | Type |
+| :------ | :------ |
+| `data` | [`PaypalCommerceFormFieldValidateEventData`](PaypalCommerceFormFieldValidateEventData.md) |
 
-**Returns:** *void*
+#### Returns
+
+`void`

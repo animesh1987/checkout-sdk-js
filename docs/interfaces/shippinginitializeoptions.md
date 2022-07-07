@@ -1,6 +1,6 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ShippingInitializeOptions](shippinginitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / ShippingInitializeOptions
 
-# Interface: ShippingInitializeOptions ‹**T**›
+# Interface: ShippingInitializeOptions<T\>
 
 A set of options that are required to initialize the shipping step of the
 current checkout flow.
@@ -13,68 +13,76 @@ step of checkout.
 
 ## Type parameters
 
-▪ **T**
+| Name | Type |
+| :------ | :------ |
+| `T` | {} |
 
 ## Hierarchy
 
-  ↳ [ShippingRequestOptions](shippingrequestoptions.md)‹T›
+- [`ShippingRequestOptions`](ShippingRequestOptions.md)<`T`\>
 
-  ↳ **ShippingInitializeOptions**
+  ↳ **`ShippingInitializeOptions`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [amazon](shippinginitializeoptions.md#optional-amazon)
-* [amazonpay](shippinginitializeoptions.md#optional-amazonpay)
-* [methodId](shippinginitializeoptions.md#optional-methodid)
-* [params](shippinginitializeoptions.md#optional-params)
-* [timeout](shippinginitializeoptions.md#optional-timeout)
+- [amazon](ShippingInitializeOptions.md#amazon)
+- [amazonpay](ShippingInitializeOptions.md#amazonpay)
+- [methodId](ShippingInitializeOptions.md#methodid)
+- [params](ShippingInitializeOptions.md#params)
+- [timeout](ShippingInitializeOptions.md#timeout)
 
 ## Properties
 
-### `Optional` amazon
+### amazon
 
-• **amazon**? : *[AmazonPayShippingInitializeOptions](amazonpayshippinginitializeoptions.md)*
+• `Optional` **amazon**: [`AmazonPayShippingInitializeOptions`](AmazonPayShippingInitializeOptions.md)
 
 The options that are required to initialize the shipping step of checkout
 when using Amazon Pay.
 
 ___
 
-### `Optional` amazonpay
+### amazonpay
 
-• **amazonpay**? : *[AmazonPayV2ShippingInitializeOptions](amazonpayv2shippinginitializeoptions.md)*
+• `Optional` **amazonpay**: [`AmazonPayV2ShippingInitializeOptions`](AmazonPayV2ShippingInitializeOptions.md)
 
 The options that are required to initialize the shipping step of checkout
 when using AmazonPayV2.
 
 ___
 
-### `Optional` methodId
+### methodId
 
-• **methodId**? : *undefined | string*
+• `Optional` **methodId**: `string`
 
-*Inherited from [ShippingInitializeOptions](shippinginitializeoptions.md).[methodId](shippinginitializeoptions.md#optional-methodid)*
+#### Inherited from
+
+[ShippingRequestOptions](ShippingRequestOptions.md).[methodId](ShippingRequestOptions.md#methodid)
 
 ___
 
-### `Optional` params
+### params
 
-• **params**? : *TParams*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[params](checkoutbuttoninitializeoptions.md#optional-params)*
+• `Optional` **params**: `T`
 
 The parameters of the request, if required.
 
+#### Inherited from
+
+[ShippingRequestOptions](ShippingRequestOptions.md).[params](ShippingRequestOptions.md#params)
+
 ___
 
-### `Optional` timeout
+### timeout
 
-• **timeout**? : *Timeout*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[timeout](checkoutbuttoninitializeoptions.md#optional-timeout)*
+• `Optional` **timeout**: `default`
 
 Provide this option if you want to cancel or time out the request. If the
 timeout object completes before the request, the request will be
 cancelled.
+
+#### Inherited from
+
+[ShippingRequestOptions](ShippingRequestOptions.md).[timeout](ShippingRequestOptions.md#timeout)

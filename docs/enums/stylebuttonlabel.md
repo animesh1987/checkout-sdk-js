@@ -1,43 +1,43 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StyleButtonLabel](stylebuttonlabel.md)
+[@bigcommerce/checkout-sdk](../README.md) / StyleButtonLabel
 
 # Enumeration: StyleButtonLabel
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [buynow](stylebuttonlabel.md#buynow)
-* [checkout](stylebuttonlabel.md#checkout)
-* [installment](stylebuttonlabel.md#installment)
-* [pay](stylebuttonlabel.md#pay)
-* [paypal](stylebuttonlabel.md#paypal)
+- [buynow](StyleButtonLabel.md#buynow)
+- [checkout](StyleButtonLabel.md#checkout)
+- [installment](StyleButtonLabel.md#installment)
+- [pay](StyleButtonLabel.md#pay)
+- [paypal](StyleButtonLabel.md#paypal)
 
 ## Enumeration members
 
-###  buynow
+### buynow
 
-• **buynow**: = "buynow"
-
-___
-
-###  checkout
-
-• **checkout**: = "checkout"
+• **buynow** = `"buynow"`
 
 ___
 
-###  installment
+### checkout
 
-• **installment**: = "installment"
-
-___
-
-###  pay
-
-• **pay**: = "pay"
+• **checkout** = `"checkout"`
 
 ___
 
-###  paypal
+### installment
 
-• **paypal**: = "paypal"
+• **installment** = `"installment"`
+
+___
+
+### pay
+
+• **pay** = `"pay"`
+
+___
+
+### paypal
+
+• **paypal** = `"paypal"`

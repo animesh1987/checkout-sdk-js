@@ -1,23 +1,19 @@
-[@bigcommerce/checkout-sdk](../README.md) › [GooglePayButtonInitializeOptions](googlepaybuttoninitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / GooglePayButtonInitializeOptions
 
 # Interface: GooglePayButtonInitializeOptions
 
-## Hierarchy
-
-* **GooglePayButtonInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [buttonColor](googlepaybuttoninitializeoptions.md#optional-buttoncolor)
-* [buttonType](googlepaybuttoninitializeoptions.md#optional-buttontype)
+- [buttonColor](GooglePayButtonInitializeOptions.md#buttoncolor)
+- [buttonType](GooglePayButtonInitializeOptions.md#buttontype)
 
 ## Properties
 
-### `Optional` buttonColor
+### buttonColor
 
-• **buttonColor**? : *[ButtonColor](../enums/buttoncolor.md)*
+• `Optional` **buttonColor**: [`Default`](../enums/ButtonColor.md#default) \| [`Black`](../enums/ButtonColor.md#black) \| [`White`](../enums/ButtonColor.md#white)
 
 The color of the GooglePay button that will be inserted.
  black (default): a black button suitable for use on white or light backgrounds.
@@ -25,9 +21,9 @@ The color of the GooglePay button that will be inserted.
 
 ___
 
-### `Optional` buttonType
+### buttonType
 
-• **buttonType**? : *[ButtonType](../enums/buttontype.md)*
+• `Optional` **buttonType**: [`Long`](../enums/ButtonType.md#long) \| [`Short`](../enums/ButtonType.md#short)
 
 The size of the GooglePay button that will be inserted.
  long: "Buy with Google Pay" button (default). A translated button label may appear

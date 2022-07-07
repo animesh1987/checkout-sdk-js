@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Item](item.md)
+[@bigcommerce/checkout-sdk](../README.md) / Item
 
 # Interface: Item
 
-## Hierarchy
-
-* **Item**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [quantity](item.md#quantity)
-* [variantId](item.md#variantid)
+- [quantity](Item.md#quantity)
+- [variantId](Item.md#variantid)
 
 ## Properties
 
-###  quantity
+### quantity
 
-• **quantity**: *number*
+• **quantity**: `number`
 
 ___
 
-###  variantId
+### variantId
 
-• **variantId**: *number*
+• **variantId**: `number`

@@ -1,145 +1,141 @@
-[@bigcommerce/checkout-sdk](../README.md) › [EmbeddedCheckoutStyles](embeddedcheckoutstyles.md)
+[@bigcommerce/checkout-sdk](../README.md) / EmbeddedCheckoutStyles
 
 # Interface: EmbeddedCheckoutStyles
 
-## Hierarchy
-
-* **EmbeddedCheckoutStyles**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [body](embeddedcheckoutstyles.md#optional-body)
-* [button](embeddedcheckoutstyles.md#optional-button)
-* [checkbox](embeddedcheckoutstyles.md#optional-checkbox)
-* [checklist](embeddedcheckoutstyles.md#optional-checklist)
-* [discountBanner](embeddedcheckoutstyles.md#optional-discountbanner)
-* [heading](embeddedcheckoutstyles.md#optional-heading)
-* [input](embeddedcheckoutstyles.md#optional-input)
-* [label](embeddedcheckoutstyles.md#optional-label)
-* [link](embeddedcheckoutstyles.md#optional-link)
-* [loadingBanner](embeddedcheckoutstyles.md#optional-loadingbanner)
-* [loadingIndicator](embeddedcheckoutstyles.md#optional-loadingindicator)
-* [orderSummary](embeddedcheckoutstyles.md#optional-ordersummary)
-* [radio](embeddedcheckoutstyles.md#optional-radio)
-* [secondaryButton](embeddedcheckoutstyles.md#optional-secondarybutton)
-* [secondaryHeading](embeddedcheckoutstyles.md#optional-secondaryheading)
-* [secondaryText](embeddedcheckoutstyles.md#optional-secondarytext)
-* [select](embeddedcheckoutstyles.md#optional-select)
-* [step](embeddedcheckoutstyles.md#optional-step)
-* [text](embeddedcheckoutstyles.md#optional-text)
+- [body](EmbeddedCheckoutStyles.md#body)
+- [button](EmbeddedCheckoutStyles.md#button)
+- [checkbox](EmbeddedCheckoutStyles.md#checkbox)
+- [checklist](EmbeddedCheckoutStyles.md#checklist)
+- [discountBanner](EmbeddedCheckoutStyles.md#discountbanner)
+- [heading](EmbeddedCheckoutStyles.md#heading)
+- [input](EmbeddedCheckoutStyles.md#input)
+- [label](EmbeddedCheckoutStyles.md#label)
+- [link](EmbeddedCheckoutStyles.md#link)
+- [loadingBanner](EmbeddedCheckoutStyles.md#loadingbanner)
+- [loadingIndicator](EmbeddedCheckoutStyles.md#loadingindicator)
+- [orderSummary](EmbeddedCheckoutStyles.md#ordersummary)
+- [radio](EmbeddedCheckoutStyles.md#radio)
+- [secondaryButton](EmbeddedCheckoutStyles.md#secondarybutton)
+- [secondaryHeading](EmbeddedCheckoutStyles.md#secondaryheading)
+- [secondaryText](EmbeddedCheckoutStyles.md#secondarytext)
+- [select](EmbeddedCheckoutStyles.md#select)
+- [step](EmbeddedCheckoutStyles.md#step)
+- [text](EmbeddedCheckoutStyles.md#text)
 
 ## Properties
 
-### `Optional` body
+### body
 
-• **body**? : *[BodyStyles](bodystyles.md)*
-
-___
-
-### `Optional` button
-
-• **button**? : *[ButtonStyles](buttonstyles.md)*
+• `Optional` **body**: [`BodyStyles`](BodyStyles.md)
 
 ___
 
-### `Optional` checkbox
+### button
 
-• **checkbox**? : *[CheckableInputStyles](checkableinputstyles.md)*
-
-___
-
-### `Optional` checklist
-
-• **checklist**? : *[ChecklistStyles](checkliststyles.md)*
+• `Optional` **button**: [`ButtonStyles`](ButtonStyles.md)
 
 ___
 
-### `Optional` discountBanner
+### checkbox
 
-• **discountBanner**? : *[BlockElementStyles](blockelementstyles.md)*
-
-___
-
-### `Optional` heading
-
-• **heading**? : *[BlockElementStyles](blockelementstyles.md)*
+• `Optional` **checkbox**: [`CheckableInputStyles`](CheckableInputStyles.md)
 
 ___
 
-### `Optional` input
+### checklist
 
-• **input**? : *[TextInputStyles](textinputstyles.md)*
-
-___
-
-### `Optional` label
-
-• **label**? : *[LabelStyles](labelstyles.md)*
+• `Optional` **checklist**: [`ChecklistStyles`](ChecklistStyles.md)
 
 ___
 
-### `Optional` link
+### discountBanner
 
-• **link**? : *[LinkStyles](linkstyles.md)*
-
-___
-
-### `Optional` loadingBanner
-
-• **loadingBanner**? : *[BlockElementStyles](blockelementstyles.md)*
+• `Optional` **discountBanner**: [`BlockElementStyles`](BlockElementStyles.md)
 
 ___
 
-### `Optional` loadingIndicator
+### heading
 
-• **loadingIndicator**? : *[LoadingIndicatorStyles](loadingindicatorstyles.md)*
-
-___
-
-### `Optional` orderSummary
-
-• **orderSummary**? : *[BlockElementStyles](blockelementstyles.md)*
+• `Optional` **heading**: [`BlockElementStyles`](BlockElementStyles.md)
 
 ___
 
-### `Optional` radio
+### input
 
-• **radio**? : *[CheckableInputStyles](checkableinputstyles.md)*
-
-___
-
-### `Optional` secondaryButton
-
-• **secondaryButton**? : *[ButtonStyles](buttonstyles.md)*
+• `Optional` **input**: [`TextInputStyles`](TextInputStyles.md)
 
 ___
 
-### `Optional` secondaryHeading
+### label
 
-• **secondaryHeading**? : *[BlockElementStyles](blockelementstyles.md)*
-
-___
-
-### `Optional` secondaryText
-
-• **secondaryText**? : *[InlineElementStyles](inlineelementstyles.md)*
+• `Optional` **label**: [`LabelStyles`](LabelStyles.md)
 
 ___
 
-### `Optional` select
+### link
 
-• **select**? : *[InputStyles](inputstyles.md)*
-
-___
-
-### `Optional` step
-
-• **step**? : *[StepStyles](stepstyles.md)*
+• `Optional` **link**: [`LinkStyles`](LinkStyles.md)
 
 ___
 
-### `Optional` text
+### loadingBanner
 
-• **text**? : *[InlineElementStyles](inlineelementstyles.md)*
+• `Optional` **loadingBanner**: [`BlockElementStyles`](BlockElementStyles.md)
+
+___
+
+### loadingIndicator
+
+• `Optional` **loadingIndicator**: [`LoadingIndicatorStyles`](LoadingIndicatorStyles.md)
+
+___
+
+### orderSummary
+
+• `Optional` **orderSummary**: [`BlockElementStyles`](BlockElementStyles.md)
+
+___
+
+### radio
+
+• `Optional` **radio**: [`CheckableInputStyles`](CheckableInputStyles.md)
+
+___
+
+### secondaryButton
+
+• `Optional` **secondaryButton**: [`ButtonStyles`](ButtonStyles.md)
+
+___
+
+### secondaryHeading
+
+• `Optional` **secondaryHeading**: [`BlockElementStyles`](BlockElementStyles.md)
+
+___
+
+### secondaryText
+
+• `Optional` **secondaryText**: [`InlineElementStyles`](InlineElementStyles.md)
+
+___
+
+### select
+
+• `Optional` **select**: [`InputStyles`](InputStyles.md)
+
+___
+
+### step
+
+• `Optional` **step**: [`StepStyles`](StepStyles.md)
+
+___
+
+### text
+
+• `Optional` **text**: [`InlineElementStyles`](InlineElementStyles.md)

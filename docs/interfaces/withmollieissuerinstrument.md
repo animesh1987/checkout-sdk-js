@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [WithMollieIssuerInstrument](withmollieissuerinstrument.md)
+[@bigcommerce/checkout-sdk](../README.md) / WithMollieIssuerInstrument
 
 # Interface: WithMollieIssuerInstrument
 
-## Hierarchy
-
-* **WithMollieIssuerInstrument**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [issuer](withmollieissuerinstrument.md#issuer)
-* [shopper_locale](withmollieissuerinstrument.md#shopper_locale)
+- [issuer](WithMollieIssuerInstrument.md#issuer)
+- [shopper_locale](WithMollieIssuerInstrument.md#shopper_locale)
 
 ## Properties
 
-###  issuer
+### issuer
 
-• **issuer**: *string*
+• **issuer**: `string`
 
 ___
 
-###  shopper_locale
+### shopper\_locale
 
-• **shopper_locale**: *string*
+• **shopper\_locale**: `string`

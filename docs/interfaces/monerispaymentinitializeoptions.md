@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [MonerisPaymentInitializeOptions](monerispaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / MonerisPaymentInitializeOptions
 
 # Interface: MonerisPaymentInitializeOptions
 
@@ -24,38 +24,34 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **MonerisPaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [containerId](monerispaymentinitializeoptions.md#containerid)
-* [form](monerispaymentinitializeoptions.md#optional-form)
-* [style](monerispaymentinitializeoptions.md#optional-style)
+- [containerId](MonerisPaymentInitializeOptions.md#containerid)
+- [form](MonerisPaymentInitializeOptions.md#form)
+- [style](MonerisPaymentInitializeOptions.md#style)
 
 ## Properties
 
-###  containerId
+### containerId
 
-• **containerId**: *string*
+• **containerId**: `string`
 
 The ID of a container where the Moneris iframe component should be mounted
 
 ___
 
-### `Optional` form
+### form
 
-• **form**? : *[HostedFormOptions](hostedformoptions.md)*
+• `Optional` **form**: [`HostedFormOptions`](HostedFormOptions.md)
 
 Hosted Form Validation Options
 
 ___
 
-### `Optional` style
+### style
 
-• **style**? : *[MonerisStylingProps](monerisstylingprops.md)*
+• `Optional` **style**: [`MonerisStylingProps`](MonerisStylingProps.md)
 
 The styling props to apply to the iframe component

@@ -1,33 +1,29 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeFormFieldStylesMap](braintreeformfieldstylesmap.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeFormFieldStylesMap
 
 # Interface: BraintreeFormFieldStylesMap
 
-## Hierarchy
-
-* **BraintreeFormFieldStylesMap**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [default](braintreeformfieldstylesmap.md#optional-default)
-* [error](braintreeformfieldstylesmap.md#optional-error)
-* [focus](braintreeformfieldstylesmap.md#optional-focus)
+- [default](BraintreeFormFieldStylesMap.md#default)
+- [error](BraintreeFormFieldStylesMap.md#error)
+- [focus](BraintreeFormFieldStylesMap.md#focus)
 
 ## Properties
 
-### `Optional` default
+### default
 
-• **default**? : *[BraintreeFormFieldStyles](../README.md#braintreeformfieldstyles)*
-
-___
-
-### `Optional` error
-
-• **error**? : *[BraintreeFormFieldStyles](../README.md#braintreeformfieldstyles)*
+• `Optional` **default**: `Partial`<`Pick`<`CSSStyleDeclaration`, ``"color"`` \| ``"fontFamily"`` \| ``"fontSize"`` \| ``"fontWeight"``\>\>
 
 ___
 
-### `Optional` focus
+### error
 
-• **focus**? : *[BraintreeFormFieldStyles](../README.md#braintreeformfieldstyles)*
+• `Optional` **error**: `Partial`<`Pick`<`CSSStyleDeclaration`, ``"color"`` \| ``"fontFamily"`` \| ``"fontSize"`` \| ``"fontWeight"``\>\>
+
+___
+
+### focus
+
+• `Optional` **focus**: `Partial`<`Pick`<`CSSStyleDeclaration`, ``"color"`` \| ``"fontFamily"`` \| ``"fontSize"`` \| ``"fontWeight"``\>\>

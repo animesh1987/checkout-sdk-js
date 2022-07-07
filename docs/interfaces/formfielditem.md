@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [FormFieldItem](formfielditem.md)
+[@bigcommerce/checkout-sdk](../README.md) / FormFieldItem
 
 # Interface: FormFieldItem
 
-## Hierarchy
-
-* **FormFieldItem**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [label](formfielditem.md#label)
-* [value](formfielditem.md#value)
+- [label](FormFieldItem.md#label)
+- [value](FormFieldItem.md#value)
 
 ## Properties
 
-###  label
+### label
 
-• **label**: *string*
+• **label**: `string`
 
 ___
 
-###  value
+### value
 
-• **value**: *string*
+• **value**: `string`

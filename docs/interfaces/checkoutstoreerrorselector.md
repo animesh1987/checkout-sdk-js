@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CheckoutStoreErrorSelector](checkoutstoreerrorselector.md)
+[@bigcommerce/checkout-sdk](../README.md) / CheckoutStoreErrorSelector
 
 # Interface: CheckoutStoreErrorSelector
 
@@ -9,93 +9,95 @@ This object has a set of getters that would return an error if an action is
 not executed successfully. For example, if you are unable to submit an order,
 you can use this object to retrieve the reason for the failure.
 
-## Hierarchy
-
-* **CheckoutStoreErrorSelector**
-
-## Index
+## Table of contents
 
 ### Methods
 
-* [getApplyCouponError](checkoutstoreerrorselector.md#getapplycouponerror)
-* [getApplyGiftCertificateError](checkoutstoreerrorselector.md#getapplygiftcertificateerror)
-* [getApplyStoreCreditError](checkoutstoreerrorselector.md#getapplystorecrediterror)
-* [getContinueAsGuestError](checkoutstoreerrorselector.md#getcontinueasguesterror)
-* [getCreateConsignmentsError](checkoutstoreerrorselector.md#getcreateconsignmentserror)
-* [getCreateCustomerAccountError](checkoutstoreerrorselector.md#getcreatecustomeraccounterror)
-* [getCreateCustomerAddressError](checkoutstoreerrorselector.md#getcreatecustomeraddresserror)
-* [getDeleteConsignmentError](checkoutstoreerrorselector.md#getdeleteconsignmenterror)
-* [getDeleteInstrumentError](checkoutstoreerrorselector.md#getdeleteinstrumenterror)
-* [getError](checkoutstoreerrorselector.md#geterror)
-* [getFinalizeOrderError](checkoutstoreerrorselector.md#getfinalizeordererror)
-* [getInitializeCustomerError](checkoutstoreerrorselector.md#getinitializecustomererror)
-* [getInitializePaymentError](checkoutstoreerrorselector.md#getinitializepaymenterror)
-* [getInitializeShippingError](checkoutstoreerrorselector.md#getinitializeshippingerror)
-* [getLoadBillingCountriesError](checkoutstoreerrorselector.md#getloadbillingcountrieserror)
-* [getLoadCartError](checkoutstoreerrorselector.md#getloadcarterror)
-* [getLoadCheckoutError](checkoutstoreerrorselector.md#getloadcheckouterror)
-* [getLoadConfigError](checkoutstoreerrorselector.md#getloadconfigerror)
-* [getLoadInstrumentsError](checkoutstoreerrorselector.md#getloadinstrumentserror)
-* [getLoadOrderError](checkoutstoreerrorselector.md#getloadordererror)
-* [getLoadPaymentMethodError](checkoutstoreerrorselector.md#getloadpaymentmethoderror)
-* [getLoadPaymentMethodsError](checkoutstoreerrorselector.md#getloadpaymentmethodserror)
-* [getLoadShippingCountriesError](checkoutstoreerrorselector.md#getloadshippingcountrieserror)
-* [getLoadShippingOptionsError](checkoutstoreerrorselector.md#getloadshippingoptionserror)
-* [getPickupOptionsError](checkoutstoreerrorselector.md#getpickupoptionserror)
-* [getRemoveCouponError](checkoutstoreerrorselector.md#getremovecouponerror)
-* [getRemoveGiftCertificateError](checkoutstoreerrorselector.md#getremovegiftcertificateerror)
-* [getSelectShippingOptionError](checkoutstoreerrorselector.md#getselectshippingoptionerror)
-* [getSignInEmailError](checkoutstoreerrorselector.md#getsigninemailerror)
-* [getSignInError](checkoutstoreerrorselector.md#getsigninerror)
-* [getSignOutError](checkoutstoreerrorselector.md#getsignouterror)
-* [getSubmitOrderError](checkoutstoreerrorselector.md#getsubmitordererror)
-* [getUpdateBillingAddressError](checkoutstoreerrorselector.md#getupdatebillingaddresserror)
-* [getUpdateCheckoutError](checkoutstoreerrorselector.md#getupdatecheckouterror)
-* [getUpdateConsignmentError](checkoutstoreerrorselector.md#getupdateconsignmenterror)
-* [getUpdateShippingAddressError](checkoutstoreerrorselector.md#getupdateshippingaddresserror)
-* [getUpdateSubscriptionsError](checkoutstoreerrorselector.md#getupdatesubscriptionserror)
+- [getApplyCouponError](CheckoutStoreErrorSelector.md#getapplycouponerror)
+- [getApplyGiftCertificateError](CheckoutStoreErrorSelector.md#getapplygiftcertificateerror)
+- [getApplyStoreCreditError](CheckoutStoreErrorSelector.md#getapplystorecrediterror)
+- [getContinueAsGuestError](CheckoutStoreErrorSelector.md#getcontinueasguesterror)
+- [getCreateConsignmentsError](CheckoutStoreErrorSelector.md#getcreateconsignmentserror)
+- [getCreateCustomerAccountError](CheckoutStoreErrorSelector.md#getcreatecustomeraccounterror)
+- [getCreateCustomerAddressError](CheckoutStoreErrorSelector.md#getcreatecustomeraddresserror)
+- [getDeleteConsignmentError](CheckoutStoreErrorSelector.md#getdeleteconsignmenterror)
+- [getDeleteInstrumentError](CheckoutStoreErrorSelector.md#getdeleteinstrumenterror)
+- [getError](CheckoutStoreErrorSelector.md#geterror)
+- [getFinalizeOrderError](CheckoutStoreErrorSelector.md#getfinalizeordererror)
+- [getInitializeCustomerError](CheckoutStoreErrorSelector.md#getinitializecustomererror)
+- [getInitializePaymentError](CheckoutStoreErrorSelector.md#getinitializepaymenterror)
+- [getInitializeShippingError](CheckoutStoreErrorSelector.md#getinitializeshippingerror)
+- [getLoadBillingCountriesError](CheckoutStoreErrorSelector.md#getloadbillingcountrieserror)
+- [getLoadCartError](CheckoutStoreErrorSelector.md#getloadcarterror)
+- [getLoadCheckoutError](CheckoutStoreErrorSelector.md#getloadcheckouterror)
+- [getLoadConfigError](CheckoutStoreErrorSelector.md#getloadconfigerror)
+- [getLoadInstrumentsError](CheckoutStoreErrorSelector.md#getloadinstrumentserror)
+- [getLoadOrderError](CheckoutStoreErrorSelector.md#getloadordererror)
+- [getLoadPaymentMethodError](CheckoutStoreErrorSelector.md#getloadpaymentmethoderror)
+- [getLoadPaymentMethodsError](CheckoutStoreErrorSelector.md#getloadpaymentmethodserror)
+- [getLoadShippingCountriesError](CheckoutStoreErrorSelector.md#getloadshippingcountrieserror)
+- [getLoadShippingOptionsError](CheckoutStoreErrorSelector.md#getloadshippingoptionserror)
+- [getPickupOptionsError](CheckoutStoreErrorSelector.md#getpickupoptionserror)
+- [getRemoveCouponError](CheckoutStoreErrorSelector.md#getremovecouponerror)
+- [getRemoveGiftCertificateError](CheckoutStoreErrorSelector.md#getremovegiftcertificateerror)
+- [getSelectShippingOptionError](CheckoutStoreErrorSelector.md#getselectshippingoptionerror)
+- [getSignInEmailError](CheckoutStoreErrorSelector.md#getsigninemailerror)
+- [getSignInError](CheckoutStoreErrorSelector.md#getsigninerror)
+- [getSignOutError](CheckoutStoreErrorSelector.md#getsignouterror)
+- [getSubmitOrderError](CheckoutStoreErrorSelector.md#getsubmitordererror)
+- [getUpdateBillingAddressError](CheckoutStoreErrorSelector.md#getupdatebillingaddresserror)
+- [getUpdateCheckoutError](CheckoutStoreErrorSelector.md#getupdatecheckouterror)
+- [getUpdateConsignmentError](CheckoutStoreErrorSelector.md#getupdateconsignmenterror)
+- [getUpdateShippingAddressError](CheckoutStoreErrorSelector.md#getupdateshippingaddresserror)
+- [getUpdateSubscriptionsError](CheckoutStoreErrorSelector.md#getupdatesubscriptionserror)
 
 ## Methods
 
-###  getApplyCouponError
+### getApplyCouponError
 
-▸ **getApplyCouponError**(): *[RequestError](../classes/requesterror.md) | undefined*
+▸ **getApplyCouponError**(): `undefined` \| [`RequestError`](../classes/RequestError.md)<`any`\>
 
 Returns an error if unable to apply a coupon code.
 
-**Returns:** *[RequestError](../classes/requesterror.md) | undefined*
+#### Returns
+
+`undefined` \| [`RequestError`](../classes/RequestError.md)<`any`\>
 
 The error object if unable to apply, otherwise undefined.
 
 ___
 
-###  getApplyGiftCertificateError
+### getApplyGiftCertificateError
 
-▸ **getApplyGiftCertificateError**(): *[RequestError](../classes/requesterror.md) | undefined*
+▸ **getApplyGiftCertificateError**(): `undefined` \| [`RequestError`](../classes/RequestError.md)<`any`\>
 
 Returns an error if unable to apply a gift certificate.
 
-**Returns:** *[RequestError](../classes/requesterror.md) | undefined*
+#### Returns
+
+`undefined` \| [`RequestError`](../classes/RequestError.md)<`any`\>
 
 The error object if unable to apply, otherwise undefined.
 
 ___
 
-###  getApplyStoreCreditError
+### getApplyStoreCreditError
 
-▸ **getApplyStoreCreditError**(): *[RequestError](../classes/requesterror.md) | undefined*
+▸ **getApplyStoreCreditError**(): `undefined` \| [`RequestError`](../classes/RequestError.md)<`any`\>
 
 Returns an error if unable to apply store credit.
 
-**Returns:** *[RequestError](../classes/requesterror.md) | undefined*
+#### Returns
+
+`undefined` \| [`RequestError`](../classes/RequestError.md)<`any`\>
 
 The error object if unable to apply, otherwise undefined.
 
 ___
 
-###  getContinueAsGuestError
+### getContinueAsGuestError
 
-▸ **getContinueAsGuestError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getContinueAsGuestError**(): `undefined` \| `Error`
 
 Returns an error if unable to continue as guest.
 
@@ -110,457 +112,525 @@ console.log(state.errors.getContinueAsGuestError().status);
 
 For more information about status codes, check [Checkout Storefront API - Add Checkout Billing Address](https://developer.bigcommerce.com/api-reference/cart-checkout/storefront-checkout-api/checkout-billing-address/checkoutsbillingaddressbycheckoutidpost).
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to continue, otherwise undefined.
 
 ___
 
-###  getCreateConsignmentsError
+### getCreateConsignmentsError
 
-▸ **getCreateConsignmentsError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getCreateConsignmentsError**(): `undefined` \| `Error`
 
 Returns an error if unable to create consignments.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to create, otherwise undefined.
 
 ___
 
-###  getCreateCustomerAccountError
+### getCreateCustomerAccountError
 
-▸ **getCreateCustomerAccountError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getCreateCustomerAccountError**(): `undefined` \| `Error`
 
 Returns an error if unable to create customer account.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to create account, otherwise undefined.
 
 ___
 
-###  getCreateCustomerAddressError
+### getCreateCustomerAddressError
 
-▸ **getCreateCustomerAddressError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getCreateCustomerAddressError**(): `undefined` \| `Error`
 
 Returns an error if unable to create customer address.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to create address, otherwise undefined.
 
 ___
 
-###  getDeleteConsignmentError
+### getDeleteConsignmentError
 
-▸ **getDeleteConsignmentError**(`consignmentId?`: undefined | string): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getDeleteConsignmentError**(`consignmentId?`): `undefined` \| `Error`
 
 Returns an error if unable to delete a consignment.
 
 A consignment ID should be provided when checking for an error for a
 specific consignment, otherwise it will check for all available consignments.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignmentId?` | undefined &#124; string | The identifier of the consignment to be checked. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignmentId?` | `string` | The identifier of the consignment to be checked. |
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to delete, otherwise undefined.
 
 ___
 
-###  getDeleteInstrumentError
+### getDeleteInstrumentError
 
-▸ **getDeleteInstrumentError**(`instrumentId?`: undefined | string): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getDeleteInstrumentError**(`instrumentId?`): `undefined` \| `Error`
 
 Returns an error if unable to delete a payment instrument.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`instrumentId?` | undefined &#124; string | The identifier of the payment instrument to delete. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `instrumentId?` | `string` | The identifier of the payment instrument to delete. |
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to delete, otherwise undefined.
 
 ___
 
-###  getError
+### getError
 
-▸ **getError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getError**(): `undefined` \| `Error`
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 ___
 
-###  getFinalizeOrderError
+### getFinalizeOrderError
 
-▸ **getFinalizeOrderError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getFinalizeOrderError**(): `undefined` \| `Error`
 
 Returns an error if unable to finalize the current order.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to finalize, otherwise undefined.
 
 ___
 
-###  getInitializeCustomerError
+### getInitializeCustomerError
 
-▸ **getInitializeCustomerError**(`methodId?`: undefined | string): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getInitializeCustomerError**(`methodId?`): `undefined` \| `Error`
 
 Returns an error if unable to initialize the customer step of a checkout
 process.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId?` | undefined &#124; string | The identifer of the initialization method to execute. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId?` | `string` | The identifer of the initialization method to execute. |
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to initialize, otherwise undefined.
 
 ___
 
-###  getInitializePaymentError
+### getInitializePaymentError
 
-▸ **getInitializePaymentError**(`methodId?`: undefined | string): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getInitializePaymentError**(`methodId?`): `undefined` \| `Error`
 
 Returns an error if unable to initialize a specific payment method.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId?` | undefined &#124; string | The identifier of the payment method to initialize. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId?` | `string` | The identifier of the payment method to initialize. |
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to initialize, otherwise undefined.
 
 ___
 
-###  getInitializeShippingError
+### getInitializeShippingError
 
-▸ **getInitializeShippingError**(`methodId?`: undefined | string): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getInitializeShippingError**(`methodId?`): `undefined` \| `Error`
 
 Returns an error if unable to initialize the shipping step of a checkout
 process.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId?` | undefined &#124; string | The identifer of the initialization method to execute. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId?` | `string` | The identifer of the initialization method to execute. |
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to initialize, otherwise undefined.
 
 ___
 
-###  getLoadBillingCountriesError
+### getLoadBillingCountriesError
 
-▸ **getLoadBillingCountriesError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getLoadBillingCountriesError**(): `undefined` \| `Error`
 
 Returns an error if unable to load billing countries.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to load, otherwise undefined.
 
 ___
 
-###  getLoadCartError
+### getLoadCartError
 
-▸ **getLoadCartError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getLoadCartError**(): `undefined` \| `Error`
 
 Returns an error if unable to load the current cart.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to load, otherwise undefined.
 
 ___
 
-###  getLoadCheckoutError
+### getLoadCheckoutError
 
-▸ **getLoadCheckoutError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getLoadCheckoutError**(): `undefined` \| `Error`
 
 Returns an error if unable to load the current checkout.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to load, otherwise undefined.
 
 ___
 
-###  getLoadConfigError
+### getLoadConfigError
 
-▸ **getLoadConfigError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getLoadConfigError**(): `undefined` \| `Error`
 
 Returns an error if unable to load the checkout configuration of a store.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to load, otherwise undefined.
 
 ___
 
-###  getLoadInstrumentsError
+### getLoadInstrumentsError
 
-▸ **getLoadInstrumentsError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getLoadInstrumentsError**(): `undefined` \| `Error`
 
 Returns an error if unable to load payment instruments.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to load, otherwise undefined.
 
 ___
 
-###  getLoadOrderError
+### getLoadOrderError
 
-▸ **getLoadOrderError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getLoadOrderError**(): `undefined` \| `Error`
 
 Returns an error if unable to load the current order.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to load, otherwise undefined.
 
 ___
 
-###  getLoadPaymentMethodError
+### getLoadPaymentMethodError
 
-▸ **getLoadPaymentMethodError**(`methodId?`: undefined | string): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getLoadPaymentMethodError**(`methodId?`): `undefined` \| `Error`
 
 Returns an error if unable to load a specific payment method.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`methodId?` | undefined &#124; string | The identifier of the payment method to load. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `methodId?` | `string` | The identifier of the payment method to load. |
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to load, otherwise undefined.
 
 ___
 
-###  getLoadPaymentMethodsError
+### getLoadPaymentMethodsError
 
-▸ **getLoadPaymentMethodsError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getLoadPaymentMethodsError**(): `undefined` \| `Error`
 
 Returns an error if unable to load payment methods.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to load, otherwise undefined.
 
 ___
 
-###  getLoadShippingCountriesError
+### getLoadShippingCountriesError
 
-▸ **getLoadShippingCountriesError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getLoadShippingCountriesError**(): `undefined` \| `Error`
 
 Returns an error if unable to load shipping countries.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to load, otherwise undefined.
 
 ___
 
-###  getLoadShippingOptionsError
+### getLoadShippingOptionsError
 
-▸ **getLoadShippingOptionsError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getLoadShippingOptionsError**(): `undefined` \| `Error`
 
 Returns an error if unable to load shipping options.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to load, otherwise undefined.
 
 ___
 
-###  getPickupOptionsError
+### getPickupOptionsError
 
-▸ **getPickupOptionsError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getPickupOptionsError**(): `undefined` \| `Error`
 
 Returns an error if unable to fetch pickup options.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to fetch pickup options, otherwise undefined.
 
 ___
 
-###  getRemoveCouponError
+### getRemoveCouponError
 
-▸ **getRemoveCouponError**(): *[RequestError](../classes/requesterror.md) | undefined*
+▸ **getRemoveCouponError**(): `undefined` \| [`RequestError`](../classes/RequestError.md)<`any`\>
 
 Returns an error if unable to remove a coupon code.
 
-**Returns:** *[RequestError](../classes/requesterror.md) | undefined*
+#### Returns
+
+`undefined` \| [`RequestError`](../classes/RequestError.md)<`any`\>
 
 The error object if unable to remove, otherwise undefined.
 
 ___
 
-###  getRemoveGiftCertificateError
+### getRemoveGiftCertificateError
 
-▸ **getRemoveGiftCertificateError**(): *[RequestError](../classes/requesterror.md) | undefined*
+▸ **getRemoveGiftCertificateError**(): `undefined` \| [`RequestError`](../classes/RequestError.md)<`any`\>
 
 Returns an error if unable to remove a gift certificate.
 
-**Returns:** *[RequestError](../classes/requesterror.md) | undefined*
+#### Returns
+
+`undefined` \| [`RequestError`](../classes/RequestError.md)<`any`\>
 
 The error object if unable to remove, otherwise undefined.
 
 ___
 
-###  getSelectShippingOptionError
+### getSelectShippingOptionError
 
-▸ **getSelectShippingOptionError**(`consignmentId?`: undefined | string): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getSelectShippingOptionError**(`consignmentId?`): `undefined` \| `Error`
 
 Returns an error if unable to select a shipping option.
 
 A consignment ID should be provided when checking for an error for a
 specific consignment, otherwise it will check for all available consignments.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignmentId?` | undefined &#124; string | The identifier of the consignment to be checked. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignmentId?` | `string` | The identifier of the consignment to be checked. |
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to select, otherwise undefined.
 
 ___
 
-###  getSignInEmailError
+### getSignInEmailError
 
-▸ **getSignInEmailError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getSignInEmailError**(): `undefined` \| `Error`
 
 Returns an error if unable to send sign-in email.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to send email, otherwise undefined.
 
 ___
 
-###  getSignInError
+### getSignInError
 
-▸ **getSignInError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getSignInError**(): `undefined` \| `Error`
 
 Returns an error if unable to sign in.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to sign in, otherwise undefined.
 
 ___
 
-###  getSignOutError
+### getSignOutError
 
-▸ **getSignOutError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getSignOutError**(): `undefined` \| `Error`
 
 Returns an error if unable to sign out.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to sign out, otherwise undefined.
 
 ___
 
-###  getSubmitOrderError
+### getSubmitOrderError
 
-▸ **getSubmitOrderError**(): *[Error](amazonpaywidgeterror.md#error) | [CartChangedError](../classes/cartchangederror.md) | undefined*
+▸ **getSubmitOrderError**(): `undefined` \| `Error` \| [`CartChangedError`](../classes/CartChangedError.md)
 
 Returns an error if unable to submit the current order.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | [CartChangedError](../classes/cartchangederror.md) | undefined*
+#### Returns
+
+`undefined` \| `Error` \| [`CartChangedError`](../classes/CartChangedError.md)
 
 The error object if unable to submit, otherwise undefined.
 
 ___
 
-###  getUpdateBillingAddressError
+### getUpdateBillingAddressError
 
-▸ **getUpdateBillingAddressError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getUpdateBillingAddressError**(): `undefined` \| `Error`
 
 Returns an error if unable to update billing address.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to update, otherwise undefined.
 
 ___
 
-###  getUpdateCheckoutError
+### getUpdateCheckoutError
 
-▸ **getUpdateCheckoutError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getUpdateCheckoutError**(): `undefined` \| `Error`
 
 Returns an error if unable to update the current checkout.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to update, otherwise undefined.
 
 ___
 
-###  getUpdateConsignmentError
+### getUpdateConsignmentError
 
-▸ **getUpdateConsignmentError**(`consignmentId?`: undefined | string): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getUpdateConsignmentError**(`consignmentId?`): `undefined` \| `Error`
 
 Returns an error if unable to update a consignment.
 
 A consignment ID should be provided when checking for an error for a
 specific consignment, otherwise it will check for all available consignments.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`consignmentId?` | undefined &#124; string | The identifier of the consignment to be checked. |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `consignmentId?` | `string` | The identifier of the consignment to be checked. |
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to update, otherwise undefined.
 
 ___
 
-###  getUpdateShippingAddressError
+### getUpdateShippingAddressError
 
-▸ **getUpdateShippingAddressError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getUpdateShippingAddressError**(): `undefined` \| `Error`
 
 Returns an error if unable to update shipping address.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to update, otherwise undefined.
 
 ___
 
-###  getUpdateSubscriptionsError
+### getUpdateSubscriptionsError
 
-▸ **getUpdateSubscriptionsError**(): *[Error](amazonpaywidgeterror.md#error) | undefined*
+▸ **getUpdateSubscriptionsError**(): `undefined` \| `Error`
 
 Returns an error if unable to update subscriptions.
 
-**Returns:** *[Error](amazonpaywidgeterror.md#error) | undefined*
+#### Returns
+
+`undefined` \| `Error`
 
 The error object if unable to update, otherwise undefined.

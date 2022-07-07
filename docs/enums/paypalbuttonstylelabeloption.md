@@ -1,43 +1,43 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalButtonStyleLabelOption](paypalbuttonstylelabeloption.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalButtonStyleLabelOption
 
 # Enumeration: PaypalButtonStyleLabelOption
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [BUYNOW](paypalbuttonstylelabeloption.md#buynow)
-* [CHECKOUT](paypalbuttonstylelabeloption.md#checkout)
-* [CREDIT](paypalbuttonstylelabeloption.md#credit)
-* [PAY](paypalbuttonstylelabeloption.md#pay)
-* [PAYPAL](paypalbuttonstylelabeloption.md#paypal)
+- [BUYNOW](PaypalButtonStyleLabelOption.md#buynow)
+- [CHECKOUT](PaypalButtonStyleLabelOption.md#checkout)
+- [CREDIT](PaypalButtonStyleLabelOption.md#credit)
+- [PAY](PaypalButtonStyleLabelOption.md#pay)
+- [PAYPAL](PaypalButtonStyleLabelOption.md#paypal)
 
 ## Enumeration members
 
-###  BUYNOW
+### BUYNOW
 
-• **BUYNOW**: = "buynow"
-
-___
-
-###  CHECKOUT
-
-• **CHECKOUT**: = "checkout"
+• **BUYNOW** = `"buynow"`
 
 ___
 
-###  CREDIT
+### CHECKOUT
 
-• **CREDIT**: = "credit"
-
-___
-
-###  PAY
-
-• **PAY**: = "pay"
+• **CHECKOUT** = `"checkout"`
 
 ___
 
-###  PAYPAL
+### CREDIT
 
-• **PAYPAL**: = "paypal"
+• **CREDIT** = `"credit"`
+
+___
+
+### PAY
+
+• **PAY** = `"pay"`
+
+___
+
+### PAYPAL
+
+• **PAYPAL** = `"paypal"`

@@ -1,60 +1,72 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AdyenComponent](adyencomponent.md)
+[@bigcommerce/checkout-sdk](../README.md) / AdyenComponent
 
 # Interface: AdyenComponent
 
-## Hierarchy
-
-* **AdyenComponent**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [componentRef](adyencomponent.md#optional-componentref)
-* [props](adyencomponent.md#optional-props)
-* [state](adyencomponent.md#optional-state)
+- [componentRef](AdyenComponent.md#componentref)
+- [props](AdyenComponent.md#props)
+- [state](AdyenComponent.md#state)
 
 ### Methods
 
-* [mount](adyencomponent.md#mount)
-* [unmount](adyencomponent.md#unmount)
+- [mount](AdyenComponent.md#mount)
+- [unmount](AdyenComponent.md#unmount)
 
 ## Properties
 
-### `Optional` componentRef
+### componentRef
 
-• **componentRef**? : *undefined | object*
+• `Optional` **componentRef**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `showValidation` | () => `void` |
 
 ___
 
-### `Optional` props
+### props
 
-• **props**? : *undefined | object*
+• `Optional` **props**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `type?` | `string` |
 
 ___
 
-### `Optional` state
+### state
 
-• **state**? : *[CardState](cardstate.md)*
+• `Optional` **state**: [`CardState`](CardState.md)
 
 ## Methods
 
-###  mount
+### mount
 
-▸ **mount**(`containerId`: string): *HTMLElement*
+▸ **mount**(`containerId`): `HTMLElement`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`containerId` | string |
+| Name | Type |
+| :------ | :------ |
+| `containerId` | `string` |
 
-**Returns:** *HTMLElement*
+#### Returns
+
+`HTMLElement`
 
 ___
 
-###  unmount
+### unmount
 
-▸ **unmount**(): *void*
+▸ **unmount**(): `void`
 
-**Returns:** *void*
+#### Returns
+
+`void`

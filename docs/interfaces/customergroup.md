@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CustomerGroup](customergroup.md)
+[@bigcommerce/checkout-sdk](../README.md) / CustomerGroup
 
 # Interface: CustomerGroup
 
-## Hierarchy
-
-* **CustomerGroup**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [id](customergroup.md#id)
-* [name](customergroup.md#name)
+- [id](CustomerGroup.md#id)
+- [name](CustomerGroup.md#name)
 
 ## Properties
 
-###  id
+### id
 
-• **id**: *number*
+• **id**: `number`
 
 ___
 
-###  name
+### name
 
-• **name**: *string*
+• **name**: `string`

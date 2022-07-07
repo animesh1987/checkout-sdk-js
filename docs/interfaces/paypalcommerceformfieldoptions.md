@@ -1,28 +1,28 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceFormFieldOptions](paypalcommerceformfieldoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceFormFieldOptions
 
 # Interface: PaypalCommerceFormFieldOptions
 
 ## Hierarchy
 
-* **PaypalCommerceFormFieldOptions**
+- **`PaypalCommerceFormFieldOptions`**
 
-  ↳ [PaypalCommerceStoredCardFieldOptions](paypalcommercestoredcardfieldoptions.md)
+  ↳ [`PaypalCommerceStoredCardFieldOptions`](PaypalCommerceStoredCardFieldOptions.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [containerId](paypalcommerceformfieldoptions.md#containerid)
-* [placeholder](paypalcommerceformfieldoptions.md#optional-placeholder)
+- [containerId](PaypalCommerceFormFieldOptions.md#containerid)
+- [placeholder](PaypalCommerceFormFieldOptions.md#placeholder)
 
 ## Properties
 
-###  containerId
+### containerId
 
-• **containerId**: *string*
+• **containerId**: `string`
 
 ___
 
-### `Optional` placeholder
+### placeholder
 
-• **placeholder**? : *undefined | string*
+• `Optional` **placeholder**: `string`

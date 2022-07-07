@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Region](region.md)
+[@bigcommerce/checkout-sdk](../README.md) / Region
 
 # Interface: Region
 
-## Hierarchy
-
-* **Region**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [code](region.md#code)
-* [name](region.md#name)
+- [code](Region.md#code)
+- [name](Region.md#name)
 
 ## Properties
 
-###  code
+### code
 
-• **code**: *string*
+• **code**: `string`
 
 ___
 
-###  name
+### name
 
-• **name**: *string*
+• **name**: `string`

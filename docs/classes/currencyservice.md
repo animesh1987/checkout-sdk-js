@@ -1,44 +1,54 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CurrencyService](currencyservice.md)
+[@bigcommerce/checkout-sdk](../README.md) / CurrencyService
 
 # Class: CurrencyService
 
 Responsible for formatting and converting currencies.
 
-## Hierarchy
+## Table of contents
 
-* **CurrencyService**
+### Constructors
 
-## Index
+- [constructor](CurrencyService.md#constructor)
 
 ### Methods
 
-* [toCustomerCurrency](currencyservice.md#tocustomercurrency)
-* [toStoreCurrency](currencyservice.md#tostorecurrency)
+- [toCustomerCurrency](CurrencyService.md#tocustomercurrency)
+- [toStoreCurrency](CurrencyService.md#tostorecurrency)
+
+## Constructors
+
+### constructor
+
+• **new CurrencyService**()
 
 ## Methods
 
-###  toCustomerCurrency
+### toCustomerCurrency
 
-▸ **toCustomerCurrency**(`amount`: number): *string*
+▸ **toCustomerCurrency**(`amount`): `string`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`amount` | number |
+| Name | Type |
+| :------ | :------ |
+| `amount` | `number` |
 
-**Returns:** *string*
+#### Returns
+
+`string`
 
 ___
 
-###  toStoreCurrency
+### toStoreCurrency
 
-▸ **toStoreCurrency**(`amount`: number): *string*
+▸ **toStoreCurrency**(`amount`): `string`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`amount` | number |
+| Name | Type |
+| :------ | :------ |
+| `amount` | `number` |
 
-**Returns:** *string*
+#### Returns
+
+`string`

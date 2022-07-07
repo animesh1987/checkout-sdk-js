@@ -1,40 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CheckoutServiceOptions](checkoutserviceoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / CheckoutServiceOptions
 
 # Interface: CheckoutServiceOptions
 
-## Hierarchy
-
-* **CheckoutServiceOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [externalSource](checkoutserviceoptions.md#optional-externalsource)
-* [host](checkoutserviceoptions.md#optional-host)
-* [locale](checkoutserviceoptions.md#optional-locale)
-* [shouldWarnMutation](checkoutserviceoptions.md#optional-shouldwarnmutation)
+- [externalSource](CheckoutServiceOptions.md#externalsource)
+- [host](CheckoutServiceOptions.md#host)
+- [locale](CheckoutServiceOptions.md#locale)
+- [shouldWarnMutation](CheckoutServiceOptions.md#shouldwarnmutation)
 
 ## Properties
 
-### `Optional` externalSource
+### externalSource
 
-• **externalSource**? : *undefined | string*
-
-___
-
-### `Optional` host
-
-• **host**? : *undefined | string*
+• `Optional` **externalSource**: `string`
 
 ___
 
-### `Optional` locale
+### host
 
-• **locale**? : *undefined | string*
+• `Optional` **host**: `string`
 
 ___
 
-### `Optional` shouldWarnMutation
+### locale
 
-• **shouldWarnMutation**? : *undefined | false | true*
+• `Optional` **locale**: `string`
+
+___
+
+### shouldWarnMutation
+
+• `Optional` **shouldWarnMutation**: `boolean`

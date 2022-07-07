@@ -1,26 +1,46 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalFieldsStyleOptions](paypalfieldsstyleoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalFieldsStyleOptions
 
 # Interface: PaypalFieldsStyleOptions
 
-## Hierarchy
-
-* **PaypalFieldsStyleOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [rules](paypalfieldsstyleoptions.md#optional-rules)
-* [variables](paypalfieldsstyleoptions.md#optional-variables)
+- [rules](PaypalFieldsStyleOptions.md#rules)
+- [variables](PaypalFieldsStyleOptions.md#variables)
 
 ## Properties
 
-### `Optional` rules
+### rules
 
-• **rules**? : *undefined | object*
+• `Optional` **rules**: `Object`
+
+#### Index signature
+
+▪ [key: `string`]: `any`
 
 ___
 
-### `Optional` variables
+### variables
 
-• **variables**? : *undefined | object*
+• `Optional` **variables**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `borderColor?` | `string` |
+| `borderFocusColor?` | `string` |
+| `borderRadius?` | `string` |
+| `borderWidth?` | `string` |
+| `colorBackground?` | `string` |
+| `colorDanger?` | `string` |
+| `colorInfo?` | `string` |
+| `colorTextPlaceholder?` | `string` |
+| `fontFamily?` | `string` |
+| `fontSizeBase?` | `string` |
+| `fontSizeLg?` | `string` |
+| `fontSizeM?` | `string` |
+| `fontSizeSm?` | `string` |
+| `spacingUnit?` | `string` |
+| `textColor?` | `string` |

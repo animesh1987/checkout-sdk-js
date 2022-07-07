@@ -1,39 +1,39 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AdyenAdditionalActionOptions](adyenadditionalactionoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / AdyenAdditionalActionOptions
 
 # Interface: AdyenAdditionalActionOptions
 
 ## Hierarchy
 
-* [AdyenAdditionalActionCallbacks](adyenadditionalactioncallbacks.md)
+- [`AdyenAdditionalActionCallbacks`](AdyenAdditionalActionCallbacks.md)
 
-  ↳ **AdyenAdditionalActionOptions**
+  ↳ **`AdyenAdditionalActionOptions`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [containerId](adyenadditionalactionoptions.md#containerid)
-* [widgetSize](adyenadditionalactionoptions.md#optional-widgetsize)
+- [containerId](AdyenAdditionalActionOptions.md#containerid)
+- [widgetSize](AdyenAdditionalActionOptions.md#widgetsize)
 
 ### Methods
 
-* [onBeforeLoad](adyenadditionalactionoptions.md#optional-onbeforeload)
-* [onComplete](adyenadditionalactionoptions.md#optional-oncomplete)
-* [onLoad](adyenadditionalactionoptions.md#optional-onload)
+- [onBeforeLoad](AdyenAdditionalActionOptions.md#onbeforeload)
+- [onComplete](AdyenAdditionalActionOptions.md#oncomplete)
+- [onLoad](AdyenAdditionalActionOptions.md#onload)
 
 ## Properties
 
-###  containerId
+### containerId
 
-• **containerId**: *string*
+• **containerId**: `string`
 
 The location to insert the additional action component.
 
 ___
 
-### `Optional` widgetSize
+### widgetSize
 
-• **widgetSize**? : *undefined | string*
+• `Optional` **widgetSize**: `string`
 
 Specify Three3DS2Challenge Widget Size
 
@@ -46,49 +46,61 @@ Values
 
 ## Methods
 
-### `Optional` onBeforeLoad
+### onBeforeLoad
 
-▸ **onBeforeLoad**(`shopperInteraction?`: undefined | false | true): *void*
-
-*Inherited from [AdyenAdditionalActionCallbacks](adyenadditionalactioncallbacks.md).[onBeforeLoad](adyenadditionalactioncallbacks.md#optional-onbeforeload)*
+▸ `Optional` **onBeforeLoad**(`shopperInteraction?`): `void`
 
 A callback that gets called before adyen component is loaded
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`shopperInteraction?` | undefined &#124; false &#124; true |
+| Name | Type |
+| :------ | :------ |
+| `shopperInteraction?` | `boolean` |
 
-**Returns:** *void*
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[AdyenAdditionalActionCallbacks](AdyenAdditionalActionCallbacks.md).[onBeforeLoad](AdyenAdditionalActionCallbacks.md#onbeforeload)
 
 ___
 
-### `Optional` onComplete
+### onComplete
 
-▸ **onComplete**(): *void*
-
-*Inherited from [AdyenAdditionalActionCallbacks](adyenadditionalactioncallbacks.md).[onComplete](adyenadditionalactioncallbacks.md#optional-oncomplete)*
+▸ `Optional` **onComplete**(): `void`
 
 A callback that gets called when adyen component verification
 is completed
 
-**Returns:** *void*
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[AdyenAdditionalActionCallbacks](AdyenAdditionalActionCallbacks.md).[onComplete](AdyenAdditionalActionCallbacks.md#oncomplete)
 
 ___
 
-### `Optional` onLoad
+### onLoad
 
-▸ **onLoad**(`cancel?`: undefined | function): *void*
-
-*Inherited from [AdyenAdditionalActionCallbacks](adyenadditionalactioncallbacks.md).[onLoad](adyenadditionalactioncallbacks.md#optional-onload)*
+▸ `Optional` **onLoad**(`cancel?`): `void`
 
 A callback that gets called when adyen component is loaded
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`cancel?` | undefined &#124; function |
+| Name | Type |
+| :------ | :------ |
+| `cancel?` | () => `void` |
 
-**Returns:** *void*
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[AdyenAdditionalActionCallbacks](AdyenAdditionalActionCallbacks.md).[onLoad](AdyenAdditionalActionCallbacks.md#onload)

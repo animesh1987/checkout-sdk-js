@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Coordinates](coordinates.md)
+[@bigcommerce/checkout-sdk](../README.md) / Coordinates
 
 # Interface: Coordinates
 
-## Hierarchy
-
-* **Coordinates**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [latitude](coordinates.md#latitude)
-* [longitude](coordinates.md#longitude)
+- [latitude](Coordinates.md#latitude)
+- [longitude](Coordinates.md#longitude)
 
 ## Properties
 
-###  latitude
+### latitude
 
-• **latitude**: *number*
+• **latitude**: `number`
 
 ___
 
-###  longitude
+### longitude
 
-• **longitude**: *number*
+• **longitude**: `number`

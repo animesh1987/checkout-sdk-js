@@ -1,22 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [IconStyle](iconstyle.md)
+[@bigcommerce/checkout-sdk](../README.md) / IconStyle
 
 # Enumeration: IconStyle
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [Default](iconstyle.md#default)
-* [Solid](iconstyle.md#solid)
+- [Default](IconStyle.md#default)
+- [Solid](IconStyle.md#solid)
 
 ## Enumeration members
 
-###  Default
+### Default
 
-• **Default**: = "default"
+• **Default** = `"default"`
 
 ___
 
-###  Solid
+### Solid
 
-• **Solid**: = "solid"
+• **Solid** = `"solid"`

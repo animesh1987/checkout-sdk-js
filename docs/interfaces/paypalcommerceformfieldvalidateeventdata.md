@@ -1,40 +1,33 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceFormFieldValidateEventData](paypalcommerceformfieldvalidateeventdata.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceFormFieldValidateEventData
 
 # Interface: PaypalCommerceFormFieldValidateEventData
 
-## Hierarchy
-
-* **PaypalCommerceFormFieldValidateEventData**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [errors](paypalcommerceformfieldvalidateeventdata.md#errors)
-* [isValid](paypalcommerceformfieldvalidateeventdata.md#isvalid)
+- [errors](PaypalCommerceFormFieldValidateEventData.md#errors)
+- [isValid](PaypalCommerceFormFieldValidateEventData.md#isvalid)
 
 ## Properties
 
-###  errors
+### errors
 
-• **errors**: *object*
+• **errors**: `Object`
 
-#### Type declaration:
+#### Type declaration
 
-* **[PaypalCommerceFormFieldType.CardCodeVerification]**? : *[PaypalCommerceFormFieldValidateErrorData](paypalcommerceformfieldvalidateerrordata.md)[]*
-
-* **[PaypalCommerceFormFieldType.CardCode]**? : *[PaypalCommerceFormFieldValidateErrorData](paypalcommerceformfieldvalidateerrordata.md)[]*
-
-* **[PaypalCommerceFormFieldType.CardExpiry]**? : *[PaypalCommerceFormFieldValidateErrorData](paypalcommerceformfieldvalidateerrordata.md)[]*
-
-* **[PaypalCommerceFormFieldType.CardName]**? : *[PaypalCommerceFormFieldValidateErrorData](paypalcommerceformfieldvalidateerrordata.md)[]*
-
-* **[PaypalCommerceFormFieldType.CardNumberVerification]**? : *[PaypalCommerceFormFieldValidateErrorData](paypalcommerceformfieldvalidateerrordata.md)[]*
-
-* **[PaypalCommerceFormFieldType.CardNumber]**? : *[PaypalCommerceFormFieldValidateErrorData](paypalcommerceformfieldvalidateerrordata.md)[]*
+| Name | Type |
+| :------ | :------ |
+| `cardCode?` | [`PaypalCommerceFormFieldValidateErrorData`](PaypalCommerceFormFieldValidateErrorData.md)[] |
+| `cardCodeVerification?` | [`PaypalCommerceFormFieldValidateErrorData`](PaypalCommerceFormFieldValidateErrorData.md)[] |
+| `cardExpiry?` | [`PaypalCommerceFormFieldValidateErrorData`](PaypalCommerceFormFieldValidateErrorData.md)[] |
+| `cardName?` | [`PaypalCommerceFormFieldValidateErrorData`](PaypalCommerceFormFieldValidateErrorData.md)[] |
+| `cardNumber?` | [`PaypalCommerceFormFieldValidateErrorData`](PaypalCommerceFormFieldValidateErrorData.md)[] |
+| `cardNumberVerification?` | [`PaypalCommerceFormFieldValidateErrorData`](PaypalCommerceFormFieldValidateErrorData.md)[] |
 
 ___
 
-###  isValid
+### isValid
 
-• **isValid**: *boolean*
+• **isValid**: `boolean`

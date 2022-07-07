@@ -1,94 +1,96 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreePaypalButtonInitializeOptions](braintreepaypalbuttoninitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreePaypalButtonInitializeOptions
 
 # Interface: BraintreePaypalButtonInitializeOptions
 
-## Hierarchy
-
-* **BraintreePaypalButtonInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [messagingContainerId](braintreepaypalbuttoninitializeoptions.md#optional-messagingcontainerid)
-* [shippingAddress](braintreepaypalbuttoninitializeoptions.md#optional-shippingaddress)
-* [style](braintreepaypalbuttoninitializeoptions.md#optional-style)
+- [messagingContainerId](BraintreePaypalButtonInitializeOptions.md#messagingcontainerid)
+- [shippingAddress](BraintreePaypalButtonInitializeOptions.md#shippingaddress)
+- [style](BraintreePaypalButtonInitializeOptions.md#style)
 
 ### Methods
 
-* [onAuthorizeError](braintreepaypalbuttoninitializeoptions.md#optional-onauthorizeerror)
-* [onError](braintreepaypalbuttoninitializeoptions.md#optional-onerror)
-* [onPaymentError](braintreepaypalbuttoninitializeoptions.md#optional-onpaymenterror)
+- [onAuthorizeError](BraintreePaypalButtonInitializeOptions.md#onauthorizeerror)
+- [onError](BraintreePaypalButtonInitializeOptions.md#onerror)
+- [onPaymentError](BraintreePaypalButtonInitializeOptions.md#onpaymenterror)
 
 ## Properties
 
-### `Optional` messagingContainerId
+### messagingContainerId
 
-• **messagingContainerId**? : *undefined | string*
+• `Optional` **messagingContainerId**: `string`
 
 The ID of a container which the messaging should be inserted.
 
 ___
 
-### `Optional` shippingAddress
+### shippingAddress
 
-• **shippingAddress**? : *[Address](address.md) | null*
+• `Optional` **shippingAddress**: ``null`` \| [`Address`](Address.md)
 
 Address to be used for shipping.
 If not provided, it will use the first saved address from the active customer.
 
 ___
 
-### `Optional` style
+### style
 
-• **style**? : *Pick‹[PaypalButtonStyleOptions](paypalbuttonstyleoptions.md), "layout" | "size" | "color" | "label" | "shape" | "tagline" | "fundingicons" | "height"›*
+• `Optional` **style**: `Pick`<[`PaypalButtonStyleOptions`](PaypalButtonStyleOptions.md), ``"color"`` \| ``"layout"`` \| ``"size"`` \| ``"label"`` \| ``"shape"`` \| ``"tagline"`` \| ``"fundingicons"`` \| ``"height"``\>
 
 A set of styling options for the checkout button.
 
 ## Methods
 
-### `Optional` onAuthorizeError
+### onAuthorizeError
 
-▸ **onAuthorizeError**(`error`: [BraintreeError](braintreeerror.md) | [StandardError](../classes/standarderror.md)): *void*
+▸ `Optional` **onAuthorizeError**(`error`): `void`
 
 A callback that gets called if unable to authorize and tokenize payment.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [BraintreeError](braintreeerror.md) &#124; [StandardError](../classes/standarderror.md) | The error object describing the failure.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | [`StandardError`](../classes/StandardError.md) \| [`BraintreeError`](BraintreeError.md) | The error object describing the failure. |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`error`: [BraintreeError](braintreeerror.md) | [StandardError](../classes/standarderror.md)): *void*
+▸ `Optional` **onError**(`error`): `void`
 
 A callback that gets called on any error instead of submit payment or authorization errors.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [BraintreeError](braintreeerror.md) &#124; [StandardError](../classes/standarderror.md) | The error object describing the failure.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | [`StandardError`](../classes/StandardError.md) \| [`BraintreeError`](BraintreeError.md) | The error object describing the failure. |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onPaymentError
+### onPaymentError
 
-▸ **onPaymentError**(`error`: [BraintreeError](braintreeerror.md) | [StandardError](../classes/standarderror.md)): *void*
+▸ `Optional` **onPaymentError**(`error`): `void`
 
 A callback that gets called if unable to submit payment.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [BraintreeError](braintreeerror.md) &#124; [StandardError](../classes/standarderror.md) | The error object describing the failure.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | [`StandardError`](../classes/StandardError.md) \| [`BraintreeError`](BraintreeError.md) | The error object describing the failure. |
 
-**Returns:** *void*
+#### Returns
+
+`void`

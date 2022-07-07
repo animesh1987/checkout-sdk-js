@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceFormFieldKeyboardEventData](paypalcommerceformfieldkeyboardeventdata.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceFormFieldKeyboardEventData
 
 # Interface: PaypalCommerceFormFieldKeyboardEventData
 
-## Hierarchy
-
-* **PaypalCommerceFormFieldKeyboardEventData**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [fieldType](paypalcommerceformfieldkeyboardeventdata.md#fieldtype)
+- [fieldType](PaypalCommerceFormFieldKeyboardEventData.md#fieldtype)
 
 ## Properties
 
-###  fieldType
+### fieldType
 
-• **fieldType**: *string*
+• **fieldType**: `string`

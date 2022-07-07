@@ -1,56 +1,56 @@
-[@bigcommerce/checkout-sdk](../README.md) › [StoreCurrency](storecurrency.md)
+[@bigcommerce/checkout-sdk](../README.md) / StoreCurrency
 
 # Interface: StoreCurrency
 
 ## Hierarchy
 
-* **StoreCurrency**
+- **`StoreCurrency`**
 
-  ↳ [ShopperCurrency](shoppercurrency.md)
+  ↳ [`ShopperCurrency`](ShopperCurrency.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [code](storecurrency.md#code)
-* [decimalPlaces](storecurrency.md#decimalplaces)
-* [decimalSeparator](storecurrency.md#decimalseparator)
-* [symbol](storecurrency.md#symbol)
-* [symbolLocation](storecurrency.md#symbollocation)
-* [thousandsSeparator](storecurrency.md#thousandsseparator)
+- [code](StoreCurrency.md#code)
+- [decimalPlaces](StoreCurrency.md#decimalplaces)
+- [decimalSeparator](StoreCurrency.md#decimalseparator)
+- [symbol](StoreCurrency.md#symbol)
+- [symbolLocation](StoreCurrency.md#symbollocation)
+- [thousandsSeparator](StoreCurrency.md#thousandsseparator)
 
 ## Properties
 
-###  code
+### code
 
-• **code**: *string*
-
-___
-
-###  decimalPlaces
-
-• **decimalPlaces**: *string*
+• **code**: `string`
 
 ___
 
-###  decimalSeparator
+### decimalPlaces
 
-• **decimalSeparator**: *string*
-
-___
-
-###  symbol
-
-• **symbol**: *string*
+• **decimalPlaces**: `string`
 
 ___
 
-###  symbolLocation
+### decimalSeparator
 
-• **symbolLocation**: *string*
+• **decimalSeparator**: `string`
 
 ___
 
-###  thousandsSeparator
+### symbol
 
-• **thousandsSeparator**: *string*
+• **symbol**: `string`
+
+___
+
+### symbolLocation
+
+• **symbolLocation**: `string`
+
+___
+
+### thousandsSeparator
+
+• **thousandsSeparator**: `string`

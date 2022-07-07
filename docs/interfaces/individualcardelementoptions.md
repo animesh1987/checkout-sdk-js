@@ -1,40 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [IndividualCardElementOptions](individualcardelementoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / IndividualCardElementOptions
 
 # Interface: IndividualCardElementOptions
 
-## Hierarchy
-
-* **IndividualCardElementOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [cardCvcElementOptions](individualcardelementoptions.md#cardcvcelementoptions)
-* [cardExpiryElementOptions](individualcardelementoptions.md#cardexpiryelementoptions)
-* [cardNumberElementOptions](individualcardelementoptions.md#cardnumberelementoptions)
-* [zipCodeElementOptions](individualcardelementoptions.md#optional-zipcodeelementoptions)
+- [cardCvcElementOptions](IndividualCardElementOptions.md#cardcvcelementoptions)
+- [cardExpiryElementOptions](IndividualCardElementOptions.md#cardexpiryelementoptions)
+- [cardNumberElementOptions](IndividualCardElementOptions.md#cardnumberelementoptions)
+- [zipCodeElementOptions](IndividualCardElementOptions.md#zipcodeelementoptions)
 
 ## Properties
 
-###  cardCvcElementOptions
+### cardCvcElementOptions
 
-• **cardCvcElementOptions**: *[CardCvcElementOptions](cardcvcelementoptions.md)*
-
-___
-
-###  cardExpiryElementOptions
-
-• **cardExpiryElementOptions**: *[CardExpiryElementOptions](cardexpiryelementoptions.md)*
+• **cardCvcElementOptions**: [`CardCvcElementOptions`](CardCvcElementOptions.md)
 
 ___
 
-###  cardNumberElementOptions
+### cardExpiryElementOptions
 
-• **cardNumberElementOptions**: *[CardNumberElementOptions](cardnumberelementoptions.md)*
+• **cardExpiryElementOptions**: [`CardExpiryElementOptions`](CardExpiryElementOptions.md)
 
 ___
 
-### `Optional` zipCodeElementOptions
+### cardNumberElementOptions
 
-• **zipCodeElementOptions**? : *[ZipCodeElementOptions](zipcodeelementoptions.md)*
+• **cardNumberElementOptions**: [`CardNumberElementOptions`](CardNumberElementOptions.md)
+
+___
+
+### zipCodeElementOptions
+
+• `Optional` **zipCodeElementOptions**: [`ZipCodeElementOptions`](ZipCodeElementOptions.md)

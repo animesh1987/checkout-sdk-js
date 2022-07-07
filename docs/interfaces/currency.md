@@ -1,40 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Currency](currency.md)
+[@bigcommerce/checkout-sdk](../README.md) / Currency
 
 # Interface: Currency
 
-## Hierarchy
-
-* **Currency**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [code](currency.md#code)
-* [decimalPlaces](currency.md#decimalplaces)
-* [name](currency.md#name)
-* [symbol](currency.md#symbol)
+- [code](Currency.md#code)
+- [decimalPlaces](Currency.md#decimalplaces)
+- [name](Currency.md#name)
+- [symbol](Currency.md#symbol)
 
 ## Properties
 
-###  code
+### code
 
-• **code**: *string*
-
-___
-
-###  decimalPlaces
-
-• **decimalPlaces**: *number*
+• **code**: `string`
 
 ___
 
-###  name
+### decimalPlaces
 
-• **name**: *string*
+• **decimalPlaces**: `number`
 
 ___
 
-###  symbol
+### name
 
-• **symbol**: *string*
+• **name**: `string`
+
+___
+
+### symbol
+
+• **symbol**: `string`

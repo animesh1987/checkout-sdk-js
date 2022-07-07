@@ -1,26 +1,28 @@
-[@bigcommerce/checkout-sdk](../README.md) › [KlarnaLoadResponse_2](klarnaloadresponse_2.md)
+[@bigcommerce/checkout-sdk](../README.md) / KlarnaLoadResponse_2
 
-# Interface: KlarnaLoadResponse_2
+# Interface: KlarnaLoadResponse\_2
 
-## Hierarchy
-
-* **KlarnaLoadResponse_2**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [error](klarnaloadresponse_2.md#optional-error)
-* [show_form](klarnaloadresponse_2.md#show_form)
+- [error](KlarnaLoadResponse_2.md#error)
+- [show_form](KlarnaLoadResponse_2.md#show_form)
 
 ## Properties
 
-### `Optional` error
+### error
 
-• **error**? : *undefined | object*
+• `Optional` **error**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `invalid_fields` | `string`[] |
 
 ___
 
-###  show_form
+### show\_form
 
-• **show_form**: *boolean*
+• **show\_form**: `boolean`

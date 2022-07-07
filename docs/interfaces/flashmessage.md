@@ -1,33 +1,29 @@
-[@bigcommerce/checkout-sdk](../README.md) › [FlashMessage](flashmessage.md)
+[@bigcommerce/checkout-sdk](../README.md) / FlashMessage
 
 # Interface: FlashMessage
 
-## Hierarchy
-
-* **FlashMessage**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [message](flashmessage.md#message)
-* [title](flashmessage.md#optional-title)
-* [type](flashmessage.md#type)
+- [message](FlashMessage.md#message)
+- [title](FlashMessage.md#title)
+- [type](FlashMessage.md#type)
 
 ## Properties
 
-###  message
+### message
 
-• **message**: *string*
-
-___
-
-### `Optional` title
-
-• **title**? : *undefined | string*
+• **message**: `string`
 
 ___
 
-###  type
+### title
 
-• **type**: *[FlashMessageType](../README.md#flashmessagetype)*
+• `Optional` **title**: `string`
+
+___
+
+### type
+
+• **type**: [`FlashMessageType`](../README.md#flashmessagetype)

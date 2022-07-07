@@ -1,36 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalButtonStyleSizeOption](paypalbuttonstylesizeoption.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalButtonStyleSizeOption
 
 # Enumeration: PaypalButtonStyleSizeOption
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [LARGE](paypalbuttonstylesizeoption.md#large)
-* [MEDIUM](paypalbuttonstylesizeoption.md#medium)
-* [RESPONSIVE](paypalbuttonstylesizeoption.md#responsive)
-* [SMALL](paypalbuttonstylesizeoption.md#small)
+- [LARGE](PaypalButtonStyleSizeOption.md#large)
+- [MEDIUM](PaypalButtonStyleSizeOption.md#medium)
+- [RESPONSIVE](PaypalButtonStyleSizeOption.md#responsive)
+- [SMALL](PaypalButtonStyleSizeOption.md#small)
 
 ## Enumeration members
 
-###  LARGE
+### LARGE
 
-• **LARGE**: = "large"
-
-___
-
-###  MEDIUM
-
-• **MEDIUM**: = "medium"
+• **LARGE** = `"large"`
 
 ___
 
-###  RESPONSIVE
+### MEDIUM
 
-• **RESPONSIVE**: = "responsive"
+• **MEDIUM** = `"medium"`
 
 ___
 
-###  SMALL
+### RESPONSIVE
 
-• **SMALL**: = "small"
+• **RESPONSIVE** = `"responsive"`
+
+___
+
+### SMALL
+
+• **SMALL** = `"small"`

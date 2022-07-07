@@ -1,33 +1,29 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeFormFieldValidateErrorData](braintreeformfieldvalidateerrordata.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeFormFieldValidateErrorData
 
 # Interface: BraintreeFormFieldValidateErrorData
 
-## Hierarchy
-
-* **BraintreeFormFieldValidateErrorData**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [fieldType](braintreeformfieldvalidateerrordata.md#fieldtype)
-* [message](braintreeformfieldvalidateerrordata.md#message)
-* [type](braintreeformfieldvalidateerrordata.md#type)
+- [fieldType](BraintreeFormFieldValidateErrorData.md#fieldtype)
+- [message](BraintreeFormFieldValidateErrorData.md#message)
+- [type](BraintreeFormFieldValidateErrorData.md#type)
 
 ## Properties
 
-###  fieldType
+### fieldType
 
-• **fieldType**: *string*
-
-___
-
-###  message
-
-• **message**: *string*
+• **fieldType**: `string`
 
 ___
 
-###  type
+### message
 
-• **type**: *string*
+• **message**: `string`
+
+___
+
+### type
+
+• **type**: `string`

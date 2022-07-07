@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [WithCheckoutcomiDealInstrument](withcheckoutcomidealinstrument.md)
+[@bigcommerce/checkout-sdk](../README.md) / WithCheckoutcomiDealInstrument
 
 # Interface: WithCheckoutcomiDealInstrument
 
-## Hierarchy
-
-* **WithCheckoutcomiDealInstrument**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [bic](withcheckoutcomidealinstrument.md#bic)
+- [bic](WithCheckoutcomiDealInstrument.md#bic)
 
 ## Properties
 
-###  bic
+### bic
 
-• **bic**: *string*
+• **bic**: `string`

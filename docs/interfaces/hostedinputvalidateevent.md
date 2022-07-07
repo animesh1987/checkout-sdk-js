@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [HostedInputValidateEvent](hostedinputvalidateevent.md)
+[@bigcommerce/checkout-sdk](../README.md) / HostedInputValidateEvent
 
 # Interface: HostedInputValidateEvent
 
-## Hierarchy
-
-* **HostedInputValidateEvent**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [payload](hostedinputvalidateevent.md#payload)
-* [type](hostedinputvalidateevent.md#type)
+- [payload](HostedInputValidateEvent.md#payload)
+- [type](HostedInputValidateEvent.md#type)
 
 ## Properties
 
-###  payload
+### payload
 
-• **payload**: *[HostedInputValidateResults](hostedinputvalidateresults.md)*
+• **payload**: [`HostedInputValidateResults`](HostedInputValidateResults.md)
 
 ___
 
-###  type
+### type
 
-• **type**: *[Validated](../enums/hostedinputeventtype.md#validated)*
+• **type**: [`Validated`](../enums/HostedInputEventType.md#validated)

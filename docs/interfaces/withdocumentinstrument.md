@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [WithDocumentInstrument](withdocumentinstrument.md)
+[@bigcommerce/checkout-sdk](../README.md) / WithDocumentInstrument
 
 # Interface: WithDocumentInstrument
 
-## Hierarchy
-
-* **WithDocumentInstrument**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [ccDocument](withdocumentinstrument.md#ccdocument)
+- [ccDocument](WithDocumentInstrument.md#ccdocument)
 
 ## Properties
 
-###  ccDocument
+### ccDocument
 
-• **ccDocument**: *string*
+• **ccDocument**: `string`

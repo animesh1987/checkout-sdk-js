@@ -1,35 +1,35 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeFormFieldOptions](braintreeformfieldoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeFormFieldOptions
 
 # Interface: BraintreeFormFieldOptions
 
 ## Hierarchy
 
-* **BraintreeFormFieldOptions**
+- **`BraintreeFormFieldOptions`**
 
-  ↳ [BraintreeStoredCardFieldOptions](braintreestoredcardfieldoptions.md)
+  ↳ [`BraintreeStoredCardFieldOptions`](BraintreeStoredCardFieldOptions.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [accessibilityLabel](braintreeformfieldoptions.md#optional-accessibilitylabel)
-* [containerId](braintreeformfieldoptions.md#containerid)
-* [placeholder](braintreeformfieldoptions.md#optional-placeholder)
+- [accessibilityLabel](BraintreeFormFieldOptions.md#accessibilitylabel)
+- [containerId](BraintreeFormFieldOptions.md#containerid)
+- [placeholder](BraintreeFormFieldOptions.md#placeholder)
 
 ## Properties
 
-### `Optional` accessibilityLabel
+### accessibilityLabel
 
-• **accessibilityLabel**? : *undefined | string*
-
-___
-
-###  containerId
-
-• **containerId**: *string*
+• `Optional` **accessibilityLabel**: `string`
 
 ___
 
-### `Optional` placeholder
+### containerId
 
-• **placeholder**? : *undefined | string*
+• **containerId**: `string`
+
+___
+
+### placeholder
+
+• `Optional` **placeholder**: `string`

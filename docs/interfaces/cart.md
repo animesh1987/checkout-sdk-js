@@ -1,103 +1,99 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Cart](cart.md)
+[@bigcommerce/checkout-sdk](../README.md) / Cart
 
 # Interface: Cart
 
-## Hierarchy
-
-* **Cart**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [baseAmount](cart.md#baseamount)
-* [cartAmount](cart.md#cartamount)
-* [coupons](cart.md#coupons)
-* [createdTime](cart.md#createdtime)
-* [currency](cart.md#currency)
-* [customerId](cart.md#customerid)
-* [discountAmount](cart.md#discountamount)
-* [discounts](cart.md#discounts)
-* [email](cart.md#email)
-* [id](cart.md#id)
-* [isTaxIncluded](cart.md#istaxincluded)
-* [lineItems](cart.md#lineitems)
-* [updatedTime](cart.md#updatedtime)
+- [baseAmount](Cart.md#baseamount)
+- [cartAmount](Cart.md#cartamount)
+- [coupons](Cart.md#coupons)
+- [createdTime](Cart.md#createdtime)
+- [currency](Cart.md#currency)
+- [customerId](Cart.md#customerid)
+- [discountAmount](Cart.md#discountamount)
+- [discounts](Cart.md#discounts)
+- [email](Cart.md#email)
+- [id](Cart.md#id)
+- [isTaxIncluded](Cart.md#istaxincluded)
+- [lineItems](Cart.md#lineitems)
+- [updatedTime](Cart.md#updatedtime)
 
 ## Properties
 
-###  baseAmount
+### baseAmount
 
-• **baseAmount**: *number*
-
-___
-
-###  cartAmount
-
-• **cartAmount**: *number*
+• **baseAmount**: `number`
 
 ___
 
-###  coupons
+### cartAmount
 
-• **coupons**: *[Coupon](coupon.md)[]*
-
-___
-
-###  createdTime
-
-• **createdTime**: *string*
+• **cartAmount**: `number`
 
 ___
 
-###  currency
+### coupons
 
-• **currency**: *[Currency](currency.md)*
-
-___
-
-###  customerId
-
-• **customerId**: *number*
+• **coupons**: [`Coupon`](Coupon.md)[]
 
 ___
 
-###  discountAmount
+### createdTime
 
-• **discountAmount**: *number*
-
-___
-
-###  discounts
-
-• **discounts**: *[Discount](discount.md)[]*
+• **createdTime**: `string`
 
 ___
 
-###  email
+### currency
 
-• **email**: *string*
-
-___
-
-###  id
-
-• **id**: *string*
+• **currency**: [`Currency`](Currency.md)
 
 ___
 
-###  isTaxIncluded
+### customerId
 
-• **isTaxIncluded**: *boolean*
-
-___
-
-###  lineItems
-
-• **lineItems**: *[LineItemMap](lineitemmap.md)*
+• **customerId**: `number`
 
 ___
 
-###  updatedTime
+### discountAmount
 
-• **updatedTime**: *string*
+• **discountAmount**: `number`
+
+___
+
+### discounts
+
+• **discounts**: [`Discount`](Discount.md)[]
+
+___
+
+### email
+
+• **email**: `string`
+
+___
+
+### id
+
+• **id**: `string`
+
+___
+
+### isTaxIncluded
+
+• **isTaxIncluded**: `boolean`
+
+___
+
+### lineItems
+
+• **lineItems**: [`LineItemMap`](LineItemMap.md)
+
+___
+
+### updatedTime
+
+• **updatedTime**: `string`

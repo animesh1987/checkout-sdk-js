@@ -1,40 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [NonceInstrument](nonceinstrument.md)
+[@bigcommerce/checkout-sdk](../README.md) / NonceInstrument
 
 # Interface: NonceInstrument
 
-## Hierarchy
-
-* **NonceInstrument**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [deviceSessionId](nonceinstrument.md#optional-devicesessionid)
-* [nonce](nonceinstrument.md#nonce)
-* [shouldSaveInstrument](nonceinstrument.md#optional-shouldsaveinstrument)
-* [shouldSetAsDefaultInstrument](nonceinstrument.md#optional-shouldsetasdefaultinstrument)
+- [deviceSessionId](NonceInstrument.md#devicesessionid)
+- [nonce](NonceInstrument.md#nonce)
+- [shouldSaveInstrument](NonceInstrument.md#shouldsaveinstrument)
+- [shouldSetAsDefaultInstrument](NonceInstrument.md#shouldsetasdefaultinstrument)
 
 ## Properties
 
-### `Optional` deviceSessionId
+### deviceSessionId
 
-• **deviceSessionId**? : *undefined | string*
-
-___
-
-###  nonce
-
-• **nonce**: *string*
+• `Optional` **deviceSessionId**: `string`
 
 ___
 
-### `Optional` shouldSaveInstrument
+### nonce
 
-• **shouldSaveInstrument**? : *undefined | false | true*
+• **nonce**: `string`
 
 ___
 
-### `Optional` shouldSetAsDefaultInstrument
+### shouldSaveInstrument
 
-• **shouldSetAsDefaultInstrument**? : *undefined | false | true*
+• `Optional` **shouldSaveInstrument**: `boolean`
+
+___
+
+### shouldSetAsDefaultInstrument
+
+• `Optional` **shouldSetAsDefaultInstrument**: `boolean`

@@ -1,30 +1,40 @@
-[@bigcommerce/checkout-sdk](../README.md) › [EmbeddedCheckout](embeddedcheckout.md)
+[@bigcommerce/checkout-sdk](../README.md) / EmbeddedCheckout
 
 # Class: EmbeddedCheckout
 
-## Hierarchy
+## Table of contents
 
-* **EmbeddedCheckout**
+### Constructors
 
-## Index
+- [constructor](EmbeddedCheckout.md#constructor)
 
 ### Methods
 
-* [attach](embeddedcheckout.md#attach)
-* [detach](embeddedcheckout.md#detach)
+- [attach](EmbeddedCheckout.md#attach)
+- [detach](EmbeddedCheckout.md#detach)
+
+## Constructors
+
+### constructor
+
+• **new EmbeddedCheckout**()
 
 ## Methods
 
-###  attach
+### attach
 
-▸ **attach**(): *Promise‹this›*
+▸ **attach**(): `Promise`<[`EmbeddedCheckout`](EmbeddedCheckout.md)\>
 
-**Returns:** *Promise‹this›*
+#### Returns
+
+`Promise`<[`EmbeddedCheckout`](EmbeddedCheckout.md)\>
 
 ___
 
-###  detach
+### detach
 
-▸ **detach**(): *void*
+▸ **detach**(): `void`
 
-**Returns:** *void*
+#### Returns
+
+`void`

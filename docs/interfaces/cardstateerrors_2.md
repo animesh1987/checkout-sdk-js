@@ -1,11 +1,7 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CardStateErrors_2](cardstateerrors_2.md)
+[@bigcommerce/checkout-sdk](../README.md) / CardStateErrors_2
 
-# Interface: CardStateErrors_2
-
-## Hierarchy
-
-* **CardStateErrors_2**
+# Interface: CardStateErrors\_2
 
 ## Indexable
 
-* \[ **key**: *string*\]: string
+▪ [key: `string`]: `string`

@@ -1,66 +1,76 @@
-[@bigcommerce/checkout-sdk](../README.md) › [LabelStyles](labelstyles.md)
+[@bigcommerce/checkout-sdk](../README.md) / LabelStyles
 
 # Interface: LabelStyles
 
 ## Hierarchy
 
-* [InlineElementStyles](inlineelementstyles.md)
+- [`InlineElementStyles`](InlineElementStyles.md)
 
-  ↳ **LabelStyles**
+  ↳ **`LabelStyles`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [color](labelstyles.md#optional-color)
-* [error](labelstyles.md#optional-error)
-* [fontFamily](labelstyles.md#optional-fontfamily)
-* [fontWeight](labelstyles.md#optional-fontweight)
-* [letterSpacing](labelstyles.md#optional-letterspacing)
-* [lineHeight](labelstyles.md#optional-lineheight)
+- [color](LabelStyles.md#color)
+- [error](LabelStyles.md#error)
+- [fontFamily](LabelStyles.md#fontfamily)
+- [fontWeight](LabelStyles.md#fontweight)
+- [letterSpacing](LabelStyles.md#letterspacing)
+- [lineHeight](LabelStyles.md#lineheight)
 
 ## Properties
 
-### `Optional` color
+### color
 
-• **color**? : *undefined | string*
+• `Optional` **color**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[color](blockelementstyles.md#optional-color)*
+#### Inherited from
 
-___
-
-### `Optional` error
-
-• **error**? : *[InlineElementStyles](inlineelementstyles.md)*
+[InlineElementStyles](InlineElementStyles.md).[color](InlineElementStyles.md#color)
 
 ___
 
-### `Optional` fontFamily
+### error
 
-• **fontFamily**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[fontFamily](blockelementstyles.md#optional-fontfamily)*
+• `Optional` **error**: [`InlineElementStyles`](InlineElementStyles.md)
 
 ___
 
-### `Optional` fontWeight
+### fontFamily
 
-• **fontWeight**? : *undefined | string*
+• `Optional` **fontFamily**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[fontWeight](blockelementstyles.md#optional-fontweight)*
+#### Inherited from
 
-___
-
-### `Optional` letterSpacing
-
-• **letterSpacing**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[letterSpacing](blockelementstyles.md#optional-letterspacing)*
+[InlineElementStyles](InlineElementStyles.md).[fontFamily](InlineElementStyles.md#fontfamily)
 
 ___
 
-### `Optional` lineHeight
+### fontWeight
 
-• **lineHeight**? : *undefined | string*
+• `Optional` **fontWeight**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[lineHeight](blockelementstyles.md#optional-lineheight)*
+#### Inherited from
+
+[InlineElementStyles](InlineElementStyles.md).[fontWeight](InlineElementStyles.md#fontweight)
+
+___
+
+### letterSpacing
+
+• `Optional` **letterSpacing**: `string`
+
+#### Inherited from
+
+[InlineElementStyles](InlineElementStyles.md).[letterSpacing](InlineElementStyles.md#letterspacing)
+
+___
+
+### lineHeight
+
+• `Optional` **lineHeight**: `string`
+
+#### Inherited from
+
+[InlineElementStyles](InlineElementStyles.md).[lineHeight](InlineElementStyles.md#lineheight)

@@ -1,33 +1,29 @@
-[@bigcommerce/checkout-sdk](../README.md) › [HostedInputValidateErrorData](hostedinputvalidateerrordata.md)
+[@bigcommerce/checkout-sdk](../README.md) / HostedInputValidateErrorData
 
 # Interface: HostedInputValidateErrorData
 
-## Hierarchy
-
-* **HostedInputValidateErrorData**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [fieldType](hostedinputvalidateerrordata.md#fieldtype)
-* [message](hostedinputvalidateerrordata.md#message)
-* [type](hostedinputvalidateerrordata.md#type)
+- [fieldType](HostedInputValidateErrorData.md#fieldtype)
+- [message](HostedInputValidateErrorData.md#message)
+- [type](HostedInputValidateErrorData.md#type)
 
 ## Properties
 
-###  fieldType
+### fieldType
 
-• **fieldType**: *string*
-
-___
-
-###  message
-
-• **message**: *string*
+• **fieldType**: `string`
 
 ___
 
-###  type
+### message
 
-• **type**: *string*
+• **message**: `string`
+
+___
+
+### type
+
+• **type**: `string`

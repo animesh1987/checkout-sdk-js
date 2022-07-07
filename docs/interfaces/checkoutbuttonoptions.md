@@ -1,55 +1,55 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CheckoutButtonOptions](checkoutbuttonoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / CheckoutButtonOptions
 
-# Interface: CheckoutButtonOptions ‹**TParams**›
+# Interface: CheckoutButtonOptions
 
 The set of options for configuring the checkout button.
 
-## Type parameters
-
-▪ **TParams**
-
 ## Hierarchy
 
-* [RequestOptions](requestoptions.md)
+- [`RequestOptions`](RequestOptions.md)
 
-  ↳ **CheckoutButtonOptions**
+  ↳ **`CheckoutButtonOptions`**
 
-  ↳ [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md)
+  ↳↳ [`CheckoutButtonInitializeOptions`](CheckoutButtonInitializeOptions.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [methodId](checkoutbuttonoptions.md#methodid)
-* [params](checkoutbuttonoptions.md#optional-params)
-* [timeout](checkoutbuttonoptions.md#optional-timeout)
+- [methodId](CheckoutButtonOptions.md#methodid)
+- [params](CheckoutButtonOptions.md#params)
+- [timeout](CheckoutButtonOptions.md#timeout)
 
 ## Properties
 
-###  methodId
+### methodId
 
-• **methodId**: *[CheckoutButtonMethodType](../enums/checkoutbuttonmethodtype.md)*
+• **methodId**: [`CheckoutButtonMethodType`](../enums/CheckoutButtonMethodType.md)
 
 The identifier of the payment method.
 
 ___
 
-### `Optional` params
+### params
 
-• **params**? : *TParams*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[params](checkoutbuttoninitializeoptions.md#optional-params)*
+• `Optional` **params**: `Object`
 
 The parameters of the request, if required.
 
+#### Inherited from
+
+[RequestOptions](RequestOptions.md).[params](RequestOptions.md#params)
+
 ___
 
-### `Optional` timeout
+### timeout
 
-• **timeout**? : *Timeout*
-
-*Inherited from [CheckoutButtonInitializeOptions](checkoutbuttoninitializeoptions.md).[timeout](checkoutbuttoninitializeoptions.md#optional-timeout)*
+• `Optional` **timeout**: `default`
 
 Provide this option if you want to cancel or time out the request. If the
 timeout object completes before the request, the request will be
 cancelled.
+
+#### Inherited from
+
+[RequestOptions](RequestOptions.md).[timeout](RequestOptions.md#timeout)

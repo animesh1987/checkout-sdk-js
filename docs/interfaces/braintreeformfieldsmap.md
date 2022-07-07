@@ -1,40 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeFormFieldsMap](braintreeformfieldsmap.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeFormFieldsMap
 
 # Interface: BraintreeFormFieldsMap
 
-## Hierarchy
-
-* **BraintreeFormFieldsMap**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [[BraintreeFormFieldType.CardCode]](braintreeformfieldsmap.md#optional-[braintreeformfieldtype.cardcode])
-* [[BraintreeFormFieldType.CardExpiry]](braintreeformfieldsmap.md#[braintreeformfieldtype.cardexpiry])
-* [[BraintreeFormFieldType.CardName]](braintreeformfieldsmap.md#[braintreeformfieldtype.cardname])
-* [[BraintreeFormFieldType.CardNumber]](braintreeformfieldsmap.md#[braintreeformfieldtype.cardnumber])
+- [cardCode](BraintreeFormFieldsMap.md#cardcode)
+- [cardExpiry](BraintreeFormFieldsMap.md#cardexpiry)
+- [cardName](BraintreeFormFieldsMap.md#cardname)
+- [cardNumber](BraintreeFormFieldsMap.md#cardnumber)
 
 ## Properties
 
-### `Optional` [BraintreeFormFieldType.CardCode]
+### cardCode
 
-• **[BraintreeFormFieldType.CardCode]**? : *[BraintreeFormFieldOptions](braintreeformfieldoptions.md)*
-
-___
-
-###  [BraintreeFormFieldType.CardExpiry]
-
-• **[BraintreeFormFieldType.CardExpiry]**: *[BraintreeFormFieldOptions](braintreeformfieldoptions.md)*
+• `Optional` **cardCode**: [`BraintreeFormFieldOptions`](BraintreeFormFieldOptions.md)
 
 ___
 
-###  [BraintreeFormFieldType.CardName]
+### cardExpiry
 
-• **[BraintreeFormFieldType.CardName]**: *[BraintreeFormFieldOptions](braintreeformfieldoptions.md)*
+• **cardExpiry**: [`BraintreeFormFieldOptions`](BraintreeFormFieldOptions.md)
 
 ___
 
-###  [BraintreeFormFieldType.CardNumber]
+### cardName
 
-• **[BraintreeFormFieldType.CardNumber]**: *[BraintreeFormFieldOptions](braintreeformfieldoptions.md)*
+• **cardName**: [`BraintreeFormFieldOptions`](BraintreeFormFieldOptions.md)
+
+___
+
+### cardNumber
+
+• **cardNumber**: [`BraintreeFormFieldOptions`](BraintreeFormFieldOptions.md)

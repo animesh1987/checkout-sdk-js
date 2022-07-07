@@ -1,68 +1,64 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ShippingOption](shippingoption.md)
+[@bigcommerce/checkout-sdk](../README.md) / ShippingOption
 
 # Interface: ShippingOption
 
-## Hierarchy
-
-* **ShippingOption**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [additionalDescription](shippingoption.md#additionaldescription)
-* [cost](shippingoption.md#cost)
-* [description](shippingoption.md#description)
-* [id](shippingoption.md#id)
-* [imageUrl](shippingoption.md#imageurl)
-* [isRecommended](shippingoption.md#isrecommended)
-* [transitTime](shippingoption.md#transittime)
-* [type](shippingoption.md#type)
+- [additionalDescription](ShippingOption.md#additionaldescription)
+- [cost](ShippingOption.md#cost)
+- [description](ShippingOption.md#description)
+- [id](ShippingOption.md#id)
+- [imageUrl](ShippingOption.md#imageurl)
+- [isRecommended](ShippingOption.md#isrecommended)
+- [transitTime](ShippingOption.md#transittime)
+- [type](ShippingOption.md#type)
 
 ## Properties
 
-###  additionalDescription
+### additionalDescription
 
-• **additionalDescription**: *string*
-
-___
-
-###  cost
-
-• **cost**: *number*
+• **additionalDescription**: `string`
 
 ___
 
-###  description
+### cost
 
-• **description**: *string*
-
-___
-
-###  id
-
-• **id**: *string*
+• **cost**: `number`
 
 ___
 
-###  imageUrl
+### description
 
-• **imageUrl**: *string*
-
-___
-
-###  isRecommended
-
-• **isRecommended**: *boolean*
+• **description**: `string`
 
 ___
 
-###  transitTime
+### id
 
-• **transitTime**: *string*
+• **id**: `string`
 
 ___
 
-###  type
+### imageUrl
 
-• **type**: *string*
+• **imageUrl**: `string`
+
+___
+
+### isRecommended
+
+• **isRecommended**: `boolean`
+
+___
+
+### transitTime
+
+• **transitTime**: `string`
+
+___
+
+### type
+
+• **type**: `string`

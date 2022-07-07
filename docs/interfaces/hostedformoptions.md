@@ -1,104 +1,114 @@
-[@bigcommerce/checkout-sdk](../README.md) › [HostedFormOptions](hostedformoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / HostedFormOptions
 
 # Interface: HostedFormOptions
 
-## Hierarchy
-
-* **HostedFormOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [fields](hostedformoptions.md#fields)
-* [styles](hostedformoptions.md#optional-styles)
+- [fields](HostedFormOptions.md#fields)
+- [styles](HostedFormOptions.md#styles)
 
 ### Methods
 
-* [onBlur](hostedformoptions.md#optional-onblur)
-* [onCardTypeChange](hostedformoptions.md#optional-oncardtypechange)
-* [onEnter](hostedformoptions.md#optional-onenter)
-* [onFocus](hostedformoptions.md#optional-onfocus)
-* [onValidate](hostedformoptions.md#optional-onvalidate)
+- [onBlur](HostedFormOptions.md#onblur)
+- [onCardTypeChange](HostedFormOptions.md#oncardtypechange)
+- [onEnter](HostedFormOptions.md#onenter)
+- [onFocus](HostedFormOptions.md#onfocus)
+- [onValidate](HostedFormOptions.md#onvalidate)
 
 ## Properties
 
-###  fields
+### fields
 
-• **fields**: *[HostedFieldOptionsMap](../README.md#hostedfieldoptionsmap)*
+• **fields**: [`HostedFieldOptionsMap`](../README.md#hostedfieldoptionsmap)
 
 ___
 
-### `Optional` styles
+### styles
 
-• **styles**? : *[HostedFieldStylesMap](hostedfieldstylesmap.md)*
+• `Optional` **styles**: [`HostedFieldStylesMap`](HostedFieldStylesMap.md)
 
 ## Methods
 
-### `Optional` onBlur
+### onBlur
 
-▸ **onBlur**(`data`: [HostedFieldBlurEventData](../README.md#hostedfieldblureventdata)): *void*
+▸ `Optional` **onBlur**(`data`): `void`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`data` | [HostedFieldBlurEventData](../README.md#hostedfieldblureventdata) |
+| Name | Type |
+| :------ | :------ |
+| `data` | `Object` |
+| `data.fieldType` | [`HostedFieldType`](../enums/HostedFieldType.md) |
 
-**Returns:** *void*
+#### Returns
 
-___
-
-### `Optional` onCardTypeChange
-
-▸ **onCardTypeChange**(`data`: [HostedFieldCardTypeChangeEventData](../README.md#hostedfieldcardtypechangeeventdata)): *void*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`data` | [HostedFieldCardTypeChangeEventData](../README.md#hostedfieldcardtypechangeeventdata) |
-
-**Returns:** *void*
+`void`
 
 ___
 
-### `Optional` onEnter
+### onCardTypeChange
 
-▸ **onEnter**(`data`: [HostedFieldEnterEventData](../README.md#hostedfieldentereventdata)): *void*
+▸ `Optional` **onCardTypeChange**(`data`): `void`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`data` | [HostedFieldEnterEventData](../README.md#hostedfieldentereventdata) |
+| Name | Type |
+| :------ | :------ |
+| `data` | `Object` |
+| `data.cardType?` | `string` |
 
-**Returns:** *void*
+#### Returns
 
-___
-
-### `Optional` onFocus
-
-▸ **onFocus**(`data`: [HostedFieldFocusEventData](../README.md#hostedfieldfocuseventdata)): *void*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`data` | [HostedFieldFocusEventData](../README.md#hostedfieldfocuseventdata) |
-
-**Returns:** *void*
+`void`
 
 ___
 
-### `Optional` onValidate
+### onEnter
 
-▸ **onValidate**(`data`: [HostedFieldValidateEventData](../README.md#hostedfieldvalidateeventdata)): *void*
+▸ `Optional` **onEnter**(`data`): `void`
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`data` | [HostedFieldValidateEventData](../README.md#hostedfieldvalidateeventdata) |
+| Name | Type |
+| :------ | :------ |
+| `data` | `Object` |
+| `data.fieldType` | [`HostedFieldType`](../enums/HostedFieldType.md) |
 
-**Returns:** *void*
+#### Returns
+
+`void`
+
+___
+
+### onFocus
+
+▸ `Optional` **onFocus**(`data`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `Object` |
+| `data.fieldType` | [`HostedFieldType`](../enums/HostedFieldType.md) |
+
+#### Returns
+
+`void`
+
+___
+
+### onValidate
+
+▸ `Optional` **onValidate**(`data`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`HostedInputValidateResults`](HostedInputValidateResults.md) |
+
+#### Returns
+
+`void`

@@ -1,29 +1,29 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CheckoutIncludes](checkoutincludes.md)
+[@bigcommerce/checkout-sdk](../README.md) / CheckoutIncludes
 
 # Enumeration: CheckoutIncludes
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [AvailableShippingOptions](checkoutincludes.md#availableshippingoptions)
-* [DigitalItemsCategoryNames](checkoutincludes.md#digitalitemscategorynames)
-* [PhysicalItemsCategoryNames](checkoutincludes.md#physicalitemscategorynames)
+- [AvailableShippingOptions](CheckoutIncludes.md#availableshippingoptions)
+- [DigitalItemsCategoryNames](CheckoutIncludes.md#digitalitemscategorynames)
+- [PhysicalItemsCategoryNames](CheckoutIncludes.md#physicalitemscategorynames)
 
 ## Enumeration members
 
-###  AvailableShippingOptions
+### AvailableShippingOptions
 
-• **AvailableShippingOptions**: = "consignments.availableShippingOptions"
-
-___
-
-###  DigitalItemsCategoryNames
-
-• **DigitalItemsCategoryNames**: = "cart.lineItems.digitalItems.categoryNames"
+• **AvailableShippingOptions** = `"consignments.availableShippingOptions"`
 
 ___
 
-###  PhysicalItemsCategoryNames
+### DigitalItemsCategoryNames
 
-• **PhysicalItemsCategoryNames**: = "cart.lineItems.physicalItems.categoryNames"
+• **DigitalItemsCategoryNames** = `"cart.lineItems.digitalItems.categoryNames"`
+
+___
+
+### PhysicalItemsCategoryNames
+
+• **PhysicalItemsCategoryNames** = `"cart.lineItems.physicalItems.categoryNames"`

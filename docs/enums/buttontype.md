@@ -1,22 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ButtonType](buttontype.md)
+[@bigcommerce/checkout-sdk](../README.md) / ButtonType
 
 # Enumeration: ButtonType
 
-## Index
+## Table of contents
 
 ### Enumeration members
 
-* [Long](buttontype.md#long)
-* [Short](buttontype.md#short)
+- [Long](ButtonType.md#long)
+- [Short](ButtonType.md#short)
 
 ## Enumeration members
 
-###  Long
+### Long
 
-• **Long**: = "long"
+• **Long** = `"long"`
 
 ___
 
-###  Short
+### Short
 
-• **Short**: = "short"
+• **Short** = `"short"`

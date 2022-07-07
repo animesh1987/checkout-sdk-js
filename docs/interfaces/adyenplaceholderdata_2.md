@@ -1,26 +1,33 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AdyenPlaceholderData_2](adyenplaceholderdata_2.md)
+[@bigcommerce/checkout-sdk](../README.md) / AdyenPlaceholderData_2
 
-# Interface: AdyenPlaceholderData_2
+# Interface: AdyenPlaceholderData\_2
 
-## Hierarchy
-
-* **AdyenPlaceholderData_2**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [billingAddress](adyenplaceholderdata_2.md#optional-billingaddress)
-* [holderName](adyenplaceholderdata_2.md#optional-holdername)
+- [billingAddress](AdyenPlaceholderData_2.md#billingaddress)
+- [holderName](AdyenPlaceholderData_2.md#holdername)
 
 ## Properties
 
-### `Optional` billingAddress
+### billingAddress
 
-• **billingAddress**? : *undefined | object*
+• `Optional` **billingAddress**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `city` | `string` |
+| `country` | `string` |
+| `houseNumberOrName` | `string` |
+| `postalCode` | `string` |
+| `stateOrProvince` | `string` |
+| `street` | `string` |
 
 ___
 
-### `Optional` holderName
+### holderName
 
-• **holderName**? : *undefined | string*
+• `Optional` **holderName**: `string`

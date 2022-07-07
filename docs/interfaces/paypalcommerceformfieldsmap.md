@@ -1,40 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceFormFieldsMap](paypalcommerceformfieldsmap.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceFormFieldsMap
 
 # Interface: PaypalCommerceFormFieldsMap
 
-## Hierarchy
-
-* **PaypalCommerceFormFieldsMap**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [[PaypalCommerceFormFieldType.CardCode]](paypalcommerceformfieldsmap.md#optional-[paypalcommerceformfieldtype.cardcode])
-* [[PaypalCommerceFormFieldType.CardExpiry]](paypalcommerceformfieldsmap.md#[paypalcommerceformfieldtype.cardexpiry])
-* [[PaypalCommerceFormFieldType.CardName]](paypalcommerceformfieldsmap.md#[paypalcommerceformfieldtype.cardname])
-* [[PaypalCommerceFormFieldType.CardNumber]](paypalcommerceformfieldsmap.md#[paypalcommerceformfieldtype.cardnumber])
+- [cardCode](PaypalCommerceFormFieldsMap.md#cardcode)
+- [cardExpiry](PaypalCommerceFormFieldsMap.md#cardexpiry)
+- [cardName](PaypalCommerceFormFieldsMap.md#cardname)
+- [cardNumber](PaypalCommerceFormFieldsMap.md#cardnumber)
 
 ## Properties
 
-### `Optional` [PaypalCommerceFormFieldType.CardCode]
+### cardCode
 
-• **[PaypalCommerceFormFieldType.CardCode]**? : *[PaypalCommerceFormFieldOptions](paypalcommerceformfieldoptions.md)*
-
-___
-
-###  [PaypalCommerceFormFieldType.CardExpiry]
-
-• **[PaypalCommerceFormFieldType.CardExpiry]**: *[PaypalCommerceFormFieldOptions](paypalcommerceformfieldoptions.md)*
+• `Optional` **cardCode**: [`PaypalCommerceFormFieldOptions`](PaypalCommerceFormFieldOptions.md)
 
 ___
 
-###  [PaypalCommerceFormFieldType.CardName]
+### cardExpiry
 
-• **[PaypalCommerceFormFieldType.CardName]**: *[PaypalCommerceFormFieldOptions](paypalcommerceformfieldoptions.md)*
+• **cardExpiry**: [`PaypalCommerceFormFieldOptions`](PaypalCommerceFormFieldOptions.md)
 
 ___
 
-###  [PaypalCommerceFormFieldType.CardNumber]
+### cardName
 
-• **[PaypalCommerceFormFieldType.CardNumber]**: *[PaypalCommerceFormFieldOptions](paypalcommerceformfieldoptions.md)*
+• **cardName**: [`PaypalCommerceFormFieldOptions`](PaypalCommerceFormFieldOptions.md)
+
+___
+
+### cardNumber
+
+• **cardNumber**: [`PaypalCommerceFormFieldOptions`](PaypalCommerceFormFieldOptions.md)

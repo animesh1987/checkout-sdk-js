@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommercePaymentInitializeOptions](paypalcommercepaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommercePaymentInitializeOptions
 
 # Interface: PaypalCommercePaymentInitializeOptions
 
@@ -69,31 +69,27 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **PaypalCommercePaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [apmFieldsContainer](paypalcommercepaymentinitializeoptions.md#optional-apmfieldscontainer)
-* [apmFieldsStyles](paypalcommercepaymentinitializeoptions.md#optional-apmfieldsstyles)
-* [clientId](paypalcommercepaymentinitializeoptions.md#clientid)
-* [container](paypalcommercepaymentinitializeoptions.md#container)
+- [apmFieldsContainer](PaypalCommercePaymentInitializeOptions.md#apmfieldscontainer)
+- [apmFieldsStyles](PaypalCommercePaymentInitializeOptions.md#apmfieldsstyles)
+- [clientId](PaypalCommercePaymentInitializeOptions.md#clientid)
+- [container](PaypalCommercePaymentInitializeOptions.md#container)
 
 ### Methods
 
-* [onError](paypalcommercepaymentinitializeoptions.md#optional-onerror)
-* [onRenderButton](paypalcommercepaymentinitializeoptions.md#optional-onrenderbutton)
-* [onValidate](paypalcommercepaymentinitializeoptions.md#onvalidate)
-* [submitForm](paypalcommercepaymentinitializeoptions.md#submitform)
+- [onError](PaypalCommercePaymentInitializeOptions.md#onerror)
+- [onRenderButton](PaypalCommercePaymentInitializeOptions.md#onrenderbutton)
+- [onValidate](PaypalCommercePaymentInitializeOptions.md#onvalidate)
+- [submitForm](PaypalCommercePaymentInitializeOptions.md#submitform)
 
 ## Properties
 
-### `Optional` apmFieldsContainer
+### apmFieldsContainer
 
-• **apmFieldsContainer**? : *undefined | string*
+• `Optional` **apmFieldsContainer**: `string`
 
 The CSS selector of a container where the alternative payment methods fields widget should be inserted into.
 It's necessary to specify this parameter when using Alternative Payment Methods.
@@ -101,89 +97,90 @@ Without it alternative payment methods will not work.
 
 ___
 
-### `Optional` apmFieldsStyles
+### apmFieldsStyles
 
-• **apmFieldsStyles**? : *[PaypalFieldsStyleOptions](paypalfieldsstyleoptions.md)*
+• `Optional` **apmFieldsStyles**: [`PaypalFieldsStyleOptions`](PaypalFieldsStyleOptions.md)
 
 Object with styles to customize alternative payment methods fields.
 
 ___
 
-###  clientId
+### clientId
 
-• **clientId**: *string*
+• **clientId**: `string`
 
  The Client ID of the Paypal App
 
 ___
 
-###  container
+### container
 
-• **container**: *string*
+• **container**: `string`
 
 The CSS selector of a container where the payment widget should be inserted into.
 
 ## Methods
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`error`: [Error](amazonpaywidgeterror.md#error)): *void*
+▸ `Optional` **onError**(`error`): `void`
 
 A callback for displaying error popup. This callback requires error object as parameter.
 
-**Parameters:**
+#### Parameters
 
-Name | Type |
------- | ------ |
-`error` | [Error](amazonpaywidgeterror.md#error) |
+| Name | Type |
+| :------ | :------ |
+| `error` | `Error` |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onRenderButton
+### onRenderButton
 
-▸ **onRenderButton**(): *void*
+▸ `Optional` **onRenderButton**(): `void`
 
 A callback right before render Smart Payment Button that gets called when
 Smart Payment Button is eligible. This callback can be used to hide the standard submit button.
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-###  onValidate
+### onValidate
 
-▸ **onValidate**(`resolve`: function, `reject`: function): *Promise‹void›*
+▸ **onValidate**(`resolve`, `reject`): `Promise`<`void`\>
 
 A callback that gets called when a buyer click on Smart Payment Button
 and should validate payment form.
 
-**Parameters:**
+#### Parameters
 
-▪ **resolve**: *function*
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `resolve` | () => `void` | A function, that gets called if form is valid. |
+| `reject` | () => `void` | A function, that gets called if form is not valid. |
 
-A function, that gets called if form is valid.
+#### Returns
 
-▸ (): *void*
-
-▪ **reject**: *function*
-
-A function, that gets called if form is not valid.
-
-▸ (): *void*
-
-**Returns:** *Promise‹void›*
+`Promise`<`void`\>
 
 reject() or resolve()
 
 ___
 
-###  submitForm
+### submitForm
 
-▸ **submitForm**(): *void*
+▸ **submitForm**(): `void`
 
 A callback for submitting payment form that gets called
 when buyer approved PayPal account.
 
-**Returns:** *void*
+#### Returns
+
+`void`

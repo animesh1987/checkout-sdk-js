@@ -1,21 +1,21 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AdyenPaymentMethodState](adyenpaymentmethodstate.md)
+[@bigcommerce/checkout-sdk](../README.md) / AdyenPaymentMethodState
 
 # Interface: AdyenPaymentMethodState
 
 ## Hierarchy
 
-* **AdyenPaymentMethodState**
+- **`AdyenPaymentMethodState`**
 
-  ↳ [CardPaymentMethodState](cardpaymentmethodstate.md)
+  ↳ [`CardPaymentMethodState`](CardPaymentMethodState.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [type](adyenpaymentmethodstate.md#type)
+- [type](AdyenPaymentMethodState.md#type)
 
 ## Properties
 
-###  type
+### type
 
-• **type**: *string*
+• **type**: `string`

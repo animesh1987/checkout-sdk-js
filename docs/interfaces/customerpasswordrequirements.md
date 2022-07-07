@@ -1,40 +1,36 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CustomerPasswordRequirements](customerpasswordrequirements.md)
+[@bigcommerce/checkout-sdk](../README.md) / CustomerPasswordRequirements
 
 # Interface: CustomerPasswordRequirements
 
-## Hierarchy
-
-* **CustomerPasswordRequirements**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [alpha](customerpasswordrequirements.md#alpha)
-* [description](customerpasswordrequirements.md#description)
-* [minlength](customerpasswordrequirements.md#minlength)
-* [numeric](customerpasswordrequirements.md#numeric)
+- [alpha](CustomerPasswordRequirements.md#alpha)
+- [description](CustomerPasswordRequirements.md#description)
+- [minlength](CustomerPasswordRequirements.md#minlength)
+- [numeric](CustomerPasswordRequirements.md#numeric)
 
 ## Properties
 
-###  alpha
+### alpha
 
-• **alpha**: *string*
-
-___
-
-###  description
-
-• **description**: *string*
+• **alpha**: `string`
 
 ___
 
-###  minlength
+### description
 
-• **minlength**: *number*
+• **description**: `string`
 
 ___
 
-###  numeric
+### minlength
 
-• **numeric**: *string*
+• **minlength**: `number`
+
+___
+
+### numeric
+
+• **numeric**: `string`

@@ -1,39 +1,35 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AmazonPayV2CheckoutSession](amazonpayv2checkoutsession.md)
+[@bigcommerce/checkout-sdk](../README.md) / AmazonPayV2CheckoutSession
 
 # Interface: AmazonPayV2CheckoutSession
 
-## Hierarchy
-
-* **AmazonPayV2CheckoutSession**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [extractAmazonCheckoutSessionId](amazonpayv2checkoutsession.md#optional-extractamazoncheckoutsessionid)
-* [method](amazonpayv2checkoutsession.md#optional-method)
-* [url](amazonpayv2checkoutsession.md#url)
+- [extractAmazonCheckoutSessionId](AmazonPayV2CheckoutSession.md#extractamazoncheckoutsessionid)
+- [method](AmazonPayV2CheckoutSession.md#method)
+- [url](AmazonPayV2CheckoutSession.md#url)
 
 ## Properties
 
-### `Optional` extractAmazonCheckoutSessionId
+### extractAmazonCheckoutSessionId
 
-• **extractAmazonCheckoutSessionId**? : *undefined | string*
+• `Optional` **extractAmazonCheckoutSessionId**: `string`
 
 Checkout Session ID parameter in the response. Default is 'checkoutSessionId'.
 
 ___
 
-### `Optional` method
+### method
 
-• **method**? : *"GET" | "POST"*
+• `Optional` **method**: ``"GET"`` \| ``"POST"``
 
 HTTP request method. Default is 'POST'.
 
 ___
 
-###  url
+### url
 
-• **url**: *string*
+• **url**: `string`
 
 Endpoint URL to Create Checkout Session.

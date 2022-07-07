@@ -1,54 +1,50 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CustomItem](customitem.md)
+[@bigcommerce/checkout-sdk](../README.md) / CustomItem
 
 # Interface: CustomItem
 
-## Hierarchy
-
-* **CustomItem**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [extendedListPrice](customitem.md#extendedlistprice)
-* [id](customitem.md#id)
-* [listPrice](customitem.md#listprice)
-* [name](customitem.md#name)
-* [quantity](customitem.md#quantity)
-* [sku](customitem.md#sku)
+- [extendedListPrice](CustomItem.md#extendedlistprice)
+- [id](CustomItem.md#id)
+- [listPrice](CustomItem.md#listprice)
+- [name](CustomItem.md#name)
+- [quantity](CustomItem.md#quantity)
+- [sku](CustomItem.md#sku)
 
 ## Properties
 
-###  extendedListPrice
+### extendedListPrice
 
-• **extendedListPrice**: *number*
-
-___
-
-###  id
-
-• **id**: *string*
+• **extendedListPrice**: `number`
 
 ___
 
-###  listPrice
+### id
 
-• **listPrice**: *number*
-
-___
-
-###  name
-
-• **name**: *string*
+• **id**: `string`
 
 ___
 
-###  quantity
+### listPrice
 
-• **quantity**: *number*
+• **listPrice**: `number`
 
 ___
 
-###  sku
+### name
 
-• **sku**: *string*
+• **name**: `string`
+
+___
+
+### quantity
+
+• **quantity**: `number`
+
+___
+
+### sku
+
+• **sku**: `string`

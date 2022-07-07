@@ -1,109 +1,127 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ChecklistStyles](checkliststyles.md)
+[@bigcommerce/checkout-sdk](../README.md) / ChecklistStyles
 
 # Interface: ChecklistStyles
 
 ## Hierarchy
 
-  ↳ [BlockElementStyles](blockelementstyles.md)
+- [`BlockElementStyles`](BlockElementStyles.md)
 
-  ↳ **ChecklistStyles**
+  ↳ **`ChecklistStyles`**
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [backgroundColor](checkliststyles.md#optional-backgroundcolor)
-* [borderColor](checkliststyles.md#optional-bordercolor)
-* [borderWidth](checkliststyles.md#optional-borderwidth)
-* [boxShadow](checkliststyles.md#optional-boxshadow)
-* [checked](checkliststyles.md#optional-checked)
-* [color](checkliststyles.md#optional-color)
-* [fontFamily](checkliststyles.md#optional-fontfamily)
-* [fontWeight](checkliststyles.md#optional-fontweight)
-* [hover](checkliststyles.md#optional-hover)
-* [letterSpacing](checkliststyles.md#optional-letterspacing)
-* [lineHeight](checkliststyles.md#optional-lineheight)
+- [backgroundColor](ChecklistStyles.md#backgroundcolor)
+- [borderColor](ChecklistStyles.md#bordercolor)
+- [borderWidth](ChecklistStyles.md#borderwidth)
+- [boxShadow](ChecklistStyles.md#boxshadow)
+- [checked](ChecklistStyles.md#checked)
+- [color](ChecklistStyles.md#color)
+- [fontFamily](ChecklistStyles.md#fontfamily)
+- [fontWeight](ChecklistStyles.md#fontweight)
+- [hover](ChecklistStyles.md#hover)
+- [letterSpacing](ChecklistStyles.md#letterspacing)
+- [lineHeight](ChecklistStyles.md#lineheight)
 
 ## Properties
 
-### `Optional` backgroundColor
+### backgroundColor
 
-• **backgroundColor**? : *undefined | string*
+• `Optional` **backgroundColor**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[backgroundColor](blockelementstyles.md#optional-backgroundcolor)*
+#### Inherited from
 
-___
-
-### `Optional` borderColor
-
-• **borderColor**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[borderColor](blockelementstyles.md#optional-bordercolor)*
+[BlockElementStyles](BlockElementStyles.md).[backgroundColor](BlockElementStyles.md#backgroundcolor)
 
 ___
 
-### `Optional` borderWidth
+### borderColor
 
-• **borderWidth**? : *undefined | string*
+• `Optional` **borderColor**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[borderWidth](blockelementstyles.md#optional-borderwidth)*
+#### Inherited from
 
-___
-
-### `Optional` boxShadow
-
-• **boxShadow**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[boxShadow](blockelementstyles.md#optional-boxshadow)*
+[BlockElementStyles](BlockElementStyles.md).[borderColor](BlockElementStyles.md#bordercolor)
 
 ___
 
-### `Optional` checked
+### borderWidth
 
-• **checked**? : *[BlockElementStyles](blockelementstyles.md)*
+• `Optional` **borderWidth**: `string`
 
-___
+#### Inherited from
 
-### `Optional` color
-
-• **color**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[color](blockelementstyles.md#optional-color)*
+[BlockElementStyles](BlockElementStyles.md).[borderWidth](BlockElementStyles.md#borderwidth)
 
 ___
 
-### `Optional` fontFamily
+### boxShadow
 
-• **fontFamily**? : *undefined | string*
+• `Optional` **boxShadow**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[fontFamily](blockelementstyles.md#optional-fontfamily)*
+#### Inherited from
 
-___
-
-### `Optional` fontWeight
-
-• **fontWeight**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[fontWeight](blockelementstyles.md#optional-fontweight)*
+[BlockElementStyles](BlockElementStyles.md).[boxShadow](BlockElementStyles.md#boxshadow)
 
 ___
 
-### `Optional` hover
+### checked
 
-• **hover**? : *[BlockElementStyles](blockelementstyles.md)*
-
-___
-
-### `Optional` letterSpacing
-
-• **letterSpacing**? : *undefined | string*
-
-*Inherited from [BlockElementStyles](blockelementstyles.md).[letterSpacing](blockelementstyles.md#optional-letterspacing)*
+• `Optional` **checked**: [`BlockElementStyles`](BlockElementStyles.md)
 
 ___
 
-### `Optional` lineHeight
+### color
 
-• **lineHeight**? : *undefined | string*
+• `Optional` **color**: `string`
 
-*Inherited from [BlockElementStyles](blockelementstyles.md).[lineHeight](blockelementstyles.md#optional-lineheight)*
+#### Inherited from
+
+[BlockElementStyles](BlockElementStyles.md).[color](BlockElementStyles.md#color)
+
+___
+
+### fontFamily
+
+• `Optional` **fontFamily**: `string`
+
+#### Inherited from
+
+[BlockElementStyles](BlockElementStyles.md).[fontFamily](BlockElementStyles.md#fontfamily)
+
+___
+
+### fontWeight
+
+• `Optional` **fontWeight**: `string`
+
+#### Inherited from
+
+[BlockElementStyles](BlockElementStyles.md).[fontWeight](BlockElementStyles.md#fontweight)
+
+___
+
+### hover
+
+• `Optional` **hover**: [`BlockElementStyles`](BlockElementStyles.md)
+
+___
+
+### letterSpacing
+
+• `Optional` **letterSpacing**: `string`
+
+#### Inherited from
+
+[BlockElementStyles](BlockElementStyles.md).[letterSpacing](BlockElementStyles.md#letterspacing)
+
+___
+
+### lineHeight
+
+• `Optional` **lineHeight**: `string`
+
+#### Inherited from
+
+[BlockElementStyles](BlockElementStyles.md).[lineHeight](BlockElementStyles.md#lineheight)

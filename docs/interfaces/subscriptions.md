@@ -1,33 +1,29 @@
-[@bigcommerce/checkout-sdk](../README.md) › [Subscriptions](subscriptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / Subscriptions
 
 # Interface: Subscriptions
 
-## Hierarchy
-
-* **Subscriptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [acceptsAbandonedCartEmails](subscriptions.md#acceptsabandonedcartemails)
-* [acceptsMarketingNewsletter](subscriptions.md#acceptsmarketingnewsletter)
-* [email](subscriptions.md#email)
+- [acceptsAbandonedCartEmails](Subscriptions.md#acceptsabandonedcartemails)
+- [acceptsMarketingNewsletter](Subscriptions.md#acceptsmarketingnewsletter)
+- [email](Subscriptions.md#email)
 
 ## Properties
 
-###  acceptsAbandonedCartEmails
+### acceptsAbandonedCartEmails
 
-• **acceptsAbandonedCartEmails**: *boolean*
-
-___
-
-###  acceptsMarketingNewsletter
-
-• **acceptsMarketingNewsletter**: *boolean*
+• **acceptsAbandonedCartEmails**: `boolean`
 
 ___
 
-###  email
+### acceptsMarketingNewsletter
 
-• **email**: *string*
+• **acceptsMarketingNewsletter**: `boolean`
+
+___
+
+### email
+
+• **email**: `string`

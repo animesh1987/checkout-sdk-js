@@ -1,19 +1,15 @@
-[@bigcommerce/checkout-sdk](../README.md) › [ConsignmentPickupOption](consignmentpickupoption.md)
+[@bigcommerce/checkout-sdk](../README.md) / ConsignmentPickupOption
 
 # Interface: ConsignmentPickupOption
 
-## Hierarchy
-
-* **ConsignmentPickupOption**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [pickupMethodId](consignmentpickupoption.md#pickupmethodid)
+- [pickupMethodId](ConsignmentPickupOption.md#pickupmethodid)
 
 ## Properties
 
-###  pickupMethodId
+### pickupMethodId
 
-• **pickupMethodId**: *number*
+• **pickupMethodId**: `number`

@@ -1,43 +1,39 @@
-[@bigcommerce/checkout-sdk](../README.md) › [OrderPaymentRequestBody](orderpaymentrequestbody.md)
+[@bigcommerce/checkout-sdk](../README.md) / OrderPaymentRequestBody
 
 # Interface: OrderPaymentRequestBody
 
 An object that contains the payment information required for submitting an
 order.
 
-## Hierarchy
-
-* **OrderPaymentRequestBody**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [gatewayId](orderpaymentrequestbody.md#optional-gatewayid)
-* [methodId](orderpaymentrequestbody.md#methodid)
-* [paymentData](orderpaymentrequestbody.md#optional-paymentdata)
+- [gatewayId](OrderPaymentRequestBody.md#gatewayid)
+- [methodId](OrderPaymentRequestBody.md#methodid)
+- [paymentData](OrderPaymentRequestBody.md#paymentdata)
 
 ## Properties
 
-### `Optional` gatewayId
+### gatewayId
 
-• **gatewayId**? : *undefined | string*
+• `Optional` **gatewayId**: `string`
 
 The identifier of the payment provider that is chosen for the order.
 
 ___
 
-###  methodId
+### methodId
 
-• **methodId**: *string*
+• **methodId**: `string`
 
 The identifier of the payment method that is chosen for the order.
 
 ___
 
-### `Optional` paymentData
+### paymentData
 
-• **paymentData**? : *[OrderPaymentInstrument](../README.md#orderpaymentinstrument)*
+• `Optional` **paymentData**: [`CreditCardInstrument`](CreditCardInstrument.md) \| [`HostedInstrument`](HostedInstrument.md) \| [`VaultedInstrument`](VaultedInstrument.md) \| [`NonceInstrument`](NonceInstrument.md) \| `Pick`<[`CreditCardInstrument`](CreditCardInstrument.md), ``"ccCustomerCode"`` \| ``"shouldSaveInstrument"`` \| ``"shouldSetAsDefaultInstrument"`` \| ``"extraData"`` \| ``"threeDSecure"`` \| ``"browser_info"``\> \| `Pick`<[`VaultedInstrument`](VaultedInstrument.md), ``"instrumentId"``\> \| [`WithAccountCreation`](WithAccountCreation.md) \| [`CreditCardInstrument`](CreditCardInstrument.md) & [`WithDocumentInstrument`](WithDocumentInstrument.md) \| [`CreditCardInstrument`](CreditCardInstrument.md) & [`WithCheckoutcomFawryInstrument`](WithCheckoutcomFawryInstrument.md) \| [`CreditCardInstrument`](CreditCardInstrument.md) & [`WithCheckoutcomSEPAInstrument`](WithCheckoutcomSEPAInstrument.md) \| [`CreditCardInstrument`](CreditCardInstrument.md) & [`WithCheckoutcomiDealInstrument`](WithCheckoutcomiDealInstrument.md) \| [`HostedInstrument`](HostedInstrument.md) & [`WithMollieIssuerInstrument`](WithMollieIssuerInstrument.md)
 
 An object that contains the details of a credit card, vaulted payment
 instrument or nonce instrument.

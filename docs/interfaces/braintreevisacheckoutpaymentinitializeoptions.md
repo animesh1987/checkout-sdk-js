@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [BraintreeVisaCheckoutPaymentInitializeOptions](braintreevisacheckoutpaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / BraintreeVisaCheckoutPaymentInitializeOptions
 
 # Interface: BraintreeVisaCheckoutPaymentInitializeOptions
 
@@ -31,40 +31,40 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **BraintreeVisaCheckoutPaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Methods
 
-* [onError](braintreevisacheckoutpaymentinitializeoptions.md#optional-onerror)
-* [onPaymentSelect](braintreevisacheckoutpaymentinitializeoptions.md#optional-onpaymentselect)
+- [onError](BraintreeVisaCheckoutPaymentInitializeOptions.md#onerror)
+- [onPaymentSelect](BraintreeVisaCheckoutPaymentInitializeOptions.md#onpaymentselect)
 
 ## Methods
 
-### `Optional` onError
+### onError
 
-▸ **onError**(`error`: [Error](amazonpaywidgeterror.md#error)): *void*
+▸ `Optional` **onError**(`error`): `void`
 
 A callback that gets called when Visa Checkout fails to initialize or
 selects a payment option.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [Error](amazonpaywidgeterror.md#error) | The error object describing the failure.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | `Error` | The error object describing the failure. |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onPaymentSelect
+### onPaymentSelect
 
-▸ **onPaymentSelect**(): *void*
+▸ `Optional` **onPaymentSelect**(): `void`
 
 A callback that gets called when the customer selects a payment option.
 
-**Returns:** *void*
+#### Returns
+
+`void`

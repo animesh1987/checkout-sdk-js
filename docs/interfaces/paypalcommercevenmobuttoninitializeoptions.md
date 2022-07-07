@@ -1,30 +1,26 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceVenmoButtonInitializeOptions](paypalcommercevenmobuttoninitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceVenmoButtonInitializeOptions
 
 # Interface: PaypalCommerceVenmoButtonInitializeOptions
 
-## Hierarchy
-
-* **PaypalCommerceVenmoButtonInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [initializesOnCheckoutPage](paypalcommercevenmobuttoninitializeoptions.md#optional-initializesoncheckoutpage)
-* [style](paypalcommercevenmobuttoninitializeoptions.md#optional-style)
+- [initializesOnCheckoutPage](PaypalCommerceVenmoButtonInitializeOptions.md#initializesoncheckoutpage)
+- [style](PaypalCommerceVenmoButtonInitializeOptions.md#style)
 
 ## Properties
 
-### `Optional` initializesOnCheckoutPage
+### initializesOnCheckoutPage
 
-• **initializesOnCheckoutPage**? : *undefined | false | true*
+• `Optional` **initializesOnCheckoutPage**: `boolean`
 
 Flag which helps to detect that the strategy initializes on Checkout page
 
 ___
 
-### `Optional` style
+### style
 
-• **style**? : *[PaypalButtonStyleOptions_2](paypalbuttonstyleoptions_2.md)*
+• `Optional` **style**: [`PaypalButtonStyleOptions_2`](PaypalButtonStyleOptions_2.md)
 
 A set of styling options for the checkout button.

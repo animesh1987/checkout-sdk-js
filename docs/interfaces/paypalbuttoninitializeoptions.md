@@ -1,76 +1,76 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalButtonInitializeOptions](paypalbuttoninitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalButtonInitializeOptions
 
 # Interface: PaypalButtonInitializeOptions
 
-## Hierarchy
-
-* **PaypalButtonInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [allowCredit](paypalbuttoninitializeoptions.md#optional-allowcredit)
-* [clientId](paypalbuttoninitializeoptions.md#clientid)
-* [style](paypalbuttoninitializeoptions.md#optional-style)
+- [allowCredit](PaypalButtonInitializeOptions.md#allowcredit)
+- [clientId](PaypalButtonInitializeOptions.md#clientid)
+- [style](PaypalButtonInitializeOptions.md#style)
 
 ### Methods
 
-* [onAuthorizeError](paypalbuttoninitializeoptions.md#optional-onauthorizeerror)
-* [onPaymentError](paypalbuttoninitializeoptions.md#optional-onpaymenterror)
+- [onAuthorizeError](PaypalButtonInitializeOptions.md#onauthorizeerror)
+- [onPaymentError](PaypalButtonInitializeOptions.md#onpaymenterror)
 
 ## Properties
 
-### `Optional` allowCredit
+### allowCredit
 
-• **allowCredit**? : *undefined | false | true*
+• `Optional` **allowCredit**: `boolean`
 
 Whether or not to show a credit button.
 
 ___
 
-###  clientId
+### clientId
 
-• **clientId**: *string*
+• **clientId**: `string`
 
 The Client ID of the Paypal App
 
 ___
 
-### `Optional` style
+### style
 
-• **style**? : *Pick‹[PaypalButtonStyleOptions](paypalbuttonstyleoptions.md), "layout" | "size" | "color" | "label" | "shape" | "tagline" | "fundingicons"›*
+• `Optional` **style**: `Pick`<[`PaypalButtonStyleOptions`](PaypalButtonStyleOptions.md), ``"color"`` \| ``"layout"`` \| ``"size"`` \| ``"label"`` \| ``"shape"`` \| ``"tagline"`` \| ``"fundingicons"``\>
 
 A set of styling options for the checkout button.
 
 ## Methods
 
-### `Optional` onAuthorizeError
+### onAuthorizeError
 
-▸ **onAuthorizeError**(`error`: [StandardError](../classes/standarderror.md)): *void*
+▸ `Optional` **onAuthorizeError**(`error`): `void`
 
 A callback that gets called if unable to authorize and tokenize payment.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [StandardError](../classes/standarderror.md) | The error object describing the failure.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | [`StandardError`](../classes/StandardError.md) | The error object describing the failure. |
 
-**Returns:** *void*
+#### Returns
+
+`void`
 
 ___
 
-### `Optional` onPaymentError
+### onPaymentError
 
-▸ **onPaymentError**(`error`: [StandardError](../classes/standarderror.md)): *void*
+▸ `Optional` **onPaymentError**(`error`): `void`
 
 A callback that gets called if unable to submit payment.
 
-**Parameters:**
+#### Parameters
 
-Name | Type | Description |
------- | ------ | ------ |
-`error` | [StandardError](../classes/standarderror.md) | The error object describing the failure.  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `error` | [`StandardError`](../classes/StandardError.md) | The error object describing the failure. |
 
-**Returns:** *void*
+#### Returns
+
+`void`

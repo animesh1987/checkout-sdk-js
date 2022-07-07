@@ -1,100 +1,100 @@
-[@bigcommerce/checkout-sdk](../README.md) › [AddressRequestBody](addressrequestbody.md)
+[@bigcommerce/checkout-sdk](../README.md) / AddressRequestBody
 
 # Interface: AddressRequestBody
 
 ## Hierarchy
 
-* **AddressRequestBody**
+- **`AddressRequestBody`**
 
-  ↳ [Address](address.md)
+  ↳ [`Address`](Address.md)
 
-  ↳ [BillingAddressRequestBody](billingaddressrequestbody.md)
+  ↳ [`BillingAddressRequestBody`](BillingAddressRequestBody.md)
 
-## Index
+## Table of contents
 
 ### Properties
 
-* [address1](addressrequestbody.md#address1)
-* [address2](addressrequestbody.md#address2)
-* [city](addressrequestbody.md#city)
-* [company](addressrequestbody.md#company)
-* [countryCode](addressrequestbody.md#countrycode)
-* [customFields](addressrequestbody.md#customfields)
-* [firstName](addressrequestbody.md#firstname)
-* [lastName](addressrequestbody.md#lastname)
-* [phone](addressrequestbody.md#phone)
-* [postalCode](addressrequestbody.md#postalcode)
-* [stateOrProvince](addressrequestbody.md#stateorprovince)
-* [stateOrProvinceCode](addressrequestbody.md#stateorprovincecode)
+- [address1](AddressRequestBody.md#address1)
+- [address2](AddressRequestBody.md#address2)
+- [city](AddressRequestBody.md#city)
+- [company](AddressRequestBody.md#company)
+- [countryCode](AddressRequestBody.md#countrycode)
+- [customFields](AddressRequestBody.md#customfields)
+- [firstName](AddressRequestBody.md#firstname)
+- [lastName](AddressRequestBody.md#lastname)
+- [phone](AddressRequestBody.md#phone)
+- [postalCode](AddressRequestBody.md#postalcode)
+- [stateOrProvince](AddressRequestBody.md#stateorprovince)
+- [stateOrProvinceCode](AddressRequestBody.md#stateorprovincecode)
 
 ## Properties
 
-###  address1
+### address1
 
-• **address1**: *string*
-
-___
-
-###  address2
-
-• **address2**: *string*
+• **address1**: `string`
 
 ___
 
-###  city
+### address2
 
-• **city**: *string*
-
-___
-
-###  company
-
-• **company**: *string*
+• **address2**: `string`
 
 ___
 
-###  countryCode
+### city
 
-• **countryCode**: *string*
-
-___
-
-###  customFields
-
-• **customFields**: *Array‹object›*
+• **city**: `string`
 
 ___
 
-###  firstName
+### company
 
-• **firstName**: *string*
-
-___
-
-###  lastName
-
-• **lastName**: *string*
+• **company**: `string`
 
 ___
 
-###  phone
+### countryCode
 
-• **phone**: *string*
-
-___
-
-###  postalCode
-
-• **postalCode**: *string*
+• **countryCode**: `string`
 
 ___
 
-###  stateOrProvince
+### customFields
 
-• **stateOrProvince**: *string*
+• **customFields**: { `fieldId`: `string` ; `fieldValue`: `string` \| `number` \| `string`[]  }[]
 
 ___
 
-###  stateOrProvinceCode
+### firstName
 
-• **stateOrProvinceCode**: *string*
+• **firstName**: `string`
+
+___
+
+### lastName
+
+• **lastName**: `string`
+
+___
+
+### phone
+
+• **phone**: `string`
+
+___
+
+### postalCode
+
+• **postalCode**: `string`
+
+___
+
+### stateOrProvince
+
+• **stateOrProvince**: `string`
+
+___
+
+### stateOrProvinceCode
+
+• **stateOrProvinceCode**: `string`

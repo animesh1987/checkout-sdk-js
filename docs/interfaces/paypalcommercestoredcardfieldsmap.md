@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [PaypalCommerceStoredCardFieldsMap](paypalcommercestoredcardfieldsmap.md)
+[@bigcommerce/checkout-sdk](../README.md) / PaypalCommerceStoredCardFieldsMap
 
 # Interface: PaypalCommerceStoredCardFieldsMap
 
-## Hierarchy
-
-* **PaypalCommerceStoredCardFieldsMap**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [[PaypalCommerceFormFieldType.CardCodeVerification]](paypalcommercestoredcardfieldsmap.md#optional-[paypalcommerceformfieldtype.cardcodeverification])
-* [[PaypalCommerceFormFieldType.CardNumberVerification]](paypalcommercestoredcardfieldsmap.md#optional-[paypalcommerceformfieldtype.cardnumberverification])
+- [cardCodeVerification](PaypalCommerceStoredCardFieldsMap.md#cardcodeverification)
+- [cardNumberVerification](PaypalCommerceStoredCardFieldsMap.md#cardnumberverification)
 
 ## Properties
 
-### `Optional` [PaypalCommerceFormFieldType.CardCodeVerification]
+### cardCodeVerification
 
-• **[PaypalCommerceFormFieldType.CardCodeVerification]**? : *[PaypalCommerceStoredCardFieldOptions](paypalcommercestoredcardfieldoptions.md)*
+• `Optional` **cardCodeVerification**: [`PaypalCommerceStoredCardFieldOptions`](PaypalCommerceStoredCardFieldOptions.md)
 
 ___
 
-### `Optional` [PaypalCommerceFormFieldType.CardNumberVerification]
+### cardNumberVerification
 
-• **[PaypalCommerceFormFieldType.CardNumberVerification]**? : *[PaypalCommerceStoredCardFieldOptions](paypalcommercestoredcardfieldoptions.md)*
+• `Optional` **cardNumberVerification**: [`PaypalCommerceStoredCardFieldOptions`](PaypalCommerceStoredCardFieldOptions.md)

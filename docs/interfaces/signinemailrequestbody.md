@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [SignInEmailRequestBody](signinemailrequestbody.md)
+[@bigcommerce/checkout-sdk](../README.md) / SignInEmailRequestBody
 
 # Interface: SignInEmailRequestBody
 
-## Hierarchy
-
-* **SignInEmailRequestBody**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [email](signinemailrequestbody.md#email)
-* [redirectUrl](signinemailrequestbody.md#optional-redirecturl)
+- [email](SignInEmailRequestBody.md#email)
+- [redirectUrl](SignInEmailRequestBody.md#redirecturl)
 
 ## Properties
 
-###  email
+### email
 
-• **email**: *string*
+• **email**: `string`
 
 ___
 
-### `Optional` redirectUrl
+### redirectUrl
 
-• **redirectUrl**? : *undefined | string*
+• `Optional` **redirectUrl**: `string`

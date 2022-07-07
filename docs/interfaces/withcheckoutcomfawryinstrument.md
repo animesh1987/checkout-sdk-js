@@ -1,26 +1,22 @@
-[@bigcommerce/checkout-sdk](../README.md) › [WithCheckoutcomFawryInstrument](withcheckoutcomfawryinstrument.md)
+[@bigcommerce/checkout-sdk](../README.md) / WithCheckoutcomFawryInstrument
 
 # Interface: WithCheckoutcomFawryInstrument
 
-## Hierarchy
-
-* **WithCheckoutcomFawryInstrument**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [customerEmail](withcheckoutcomfawryinstrument.md#customeremail)
-* [customerMobile](withcheckoutcomfawryinstrument.md#customermobile)
+- [customerEmail](WithCheckoutcomFawryInstrument.md#customeremail)
+- [customerMobile](WithCheckoutcomFawryInstrument.md#customermobile)
 
 ## Properties
 
-###  customerEmail
+### customerEmail
 
-• **customerEmail**: *string*
+• **customerEmail**: `string`
 
 ___
 
-###  customerMobile
+### customerMobile
 
-• **customerMobile**: *string*
+• **customerMobile**: `string`

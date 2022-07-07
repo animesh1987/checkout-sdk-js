@@ -1,66 +1,62 @@
-[@bigcommerce/checkout-sdk](../README.md) › [SubInputDetail](subinputdetail.md)
+[@bigcommerce/checkout-sdk](../README.md) / SubInputDetail
 
 # Interface: SubInputDetail
 
-## Hierarchy
-
-* **SubInputDetail**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [configuration](subinputdetail.md#optional-configuration)
-* [items](subinputdetail.md#optional-items)
-* [key](subinputdetail.md#optional-key)
-* [optional](subinputdetail.md#optional-optional)
-* [type](subinputdetail.md#optional-type)
-* [value](subinputdetail.md#optional-value)
+- [configuration](SubInputDetail.md#configuration)
+- [items](SubInputDetail.md#items)
+- [key](SubInputDetail.md#key)
+- [optional](SubInputDetail.md#optional)
+- [type](SubInputDetail.md#type)
+- [value](SubInputDetail.md#value)
 
 ## Properties
 
-### `Optional` configuration
+### configuration
 
-• **configuration**? : *undefined | object*
+• `Optional` **configuration**: `object`
 
 Configuration parameters for the required input.
 
 ___
 
-### `Optional` items
+### items
 
-• **items**? : *[Item_2](item_2.md)[]*
+• `Optional` **items**: [`Item_2`](Item_2.md)[]
 
 In case of a select, the items to choose from.
 
 ___
 
-### `Optional` key
+### key
 
-• **key**? : *undefined | string*
+• `Optional` **key**: `string`
 
 The value to provide in the result.
 
 ___
 
-### `Optional` optional
+### optional
 
-• **optional**? : *undefined | false | true*
+• `Optional` **optional**: `boolean`
 
 True if this input is optional to provide.
 
 ___
 
-### `Optional` type
+### type
 
-• **type**? : *undefined | string*
+• `Optional` **type**: `string`
 
 The type of the required input.
 
 ___
 
-### `Optional` value
+### value
 
-• **value**? : *undefined | string*
+• `Optional` **value**: `string`
 
 The value can be pre-filled, if available.

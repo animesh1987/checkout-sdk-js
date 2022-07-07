@@ -1,4 +1,4 @@
-[@bigcommerce/checkout-sdk](../README.md) › [CreditCardPaymentInitializeOptions](creditcardpaymentinitializeoptions.md)
+[@bigcommerce/checkout-sdk](../README.md) / CreditCardPaymentInitializeOptions
 
 # Interface: CreditCardPaymentInitializeOptions
 
@@ -78,18 +78,14 @@ service.initializePayment({
 });
 ```
 
-## Hierarchy
-
-* **CreditCardPaymentInitializeOptions**
-
-## Index
+## Table of contents
 
 ### Properties
 
-* [form](creditcardpaymentinitializeoptions.md#form)
+- [form](CreditCardPaymentInitializeOptions.md#form)
 
 ## Properties
 
-###  form
+### form
 
-• **form**: *[HostedFormOptions](hostedformoptions.md)*
+• **form**: [`HostedFormOptions`](HostedFormOptions.md)
