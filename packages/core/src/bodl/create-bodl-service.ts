@@ -2,7 +2,7 @@ import BodlService from "./bodl-service";
 import NoopBodlService from "./noop-bodl-service";
 import BodlEmitterService from "./bodl-emitter-service";
 import { isBodlEnabled } from "./is-bodl-enabled";
-import { CheckoutService } from "../checkout";
+import { CheckoutSelectors, CheckoutService } from "../checkout";
 import { MissingDataError, MissingDataErrorType } from "../common/error/errors";
 
 /**
@@ -20,18 +20,11 @@ import { MissingDataError, MissingDataErrorType } from "../common/error/errors";
  * @returns an instance of `BodlService`.
  */
 export default function createBodlService(
-    checkoutService: CheckoutService,
+    subscribe: (subscriber: (state: CheckoutSelectors) => void) => void,
 ): BodlService {
-    const { data } = checkoutService.getState();
-    const config = data.getConfig();
-
-    if (!config) {
-        throw new MissingDataError(MissingDataErrorType.MissingCheckoutConfig);
-    }
-
     if (isBodlEnabled(window)) {
         return new BodlEmitterService(
-            checkoutService,
+            subscribe,
             window.bodlEvents.checkout
         );
     }

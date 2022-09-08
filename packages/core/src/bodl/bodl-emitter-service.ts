@@ -1,5 +1,5 @@
 import { LineItemMap } from '../cart';
-import { Checkout, CheckoutService } from '../checkout';
+import { Checkout, CheckoutSelectors, CheckoutStoreSelector } from '../checkout';
 import { ShopperCurrency } from '../config';
 import { Order } from '../order';
 
@@ -8,23 +8,39 @@ import { BodlEventsCheckout } from './bodl-window';
 
 export default class BodlEmitterService implements BodlService {
     private _checkoutStarted = false;
+    private state?: CheckoutStoreSelector;
 
     constructor(
-        private checkoutService: CheckoutService,
+        private subscribe: (subscriber: (state: CheckoutSelectors) => void) => void,
         private bodlEvents: BodlEventsCheckout
-    ) { }
+    ) {
+        this.subscribe(state => {
+            this.setState(state.data);
+        });
+        
+        const config = this.state?.getConfig();
+
+        if (!config) {
+            throw new MissingDataError(MissingDataErrorType.MissingCheckoutConfig);
+        }
+    }
+
+    setState(state: CheckoutStoreSelector) {
+        this.state = state;
+    }
 
     checkoutBegin(): void {
         if (this._checkoutStarted) {
             return;
         }
 
+        console.log(this.state?.getCheckout());
+
         const checkout = this.getCheckout();
 
         if (!checkout) {
             return;
         }
-
 
         const {
             cart: {
