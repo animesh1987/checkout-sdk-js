@@ -6,10 +6,16 @@
     "mainEntryPointFilePath": "<projectFolder>/temp/core/src/bundles/checkout-sdk.d.ts",
     "newlineKind": "lf",
     "docModel": {
-        "enabled": false
+        "enabled": true,
+        "apiJsonFilePath": "<projectFolder>/dist/<unscopedPackageName>.api.json",
+        "includeForgottenExports": true
     },
     "apiReport": {
-        "enabled": false
+        "enabled": false,
+        "reportFileName": "<unscopedPackageName>.api.md",
+        "reportFolder": "<projectFolder>/dist/",
+        "reportTempFolder": "<projectFolder>/dist/",
+        "includeForgottenExports": true
     },
     "messages": {
         "extractorMessageReporting": {
@@ -17,7 +23,7 @@
                 "logLevel": "none"
             },
             "ae-forgotten-export": {
-                "logLevel": "none"
+                "logLevel": "warning"
             },
             "ae-incompatible-release-tags": {
                 "logLevel": "none"
