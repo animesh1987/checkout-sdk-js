@@ -5,8 +5,9 @@ export {
     CheckoutButtonStrategyFactory,
     CheckoutButtonStrategyResolveId,
     CheckoutButtonInitializeOptions,
+    CheckoutButtonOptions,
 } from "./checkout-buttons";
-export { Cart, DigitalItem, GiftCertificateItem, PhysicalItem } from "./cart";
+export { Cart, DigitalItem, GiftCertificateItem, LineItem, LineItemMap, PhysicalItem } from "./cart";
 export { Checkout } from "./checkout";
 export { BrowserInfo, getBrowserInfo } from './common/browser-info';
 export { Omit, PartialDeep } from './common/types';

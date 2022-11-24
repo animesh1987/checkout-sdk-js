@@ -1,7 +1,7 @@
+import { AddressRequestBody } from '@bigcommerce/checkout-sdk/payment-integration-api';
 import { RequestSender } from '@bigcommerce/request-sender';
 import { noop } from 'lodash';
 
-import { AddressRequestBody } from '../../../address';
 import { BillingAddressActionCreator } from '../../../billing';
 import { Cart } from '../../../cart';
 import { Checkout, CheckoutActionCreator, CheckoutStore } from '../../../checkout';

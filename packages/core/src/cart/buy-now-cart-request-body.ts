@@ -1,4 +1,4 @@
-interface LineItem {
+interface BuyNowLineItem {
     productId: number;
     quantity: number;
     optionSelections?: {
@@ -12,5 +12,5 @@ interface LineItem {
  */
 export default interface BuyNowCartRequestBody {
     source: 'BUY_NOW';
-    lineItems: LineItem[];
+    lineItems: BuyNowLineItem[];
 }
