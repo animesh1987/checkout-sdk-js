@@ -15,5 +15,6 @@
             "outputPath": "packages/core/src/generated/checkout-button-strategies.ts",
             "memberPattern": "^create.+ButtonStrategy$"
         }
-    ]
+    ],
+    "tsConfigPath": "tsconfig.base.json"
 }

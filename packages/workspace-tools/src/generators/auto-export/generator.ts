@@ -27,16 +27,14 @@ export default async function autoExportGenerator(
     }
 
     await Promise.all(
-        config.entries.map(async entry => {
-            generateFiles(
-                tree,
-                join(__dirname, './templates'),
-                parse(entry.outputPath).dir,
-                {
-                    content: await autoExport(entry),
-                    outputName: basename(entry.outputPath),
-                }
-            );
-        })
+        config.entries.map(async (entry) => {
+            generateFiles(tree, join(__dirname, './templates'), parse(entry.outputPath).dir, {
+                content: await autoExport({
+                    ...entry,
+                    tsConfigPath: config.tsConfigPath,
+                }),
+                outputName: basename(entry.outputPath),
+            });
+        }),
     );
 }
