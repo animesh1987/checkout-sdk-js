@@ -221,7 +221,14 @@ describe('BlueSnapV2PaymentStrategy', () => {
         return expect(promise).resolves.toBe(store.getState());
     });
     it('create iframe with styleprops', async () => {
-        const _iframe:HTMLIFrameElement = strategy['_createIframe'].call('','bluesnapv2_hosted_payment_page', {border: '1px solid gray', height: '40vh', width: '100%',padding: '3px',});
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
+        const _iframe: HTMLIFrameElement = strategy._createIframe.call(
+            '',
+            'bluesnapv2_hosted_payment_page',
+            { border: '1px solid gray', height: '40vh', width: '100%', padding: '3px' },
+        );
+
         expect(_iframe).toHaveProperty('style');
         expect(_iframe.name).toEqual('bluesnapv2_hosted_payment_page');
         expect(_iframe.style.height).toEqual('40vh');

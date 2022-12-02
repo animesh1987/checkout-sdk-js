@@ -156,7 +156,10 @@ describe('BoltCustomerStrategy', () => {
             try {
                 /* eslint-disable @typescript-eslint/ban-ts-comment */
                 // @ts-ignore
-                await strategy.executePaymentMethodCheckout({ methodId: 'bolt', continueWithCheckoutCallback: 'string' });
+                await strategy.executePaymentMethodCheckout({
+                    methodId: 'bolt',
+                    continueWithCheckoutCallback: jest.fn(),
+                });
             } catch (error) {
                 expect(error).toBeInstanceOf(InvalidArgumentError);
             }
