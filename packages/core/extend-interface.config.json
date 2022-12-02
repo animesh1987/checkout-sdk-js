@@ -24,5 +24,6 @@
             "targetPath": "packages/core/src/checkout-buttons/index.ts",
             "targetMemberName": "BaseCheckoutButtonInitializeOptions"
         }
-    ]
+    ],
+    "tsConfigPath": "tsconfig.base.json"
 }

@@ -11,6 +11,7 @@ export interface ExtendInterfaceOptions {
     memberPattern: string;
     targetPath: string;
     targetMemberName: string;
+    tsConfigPath: string;
 }
 
 export default async function extendInterface({
@@ -20,11 +21,14 @@ export default async function extendInterface({
     memberPattern,
     targetPath,
     targetMemberName,
+    tsConfigPath,
 }: ExtendInterfaceOptions): Promise<string> {
     const filePaths = await promisify(glob)(inputPath);
     const importDeclarations = await Promise.all([
-        createImportDeclaration(targetPath, outputPath, `^${targetMemberName}$`),
-        ...filePaths.map(filePath => createImportDeclaration(filePath, outputPath, memberPattern))
+        createImportDeclaration(targetPath, outputPath, tsConfigPath, `^${targetMemberName}$`),
+        ...filePaths.map((filePath) =>
+            createImportDeclaration(filePath, outputPath, tsConfigPath, memberPattern),
+        ),
     ]);
     const mergableMemberNames = importDeclarations.map(statement => statement?.importClause?.namedBindings)
         .filter(exists)
@@ -65,7 +69,8 @@ function createTypeAliasDeclaration(
 async function createImportDeclaration(
     filePath: string,
     outputPath: string,
-    memberPattern: string
+    tsConfigPath: string,
+    memberPattern: string,
 ): Promise<ts.ImportDeclaration | undefined> {
     const root = await getSource(filePath);
 
@@ -102,7 +107,7 @@ async function createImportDeclaration(
                 )
             )
         ),
-        ts.factory.createStringLiteral(getImportPath(filePath, outputPath), true)
+        ts.factory.createStringLiteral(getImportPath(filePath, outputPath, tsConfigPath), true),
     );
 }
 
@@ -117,14 +122,27 @@ async function getSource(filePath: string): Promise<ts.SourceFile> {
     );
 }
 
-function getImportPath(filePath: string, outputPath: string): string {
-    const fileName = path.parse(filePath).name;
-    const outputFolder = path.parse(outputPath).dir;
-    const importFolder = path.parse(path.relative(outputFolder, filePath)).dir;
+function getImportPath(filePath: string, outputPath: string, tsConfigPath: string): string {
+    if (filePath.includes('packages/core/')) {
+        const fileName = path.parse(filePath).name;
+        const outputFolder = path.parse(outputPath).dir;
+        const importFolder = path.parse(path.relative(outputFolder, filePath)).dir;
 
-    return fileName === 'index' ?
-        importFolder :
-        path.join(importFolder, fileName);
+        return fileName === 'index' ? importFolder : path.join(importFolder, fileName);
+    }
+
+    const tsConfig = ts.readConfigFile(tsConfigPath, ts.sys.readFile);
+    const pathList = tsConfig.config?.compilerOptions.paths;
+
+    // eslint-disable-next-line no-restricted-syntax
+    for (const [packageName, paths] of Object.entries(pathList)) {
+        // eslint-disable-next-line @typescript-eslint/consistent-type-assertions
+        if ((paths as string[]).includes(filePath)) {
+            return packageName;
+        }
+    }
+
+    throw new Error('Unable to resolve to a valid package.');
 }
 
 function exists<TValue>(value?: TValue): value is NonNullable<TValue> {

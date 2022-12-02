@@ -27,16 +27,11 @@ export default async function extendInterfaceGenerator(
     }
 
     await Promise.all(
-        config.entries.map(async entry => {
-            generateFiles(
-                tree,
-                join(__dirname, './templates'),
-                parse(entry.outputPath).dir,
-                {
-                    content: await extendInterface(entry),
-                    outputName: basename(entry.outputPath),
-                }
-            );
-        })
+        config.entries.map(async (entry) => {
+            generateFiles(tree, join(__dirname, './templates'), parse(entry.outputPath).dir, {
+                content: await extendInterface({ ...entry, tsConfigPath: config.tsConfigPath }),
+                outputName: basename(entry.outputPath),
+            });
+        }),
     );
 }

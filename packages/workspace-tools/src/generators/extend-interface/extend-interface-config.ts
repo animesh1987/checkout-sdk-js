@@ -1,5 +1,6 @@
 export default interface ExtendInterfaceConfig {
     entries: ExtendInterfaceConfigEntry[];
+    tsConfigPath: string;
 }
 
 export interface ExtendInterfaceConfigEntry {
