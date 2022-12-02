@@ -5,9 +5,12 @@ import autoExport from './auto-export';
 describe('autoExport()', () => {
     it('export matching members from files to another file', async () => {
         const options = {
-            inputPath: path.join(__dirname, '/__fixtures__/**/index.ts'),
+            inputPath:
+                'packages/workspace-tools/src/generators/auto-export/__fixtures__/**/index.ts',
             outputPath: path.join(__dirname, '/__temp__/output.ts'),
             memberPattern: '^Strategy',
+            tsConfigPath:
+                'packages/workspace-tools/src/generators/auto-export/__fixtures__/tsconfig.json',
         };
 
         expect(await autoExport(options))
@@ -19,6 +22,8 @@ describe('autoExport()', () => {
             inputPath: path.join(__dirname, '/__fixtures__/**/index.ts'),
             outputPath: path.join(__dirname, '/__temp__/output.ts'),
             memberPattern: '^Test',
+            tsConfigPath:
+                'packages/workspace-tools/src/generators/auto-export/__fixtures__/tsconfig.json',
         };
 
         expect(await autoExport(options))

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "paths": {
+        "@bigcommerce/interface-a": [
+          "packages/workspace-tools/src/generators/extend-interface/__fixtures__/interface-a/index.ts"
+        ],
+        "@bigcommerce/interface-b": [
+          "packages/workspace-tools/src/generators/extend-interface/__fixtures__/interface-b/index.ts"
+        ],
+        "@bigcommerce/foobar-interface": [
+          "packages/workspace-tools/src/generators/extend-interface/__fixtures__/foobar-interface/index.ts"
+        ]
+      }
+    }
+  }
+  
