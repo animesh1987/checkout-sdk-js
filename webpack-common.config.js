@@ -1,7 +1,10 @@
 const path = require('path');
 const { DefinePlugin } = require('webpack');
 
-const { getNextVersion, packageLoaderRules : { aliasMap: alias, tsSrcPackages } } = require('./scripts/webpack');
+const {
+    getNextVersion,
+    packageLoaderRules: { aliasMap: alias, tsSrcPackages },
+} = require('./scripts/webpack');
 
 const libraryName = 'checkoutKit';
 
@@ -19,7 +22,7 @@ async function getBaseConfig() {
     return {
         stats: {
             errorDetails: true,
-            logging: 'verbose'
+            logging: 'verbose',
         },
         devtool: 'source-map',
         mode: 'production',
@@ -39,54 +42,28 @@ async function getBaseConfig() {
                     enforce: 'pre',
                     loader: require.resolve('source-map-loader'),
                 },
-                ...tsSrcPackages
+                ...tsSrcPackages,
             ],
         },
         plugins: [
             new DefinePlugin({
-                'LIBRARY_VERSION': JSON.stringify(await getNextVersion()),
+                LIBRARY_VERSION: JSON.stringify(await getNextVersion()),
             }),
         ],
     };
-};
-
-const babelEnvPreset = [
-    '@babel/preset-env',
-    {
-        corejs: 3,
-        targets: [
-            'defaults',
-            'ie 11',
-        ],
-        useBuiltIns: 'usage',
-    },
-];
+}
 
 const babelLoaderRules = [
     {
         test: /\.[tj]s$/,
-        loader: 'babel-loader',
+        loader: 'swc-loader',
         include: coreSrcPath,
-        options: {
-            presets: [
-                babelEnvPreset,
-            ],
-        },
     },
     {
         test: /\.js$/,
-        loader: 'babel-loader',
+        loader: 'swc-loader',
         include: path.join(__dirname, 'node_modules'),
-        exclude: [
-            /\/node_modules\/core-js\//,
-            /\/node_modules\/webpack\//,
-        ],
-        options: {
-            presets: [
-                babelEnvPreset,
-            ],
-            sourceType: 'unambiguous',
-        }
+        exclude: [/\/node_modules\/core-js\//, /\/node_modules\/webpack\//],
     },
 ];
 
